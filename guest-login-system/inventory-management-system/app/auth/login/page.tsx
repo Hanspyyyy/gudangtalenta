@@ -48,7 +48,7 @@ export default function LoginPage() {
               Gudang Talenta 
             </h1>
             <p className="text-sm text-muted-foreground text-pretty">
-              Sistem Persediaan Gudang, Untuk melihat stok barang atau mengajukan permintaan barang proyek, silakan gunakan tombol 'Masuk sebagai Guest', iman ucapkan terimakasih.
+              Untuk melihat stok barang atau mengajukan permintaan barang proyek, silakan gunakan tombol 'Masuk sebagai Guest', iman ucapkan terimakasih.
             </p>
           </div>
         </div>
