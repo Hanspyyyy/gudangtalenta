@@ -48,7 +48,7 @@ export default function LoginPage() {
               Masuk ke Gudang Talenta
             </h1>
             <p className="text-sm text-muted-foreground text-pretty">
-              Kelola persediaan gudang dengan cepat dan akurat.
+              Selamat datang di Sistem Persediaan Gudang. Untuk melihat stok barang atau mengajukan permintaan barang proyek, silakan gunakan tombol 'Masuk sebagai Guest'.
             </p>
           </div>
         </div>
