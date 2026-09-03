@@ -1,22 +1,63 @@
 'use client'
 
 import { useState } from 'react'
-import { X, Trash2, PackagePlus, PackageMinus, Check } from 'lucide-react'
+import { X, Trash2, PackagePlus, PackageMinus, Check, MessageCircle } from 'lucide-react'
 import { ProductImage } from '@/components/product-image'
 import { adjustLocalItemStock, deleteLocalItem, type LocalItem } from '@/lib/local-inventory'
 import { toast } from 'sonner'
 
 type Mode = 'in' | 'out' | null
 
+const WHATSAPP_NUMBER = '6288289508218'
+
 export function ItemDetailModal({ item, isAdmin, onClose }: { item: LocalItem | null; isAdmin: boolean; onClose: () => void }) {
   const [mode, setMode] = useState<Mode>(null)
   const [quantity, setQuantity] = useState('')
+  const [showRequest, setShowRequest] = useState(false)
+  const [reqQuantity, setReqQuantity] = useState('')
+  const [reqProject, setReqProject] = useState('')
+  const [reqReceiver, setReqReceiver] = useState('')
 
   if (!item) return null
 
   const resetFlow = () => {
     setMode(null)
     setQuantity('')
+  }
+
+  const submitRequest = () => {
+    const qty = Number(reqQuantity)
+    if (!reqQuantity || !Number.isFinite(qty) || qty <= 0) {
+      toast.error('Masukkan jumlah yang dibutuhkan.')
+      return
+    }
+    if (!reqProject.trim()) {
+      toast.error('Isi proyek / lokasi.')
+      return
+    }
+    if (!reqReceiver.trim()) {
+      toast.error('Isi nama penerima.')
+      return
+    }
+
+    const rack = item.rack || '-'
+    const lines = [
+      '*Permintaan Stok Gudang*',
+      `*Nama Barang:* ${item.name}`,
+      `*Ukuran:* ${item.size}`,
+      `*Gudang:* ${item.warehouse} (Rak: ${rack})`,
+      `*Jumlah Dibutuhkan:* ${qty} unit`,
+      `*Stok Tersedia:* ${item.stock} unit`,
+      `*Nama Penerima:* ${reqReceiver.trim()}`,
+      `*Proyek / Lokasi:* ${reqProject.trim()}`,
+    ]
+    if (qty > item.stock) {
+      lines.push(`*Catatan:* Stok di gudang hanya tersedia ${item.stock}, masih kurang ${qty - item.stock} unit.`)
+    }
+
+    const url = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(lines.join('\n'))}`
+    window.open(url, '_blank', 'noopener,noreferrer')
+    onClose()
   }
 
   const confirmAdjust = () => {
@@ -72,6 +113,83 @@ export function ItemDetailModal({ item, isAdmin, onClose }: { item: LocalItem | 
           <Detail label="Gudang" value={item.warehouse} />
           <Detail label="Rak" value={item.rack || '-'} />
         </dl>
+
+        {!isAdmin && (
+          <div className="mt-6 flex flex-col gap-3">
+            {showRequest ? (
+              <div className="flex flex-col gap-3 rounded-2xl border bg-secondary/40 p-4">
+                <div className="flex flex-col gap-1.5">
+                  <label htmlFor="req-qty" className="text-sm font-medium">
+                    Jumlah Dibutuhkan
+                  </label>
+                  <input
+                    id="req-qty"
+                    type="number"
+                    min="1"
+                    step="1"
+                    autoFocus
+                    value={reqQuantity}
+                    onChange={(event) => setReqQuantity(event.target.value)}
+                    placeholder="Masukkan jumlah"
+                    className="h-11 rounded-xl border border-input bg-background px-3 text-base outline-none focus-visible:ring-2"
+                  />
+                </div>
+                <div className="flex flex-col gap-1.5">
+                  <label htmlFor="req-project" className="text-sm font-medium">
+                    Proyek / Lokasi
+                  </label>
+                  <input
+                    id="req-project"
+                    type="text"
+                    value={reqProject}
+                    onChange={(event) => setReqProject(event.target.value)}
+                    placeholder="Nama proyek atau lokasi"
+                    className="h-11 rounded-xl border border-input bg-background px-3 text-base outline-none focus-visible:ring-2"
+                  />
+                </div>
+                <div className="flex flex-col gap-1.5">
+                  <label htmlFor="req-receiver" className="text-sm font-medium">
+                    Nama Penerima
+                  </label>
+                  <input
+                    id="req-receiver"
+                    type="text"
+                    value={reqReceiver}
+                    onChange={(event) => setReqReceiver(event.target.value)}
+                    placeholder="Nama penerima"
+                    className="h-11 rounded-xl border border-input bg-background px-3 text-base outline-none focus-visible:ring-2"
+                  />
+                </div>
+                <div className="flex gap-2">
+                  <button
+                    type="button"
+                    onClick={() => setShowRequest(false)}
+                    className="h-11 flex-1 rounded-xl border bg-card font-medium hover:bg-secondary"
+                  >
+                    Batal
+                  </button>
+                  <button
+                    type="button"
+                    onClick={submitRequest}
+                    className="flex h-11 flex-1 items-center justify-center gap-2 rounded-xl bg-primary font-medium text-primary-foreground"
+                  >
+                    <MessageCircle className="size-4" />
+                    Kirim
+                  </button>
+                </div>
+              </div>
+            ) : (
+              <button
+                type="button"
+                onClick={() => setShowRequest(true)}
+                className="flex h-11 w-full items-center justify-center gap-2 rounded-xl bg-primary font-medium text-primary-foreground"
+              >
+                <MessageCircle className="size-4" />
+                Butuhkan Barang
+              </button>
+            )}
+          </div>
+        )}
 
         {isAdmin && (
           <div className="mt-6 flex flex-col gap-3">
