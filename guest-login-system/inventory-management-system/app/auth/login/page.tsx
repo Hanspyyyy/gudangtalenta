@@ -45,10 +45,10 @@ export default function LoginPage() {
           <BrandLogo size="lg" showText={false} />
           <div className="space-y-1.5">
             <h1 className="text-2xl font-semibold tracking-tight text-balance">
-              Masuk ke Gudang Talenta
+              Gudang Talenta 
             </h1>
             <p className="text-sm text-muted-foreground text-pretty">
-              Selamat datang di Sistem Persediaan Gudang. Untuk melihat stok barang atau mengajukan permintaan barang proyek, silakan gunakan tombol 'Masuk sebagai Guest'.
+              Sistem Persediaan Gudang, Untuk melihat stok barang atau mengajukan permintaan barang proyek, silakan gunakan tombol 'Masuk sebagai Guest', iman ucapkan terimakasih.
             </p>
           </div>
         </div>
