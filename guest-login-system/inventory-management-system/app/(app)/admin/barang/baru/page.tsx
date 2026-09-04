@@ -7,9 +7,9 @@ import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Label } from '@/components/ui/label'
 import { toast } from 'sonner'
-import { saveLocalItem } from '@/lib/local-inventory'
+import { addItem } from '@/lib/inventory-client'
 
-// Downscale/compress the selected image so multiple items with photos fit in localStorage.
+// Downscale/compress the selected image before uploading so photos transfer quickly to Blob storage.
 function downscaleImage(file: File, maxSize = 800, quality = 0.7): Promise<string> {
   return new Promise((resolve, reject) => {
     const reader = new FileReader()
@@ -53,7 +53,7 @@ export default function TambahBarangPage() {
     }
   }
 
-  function handleSubmit(event: FormEvent<HTMLFormElement>) {
+  async function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault()
     const form = new FormData(event.currentTarget)
     const name = String(form.get('name') ?? '').trim()
@@ -67,17 +67,7 @@ export default function TambahBarangPage() {
       return
     }
     setSaving(true)
-    const result = saveLocalItem({
-      id: crypto.randomUUID(),
-      name,
-      size,
-      category,
-      warehouse,
-      rack,
-      stock,
-      photo: preview,
-      createdAt: new Date().toISOString(),
-    })
+    const result = await addItem({ name, size, category, warehouse, rack, stock, photo: preview })
     if (!result.ok) {
       setSaving(false)
       toast.error(result.error)

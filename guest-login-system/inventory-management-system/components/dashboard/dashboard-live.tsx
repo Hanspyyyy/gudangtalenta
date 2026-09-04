@@ -1,15 +1,9 @@
 'use client'
-import { useEffect, useMemo, useState } from 'react'
+import { useMemo, useState } from 'react'
 import { Package, Tags, Warehouse, Grid3x3 } from 'lucide-react'
 import { StatCard } from '@/components/dashboard/stat-card'
 import { ItemDetailModal } from '@/components/item-detail-modal'
-import {
-  localInventoryEvent,
-  readLocalActivity,
-  readLocalItems,
-  type LocalItem,
-  type ActivityLog,
-} from '@/lib/local-inventory'
+import { useInventory, type LocalItem } from '@/lib/inventory-client'
 
 const WAREHOUSES = ['Gudang 1', 'Gudang 2']
 
@@ -20,20 +14,9 @@ export function DashboardLive({
   initial: { totalProducts: number; totalCategories: number; totalWarehouses: number; totalRacks: number }
   isAdmin?: boolean
 }) {
-  const [items, setItems] = useState<LocalItem[]>([])
-  const [activity, setActivity] = useState<ActivityLog[]>([])
+  const { items, activity } = useInventory()
   const [warehouse, setWarehouse] = useState('Gudang 1')
   const [selected, setSelected] = useState<LocalItem | null>(null)
-
-  useEffect(() => {
-    const refresh = () => {
-      setItems(readLocalItems())
-      setActivity(readLocalActivity())
-    }
-    refresh()
-    window.addEventListener(localInventoryEvent, refresh)
-    return () => window.removeEventListener(localInventoryEvent, refresh)
-  }, [])
 
   const localCategories = useMemo(() => new Set(items.map((i) => i.category)).size, [items])
   const filtered = useMemo(
