@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import { X, Trash2, PackagePlus, PackageMinus, Check, MessageCircle } from 'lucide-react'
 import { ProductImage } from '@/components/product-image'
-import { adjustLocalItemStock, deleteLocalItem, type LocalItem } from '@/lib/local-inventory'
+import { adjustItemStock, deleteItem, type LocalItem } from '@/lib/inventory-client'
 import { toast } from 'sonner'
 
 type Mode = 'in' | 'out' | null
@@ -13,6 +13,7 @@ const WHATSAPP_NUMBER = '6288289508218'
 export function ItemDetailModal({ item, isAdmin, onClose }: { item: LocalItem | null; isAdmin: boolean; onClose: () => void }) {
   const [mode, setMode] = useState<Mode>(null)
   const [quantity, setQuantity] = useState('')
+  const [busy, setBusy] = useState(false)
   const [showRequest, setShowRequest] = useState(false)
   const [reqQuantity, setReqQuantity] = useState('')
   const [reqProject, setReqProject] = useState('')
@@ -60,10 +61,12 @@ export function ItemDetailModal({ item, isAdmin, onClose }: { item: LocalItem | 
     onClose()
   }
 
-  const confirmAdjust = () => {
+  const confirmAdjust = async () => {
     const qty = Number(quantity)
-    const result = adjustLocalItemStock(item.id, mode as 'in' | 'out', qty)
+    setBusy(true)
+    const result = await adjustItemStock(item.id, mode as 'in' | 'out', qty)
     if (!result.ok) {
+      setBusy(false)
       toast.error(result.error)
       return
     }
@@ -71,9 +74,11 @@ export function ItemDetailModal({ item, isAdmin, onClose }: { item: LocalItem | 
     onClose()
   }
 
-  const handleDelete = () => {
-    const result = deleteLocalItem(item.id)
+  const handleDelete = async () => {
+    setBusy(true)
+    const result = await deleteItem(item.id)
     if (!result.ok) {
+      setBusy(false)
       toast.error(result.error)
       return
     }
@@ -220,10 +225,11 @@ export function ItemDetailModal({ item, isAdmin, onClose }: { item: LocalItem | 
                   <button
                     type="button"
                     onClick={confirmAdjust}
-                    className="flex h-11 flex-1 items-center justify-center gap-2 rounded-xl bg-primary font-medium text-primary-foreground"
+                    disabled={busy}
+                    className="flex h-11 flex-1 items-center justify-center gap-2 rounded-xl bg-primary font-medium text-primary-foreground disabled:opacity-60"
                   >
                     <Check className="size-4" />
-                    Konfirmasi
+                    {busy ? 'Menyimpan...' : 'Konfirmasi'}
                   </button>
                 </div>
               </div>
@@ -248,10 +254,11 @@ export function ItemDetailModal({ item, isAdmin, onClose }: { item: LocalItem | 
                 <button
                   type="button"
                   onClick={handleDelete}
-                  className="flex h-11 w-full items-center justify-center gap-2 rounded-xl bg-destructive font-medium text-destructive-foreground"
+                  disabled={busy}
+                  className="flex h-11 w-full items-center justify-center gap-2 rounded-xl bg-destructive font-medium text-destructive-foreground disabled:opacity-60"
                 >
                   <Trash2 className="size-4" />
-                  Hapus Barang
+                  {busy ? 'Menghapus...' : 'Hapus Barang'}
                 </button>
               </>
             )}
