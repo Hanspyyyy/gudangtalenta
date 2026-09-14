@@ -17,18 +17,23 @@ async function locateDataUrl(): Promise<string | null> {
 
 export async function readInventory(): Promise<InventoryData> {
   const url = await locateDataUrl()
-  if (!url) return { items: [], activity: [] }
-  try {
-    // Cache-bust so every device reads the freshest document.
-    const res = await fetch(`${url}?t=${Date.now()}`, { cache: 'no-store' })
-    if (!res.ok) return { items: [], activity: [] }
-    const parsed = (await res.json()) as Partial<InventoryData>
-    return {
-      items: Array.isArray(parsed.items) ? parsed.items : [],
-      activity: Array.isArray(parsed.activity) ? parsed.activity : [],
-    }
-  } catch {
-    return { items: [], activity: [] }
+  if (!url) return { ...EMPTY, items: [], activity: [] }
+
+  // Never convert a Blob read failure into an empty inventory. Doing so would
+  // make a temporary storage/network issue look like data loss in the UI.
+  const res = await fetch(`${url}?t=${Date.now()}`, { cache: 'no-store' })
+  if (!res.ok) {
+    throw new Error(`Unable to read inventory Blob (${res.status})`)
+  }
+
+  const parsed = (await res.json()) as Partial<InventoryData>
+  if (!Array.isArray(parsed.items) || !Array.isArray(parsed.activity)) {
+    throw new Error('Inventory Blob contains an invalid JSON payload')
+  }
+
+  return {
+    items: parsed.items,
+    activity: parsed.activity,
   }
 }
 
