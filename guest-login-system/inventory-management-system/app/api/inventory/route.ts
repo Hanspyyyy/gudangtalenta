@@ -1,5 +1,6 @@
 import { type NextRequest, NextResponse } from 'next/server'
 import { randomUUID } from 'crypto'
+import inventoryData from '@/data/inventory.json'
 import {
   readInventory,
   mutateInventory,
@@ -13,20 +14,11 @@ export const runtime = 'nodejs'
 
 export async function GET() {
   try {
-    const supabase = await createClient()
-
-    const { data: inventory, error } = await supabase
-      .from('inventory')
-      .select('*')
-      .order('created_at', { ascending: false })
-
-    if (error) {
-      console.error('Supabase Error:', error)
-      return NextResponse.json({ items: [], error: error.message }, { status: 500 })
-    }
-
-    return NextResponse.json({ items: inventory || [] })
+    // Membaca data langsung dari data/inventory.json lokal
+    const items = Array.isArray(inventoryData) ? inventoryData : (inventoryData as any)?.items || []
+    return NextResponse.json({ items })
   } catch (err: any) {
+    console.error('Inventory GET Error:', err)
     return NextResponse.json({ items: [], error: err.message }, { status: 500 })
   }
 }
