@@ -36,29 +36,10 @@ export async function getGitHubFile(path = FILE_PATH): Promise<GitHubFile | null
     headers: githubHeaders(),
     cache: 'no-store',
   })
+  const payload = (await response.json()) as GitHubFile & { message?: string }
   if (response.status === 404) return null
   if (!response.ok) throw new Error(`Gagal mengambil data dari GitHub (${response.status}): ${payload.message ?? 'Unknown error'}`)
   return payload
-}
-
-async function createInventoryFile(): Promise<GitHubFile> {
-  const response = await fetch(fileUrl(FILE_PATH), {
-    method: 'PUT',
-    headers: { ...githubHeaders(), 'Content-Type': 'application/json' },
-    body: JSON.stringify({
-      message: 'Create inventory via Mobile Web App',
-      content: Buffer.from(JSON.stringify(EMPTY, null, 2)).toString('base64'),
-      branch: BRANCH,
-    }),
-  })
-  const payload = (await response.json()) as GitHubFile & { message?: string }
-  if (response.ok && payload.sha) return payload
-
-  if (response.status === 409) {
-    const existing = await getGitHubFile(FILE_PATH)
-    if (existing) return existing
-  }
-  throw new Error(`Gagal membuat file inventory di GitHub (${response.status}): ${payload.message ?? 'Unknown error'}`)
 }
 
 function normalizeInventory(value: unknown): InventoryData {
@@ -75,35 +56,10 @@ function decodeInventory(file: GitHubFile): InventoryData {
   return normalizeInventory(JSON.parse(Buffer.from(file.content, 'base64').toString('utf-8')))
 }
 
-async function getInventoryFileWithFallback(): Promise<{ file: GitHubFile | null; data: InventoryData }> {
-  const primary = await getGitHubFile(FILE_PATH)
-  if (primary) return { file: primary, data: decodeInventory(primary) }
-
-  const legacy = await getGitHubFile('data/inventory.json')
-  if (legacy) return { file: legacy, data: decodeInventory(legacy) }
-
-  return { file: null, data: { ...EMPTY } }
-}
-
-async function ensureInventoryFile(): Promise<{ file: GitHubFile; data: InventoryData }> {
-  const existing = await getInventoryFileWithFallback()
-  if (existing.file) {
-    const primary = await getGitHubFile(FILE_PATH)
-    if (primary) return { file: primary, data: existing.data }
-    const created = await createInventoryFile()
-    return { file: created, data: existing.data }
-  }
-  const created = await createInventoryFile()
-  return { file: created, data: existing.data }
-}
-
 export async function readInventory(): Promise<InventoryData> {
   try {
-    const { file, data } = await getInventoryFileWithFallback()
-    if (!file) {
-      await createInventoryFile()
-    }
-    return data
+    const file = await getGitHubFile(FILE_PATH)
+    return file ? decodeInventory(file) : { ...EMPTY }
   } catch (err) {
     console.error('Error readInventory:', err)
     return { ...EMPTY }
@@ -132,8 +88,14 @@ export async function mutateInventory<T>(
   mutator: (data: InventoryData) => { data: InventoryData; result: T }
 ): Promise<T> {
   const run = writeChain.then(async () => {
-    const { file: inventoryFile, data: current } = await ensureInventoryFile()
+    const inventoryFile = await getGitHubFile(FILE_PATH)
+    const current = inventoryFile ? decodeInventory(inventoryFile) : { ...EMPTY }
     const { data, result } = mutator(current)
+
+    if (!inventoryFile) {
+      throw new Error('File inventory tidak tersedia di GitHub')
+    }
+
     await writeInventory(data, inventoryFile.sha)
     return result
   })
