@@ -46,25 +46,62 @@ async function createInventoryFile(): Promise<GitHubFile> {
     }),
   })
   const payload = (await response.json()) as GitHubFile & { message?: string }
-  if (!response.ok || !payload.sha) {
-    throw new Error(`Gagal membuat file inventory di GitHub (${response.status}): ${payload.message ?? 'Unknown error'}`)
+  if (response.ok && payload.sha) return payload
+
+  // A concurrent request may have created the file between the GET and PUT.
+  if (response.status === 409) {
+    const existing = await getGitHubFile(FILE_PATH)
+    if (existing) return existing
   }
-  return payload
+  throw new Error(`Gagal membuat file inventory di GitHub (${response.status}): ${payload.message ?? 'Unknown error'}`)
+}
+
+function normalizeInventory(value: unknown): InventoryData {
+  if (Array.isArray(value)) return { items: value, activity: [] }
+  if (!value || typeof value !== 'object') return { ...EMPTY }
+  const parsed = value as Partial<InventoryData>
+  return {
+    items: Array.isArray(parsed.items) ? parsed.items : [],
+    activity: Array.isArray(parsed.activity) ? parsed.activity : [],
+  }
+}
+
+function decodeInventory(file: GitHubFile): InventoryData {
+  return normalizeInventory(JSON.parse(Buffer.from(file.content, 'base64').toString('utf-8')))
+}
+
+async function getInventoryFileWithFallback(): Promise<{ file: GitHubFile | null; data: InventoryData }> {
+  const primary = await getGitHubFile(FILE_PATH)
+  if (primary) return { file: primary, data: decodeInventory(primary) }
+
+  const legacy = await getGitHubFile('data/inventory.json')
+  if (legacy) return { file: legacy, data: decodeInventory(legacy) }
+
+  return { file: null, data: { ...EMPTY } }
+}
+
+async function ensureInventoryFile(): Promise<{ file: GitHubFile; data: InventoryData }> {
+  const existing = await getInventoryFileWithFallback()
+  if (existing.file) {
+    // The legacy file cannot be updated through the primary path using its SHA.
+    if (existing.file !== null && existing.file !== undefined) {
+      const primary = await getGitHubFile(FILE_PATH)
+      if (primary) return { file: primary, data: existing.data }
+      const created = await createInventoryFile()
+      return { file: created, data: existing.data }
+    }
+  }
+  const created = await createInventoryFile()
+  return { file: created, data: existing.data }
 }
 
 export async function readInventory(): Promise<InventoryData> {
   try {
-    const fileData = await getGitHubFile()
-    if (!fileData) {
+    const { file, data } = await getInventoryFileWithFallback()
+    if (!file) {
       await createInventoryFile()
-      return { ...EMPTY }
     }
-    const parsed = JSON.parse(Buffer.from(fileData.content, 'base64').toString('utf-8'))
-    if (Array.isArray(parsed)) return { items: parsed, activity: [] }
-    return {
-      items: Array.isArray(parsed.items) ? parsed.items : [],
-      activity: Array.isArray(parsed.activity) ? parsed.activity : [],
-    }
+    return data
   } catch (err) {
     console.error('Error readInventory:', err)
     return { ...EMPTY }
@@ -90,17 +127,7 @@ export async function mutateInventory<T>(
   mutator: (data: InventoryData) => { data: InventoryData; result: T }
 ): Promise<T> {
   const run = writeChain.then(async () => {
-    const fileData = await getGitHubFile()
-    const inventoryFile = fileData ?? await createInventoryFile()
-    const parsed = fileData
-      ? JSON.parse(Buffer.from(fileData.content, 'base64').toString('utf-8'))
-      : EMPTY
-    const current: InventoryData = Array.isArray(parsed)
-      ? { items: parsed, activity: [] }
-      : {
-          items: Array.isArray(parsed.items) ? parsed.items : [],
-          activity: Array.isArray(parsed.activity) ? parsed.activity : [],
-        }
+    const { file: inventoryFile, data: current } = await ensureInventoryFile()
     const { data, result } = mutator(current)
     await writeInventory(data, inventoryFile.sha)
     return result
