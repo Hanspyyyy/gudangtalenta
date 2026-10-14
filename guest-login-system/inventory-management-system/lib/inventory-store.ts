@@ -1,106 +1,187 @@
 import 'server-only'
 import type { InventoryData, LocalItem } from '@/lib/inventory-types'
 
+const GITHUB_TOKEN = process.env.GITHUB_TOKEN
 const REPO_OWNER = 'Hanspyyy'
 const REPO_NAME = 'gudangtalenta'
-const FILE_PATH = 'data/inventory.json'
+
+// Path disesuaikan persis dengan struktur folder asli repo lu!
+const ROOT_PATH = 'guest-login-system/inventory-management-system'
+const FILE_PATH = `${ROOT_PATH}/data/inventory.json`
 const BRANCH = 'main'
+
 const EMPTY: InventoryData = { items: [], activity: [] }
 let writeChain: Promise<unknown> = Promise.resolve()
 
-type GitHubFile = { content?: string; sha?: string; message?: string }
+// Ambil file inventory.json dari GitHub
+async function getGitHubFile() {
+  const url = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${FILE_PATH}?ref=${BRANCH}`
+  const res = await fetch(url, {
+    headers: {
+      Authorization: `Bearer ${GITHUB_TOKEN}`,
+      Accept: 'application/vnd.github.v3+json',
+    },
+    cache: 'no-store',
+  })
 
-function githubHeaders() {
-  const token = process.env.GITHUB_TOKEN
-  if (!token) throw new Error('GITHUB_TOKEN belum dikonfigurasi')
-  return { Authorization: `Bearer ${token}`, Accept: 'application/vnd.github+json', 'X-GitHub-Api-Version': '2022-11-28' }
+  if (!res.ok) {
+    throw new Error(`Gagal mengambil data dari GitHub (${res.status})`)
+  }
+
+  return await res.json()
 }
 
-function fileUrl(path = FILE_PATH) {
-  return `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${path}`
-}
-
-function normalize(data: unknown): InventoryData {
-  if (Array.isArray(data)) return { items: data as LocalItem[], activity: [] }
-  const value = (data ?? {}) as Partial<InventoryData>
-  return { items: Array.isArray(value.items) ? value.items : [], activity: Array.isArray(value.activity) ? value.activity : [] }
-}
-
-async function getGitHubFile(): Promise<GitHubFile | null> {
-  const response = await fetch(`${fileUrl()}?ref=${BRANCH}`, { headers: githubHeaders(), cache: 'no-store' })
-  if (response.status === 404) return null
-  const payload = (await response.json()) as GitHubFile
-  if (!response.ok) throw new Error(`Gagal mengambil data dari GitHub (${response.status}): ${payload.message ?? 'Unknown error'}`)
-  return payload
-}
-
+// Read Data
 export async function readInventory(): Promise<InventoryData> {
   try {
-    const file = await getGitHubFile()
-    if (!file?.content) return { ...EMPTY, items: [], activity: [] }
-    return normalize(JSON.parse(Buffer.from(file.content, 'base64').toString('utf8')))
-  } catch (error) {
-    console.error('Error readInventory:', error)
-    return { ...EMPTY, items: [], activity: [] }
+    const fileData = await getGitHubFile()
+    const content = Buffer.from(fileData.content, 'base64').toString('utf-8')
+    const parsed = JSON.parse(content)
+
+    if (Array.isArray(parsed)) {
+      return { items: parsed, activity: [] }
+    }
+
+    return {
+      items: Array.isArray(parsed.items) ? parsed.items : [],
+      activity: Array.isArray(parsed.activity) ? parsed.activity : [],
+    }
+  } catch (err) {
+    console.error('Error readInventory:', err)
+    return { ...EMPTY }
   }
 }
 
-async function writeInventory(data: InventoryData, sha?: string) {
-  const body: Record<string, string> = {
-    message: sha ? 'Update inventory via app' : 'Create inventory via app',
-    content: Buffer.from(JSON.stringify(normalize(data), null, 2)).toString('base64'),
-    branch: BRANCH,
+// Write Data
+async function writeInventory(data: InventoryData, sha: string): Promise<void> {
+  const updatedContent = Buffer.from(JSON.stringify(data, null, 2)).toString('base64')
+  const updateUrl = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${FILE_PATH}`
+
+  const res = await fetch(updateUrl, {
+    method: 'PUT',
+    headers: {
+      Authorization: `Bearer ${GITHUB_TOKEN}`,
+      Accept: 'application/vnd.github.v3+json',
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({
+      message: 'Update inventory via Mobile Web App',
+      content: updatedContent,
+      sha: sha,
+      branch: BRANCH,
+    }),
+  })
+
+  if (!res.ok) {
+    const errRes = await res.json()
+    throw new Error(errRes.message || 'Gagal menyimpan data ke GitHub')
   }
-  if (sha) body.sha = sha
-  const response = await fetch(fileUrl(), { method: 'PUT', headers: { ...githubHeaders(), 'Content-Type': 'application/json' }, body: JSON.stringify(body) })
-  const payload = (await response.json()) as GitHubFile
-  if (!response.ok) throw new Error(`Gagal menyimpan data ke GitHub (${response.status}): ${payload.message ?? 'Unknown error'}`)
 }
 
-export async function mutateInventory<T>(mutator: (data: InventoryData) => { data: InventoryData; result: T }): Promise<T> {
+// Mutate Data
+export async function mutateInventory<T>(
+  mutator: (data: InventoryData) => { data: InventoryData; result: T }
+): Promise<T> {
   const run = writeChain.then(async () => {
-    const file = await getGitHubFile()
-    const current = file?.content ? normalize(JSON.parse(Buffer.from(file.content, 'base64').toString('utf8'))) : { ...EMPTY }
+    const fileData = await getGitHubFile()
+    const content = Buffer.from(fileData.content, 'base64').toString('utf-8')
+    const parsed = JSON.parse(content)
+
+    const current: InventoryData = Array.isArray(parsed)
+      ? { items: parsed, activity: [] }
+      : {
+          items: Array.isArray(parsed.items) ? parsed.items : [],
+          activity: Array.isArray(parsed.activity) ? parsed.activity : [],
+        }
+
     const { data, result } = mutator(current)
-    await writeInventory(data, file?.sha)
+    await writeInventory(data, fileData.sha)
     return result
   })
-  writeChain = run.then(() => undefined, () => undefined)
+
+  writeChain = run.then(
+    () => undefined,
+    () => undefined
+  )
+
   return run
 }
 
+// Upload Photo
 export async function uploadPhoto(dataUrl: string, id: string): Promise<string | null> {
   if (!dataUrl) return null
   if (!dataUrl.startsWith('data:')) return dataUrl
+
   try {
-    const match = dataUrl.match(/^data:([^;]+);base64,(.+)$/s)
-    if (!match) throw new Error('Format foto tidak valid')
-    const [, contentType, content] = match
-    const extension = (contentType.split('/')[1] || 'jpeg').replace(/[^a-z0-9]/gi, '')
-    const fileName = `${id}-${Date.now()}.${extension}`
-    const path = `public/inventory-photos/${fileName}`
-    const response = await fetch(fileUrl(path), { method: 'PUT', headers: { ...githubHeaders(), 'Content-Type': 'application/json' }, body: JSON.stringify({ message: `Upload photo ${fileName}`, content, branch: BRANCH }) })
-    if (!response.ok) throw new Error(`Gagal upload foto ke GitHub (${response.status})`)
+    const [meta, base64] = dataUrl.split(',')
+    const contentType = meta.match(/data:(.*?);/)?.[1] ?? 'image/jpeg'
+    const ext = contentType.split('/')[1]?.split('+')[0] ?? 'jpg'
+    const fileName = `${id}-${Date.now()}.${ext}`
+    
+    // Path upload ditaruh persis di folder public aplikasi
+    const photoPath = `${ROOT_PATH}/public/inventory-photos/${fileName}`
+
+    const uploadUrl = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${photoPath}`
+    const res = await fetch(uploadUrl, {
+      method: 'PUT',
+      headers: {
+        Authorization: `Bearer ${GITHUB_TOKEN}`,
+        Accept: 'application/vnd.github.v3+json',
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        message: `Upload photo ${fileName}`,
+        content: base64,
+        branch: BRANCH,
+      }),
+    })
+
+    if (!res.ok) {
+      console.error('Failed to upload photo to GitHub:', await res.json())
+      return null
+    }
+
     return `/inventory-photos/${fileName}`
-  } catch (error) {
-    console.error('Error uploadPhoto:', error)
+  } catch (err) {
+    console.error('Error uploadPhoto:', err)
     return null
   }
 }
 
+// Delete Photo
 export async function deletePhoto(item: LocalItem | undefined): Promise<void> {
-  const photo = item && ((item as LocalItem & { photo_url?: string; photo?: string }).photo_url || item.photo)
-  if (!photo?.includes('/inventory-photos/')) return
-  const fileName = decodeURIComponent(photo.split('/inventory-photos/')[1] || '')
-  if (!fileName) return
+  const photoPath = item?.photo_url || (item as any)?.photo
+  if (!photoPath || !photoPath.includes('/inventory-photos/')) return
+
   try {
-    const response = await fetch(`${fileUrl(`public/inventory-photos/${fileName}`)}?ref=${BRANCH}`, { headers: githubHeaders(), cache: 'no-store' })
-    if (response.status === 404) return
-    if (!response.ok) throw new Error(`Gagal mencari foto (${response.status})`)
-    const file = (await response.json()) as GitHubFile
-    if (!file.sha) return
-    await fetch(fileUrl(`public/inventory-photos/${fileName}`), { method: 'DELETE', headers: { ...githubHeaders(), 'Content-Type': 'application/json' }, body: JSON.stringify({ message: `Delete photo ${fileName}`, sha: file.sha, branch: BRANCH }) })
-  } catch (error) { console.error('Error deletePhoto:', error) }
+    const fileName = photoPath.split('/inventory-photos/')[1]
+    if (!fileName) return
+
+    const fullPath = `${ROOT_PATH}/public/inventory-photos/${fileName}`
+    const fileUrl = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${fullPath}?ref=${BRANCH}`
+
+    const getRes = await fetch(fileUrl, {
+      headers: { Authorization: `Bearer ${GITHUB_TOKEN}` },
+    })
+
+    if (getRes.ok) {
+      const fileData = await getRes.json()
+      await fetch(fileUrl, {
+        method: 'DELETE',
+        headers: {
+          Authorization: `Bearer ${GITHUB_TOKEN}`,
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          message: `Delete photo ${fileName}`,
+          sha: fileData.sha,
+          branch: BRANCH,
+        }),
+      })
+    }
+  } catch {
+    // Best-effort cleanup
+  }
 }
 
 export { EMPTY }
