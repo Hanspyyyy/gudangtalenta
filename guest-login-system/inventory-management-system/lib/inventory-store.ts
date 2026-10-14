@@ -20,7 +20,11 @@ let writeChain: Promise<unknown> = Promise.resolve()
 
 function githubHeaders() {
   if (!GITHUB_TOKEN) throw new Error('GITHUB_TOKEN belum dikonfigurasi')
-  return { Authorization: `Bearer ${GITHUB_TOKEN}`, Accept: 'application/vnd.github+json', 'X-GitHub-Api-Version': '2022-11-28' }
+  return {
+    Authorization: `Bearer ${GITHUB_TOKEN}`,
+    Accept: 'application/vnd.github+json',
+    'X-GitHub-Api-Version': '2022-11-28',
+  }
 }
 
 function fileUrl(path: string) {
@@ -28,27 +32,16 @@ function fileUrl(path: string) {
 }
 
 export async function getGitHubFile(path = FILE_PATH): Promise<GitHubFile | null> {
-  const response = await fetch(`${fileUrl(path)}?ref=${BRANCH}`, { headers: githubHeaders(), cache: 'no-store' })
+  const response = await fetch(`${fileUrl(path)}?ref=${BRANCH}`, {
+    headers: githubHeaders(),
+    cache: 'no-store',
+  })
   if (response.status === 404) return null
   const payload = (await response.json()) as GitHubFile
-  if (!response.ok) throw new Error(`Gagal mengambil data dari GitHub (${response.status}): ${payload.message ?? 'Unknown error'}`)
-  return payload
-}
-
-async function createInventoryFile(): Promise<GitHubFile> {
-  const response = await fetch(fileUrl(FILE_PATH), {
-    method: 'PUT',
-    headers: { ...githubHeaders(), 'Content-Type': 'application/json' },
-    body: JSON.stringify({
-      message: 'Create inventory via Mobile Web App',
-      content: Buffer.from(JSON.stringify(EMPTY, null, 2)).toString('base64'),
-      branch: BRANCH,
-    }),
-  })
-  const payload = (await response.json()) as GitHubFile & { message?: string }
-  if (!response.ok || !payload.sha) {
-    throw new Error(`Gagal membuat file inventory di GitHub (${response.status}): ${payload.message ?? 'Unknown error'}`)
-  }
+  if (!response.ok)
+    throw new Error(
+      `Gagal mengambil data dari GitHub (${response.status}): ${payload.message ?? 'Unknown error'}`
+    )
   return payload
 }
 
@@ -56,7 +49,6 @@ export async function readInventory(): Promise<InventoryData> {
   try {
     const fileData = await getGitHubFile()
     if (!fileData) {
-      await createInventoryFile()
       return { ...EMPTY }
     }
     const parsed = JSON.parse(Buffer.from(fileData.content, 'base64').toString('utf-8'))
@@ -83,7 +75,10 @@ async function writeInventory(data: InventoryData, sha: string): Promise<void> {
     }),
   })
   const payload = (await response.json()) as GitHubFile
-  if (!response.ok) throw new Error(`Gagal menyimpan data ke GitHub (${response.status}): ${payload.message ?? 'Unknown error'}`)
+  if (!response.ok)
+    throw new Error(
+      `Gagal menyimpan data ke GitHub (${response.status}): ${payload.message ?? 'Unknown error'}`
+    )
 }
 
 export async function mutateInventory<T>(
@@ -91,10 +86,10 @@ export async function mutateInventory<T>(
 ): Promise<T> {
   const run = writeChain.then(async () => {
     const fileData = await getGitHubFile()
-    const inventoryFile = fileData ?? await createInventoryFile()
-    const parsed = fileData
-      ? JSON.parse(Buffer.from(fileData.content, 'base64').toString('utf-8'))
-      : EMPTY
+    if (!fileData) {
+      throw new Error('File inventory.json tidak ditemukan di GitHub')
+    }
+    const parsed = JSON.parse(Buffer.from(fileData.content, 'base64').toString('utf-8'))
     const current: InventoryData = Array.isArray(parsed)
       ? { items: parsed, activity: [] }
       : {
@@ -102,10 +97,13 @@ export async function mutateInventory<T>(
           activity: Array.isArray(parsed.activity) ? parsed.activity : [],
         }
     const { data, result } = mutator(current)
-    await writeInventory(data, inventoryFile.sha)
+    await writeInventory(data, fileData.sha)
     return result
   })
-  writeChain = run.then(() => undefined, () => undefined)
+  writeChain = run.then(
+    () => undefined,
+    () => undefined
+  )
   return run
 }
 
@@ -137,7 +135,10 @@ export async function deletePhoto(item: LocalItem | undefined): Promise<void> {
   try {
     const fileName = photoPath.split('/inventory-photos/')[1]
     if (!fileName) return
-    const response = await fetch(`${fileUrl(`${PHOTO_PATH}/${fileName}`)}?ref=${BRANCH}`, { headers: githubHeaders(), cache: 'no-store' })
+    const response = await fetch(`${fileUrl(`${PHOTO_PATH}/${fileName}`)}?ref=${BRANCH}`, {
+      headers: githubHeaders(),
+      cache: 'no-store',
+    })
     if (response.status === 404) return
     if (!response.ok) throw new Error(`Gagal mencari foto (${response.status})`)
     const file = (await response.json()) as GitHubFile
