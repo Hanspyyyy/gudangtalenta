@@ -3,9 +3,12 @@ import type { InventoryData, LocalItem } from '@/lib/inventory-types'
 
 const REPO_OWNER = 'Hanspyyy'
 const REPO_NAME = 'gudangtalenta'
-const FILE_PATH = 'data/inventory.json'
+const ROOT_PATH = 'guest-login-system/inventory-management-system'
+const FILE_PATH = `${ROOT_PATH}/data/inventory.json`
+const PHOTO_PATH = `${ROOT_PATH}/public/inventory-photos`
 const BRANCH = 'main'
-const EMPTY: InventoryData = { items: [], activity: [] }
+
+export const EMPTY: InventoryData = { items: [], activity: [] }
 let writeChain: Promise<unknown> = Promise.resolve()
 
 type GitHubFile = { content?: string; sha?: string; message?: string }
@@ -16,7 +19,7 @@ function githubHeaders() {
   return { Authorization: `Bearer ${token}`, Accept: 'application/vnd.github+json', 'X-GitHub-Api-Version': '2022-11-28' }
 }
 
-function fileUrl(path = FILE_PATH) {
+function fileUrl(path: string) {
   return `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${path}`
 }
 
@@ -26,8 +29,8 @@ function normalize(data: unknown): InventoryData {
   return { items: Array.isArray(value.items) ? value.items : [], activity: Array.isArray(value.activity) ? value.activity : [] }
 }
 
-async function getGitHubFile(): Promise<GitHubFile | null> {
-  const response = await fetch(`${fileUrl()}?ref=${BRANCH}`, { headers: githubHeaders(), cache: 'no-store' })
+export async function getGitHubFile(path = FILE_PATH): Promise<GitHubFile | null> {
+  const response = await fetch(`${fileUrl(path)}?ref=${BRANCH}`, { headers: githubHeaders(), cache: 'no-store' })
   if (response.status === 404) return null
   const payload = (await response.json()) as GitHubFile
   if (!response.ok) throw new Error(`Gagal mengambil data dari GitHub (${response.status}): ${payload.message ?? 'Unknown error'}`)
@@ -52,7 +55,7 @@ async function writeInventory(data: InventoryData, sha?: string) {
     branch: BRANCH,
   }
   if (sha) body.sha = sha
-  const response = await fetch(fileUrl(), { method: 'PUT', headers: { ...githubHeaders(), 'Content-Type': 'application/json' }, body: JSON.stringify(body) })
+  const response = await fetch(fileUrl(FILE_PATH), { method: 'PUT', headers: { ...githubHeaders(), 'Content-Type': 'application/json' }, body: JSON.stringify(body) })
   const payload = (await response.json()) as GitHubFile
   if (!response.ok) throw new Error(`Gagal menyimpan data ke GitHub (${response.status}): ${payload.message ?? 'Unknown error'}`)
 }
@@ -78,8 +81,7 @@ export async function uploadPhoto(dataUrl: string, id: string): Promise<string |
     const [, contentType, content] = match
     const extension = (contentType.split('/')[1] || 'jpeg').replace(/[^a-z0-9]/gi, '')
     const fileName = `${id}-${Date.now()}.${extension}`
-    const path = `public/inventory-photos/${fileName}`
-    const response = await fetch(fileUrl(path), { method: 'PUT', headers: { ...githubHeaders(), 'Content-Type': 'application/json' }, body: JSON.stringify({ message: `Upload photo ${fileName}`, content, branch: BRANCH }) })
+    const response = await fetch(fileUrl(`${PHOTO_PATH}/${fileName}`), { method: 'PUT', headers: { ...githubHeaders(), 'Content-Type': 'application/json' }, body: JSON.stringify({ message: `Upload photo ${fileName}`, content, branch: BRANCH }) })
     if (!response.ok) throw new Error(`Gagal upload foto ke GitHub (${response.status})`)
     return `/inventory-photos/${fileName}`
   } catch (error) {
@@ -94,12 +96,12 @@ export async function deletePhoto(item: LocalItem | undefined): Promise<void> {
   const fileName = decodeURIComponent(photo.split('/inventory-photos/')[1] || '')
   if (!fileName) return
   try {
-    const response = await fetch(`${fileUrl(`public/inventory-photos/${fileName}`)}?ref=${BRANCH}`, { headers: githubHeaders(), cache: 'no-store' })
+    const response = await fetch(`${fileUrl(`${PHOTO_PATH}/${fileName}`)}?ref=${BRANCH}`, { headers: githubHeaders(), cache: 'no-store' })
     if (response.status === 404) return
     if (!response.ok) throw new Error(`Gagal mencari foto (${response.status})`)
     const file = (await response.json()) as GitHubFile
     if (!file.sha) return
-    await fetch(fileUrl(`public/inventory-photos/${fileName}`), { method: 'DELETE', headers: { ...githubHeaders(), 'Content-Type': 'application/json' }, body: JSON.stringify({ message: `Delete photo ${fileName}`, sha: file.sha, branch: BRANCH }) })
+    await fetch(fileUrl(`${PHOTO_PATH}/${fileName}`), { method: 'DELETE', headers: { ...githubHeaders(), 'Content-Type': 'application/json' }, body: JSON.stringify({ message: `Delete photo ${fileName}`, sha: file.sha, branch: BRANCH }) })
   } catch (error) { console.error('Error deletePhoto:', error) }
 }
 
