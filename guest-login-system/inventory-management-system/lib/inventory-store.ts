@@ -4,7 +4,7 @@ import type { InventoryData, LocalItem } from '@/lib/inventory-types'
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN
 const REPO_OWNER = 'Hanspyyy'
 const REPO_NAME = 'gudangtalenta'
-const FILE_PATH = 'guest-login-system/inventory-management-system/data/inventory.json'
+const FILE_PATH = 'data/inventory.json'
 const BRANCH = 'main'
 
 const EMPTY: InventoryData = { items: [], activity: [] }
@@ -35,7 +35,6 @@ export async function readInventory(): Promise<InventoryData> {
     const content = Buffer.from(fileData.content, 'base64').toString('utf-8')
     const parsed = JSON.parse(content)
 
-    // Jika berbentuk array langsung
     if (Array.isArray(parsed)) {
       return { items: parsed, activity: [] }
     }
@@ -50,7 +49,7 @@ export async function readInventory(): Promise<InventoryData> {
   }
 }
 
-// Menulis update data (tambah/edit/hapus stok) secara serialized ke GitHub
+// Menulis update data ke GitHub
 async function writeInventory(data: InventoryData, sha: string): Promise<void> {
   const updatedContent = Buffer.from(JSON.stringify(data, null, 2)).toString('base64')
   const updateUrl = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${FILE_PATH}`
@@ -76,7 +75,7 @@ async function writeInventory(data: InventoryData, sha: string): Promise<void> {
   }
 }
 
-// Menjaga antrean update data agar tidak terjadi race condition
+// Mutasi data berurutan agar aman dari race condition
 export async function mutateInventory<T>(
   mutator: (data: InventoryData) => { data: InventoryData; result: T }
 ): Promise<T> {
@@ -105,7 +104,7 @@ export async function mutateInventory<T>(
   return run
 }
 
-// Upload foto barang langsung ke public/inventory-photos/ di GitHub
+// Upload foto barang ke public/inventory-photos/
 export async function uploadPhoto(dataUrl: string, id: string): Promise<string | null> {
   if (!dataUrl) return null
   if (!dataUrl.startsWith('data:')) return dataUrl
@@ -115,7 +114,7 @@ export async function uploadPhoto(dataUrl: string, id: string): Promise<string |
     const contentType = meta.match(/data:(.*?);/)?.[1] ?? 'image/jpeg'
     const ext = contentType.split('/')[1]?.split('+')[0] ?? 'jpg'
     const fileName = `${id}-${Date.now()}.${ext}`
-    const photoPath = `guest-login-system/inventory-management-system/public/inventory-photos/${fileName}`
+    const photoPath = `public/inventory-photos/${fileName}`
 
     const uploadUrl = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${photoPath}`
     const res = await fetch(uploadUrl, {
@@ -144,7 +143,7 @@ export async function uploadPhoto(dataUrl: string, id: string): Promise<string |
   }
 }
 
-// Hapus foto dari repo (opsional / best-effort)
+// Hapus foto barang
 export async function deletePhoto(item: LocalItem | undefined): Promise<void> {
   const photoPath = item?.photo_url || (item as any)?.photo
   if (!photoPath || !photoPath.includes('/inventory-photos/')) return
@@ -153,7 +152,7 @@ export async function deletePhoto(item: LocalItem | undefined): Promise<void> {
     const fileName = photoPath.split('/inventory-photos/')[1]
     if (!fileName) return
 
-    const fullPath = `guest-login-system/inventory-management-system/public/inventory-photos/${fileName}`
+    const fullPath = `public/inventory-photos/${fileName}`
     const fileUrl = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${fullPath}?ref=${BRANCH}`
 
     const getRes = await fetch(fileUrl, {
