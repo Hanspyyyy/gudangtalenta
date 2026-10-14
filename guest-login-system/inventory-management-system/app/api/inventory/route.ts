@@ -4,6 +4,7 @@ import {
   readInventory,
   mutateInventory,
   uploadPhoto,
+  deletePhoto,
 } from '@/lib/inventory-store'
 import { normalizeWarehouse, type ActivityLog, type LocalItem } from '@/lib/inventory-types'
 
@@ -82,7 +83,14 @@ export async function POST(req: NextRequest) {
 export async function PUT(req: NextRequest) {
   try {
     const body = await req.json()
-    const { id, action, stock, targetWarehouse, ...updates } = body
+    const { id, action, stock, targetWarehouse, photo, ...updates } = body
+
+    if (!id) return NextResponse.json({ error: 'ID tidak ditemukan' }, { status: 400 })
+    if (photo && typeof photo === 'string' && photo.startsWith('data:')) {
+      updates.photo_url = (await uploadPhoto(photo, id)) || ''
+    } else if (typeof photo === 'string') {
+      updates.photo_url = photo
+    }
 
     let updatedItem: LocalItem | null = null
 
@@ -133,10 +141,11 @@ export async function PUT(req: NextRequest) {
       }
     })
 
+    if (!updatedItem) return NextResponse.json({ error: 'Barang tidak ditemukan' }, { status: 404 })
     return NextResponse.json({ item: updatedItem })
   } catch (err: any) {
     console.error('PUT Error:', err)
-    return NextResponse.json({ error: err.message }, { status: 500 })
+    return NextResponse.json({ error: err instanceof Error ? err.message : 'Gagal memperbarui barang' }, { status: 500 })
   }
 }
 
@@ -149,8 +158,12 @@ export async function DELETE(req: NextRequest) {
       return NextResponse.json({ error: 'ID tidak ditemukan' }, { status: 400 })
     }
 
+    const current = await readInventory()
+    const itemToDelete = current.items.find((i) => i.id === id)
+    if (!itemToDelete) return NextResponse.json({ error: 'Barang tidak ditemukan' }, { status: 404 })
+    await deletePhoto(itemToDelete)
+
     await mutateInventory((data) => {
-      const itemToDelete = data.items.find((i) => i.id === id)
       const filteredItems = data.items.filter((i) => i.id !== id)
 
       const log: ActivityLog | null = itemToDelete
