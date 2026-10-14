@@ -35,10 +35,30 @@ export async function getGitHubFile(path = FILE_PATH): Promise<GitHubFile | null
   return payload
 }
 
+async function createInventoryFile(): Promise<GitHubFile> {
+  const response = await fetch(fileUrl(FILE_PATH), {
+    method: 'PUT',
+    headers: { ...githubHeaders(), 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      message: 'Create inventory via Mobile Web App',
+      content: Buffer.from(JSON.stringify(EMPTY, null, 2)).toString('base64'),
+      branch: BRANCH,
+    }),
+  })
+  const payload = (await response.json()) as GitHubFile & { message?: string }
+  if (!response.ok || !payload.sha) {
+    throw new Error(`Gagal membuat file inventory di GitHub (${response.status}): ${payload.message ?? 'Unknown error'}`)
+  }
+  return payload
+}
+
 export async function readInventory(): Promise<InventoryData> {
   try {
     const fileData = await getGitHubFile()
-    if (!fileData) return { ...EMPTY }
+    if (!fileData) {
+      await createInventoryFile()
+      return { ...EMPTY }
+    }
     const parsed = JSON.parse(Buffer.from(fileData.content, 'base64').toString('utf-8'))
     if (Array.isArray(parsed)) return { items: parsed, activity: [] }
     return {
@@ -71,8 +91,10 @@ export async function mutateInventory<T>(
 ): Promise<T> {
   const run = writeChain.then(async () => {
     const fileData = await getGitHubFile()
-    if (!fileData) throw new Error('File inventory tidak ditemukan di GitHub')
-    const parsed = JSON.parse(Buffer.from(fileData.content, 'base64').toString('utf-8'))
+    const inventoryFile = fileData ?? await createInventoryFile()
+    const parsed = fileData
+      ? JSON.parse(Buffer.from(fileData.content, 'base64').toString('utf-8'))
+      : EMPTY
     const current: InventoryData = Array.isArray(parsed)
       ? { items: parsed, activity: [] }
       : {
@@ -80,7 +102,7 @@ export async function mutateInventory<T>(
           activity: Array.isArray(parsed.activity) ? parsed.activity : [],
         }
     const { data, result } = mutator(current)
-    await writeInventory(data, fileData.sha)
+    await writeInventory(data, inventoryFile.sha)
     return result
   })
   writeChain = run.then(() => undefined, () => undefined)
