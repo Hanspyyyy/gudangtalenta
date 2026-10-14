@@ -1,96 +1,182 @@
 import 'server-only'
-import { list, put, del } from '@vercel/blob'
 import type { InventoryData, LocalItem } from '@/lib/inventory-types'
 
-const DATA_PATH = 'inventory/data.json'
-const EMPTY: InventoryData = { items: [], activity: [] }
+const GITHUB_TOKEN = process.env.GITHUB_TOKEN
+const REPO_OWNER = 'Hanspyyy'
+const REPO_NAME = 'gudangtalenta'
+const FILE_PATH = 'guest-login-system/inventory-management-system/data/inventory.json'
+const BRANCH = 'main'
 
-// In-flight write serialization within a single server instance to reduce
-// read-modify-write races on the shared JSON document.
+const EMPTY: InventoryData = { items: [], activity: [] }
 let writeChain: Promise<unknown> = Promise.resolve()
 
-async function locateDataUrl(): Promise<string | null> {
-  const { blobs } = await list({ prefix: DATA_PATH, limit: 1 })
-  const match = blobs.find((b) => b.pathname === DATA_PATH)
-  return match?.url ?? null
-}
-
-export async function readInventory(): Promise<InventoryData> {
-  const url = await locateDataUrl()
-  if (!url) return { ...EMPTY, items: [], activity: [] }
-
-  // Never convert a Blob read failure into an empty inventory. Doing so would
-  // make a temporary storage/network issue look like data loss in the UI.
-  const res = await fetch(`${url}?t=${Date.now()}`, { cache: 'no-store' })
-  if (!res.ok) {
-    throw new Error(`Unable to read inventory Blob (${res.status})`)
-  }
-
-  const parsed = (await res.json()) as Partial<InventoryData>
-  if (!Array.isArray(parsed.items) || !Array.isArray(parsed.activity)) {
-    throw new Error('Inventory Blob contains an invalid JSON payload')
-  }
-
-  return {
-    items: parsed.items,
-    activity: parsed.activity,
-  }
-}
-
-async function writeInventory(data: InventoryData): Promise<void> {
-  await put(DATA_PATH, JSON.stringify(data), {
-    access: 'public',
-    contentType: 'application/json',
-    allowOverwrite: true,
-    addRandomSuffix: false,
-    cacheControlMaxAge: 0,
+// Fungsi pembantu ambil file dari GitHub API
+async function getGitHubFile() {
+  const url = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${FILE_PATH}?ref=${BRANCH}`
+  const res = await fetch(url, {
+    headers: {
+      Authorization: `Bearer ${GITHUB_TOKEN}`,
+      Accept: 'application/vnd.github.v3+json',
+    },
+    cache: 'no-store',
   })
+
+  if (!res.ok) {
+    throw new Error(`Gagal mengambil data dari GitHub (${res.status})`)
+  }
+
+  return await res.json()
 }
 
-// Serialize a read-modify-write against the shared document.
+// Membaca inventory dari data/inventory.json di GitHub
+export async function readInventory(): Promise<InventoryData> {
+  try {
+    const fileData = await getGitHubFile()
+    const content = Buffer.from(fileData.content, 'base64').toString('utf-8')
+    const parsed = JSON.parse(content)
+
+    // Jika berbentuk array langsung
+    if (Array.isArray(parsed)) {
+      return { items: parsed, activity: [] }
+    }
+
+    return {
+      items: Array.isArray(parsed.items) ? parsed.items : [],
+      activity: Array.isArray(parsed.activity) ? parsed.activity : [],
+    }
+  } catch (err) {
+    console.error('Error readInventory:', err)
+    return { ...EMPTY }
+  }
+}
+
+// Menulis update data (tambah/edit/hapus stok) secara serialized ke GitHub
+async function writeInventory(data: InventoryData, sha: string): Promise<void> {
+  const updatedContent = Buffer.from(JSON.stringify(data, null, 2)).toString('base64')
+  const updateUrl = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${FILE_PATH}`
+
+  const res = await fetch(updateUrl, {
+    method: 'PUT',
+    headers: {
+      Authorization: `Bearer ${GITHUB_TOKEN}`,
+      Accept: 'application/vnd.github.v3+json',
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({
+      message: 'Update inventory via Mobile Web App',
+      content: updatedContent,
+      sha: sha,
+      branch: BRANCH,
+    }),
+  })
+
+  if (!res.ok) {
+    const errRes = await res.json()
+    throw new Error(errRes.message || 'Gagal menyimpan data ke GitHub')
+  }
+}
+
+// Menjaga antrean update data agar tidak terjadi race condition
 export async function mutateInventory<T>(
-  mutator: (data: InventoryData) => { data: InventoryData; result: T },
+  mutator: (data: InventoryData) => { data: InventoryData; result: T }
 ): Promise<T> {
   const run = writeChain.then(async () => {
-    const current = await readInventory()
+    const fileData = await getGitHubFile()
+    const content = Buffer.from(fileData.content, 'base64').toString('utf-8')
+    const parsed = JSON.parse(content)
+
+    const current: InventoryData = Array.isArray(parsed)
+      ? { items: parsed, activity: [] }
+      : {
+          items: Array.isArray(parsed.items) ? parsed.items : [],
+          activity: Array.isArray(parsed.activity) ? parsed.activity : [],
+        }
+
     const { data, result } = mutator(current)
-    await writeInventory(data)
+    await writeInventory(data, fileData.sha)
     return result
   })
-  // Keep the chain alive regardless of individual success/failure.
+
   writeChain = run.then(
     () => undefined,
-    () => undefined,
+    () => undefined
   )
+
   return run
 }
 
-// Upload a base64 data URL photo to Blob and return its public URL.
+// Upload foto barang langsung ke public/inventory-photos/ di GitHub
 export async function uploadPhoto(dataUrl: string, id: string): Promise<string | null> {
-  if (!dataUrl.startsWith('data:')) return dataUrl || null
+  if (!dataUrl) return null
+  if (!dataUrl.startsWith('data:')) return dataUrl
+
   try {
     const [meta, base64] = dataUrl.split(',')
     const contentType = meta.match(/data:(.*?);/)?.[1] ?? 'image/jpeg'
     const ext = contentType.split('/')[1]?.split('+')[0] ?? 'jpg'
-    const buffer = Buffer.from(base64, 'base64')
-    const blob = await put(`inventory/photos/${id}.${ext}`, buffer, {
-      access: 'public',
-      contentType,
-      allowOverwrite: true,
-      addRandomSuffix: false,
+    const fileName = `${id}-${Date.now()}.${ext}`
+    const photoPath = `guest-login-system/inventory-management-system/public/inventory-photos/${fileName}`
+
+    const uploadUrl = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${photoPath}`
+    const res = await fetch(uploadUrl, {
+      method: 'PUT',
+      headers: {
+        Authorization: `Bearer ${GITHUB_TOKEN}`,
+        Accept: 'application/vnd.github.v3+json',
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        message: `Upload photo ${fileName}`,
+        content: base64,
+        branch: BRANCH,
+      }),
     })
-    return blob.url
-  } catch {
+
+    if (!res.ok) {
+      console.error('Failed to upload photo to GitHub:', await res.json())
+      return null
+    }
+
+    return `/inventory-photos/${fileName}`
+  } catch (err) {
+    console.error('Error uploadPhoto:', err)
     return null
   }
 }
 
+// Hapus foto dari repo (opsional / best-effort)
 export async function deletePhoto(item: LocalItem | undefined): Promise<void> {
-  if (!item?.photo || !item.photo.startsWith('http')) return
+  const photoPath = item?.photo_url || (item as any)?.photo
+  if (!photoPath || !photoPath.includes('/inventory-photos/')) return
+
   try {
-    await del(item.photo)
+    const fileName = photoPath.split('/inventory-photos/')[1]
+    if (!fileName) return
+
+    const fullPath = `guest-login-system/inventory-management-system/public/inventory-photos/${fileName}`
+    const fileUrl = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${fullPath}?ref=${BRANCH}`
+
+    const getRes = await fetch(fileUrl, {
+      headers: { Authorization: `Bearer ${GITHUB_TOKEN}` },
+    })
+
+    if (getRes.ok) {
+      const fileData = await getRes.json()
+      await fetch(fileUrl, {
+        method: 'DELETE',
+        headers: {
+          Authorization: `Bearer ${GITHUB_TOKEN}`,
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          message: `Delete photo ${fileName}`,
+          sha: fileData.sha,
+          branch: BRANCH,
+        }),
+      })
+    }
   } catch {
-    // best-effort cleanup
+    // Best-effort cleanup
   }
 }
 
