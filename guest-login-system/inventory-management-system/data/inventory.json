@@ -1,0 +1,1545 @@
+{
+    "items":  [
+                  {
+                      "id":  "cd7fdcfd-1744-4e79-913c-47dc68134ab9",
+                      "name":  "Cat Dulux Catylac exterior (putih888)",
+                      "size":  "5 kg sisa = 3 kg",
+                      "category":  "Cat",
+                      "warehouse":  "Gudang 1",
+                      "rack":  "Gudang 1B",
+                      "stock":  1,
+                      "photo":  "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/cd7fdcfd-1744-4e79-913c-47dc68134ab9.jpeg",
+                      "createdAt":  "2026-09-14T03:36:33.407Z"
+                  },
+                  {
+                      "id":  "b52d62ad-8df0-4ea4-aa39-c530ac40859a",
+                      "name":  "Sarung tangan set",
+                      "size":  "-",
+                      "category":  "Sipil",
+                      "warehouse":  "Gudang 1",
+                      "rack":  "Gudang 1B",
+                      "stock":  3,
+                      "photo":  "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/b52d62ad-8df0-4ea4-aa39-c530ac40859a.jpeg",
+                      "createdAt":  "2026-09-14T03:33:20.092Z"
+                  },
+                  {
+                      "id":  "348e5ac2-7fee-4c87-b385-2a961b88b6cc",
+                      "name":  "Dina bold ( M10 x 77)",
+                      "size":  "M10 x 77",
+                      "category":  "Dinabold",
+                      "warehouse":  "Gudang 1",
+                      "rack":  "-",
+                      "stock":  10,
+                      "photo":  "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/348e5ac2-7fee-4c87-b385-2a961b88b6cc.jpeg",
+                      "createdAt":  "2026-09-14T03:29:15.340Z"
+                  },
+                  {
+                      "id":  "4c2fd9ac-7f3b-43b2-9560-b3d91410a902",
+                      "name":  "Kompon (per 1 kg)",
+                      "size":  "1 kg",
+                      "category":  "Kompon",
+                      "warehouse":  "Gudang 1",
+                      "rack":  "LT4",
+                      "stock":  2,
+                      "photo":  "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/4c2fd9ac-7f3b-43b2-9560-b3d91410a902.jpeg",
+                      "createdAt":  "2026-09-14T03:26:45.621Z"
+                  },
+                  {
+                      "id":  "99a7007f-8ef6-47ec-adbf-5f005f8bd98a",
+                      "name":  "Winch elektrik (pengerek)",
+                      "size":  "-",
+                      "category":  "Mesin",
+                      "warehouse":  "Gudang 1",
+                      "rack":  "Gudang 1B",
+                      "stock":  1,
+                      "photo":  "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/99a7007f-8ef6-47ec-adbf-5f005f8bd98a.jpeg",
+                      "createdAt":  "2026-09-14T03:06:56.481Z"
+                  },
+                  {
+                      "id":  "2dc5d1d9-9550-45f4-b539-495777e28cee",
+                      "name":  "Besi hollo (2x2)cm",
+                      "size":  "2x2x8M",
+                      "category":  "Besi",
+                      "warehouse":  "Gudang 1",
+                      "rack":  "LT4",
+                      "stock":  2,
+                      "photo":  "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/2dc5d1d9-9550-45f4-b539-495777e28cee.jpeg",
+                      "createdAt":  "2026-09-14T03:00:22.892Z"
+                  },
+                  {
+                      "id":  "ef8e221c-efd1-4658-84a6-b281e9e3c90a",
+                      "name":  "Pipa PPC 1Â½ (panjang hanya 150cm)",
+                      "size":  "1Â½ inch",
+                      "category":  "Pipa",
+                      "warehouse":  "Gudang 1",
+                      "rack":  "Lt4",
+                      "stock":  1,
+                      "photo":  "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/ef8e221c-efd1-4658-84a6-b281e9e3c90a.jpeg",
+                      "createdAt":  "2026-09-14T02:53:48.208Z"
+                  },
+                  {
+                      "id":  "332f9a09-1b8b-43c3-9e36-f1f6a1bf1189",
+                      "name":  "Specer rausable tile leveling sistem ( tidak ada Tulangan perekat)",
+                      "size":  "1mm",
+                      "category":  "Keramik",
+                      "warehouse":  "Gudang 1",
+                      "rack":  "Gudang 1A",
+                      "stock":  90,
+                      "photo":  "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/332f9a09-1b8b-43c3-9e36-f1f6a1bf1189.jpeg",
+                      "createdAt":  "2026-09-14T02:48:24.316Z"
+                  },
+                  {
+                      "id":  "3fd89074-9120-4453-9a34-fd4eb1a95ee5",
+                      "name":  "Floksok | Flame (PPR | 1Â½ )",
+                      "size":  "1Â½ inch",
+                      "category":  "Pipa",
+                      "warehouse":  "Gudang 1",
+                      "rack":  "Gudang 1A",
+                      "stock":  14,
+                      "photo":  "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/3fd89074-9120-4453-9a34-fd4eb1a95ee5.jpeg",
+                      "createdAt":  "2026-09-14T02:43:56.523Z"
+                  },
+                  {
+                      "id":  "190758e5-a248-4551-b85b-d4f0d76da0fd",
+                      "name":  "TEE PPR (1xÂ½)",
+                      "size":  "1Â½",
+                      "category":  "Pipa",
+                      "warehouse":  "Gudang 1",
+                      "rack":  "Gudang 1A",
+                      "stock":  3,
+                      "photo":  "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/190758e5-a248-4551-b85b-d4f0d76da0fd.jpeg",
+                      "createdAt":  "2026-09-14T02:40:22.662Z"
+                  },
+                  {
+                      "id":  "d5899901-7a63-4ab9-82c3-e9be7c184908",
+                      "name":  "Meteran",
+                      "size":  "5M",
+                      "category":  "Pengukur",
+                      "warehouse":  "Gudang 1",
+                      "rack":  "Gudang 1A",
+                      "stock":  0,
+                      "photo":  "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/d5899901-7a63-4ab9-82c3-e9be7c184908.jpeg",
+                      "createdAt":  "2026-09-14T02:37:41.781Z"
+                  },
+                  {
+                      "id":  "40893f86-4b78-4cd7-8c30-4d9e9b815934",
+                      "name":  "Knee keni elbow 1 Â½ (PPR)",
+                      "size":  "1Â½ inch",
+                      "category":  "Pipa",
+                      "warehouse":  "Gudang 1",
+                      "rack":  "Gudang 1A",
+                      "stock":  7,
+                      "photo":  "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/40893f86-4b78-4cd7-8c30-4d9e9b815934.jpeg",
+                      "createdAt":  "2026-09-14T02:36:09.926Z"
+                  },
+                  {
+                      "id":  "6238a736-a3ea-425e-8bb3-e686bcf79270",
+                      "name":  "apar | pemadam api ( rusak | bekas)",
+                      "size":  "-",
+                      "category":  "-",
+                      "warehouse":  "Gudang 1",
+                      "rack":  "LT4",
+                      "stock":  2,
+                      "photo":  "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/6238a736-a3ea-425e-8bb3-e686bcf79270.jpeg",
+                      "createdAt":  "2026-09-14T02:28:56.561Z"
+                  },
+                  {
+                      "id":  "6d40474c-722e-47ed-94c7-cd20f517c22d",
+                      "name":  "kursi hitam",
+                      "size":  "-",
+                      "category":  "Kursi",
+                      "warehouse":  "Gudang 1",
+                      "rack":  "Gudang 1B",
+                      "stock":  9,
+                      "photo":  "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/6d40474c-722e-47ed-94c7-cd20f517c22d.jpeg",
+                      "createdAt":  "2026-09-14T02:21:31.927Z"
+                  },
+                  {
+                      "id":  "d666de89-2db3-4ca7-839c-51104b3f02aa",
+                      "name":  "Cat Dulux weathershield (AR exterior 49100))",
+                      "size":  "2,5 L",
+                      "category":  "Car",
+                      "warehouse":  "Gudang 1",
+                      "rack":  "Gudang 1B",
+                      "stock":  1,
+                      "photo":  "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/d666de89-2db3-4ca7-839c-51104b3f02aa.jpeg",
+                      "createdAt":  "2026-09-14T02:19:33.458Z"
+                  },
+                  {
+                      "id":  "e6761c5c-7868-4176-b18d-46db9aa26cb7",
+                      "name":  "Cat tembok acrylic luar ( mowilex )",
+                      "size":  "2,5 L",
+                      "category":  "Cat",
+                      "warehouse":  "Gudang 1",
+                      "rack":  "Gudang 1B",
+                      "stock":  1,
+                      "photo":  "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/e6761c5c-7868-4176-b18d-46db9aa26cb7.jpeg",
+                      "createdAt":  "2026-09-14T02:17:41.155Z"
+                  },
+                  {
+                      "id":  "aa4b8885-c4e9-48f3-8a6f-efc9582726da",
+                      "name":  "Pipa wespex (potongan pegangan bg hendi)",
+                      "size":  "-",
+                      "category":  "Pipa",
+                      "warehouse":  "Gudang 1",
+                      "rack":  "Lt4",
+                      "stock":  12,
+                      "photo":  "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/aa4b8885-c4e9-48f3-8a6f-efc9582726da.jpeg",
+                      "createdAt":  "2026-09-14T02:13:22.628Z"
+                  },
+                  {
+                      "id":  "64995198-2984-4e69-aa5e-db18cca231b5",
+                      "name":  "Kompresor (izumi)",
+                      "size":  "-",
+                      "category":  "Kompresor",
+                      "warehouse":  "Gudang 1",
+                      "rack":  "-",
+                      "stock":  1,
+                      "photo":  "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/64995198-2984-4e69-aa5e-db18cca231b5.jpeg",
+                      "createdAt":  "2026-09-14T02:12:10.490Z"
+                  },
+                  {
+                      "id":  "e1a02ddd-1b28-4ada-99fd-c06a52c2e1e5",
+                      "name":  "Kompresor (H\u0026L | pegangn mas Kholid )",
+                      "size":  "-",
+                      "category":  "Kompresor",
+                      "warehouse":  "Gudang 1",
+                      "rack":  "Lt4",
+                      "stock":  1,
+                      "photo":  "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/e1a02ddd-1b28-4ada-99fd-c06a52c2e1e5.jpeg",
+                      "createdAt":  "2026-09-14T02:11:17.175Z"
+                  },
+                  {
+                      "id":  "c1e89226-3b96-4fa6-bf51-43dcc023cccd",
+                      "name":  "Pipa wespex (potongan/bekas)",
+                      "size":  "-",
+                      "category":  "Pipa",
+                      "warehouse":  "Gudang 1",
+                      "rack":  "Lt4",
+                      "stock":  28,
+                      "photo":  "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/c1e89226-3b96-4fa6-bf51-43dcc023cccd.jpeg",
+                      "createdAt":  "2026-09-14T02:09:13.948Z"
+                  },
+                  {
+                      "id":  "5e2ea2f3-1056-4433-895c-6598032b911a",
+                      "name":  "Terpal (biru)",
+                      "size":  "kecil",
+                      "category":  "Terpal",
+                      "warehouse":  "Gudang 1",
+                      "rack":  "Gudang 1A",
+                      "stock":  2,
+                      "photo":  "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/5e2ea2f3-1056-4433-895c-6598032b911a.jpeg",
+                      "createdAt":  "2026-09-14T02:06:56.106Z"
+                  },
+                  {
+                      "id":  "f5f27fbb-fd44-4c3a-a38b-3d8db10ddaf9",
+                      "name":  "Kardus roll",
+                      "size":  "Roll",
+                      "category":  "Kardus",
+                      "warehouse":  "Gudang 1",
+                      "rack":  "Lt 1",
+                      "stock":  1,
+                      "photo":  "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/f5f27fbb-fd44-4c3a-a38b-3d8db10ddaf9.jpeg",
+                      "createdAt":  "2026-09-14T02:05:06.856Z"
+                  },
+                  {
+                      "id":  "b324235c-a447-4388-b470-bd9dd7c9d2f5",
+                      "name":  "Helm (hijau)",
+                      "size":  "L",
+                      "category":  "Sipil",
+                      "warehouse":  "Gudang 1",
+                      "rack":  "Gudang 1A",
+                      "stock":  4,
+                      "photo":  "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/b324235c-a447-4388-b470-bd9dd7c9d2f5.jpeg",
+                      "createdAt":  "2026-09-13T10:51:41.111Z"
+                  },
+                  {
+                      "id":  "5793f87a-9703-4838-b602-076917d907ca",
+                      "name":  "Rompi tukang",
+                      "size":  "L",
+                      "category":  "Sipil",
+                      "warehouse":  "Gudang 1",
+                      "rack":  "Gudang 1A",
+                      "stock":  2,
+                      "photo":  "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/5793f87a-9703-4838-b602-076917d907ca.jpeg",
+                      "createdAt":  "2026-09-13T10:50:58.934Z"
+                  },
+                  {
+                      "id":  "9d829d98-7246-4003-8a8f-fccffcb51e96",
+                      "name":  "Gergaji hebel",
+                      "size":  "-",
+                      "category":  "Gergaji",
+                      "warehouse":  "Gudang 1",
+                      "rack":  "Gudang 1A",
+                      "stock":  2,
+                      "photo":  "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/9d829d98-7246-4003-8a8f-fccffcb51e96.jpeg",
+                      "createdAt":  "2026-09-13T10:47:43.179Z"
+                  },
+                  {
+                      "id":  "23539032-42db-41cc-af17-2bdde6c95648",
+                      "name":  "Laser tembak",
+                      "size":  "-",
+                      "category":  "Laser",
+                      "warehouse":  "Gudang 1",
+                      "rack":  "Gudang 1A",
+                      "stock":  1,
+                      "photo":  "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/23539032-42db-41cc-af17-2bdde6c95648.jpeg",
+                      "createdAt":  "2026-09-13T10:45:25.356Z"
+                  },
+                  {
+                      "id":  "8c7d6d40-e059-47c6-80c9-12e03993c3a5",
+                      "name":  "Tembakan silent",
+                      "size":  "-",
+                      "category":  "Silent",
+                      "warehouse":  "Gudang 1",
+                      "rack":  "Gudang 1A",
+                      "stock":  1,
+                      "photo":  "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/8c7d6d40-e059-47c6-80c9-12e03993c3a5.jpeg",
+                      "createdAt":  "2026-09-13T10:43:54.794Z"
+                  },
+                  {
+                      "id":  "52ff75b7-ffd9-4f31-ace3-6cac50f4f77e",
+                      "name":  "Lampu tembak",
+                      "size":  "-",
+                      "category":  "Lampu",
+                      "warehouse":  "Gudang 1",
+                      "rack":  "Gudang 1A",
+                      "stock":  1,
+                      "photo":  "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/52ff75b7-ffd9-4f31-ace3-6cac50f4f77e.jpeg",
+                      "createdAt":  "2026-09-13T10:42:36.193Z"
+                  },
+                  {
+                      "id":  "73dab585-bef7-4622-bab9-a9f77af0b6cc",
+                      "name":  "Kop kaca",
+                      "size":  "-",
+                      "category":  "Kaca",
+                      "warehouse":  "Gudang 1",
+                      "rack":  "Gudang 1A",
+                      "stock":  4,
+                      "photo":  "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/73dab585-bef7-4622-bab9-a9f77af0b6cc.jpeg",
+                      "createdAt":  "2026-09-13T10:41:08.936Z"
+                  },
+                  {
+                      "id":  "ed3ceca4-2986-4750-a978-d63b82a7fc1a",
+                      "name":  "Pacul",
+                      "size":  "-",
+                      "category":  "-",
+                      "warehouse":  "Gudang 1",
+                      "rack":  "Gudang 1B",
+                      "stock":  1,
+                      "photo":  "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/ed3ceca4-2986-4750-a978-d63b82a7fc1a.jpeg",
+                      "createdAt":  "2026-09-13T10:39:04.986Z"
+                  },
+                  {
+                      "id":  "a577b64c-d468-4005-a683-be3077da79eb",
+                      "name":  "Mixser (mati)",
+                      "size":  "-",
+                      "category":  "Mesin",
+                      "warehouse":  "Gudang 1",
+                      "rack":  "Gudang 1A",
+                      "stock":  1,
+                      "photo":  "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/a577b64c-d468-4005-a683-be3077da79eb.jpeg",
+                      "createdAt":  "2026-09-13T10:38:21.656Z"
+                  },
+                  {
+                      "id":  "fe1134a0-767a-4069-9b53-a439ebe4e9e9",
+                      "name":  "Skop",
+                      "size":  "-",
+                      "category":  "-",
+                      "warehouse":  "Gudang 1",
+                      "rack":  "LT 3",
+                      "stock":  1,
+                      "photo":  "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/fe1134a0-767a-4069-9b53-a439ebe4e9e9.jpeg",
+                      "createdAt":  "2026-09-13T10:35:41.675Z"
+                  },
+                  {
+                      "id":  "0842b41c-b1e6-4fd0-831e-9d5d61f770e5",
+                      "name":  "Plastik cor",
+                      "size":  "L: 1M",
+                      "category":  "Plastik",
+                      "warehouse":  "Gudang 1",
+                      "rack":  "Gudang 1B",
+                      "stock":  4,
+                      "photo":  "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/0842b41c-b1e6-4fd0-831e-9d5d61f770e5.jpeg",
+                      "createdAt":  "2026-09-13T10:34:04.901Z"
+                  },
+                  {
+                      "id":  "345c3af1-7b7d-427d-9e91-de07a5de7837",
+                      "name":  "Troli (kecil | biru)",
+                      "size":  "-",
+                      "category":  "Troli",
+                      "warehouse":  "Gudang 1",
+                      "rack":  "Lt4",
+                      "stock":  1,
+                      "photo":  "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/345c3af1-7b7d-427d-9e91-de07a5de7837.jpeg",
+                      "createdAt":  "2026-09-13T10:32:27.444Z"
+                  },
+                  {
+                      "id":  "db77ecf5-b866-412d-965d-7d13436fe924",
+                      "name":  "Pipa PPR (air dingin)",
+                      "size":  "Â½ inch",
+                      "category":  "Pipa",
+                      "warehouse":  "Gudang 1",
+                      "rack":  "-",
+                      "stock":  1,
+                      "photo":  "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/db77ecf5-b866-412d-965d-7d13436fe924.jpeg",
+                      "createdAt":  "2026-09-13T09:40:33.464Z"
+                  },
+                  {
+                      "id":  "f0dfc1c8-f8f8-4eba-b313-296487fac99f",
+                      "name":  "Kuas",
+                      "size":  "3inch",
+                      "category":  "Cat",
+                      "warehouse":  "Gudang 1",
+                      "rack":  "-",
+                      "stock":  2,
+                      "photo":  "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/f0dfc1c8-f8f8-4eba-b313-296487fac99f.jpeg",
+                      "createdAt":  "2026-09-13T09:38:44.748Z"
+                  },
+                  {
+                      "id":  "1d56c646-a35c-4de2-901f-56ac768508ea",
+                      "name":  "Sepatu bot",
+                      "size":  "-",
+                      "category":  "Sepatu",
+                      "warehouse":  "Gudang 1",
+                      "rack":  "-",
+                      "stock":  10,
+                      "photo":  "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/1d56c646-a35c-4de2-901f-56ac768508ea.jpeg",
+                      "createdAt":  "2026-09-13T09:37:08.553Z"
+                  },
+                  {
+                      "id":  "d247dec0-fc3e-4a71-a0e6-6e025ede5c14",
+                      "name":  "Roll cat besar ( roll saja bukan refil)",
+                      "size":  "-",
+                      "category":  "Cat",
+                      "warehouse":  "Gudang 1",
+                      "rack":  "-",
+                      "stock":  9,
+                      "photo":  "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/d247dec0-fc3e-4a71-a0e6-6e025ede5c14.jpeg",
+                      "createdAt":  "2026-09-13T09:35:50.054Z"
+                  },
+                  {
+                      "id":  "150b9102-279a-4b14-a541-b8a9124ded3b",
+                      "name":  "MU-380",
+                      "size":  "1 sak sisa â\u0085",
+                      "category":  "Semen",
+                      "warehouse":  "Gudang 1",
+                      "rack":  "-",
+                      "stock":  2,
+                      "photo":  "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/150b9102-279a-4b14-a541-b8a9124ded3b.jpeg",
+                      "createdAt":  "2026-09-13T09:32:52.755Z"
+                  },
+                  {
+                      "id":  "6d5e0801-d55d-4fd4-ab5d-9ca24828464c",
+                      "name":  "aquaproof  (putih011 | sedang)",
+                      "size":  "4kg = Â¼",
+                      "category":  "Cat",
+                      "warehouse":  "Gudang 1",
+                      "rack":  "-",
+                      "stock":  1,
+                      "photo":  "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/6d5e0801-d55d-4fd4-ab5d-9ca24828464c.jpeg",
+                      "createdAt":  "2026-09-13T09:30:33.289Z"
+                  },
+                  {
+                      "id":  "5455fc2c-5f4b-404d-b3dd-d2890344c576",
+                      "name":  "aquaproof  (abu muda 062 | kecil)",
+                      "size":  "1kg = sisa â\u0085",
+                      "category":  "Cat",
+                      "warehouse":  "Gudang 1",
+                      "rack":  "-",
+                      "stock":  1,
+                      "photo":  "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/5455fc2c-5f4b-404d-b3dd-d2890344c576.jpeg",
+                      "createdAt":  "2026-09-13T09:29:01.148Z"
+                  },
+                  {
+                      "id":  "874c065b-2dec-4474-897b-a06aec5f040a",
+                      "name":  "Wpc tubes (Hitam | 3 lubang)",
+                      "size":  "10cmx5cmx290cm",
+                      "category":  "Wpc",
+                      "warehouse":  "Gudang 1",
+                      "rack":  "-",
+                      "stock":  21,
+                      "photo":  "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/874c065b-2dec-4474-897b-a06aec5f040a.jpeg",
+                      "createdAt":  "2026-09-13T09:26:05.042Z"
+                  },
+                  {
+                      "id":  "a12f53c7-7c1b-409b-88bb-a3336dfe4641",
+                      "name":  "Corner bead",
+                      "size":  "3M",
+                      "category":  "Alumunium",
+                      "warehouse":  "Gudang 1",
+                      "rack":  "-",
+                      "stock":  10,
+                      "photo":  "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/a12f53c7-7c1b-409b-88bb-a3336dfe4641.jpeg",
+                      "createdAt":  "2026-09-13T09:17:06.346Z"
+                  },
+                  {
+                      "id":  "29353349-aa61-4e34-86a8-c2e1e02b6748",
+                      "name":  "Corner bead pvc",
+                      "size":  "-",
+                      "category":  "Pcv",
+                      "warehouse":  "Gudang 1",
+                      "rack":  "-",
+                      "stock":  88,
+                      "photo":  "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/29353349-aa61-4e34-86a8-c2e1e02b6748.jpeg",
+                      "createdAt":  "2026-09-13T09:13:06.236Z"
+                  },
+                  {
+                      "id":  "7811d7b7-9779-4851-b0d1-e49e55389c69",
+                      "name":  "Besi hollo",
+                      "size":  "4x6x3M",
+                      "category":  "Besi",
+                      "warehouse":  "Gudang 1",
+                      "rack":  "Garasi",
+                      "stock":  7,
+                      "photo":  "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/7811d7b7-9779-4851-b0d1-e49e55389c69.jpeg",
+                      "createdAt":  "2026-09-13T06:15:04.833Z"
+                  },
+                  {
+                      "id":  "fe62d683-910c-43e1-9490-597a27b52ed5",
+                      "name":  "Lampu tembak(entah idup atau mati)",
+                      "size":  "25x21",
+                      "category":  "Lampu",
+                      "warehouse":  "Gudang 2",
+                      "rack":  "Kamar",
+                      "stock":  1,
+                      "photo":  "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/fe62d683-910c-43e1-9490-597a27b52ed5.jpeg",
+                      "createdAt":  "2026-09-11T07:58:18.821Z"
+                  },
+                  {
+                      "id":  "e8be01f3-03ff-4197-be9a-bf5583c4b4af",
+                      "name":  "Keramik(ston antique grey matt/FMV24/KERAMIK KASAR)",
+                      "size":  "60x60",
+                      "category":  "Keramik",
+                      "warehouse":  "Gudang 2",
+                      "rack":  "Kamar",
+                      "stock":  7,
+                      "photo":  "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/e8be01f3-03ff-4197-be9a-bf5583c4b4af.jpeg",
+                      "createdAt":  "2026-09-11T07:54:30.947Z"
+                  },
+                  {
+                      "id":  "9f948bd3-ee7b-4205-a555-162d6f9ceb58",
+                      "name":  "Keramik (bekas Kemayoran/1dus=4k)",
+                      "size":  "60x60",
+                      "category":  "Keramik",
+                      "warehouse":  "Gudang 2",
+                      "rack":  "Kamar",
+                      "stock":  24,
+                      "photo":  "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/9f948bd3-ee7b-4205-a555-162d6f9ceb58.jpeg",
+                      "createdAt":  "2026-09-11T07:51:01.213Z"
+                  },
+                  {
+                      "id":  "90ef5c4f-34e9-422e-abf9-5dcf9e62e832",
+                      "name":  "Pagar besi",
+                      "size":  "100x100",
+                      "category":  "Besi",
+                      "warehouse":  "Gudang 2",
+                      "rack":  "Kamar",
+                      "stock":  5,
+                      "photo":  "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/90ef5c4f-34e9-422e-abf9-5dcf9e62e832.jpeg",
+                      "createdAt":  "2026-09-11T07:47:04.597Z"
+                  },
+                  {
+                      "id":  "48e18d52-c884-4888-bbd6-2e09d4dc2eea",
+                      "name":  "Kotak besi panjang",
+                      "size":  "10x 5Â½",
+                      "category":  "Besi",
+                      "warehouse":  "Gudang 2",
+                      "rack":  "Kamar",
+                      "stock":  1,
+                      "photo":  "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/48e18d52-c884-4888-bbd6-2e09d4dc2eea.jpeg",
+                      "createdAt":  "2026-09-11T07:44:04.135Z"
+                  },
+                  {
+                      "id":  "560bab6a-a70a-47bf-8e96-c986ec391724",
+                      "name":  "Long drat besi",
+                      "size":  "M5, P: 310",
+                      "category":  "Besi",
+                      "warehouse":  "Gudang 2",
+                      "rack":  "Kamar",
+                      "stock":  26,
+                      "photo":  "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/560bab6a-a70a-47bf-8e96-c986ec391724.jpeg",
+                      "createdAt":  "2026-09-11T07:40:57.723Z"
+                  },
+                  {
+                      "id":  "1bb2f204-d9ea-4fe2-a660-697c243d0bc9",
+                      "name":  "Siku besi",
+                      "size":  "1Â½ x 1Â½ x 240M",
+                      "category":  "Besi",
+                      "warehouse":  "Gudang 2",
+                      "rack":  "Kamar",
+                      "stock":  7,
+                      "photo":  "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/1bb2f204-d9ea-4fe2-a660-697c243d0bc9.jpeg",
+                      "createdAt":  "2026-09-11T07:36:07.598Z"
+                  },
+                  {
+                      "id":  "cb3e1d7a-e079-4c57-9baa-4255b88dd38b",
+                      "name":  "Pipa PPC",
+                      "size":  "1Â¼,  rata\" panjang : 200cm(tidak keseluruhan)",
+                      "category":  "Pipa",
+                      "warehouse":  "Gudang 2",
+                      "rack":  "Kamar",
+                      "stock":  8,
+                      "photo":  "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/cb3e1d7a-e079-4c57-9baa-4255b88dd38b.jpeg",
+                      "createdAt":  "2026-09-11T07:33:04.235Z"
+                  },
+                  {
+                      "id":  "436197ed-9ae4-4c9e-96db-2cf70df9de38",
+                      "name":  "Katrol",
+                      "size":  "-",
+                      "category":  "Penggerek/katrol",
+                      "warehouse":  "Gudang 2",
+                      "rack":  "Kamar",
+                      "stock":  1,
+                      "photo":  "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/436197ed-9ae4-4c9e-96db-2cf70df9de38.jpeg",
+                      "createdAt":  "2026-09-11T07:20:30.930Z"
+                  },
+                  {
+                      "id":  "b2bbed5c-6a37-4569-a3e6-8e94e55a1f48",
+                      "name":  "Puffin",
+                      "size":  "1 pail, 10 Galon",
+                      "category":  "Cat",
+                      "warehouse":  "Gudang 2",
+                      "rack":  "Kamar",
+                      "stock":  11,
+                      "photo":  "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/b2bbed5c-6a37-4569-a3e6-8e94e55a1f48.jpeg",
+                      "createdAt":  "2026-09-11T07:17:35.021Z"
+                  },
+                  {
+                      "id":  "fedcb07e-b963-43eb-b709-30d79f8c4b81",
+                      "name":  "Veneer ijo buat pameran",
+                      "size":  "120x240",
+                      "category":  "Vener",
+                      "warehouse":  "Gudang 1",
+                      "rack":  "WS",
+                      "stock":  0,
+                      "photo":  "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/fedcb07e-b963-43eb-b709-30d79f8c4b81.jpeg",
+                      "createdAt":  "2026-09-04T12:27:51.615Z"
+                  },
+                  {
+                      "id":  "33ac3474-b3f0-432a-abfc-ee228ce30f85",
+                      "name":  "cairan nat",
+                      "size":  "330ml",
+                      "category":  "Cairan",
+                      "warehouse":  "Gudang 1",
+                      "rack":  "R2B2",
+                      "stock":  6,
+                      "photo":  "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/33ac3474-b3f0-432a-abfc-ee228ce30f85.jpeg",
+                      "createdAt":  "2026-09-04T12:18:03.241Z"
+                  },
+                  {
+                      "id":  "23842759-e94c-4b18-9c4a-e722170d4ea5",
+                      "name":  "Kain ball kain majun",
+                      "size":  "-",
+                      "category":  "Kain",
+                      "warehouse":  "Gudang 1",
+                      "rack":  "Dalam gudang B2",
+                      "stock":  40,
+                      "photo":  "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/23842759-e94c-4b18-9c4a-e722170d4ea5.jpeg",
+                      "createdAt":  "2026-09-04T11:07:55.101Z"
+                  },
+                  {
+                      "id":  "59181aed-563c-42fc-8393-d8387c0be99d",
+                      "name":  "Lampu panjang (bulat/T5)",
+                      "size":  "100cm",
+                      "category":  "Lampu",
+                      "warehouse":  "Gudang 1",
+                      "rack":  "R2B2",
+                      "stock":  14,
+                      "photo":  "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/59181aed-563c-42fc-8393-d8387c0be99d.jpeg",
+                      "createdAt":  "2026-09-04T11:06:09.521Z"
+                  },
+                  {
+                      "id":  "dbbe6bde-d238-4ac3-8bec-e4aea964536c",
+                      "name":  "Lampu T5 (panjang kotak)",
+                      "size":  "100cm",
+                      "category":  "Lampu",
+                      "warehouse":  "Gudang 1",
+                      "rack":  "R2B2",
+                      "stock":  23,
+                      "photo":  "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/dbbe6bde-d238-4ac3-8bec-e4aea964536c.jpeg",
+                      "createdAt":  "2026-09-04T11:01:35.109Z"
+                  },
+                  {
+                      "id":  "42658c37-878a-4e58-bee7-85d734d2b6f7",
+                      "name":  "Kawat pengalang",
+                      "size":  "1 roll",
+                      "category":  "-",
+                      "warehouse":  "Gudang 1",
+                      "rack":  "Gudang 1B",
+                      "stock":  1,
+                      "photo":  "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/42658c37-878a-4e58-bee7-85d734d2b6f7.jpeg",
+                      "createdAt":  "2026-09-04T09:51:40.654Z"
+                  },
+                  {
+                      "id":  "d30d0ce2-4cb5-41ca-8492-eacef44df7cb",
+                      "name":  "Waterproof membran bakar",
+                      "size":  "-",
+                      "category":  "Bakar",
+                      "warehouse":  "Gudang 1",
+                      "rack":  "-",
+                      "stock":  8,
+                      "photo":  "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/d30d0ce2-4cb5-41ca-8492-eacef44df7cb.jpeg",
+                      "createdAt":  "2026-09-04T09:47:56.809Z"
+                  },
+                  {
+                      "id":  "18b1dee5-2a17-41db-9822-7d4bd8270d84",
+                      "name":  "Galon",
+                      "size":  "-",
+                      "category":  "-",
+                      "warehouse":  "Gudang 1",
+                      "rack":  "LT 3",
+                      "stock":  2,
+                      "photo":  "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/18b1dee5-2a17-41db-9822-7d4bd8270d84.jpeg",
+                      "createdAt":  "2026-09-04T09:45:49.419Z"
+                  },
+                  {
+                      "id":  "3d2eeccc-9a27-4a44-b578-3a5b58c55447",
+                      "name":  "Drijen besar",
+                      "size":  "-",
+                      "category":  "drijen",
+                      "warehouse":  "Gudang 1",
+                      "rack":  "DI LT 4",
+                      "stock":  16,
+                      "photo":  "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/3d2eeccc-9a27-4a44-b578-3a5b58c55447.jpeg",
+                      "createdAt":  "2026-09-04T09:41:27.685Z"
+                  },
+                  {
+                      "id":  "e72cc7de-449e-4477-89c1-46778cfb813a",
+                      "name":  "Wpc tubes (englis chestnut/ coklat)",
+                      "size":  "60x40x2900",
+                      "category":  "wpc",
+                      "warehouse":  "Gudang 1",
+                      "rack":  "Lorong",
+                      "stock":  72,
+                      "photo":  "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/e72cc7de-449e-4477-89c1-46778cfb813a.jpeg",
+                      "createdAt":  "2026-09-04T09:38:26.922Z"
+                  },
+                  {
+                      "id":  "3fc9ae89-2888-4057-8295-b2b9d374f637",
+                      "name":  "alat bakar",
+                      "size":  "-",
+                      "category":  "Bakar",
+                      "warehouse":  "Gudang 1",
+                      "rack":  "WS",
+                      "stock":  0,
+                      "photo":  "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/3fc9ae89-2888-4057-8295-b2b9d374f637.jpeg",
+                      "createdAt":  "2026-09-04T09:32:52.573Z"
+                  },
+                  {
+                      "id":  "48846936-1e29-4b09-ac5c-ca7d231d0a29",
+                      "name":  "Tabung gas",
+                      "size":  "19 kg",
+                      "category":  "Bakar",
+                      "warehouse":  "Gudang 1",
+                      "rack":  "WS",
+                      "stock":  1,
+                      "photo":  "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/48846936-1e29-4b09-ac5c-ca7d231d0a29.jpeg",
+                      "createdAt":  "2026-09-04T09:31:58.983Z"
+                  },
+                  {
+                      "id":  "0ff2b3b1-a209-4fee-8762-3e51ce801fc4",
+                      "name":  "Lakban kertas",
+                      "size":  "-",
+                      "category":  "Lakban",
+                      "warehouse":  "Gudang 1",
+                      "rack":  "R5B2",
+                      "stock":  2,
+                      "photo":  "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/0ff2b3b1-a209-4fee-8762-3e51ce801fc4.jpeg",
+                      "createdAt":  "2026-09-04T09:30:16.409Z"
+                  },
+                  {
+                      "id":  "21ed48f8-7fe6-4ef4-83b7-c9e4ff99336b",
+                      "name":  "Kunci inggris",
+                      "size":  "-",
+                      "category":  "Peralatan",
+                      "warehouse":  "Gudang 1",
+                      "rack":  "R5B2",
+                      "stock":  1,
+                      "photo":  "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/21ed48f8-7fe6-4ef4-83b7-c9e4ff99336b.jpeg",
+                      "createdAt":  "2026-09-04T09:28:42.896Z"
+                  },
+                  {
+                      "id":  "83eb78fb-3b4f-41fd-8ca1-652083bb4183",
+                      "name":  "Marmer (hitam bintik | marmer bekas dan ada yang utuh)",
+                      "size":  "150x80",
+                      "category":  "Marmer",
+                      "warehouse":  "Gudang 2",
+                      "rack":  "di depan garasi",
+                      "stock":  3,
+                      "photo":  "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/83eb78fb-3b4f-41fd-8ca1-652083bb4183.jpeg",
+                      "createdAt":  "2026-09-04T07:21:32.311Z"
+                  },
+                  {
+                      "id":  "63cb5318-94c4-432e-b2c9-d0cee2591e11",
+                      "name":  "Pasir",
+                      "size":  "-",
+                      "category":  "Pasir",
+                      "warehouse":  "Gudang 2",
+                      "rack":  "-",
+                      "stock":  8,
+                      "photo":  "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/63cb5318-94c4-432e-b2c9-d0cee2591e11.jpeg",
+                      "createdAt":  "2026-09-04T07:17:18.381Z"
+                  },
+                  {
+                      "id":  "31887fc5-b224-4b9c-9611-a2b0a29e979d",
+                      "name":  "Besi hollo",
+                      "size":  "366cm",
+                      "category":  "Besi",
+                      "warehouse":  "Gudang 2",
+                      "rack":  "-",
+                      "stock":  1,
+                      "photo":  "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/31887fc5-b224-4b9c-9611-a2b0a29e979d.jpeg",
+                      "createdAt":  "2026-09-04T07:12:25.496Z"
+                  },
+                  {
+                      "id":  "06d2d5de-5b46-49d6-98a8-293a5e43dcbc",
+                      "name":  "Keramik abu",
+                      "size":  "120x 300cm",
+                      "category":  "Keramik",
+                      "warehouse":  "Gudang 2",
+                      "rack":  "-",
+                      "stock":  5,
+                      "photo":  "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/06d2d5de-5b46-49d6-98a8-293a5e43dcbc.jpeg",
+                      "createdAt":  "2026-09-04T07:03:37.175Z"
+                  },
+                  {
+                      "id":  "bf693300-0ca2-4888-9f87-d02d6b0f5f94",
+                      "name":  "Keramik (abu bintik\" kecil)",
+                      "size":  "P:300cm L : 120 | P: 267  L : 120 | P: 267 L: 15",
+                      "category":  "Keramik",
+                      "warehouse":  "Gudang 2",
+                      "rack":  "-",
+                      "stock":  3,
+                      "photo":  "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/bf693300-0ca2-4888-9f87-d02d6b0f5f94.jpeg",
+                      "createdAt":  "2026-09-04T07:02:19.000Z"
+                  },
+                  {
+                      "id":  "61a0a67e-e761-4d5a-9c0d-fa414adbb727",
+                      "name":  "Bak mandi",
+                      "size":  "186x120cm",
+                      "category":  "Kamar mandi",
+                      "warehouse":  "Gudang 2",
+                      "rack":  "-",
+                      "stock":  1,
+                      "photo":  "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/61a0a67e-e761-4d5a-9c0d-fa414adbb727.jpeg",
+                      "createdAt":  "2026-09-04T06:55:23.830Z"
+                  },
+                  {
+                      "id":  "1301a27c-8cfd-445d-8561-a766a1237a46",
+                      "name":  "Papan kayu( potongan potongan random)",
+                      "size":  "L:15cm  P : -",
+                      "category":  "Driwall",
+                      "warehouse":  "Gudang 2",
+                      "rack":  "-",
+                      "stock":  48,
+                      "photo":  "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/1301a27c-8cfd-445d-8561-a766a1237a46.jpeg",
+                      "createdAt":  "2026-09-04T06:52:34.553Z"
+                  },
+                  {
+                      "id":  "7cd7e333-621a-4973-9e18-cf7b42144797",
+                      "name":  "Wastepel",
+                      "size":  "50cm bulat",
+                      "category":  "Kamar mandi",
+                      "warehouse":  "Gudang 2",
+                      "rack":  "-",
+                      "stock":  1,
+                      "photo":  "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/7cd7e333-621a-4973-9e18-cf7b42144797.jpeg",
+                      "createdAt":  "2026-09-04T06:42:26.972Z"
+                  },
+                  {
+                      "id":  "eeefc519-dca6-419d-94c6-161a54055edb",
+                      "name":  "Keramik (hitam berbintik)",
+                      "size":  "120x120cm",
+                      "category":  "Keramik",
+                      "warehouse":  "Gudang 2",
+                      "rack":  "-",
+                      "stock":  13,
+                      "photo":  "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/eeefc519-dca6-419d-94c6-161a54055edb.jpeg",
+                      "createdAt":  "2026-09-04T06:39:48.750Z"
+                  },
+                  {
+                      "id":  "6992fab8-a4d8-42d8-88e8-dbd2f3a05984",
+                      "name":  "Keramik sehati (almera apricot glz mt)",
+                      "size":  "60x120cm",
+                      "category":  "Keramik",
+                      "warehouse":  "Gudang 2",
+                      "rack":  "-",
+                      "stock":  16,
+                      "photo":  "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/6992fab8-a4d8-42d8-88e8-dbd2f3a05984.jpeg",
+                      "createdAt":  "2026-09-04T06:38:04.389Z"
+                  },
+                  {
+                      "id":  "7c4fd7b2-f3cb-491a-8bf7-7daf70c416e4",
+                      "name":  "Pintu (untuk 38)",
+                      "size":  "P: 2M",
+                      "category":  "Pintu",
+                      "warehouse":  "Gudang 2",
+                      "rack":  "-",
+                      "stock":  2,
+                      "photo":  "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/7c4fd7b2-f3cb-491a-8bf7-7daf70c416e4.jpeg",
+                      "createdAt":  "2026-09-04T06:31:21.005Z"
+                  },
+                  {
+                      "id":  "362a5cbc-ae02-4bd2-b50b-227a32416d56",
+                      "name":  "Keramik sehati (cm6300-2)",
+                      "size":  "600x600",
+                      "category":  "Keramik",
+                      "warehouse":  "Gudang 2",
+                      "rack":  "-",
+                      "stock":  6,
+                      "photo":  "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/362a5cbc-ae02-4bd2-b50b-227a32416d56.jpeg",
+                      "createdAt":  "2026-09-04T06:08:07.102Z"
+                  }
+              ],
+    "activity":  [
+                     {
+                         "id":  "55ffc55e-97bc-44d3-80ac-d96ca0809f7d",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: Cat Dulux Catylac exterior (putih888) - 1 unit",
+                         "createdAt":  "2026-09-14T03:36:33.407Z"
+                     },
+                     {
+                         "id":  "16b73f84-7fe4-4c52-b2f9-dd4f8a4cbbc4",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: Sarung tangan set - 3 unit",
+                         "createdAt":  "2026-09-14T03:33:20.092Z"
+                     },
+                     {
+                         "id":  "4863b45f-c731-4887-9386-8454654fd23d",
+                         "type":  "in",
+                         "message":  "Barang masuk: Dina bold ( M10 x 77) +10 unit (stok 10)",
+                         "createdAt":  "2026-09-14T03:30:18.175Z"
+                     },
+                     {
+                         "id":  "be99c277-6f86-446a-9974-236864bd8b74",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: Dina bold ( M10 x 77) - 0 unit",
+                         "createdAt":  "2026-09-14T03:29:15.340Z"
+                     },
+                     {
+                         "id":  "4821d937-4299-4787-bf2f-b60bf94f06d6",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: Kompon (per 1 kg) - 2 unit",
+                         "createdAt":  "2026-09-14T03:26:45.621Z"
+                     },
+                     {
+                         "id":  "4e578295-2c5d-4b1d-8365-51646d9d02e2",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: Winch elektrik (pengerek) - 1 unit",
+                         "createdAt":  "2026-09-14T03:06:56.481Z"
+                     },
+                     {
+                         "id":  "2d84c57a-dbb8-41cb-954f-e4896bdb74ae",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: Besi hollo (2x2)cm - 2 unit",
+                         "createdAt":  "2026-09-14T03:00:22.892Z"
+                     },
+                     {
+                         "id":  "2d99f24b-7d60-42aa-b2a6-57e7f03d68c9",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: Pipa PPC 1Â½ (panjang hanya 150cm) - 1 unit",
+                         "createdAt":  "2026-09-14T02:53:48.208Z"
+                     },
+                     {
+                         "id":  "0326ccae-dd62-4703-b86a-6ad1b89902a9",
+                         "type":  "out",
+                         "message":  "Barang keluar: Meteran -1 unit (stok 0)",
+                         "createdAt":  "2026-09-14T02:50:36.698Z"
+                     },
+                     {
+                         "id":  "ec59b479-5732-4428-af35-daa618bb331e",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: Specer rausable tile leveling sistem ( tidak ada Tulangan perekat) - 90 unit",
+                         "createdAt":  "2026-09-14T02:48:24.316Z"
+                     },
+                     {
+                         "id":  "c396a256-7b78-402f-b23f-637023e87322",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: Floksok | Flame (PPR | 1Â½ ) - 14 unit",
+                         "createdAt":  "2026-09-14T02:43:56.523Z"
+                     },
+                     {
+                         "id":  "e0993668-fcbc-4926-a060-73cb97bfdb86",
+                         "type":  "delete",
+                         "message":  "Menghapus barang: Floksok | Flame (PPR | 1Â½ )",
+                         "createdAt":  "2026-09-14T02:43:14.465Z"
+                     },
+                     {
+                         "id":  "5d669219-677b-4514-b023-d8875072466b",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: Floksok | Flame (PPR | 1Â½ ) - 14 unit",
+                         "createdAt":  "2026-09-14T02:42:29.585Z"
+                     },
+                     {
+                         "id":  "e55ab7ff-9a1a-4b1f-bc7e-818b9754c4b8",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: TEE PPR (1xÂ½) - 3 unit",
+                         "createdAt":  "2026-09-14T02:40:22.662Z"
+                     },
+                     {
+                         "id":  "bc482981-b42d-4d1e-b3b4-f62f53ce4c17",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: Meteran - 1 unit",
+                         "createdAt":  "2026-09-14T02:37:41.781Z"
+                     },
+                     {
+                         "id":  "9f9ec125-44f3-48ec-94ec-45f2e0bdfd04",
+                         "type":  "delete",
+                         "message":  "Menghapus barang: Knee keni elbow 1 Â½",
+                         "createdAt":  "2026-09-14T02:36:16.753Z"
+                     },
+                     {
+                         "id":  "d56fc32b-54dc-479e-acfd-56bf840dca94",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: Knee keni elbow 1 Â½ (PPR) - 7 unit",
+                         "createdAt":  "2026-09-14T02:36:09.926Z"
+                     },
+                     {
+                         "id":  "ffb77af2-2b13-4976-ac9a-341055d84021",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: Knee keni elbow 1 Â½ - 7 unit",
+                         "createdAt":  "2026-09-14T02:34:44.711Z"
+                     },
+                     {
+                         "id":  "a99a05c6-313e-4f86-b30d-2d3f7d6df905",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: apar | pemadam api ( rusak | bekas) - 2 unit",
+                         "createdAt":  "2026-09-14T02:28:56.561Z"
+                     },
+                     {
+                         "id":  "7c96e644-ad87-4a93-b59c-af9018408f91",
+                         "type":  "in",
+                         "message":  "Barang masuk: Sepatu bot +5 unit (stok 10)",
+                         "createdAt":  "2026-09-14T02:25:32.626Z"
+                     },
+                     {
+                         "id":  "4fc3d110-553f-40ee-9ae1-b0250d934fc6",
+                         "type":  "out",
+                         "message":  "Barang keluar: Waterproof membran bakar -1 unit (stok 8)",
+                         "createdAt":  "2026-09-14T02:22:35.322Z"
+                     },
+                     {
+                         "id":  "635d0092-4972-4db5-9e00-c99742c4e5ce",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: kursi hitam - 9 unit",
+                         "createdAt":  "2026-09-14T02:21:31.927Z"
+                     },
+                     {
+                         "id":  "ca5a3f3f-dfa5-4338-9c2c-df75cba56c88",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: Cat Dulux weathershield (AR exterior 49100)) - 1 unit",
+                         "createdAt":  "2026-09-14T02:19:33.458Z"
+                     },
+                     {
+                         "id":  "7042ed5c-0bab-42df-98a4-3e8700ad521b",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: Cat tembok acrylic luar ( mowilex ) - 1 unit",
+                         "createdAt":  "2026-09-14T02:17:41.155Z"
+                     },
+                     {
+                         "id":  "d55978db-936c-4a21-8077-942fcb15de23",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: Pipa wespex (potongan pegangan bg hendi) - 12 unit",
+                         "createdAt":  "2026-09-14T02:13:22.628Z"
+                     },
+                     {
+                         "id":  "ac0c8d7d-1b96-48d2-ab01-c40a05e2c953",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: Kompresor (izumi) - 1 unit",
+                         "createdAt":  "2026-09-14T02:12:10.490Z"
+                     },
+                     {
+                         "id":  "5d4cba21-8abd-49ed-ac05-bcfb9b3ee9ef",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: Kompresor (H\u0026L | pegangn mas Kholid ) - 1 unit",
+                         "createdAt":  "2026-09-14T02:11:17.175Z"
+                     },
+                     {
+                         "id":  "7bf357e5-2b2f-440b-b972-d074e3b64c3e",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: Pipa wespex (potongan/bekas) - 28 unit",
+                         "createdAt":  "2026-09-14T02:09:13.948Z"
+                     },
+                     {
+                         "id":  "ba665118-4aa4-40d0-be69-421bb1a97a71",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: Terpal (biru) - 2 unit",
+                         "createdAt":  "2026-09-14T02:06:56.106Z"
+                     },
+                     {
+                         "id":  "abde3735-a23b-44db-a0a6-ac95721b4f5c",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: Kardus roll - 1 unit",
+                         "createdAt":  "2026-09-14T02:05:06.856Z"
+                     },
+                     {
+                         "id":  "20391c5f-7889-4bb7-b77b-1601799645ca",
+                         "type":  "out",
+                         "message":  "Barang keluar: Drijen besar -1 unit (stok 16)",
+                         "createdAt":  "2026-09-14T01:39:08.500Z"
+                     },
+                     {
+                         "id":  "c6310c80-aaa5-4f44-8258-689a80ea2b93",
+                         "type":  "out",
+                         "message":  "Barang keluar: Kain ball kain majun -5 unit (stok 40)",
+                         "createdAt":  "2026-09-14T01:30:50.959Z"
+                     },
+                     {
+                         "id":  "284e3948-98d0-47cd-b9c8-b4c0e1d8d0cc",
+                         "type":  "out",
+                         "message":  "Barang keluar: Plastik cor -1 unit (stok 4)",
+                         "createdAt":  "2026-09-14T01:28:21.206Z"
+                     },
+                     {
+                         "id":  "c46b03ef-97cb-4667-bc5d-d83fceb2c9a5",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: Helm (hijau) - 4 unit",
+                         "createdAt":  "2026-09-13T10:51:41.111Z"
+                     },
+                     {
+                         "id":  "46e93884-4d9e-4c9a-bc08-6c271b3235f2",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: Rompi tukang - 2 unit",
+                         "createdAt":  "2026-09-13T10:50:58.934Z"
+                     },
+                     {
+                         "id":  "07a2dd1c-86d3-48e5-8370-246209c7a305",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: Gergaji hebel - 2 unit",
+                         "createdAt":  "2026-09-13T10:47:43.179Z"
+                     },
+                     {
+                         "id":  "0d8d26eb-6d8a-41f7-bfec-a6ee859902b2",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: Laser tembak - 1 unit",
+                         "createdAt":  "2026-09-13T10:45:25.356Z"
+                     },
+                     {
+                         "id":  "cb251e34-3498-4ccc-b23e-98f169eedf42",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: Tembakan silent - 1 unit",
+                         "createdAt":  "2026-09-13T10:43:54.794Z"
+                     },
+                     {
+                         "id":  "171277fb-f4c9-4cb8-80c3-4bdb70af1ac8",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: Lampu tembak - 1 unit",
+                         "createdAt":  "2026-09-13T10:42:36.193Z"
+                     },
+                     {
+                         "id":  "6266523f-e6de-4175-bc27-77eabf942101",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: Kop kaca - 4 unit",
+                         "createdAt":  "2026-09-13T10:41:08.936Z"
+                     },
+                     {
+                         "id":  "8eb94959-cc8a-4140-82bb-2f85d56b4cd1",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: Pacul - 1 unit",
+                         "createdAt":  "2026-09-13T10:39:04.986Z"
+                     },
+                     {
+                         "id":  "601a8052-b688-4fcf-aba6-073e5ddbd782",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: Mixser (mati) - 1 unit",
+                         "createdAt":  "2026-09-13T10:38:21.656Z"
+                     },
+                     {
+                         "id":  "ba846de6-9918-4545-8121-0a4a1a9e947b",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: Skop - 1 unit",
+                         "createdAt":  "2026-09-13T10:35:41.675Z"
+                     },
+                     {
+                         "id":  "075f7974-902b-4eee-b3f2-c65f3e183d87",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: Plastik cor - 5 unit",
+                         "createdAt":  "2026-09-13T10:34:04.901Z"
+                     },
+                     {
+                         "id":  "5deebb6d-2723-49ed-8c94-628ff8481b36",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: Troli (kecil | biru) - 1 unit",
+                         "createdAt":  "2026-09-13T10:32:27.444Z"
+                     },
+                     {
+                         "id":  "c85f6f71-5a40-415c-88e6-5f454e4f8ab4",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: Pipa PPR (air dingin) - 1 unit",
+                         "createdAt":  "2026-09-13T09:40:33.464Z"
+                     },
+                     {
+                         "id":  "d331e882-fe3f-49c1-83ce-d09212f63904",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: Kuas - 2 unit",
+                         "createdAt":  "2026-09-13T09:38:44.748Z"
+                     },
+                     {
+                         "id":  "0f83a986-f3bd-42ea-bd31-1cbe5f2e48cd",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: Sepatu bot - 5 unit",
+                         "createdAt":  "2026-09-13T09:37:08.553Z"
+                     },
+                     {
+                         "id":  "966c45d4-7d38-4766-b4ff-163b99726e28",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: Roll cat besar ( roll saja bukan refil) - 9 unit",
+                         "createdAt":  "2026-09-13T09:35:50.054Z"
+                     },
+                     {
+                         "id":  "de0a773c-1329-4ab3-9522-b2703dc14fc5",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: MU-380 - 2 unit",
+                         "createdAt":  "2026-09-13T09:32:52.755Z"
+                     },
+                     {
+                         "id":  "2a3d9d8c-93e6-4fa1-bb3f-7e38f1ce07ef",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: aquaproof  (putih011 | sedang) - 1 unit",
+                         "createdAt":  "2026-09-13T09:30:33.289Z"
+                     },
+                     {
+                         "id":  "37a3e515-76dd-4e21-b949-735c28b0ed64",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: aquaproof  (abu muda 062 | kecil) - 1 unit",
+                         "createdAt":  "2026-09-13T09:29:01.148Z"
+                     },
+                     {
+                         "id":  "25af6eaa-7bfb-4895-8248-07e2fd289ed8",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: Wpc tubes (Hitam | 3 lubang) - 21 unit",
+                         "createdAt":  "2026-09-13T09:26:05.042Z"
+                     },
+                     {
+                         "id":  "170d532a-a420-47f7-a1fa-0919fc23dda9",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: Corner bead - 10 unit",
+                         "createdAt":  "2026-09-13T09:17:06.346Z"
+                     },
+                     {
+                         "id":  "df8bd56b-b684-41a0-9bf5-3287fcfe438a",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: Corner bead pvc - 88 unit",
+                         "createdAt":  "2026-09-13T09:13:06.236Z"
+                     },
+                     {
+                         "id":  "e6e48c98-aacd-4506-add0-ea2da8653a46",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: Besi hollo - 7 unit",
+                         "createdAt":  "2026-09-13T06:15:04.833Z"
+                     },
+                     {
+                         "id":  "75f7ffdf-7500-4ca7-89d4-d859163721fc",
+                         "type":  "out",
+                         "message":  "Barang keluar: Veneer ijo buat pameran -97 unit (stok 0)",
+                         "createdAt":  "2026-09-13T06:12:57.679Z"
+                     },
+                     {
+                         "id":  "c3de36f9-8dd8-4a80-b6b4-1453a19fd6ce",
+                         "type":  "delete",
+                         "message":  "Menghapus barang: Wall angel (W)",
+                         "createdAt":  "2026-09-13T06:12:39.860Z"
+                     },
+                     {
+                         "id":  "73b73bcf-e69f-4d98-b2f4-567a37d61221",
+                         "type":  "in",
+                         "message":  "Barang masuk: Tabung gas +1 unit (stok 1)",
+                         "createdAt":  "2026-09-11T08:19:12.494Z"
+                     },
+                     {
+                         "id":  "7a29db4d-1444-412b-81ac-73879eb7fc7a",
+                         "type":  "out",
+                         "message":  "Barang keluar: alat bakar -1 unit (stok 0)",
+                         "createdAt":  "2026-09-11T08:15:25.702Z"
+                     },
+                     {
+                         "id":  "011dca5b-b80b-4923-9867-ba719d395bcd",
+                         "type":  "out",
+                         "message":  "Barang keluar: Tabung gas -1 unit (stok 0)",
+                         "createdAt":  "2026-09-11T08:15:10.694Z"
+                     },
+                     {
+                         "id":  "a6731c2e-8f50-41cb-a8e4-e39ee7ca9608",
+                         "type":  "out",
+                         "message":  "Barang keluar: Tabung gas -1 unit (stok 1)",
+                         "createdAt":  "2026-09-11T08:14:42.757Z"
+                     },
+                     {
+                         "id":  "4d5dd086-7748-426c-8c1b-23fec10bcfbe",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: Lampu tembak(entah idup atau mati) - 1 unit",
+                         "createdAt":  "2026-09-11T07:58:18.821Z"
+                     },
+                     {
+                         "id":  "f764e2f9-89b7-4844-a627-8d6efae5a267",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: Keramik(ston antique grey matt/FMV24/KERAMIK KASAR) - 7 unit",
+                         "createdAt":  "2026-09-11T07:54:30.947Z"
+                     },
+                     {
+                         "id":  "6be16626-4371-4f66-b821-fe713f4ae096",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: Keramik (bekas Kemayoran/1dus=4k) - 24 unit",
+                         "createdAt":  "2026-09-11T07:51:01.213Z"
+                     },
+                     {
+                         "id":  "23d1ec9d-5939-4617-bfb9-bf5e88da4d95",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: Pagar besi - 5 unit",
+                         "createdAt":  "2026-09-11T07:47:04.597Z"
+                     },
+                     {
+                         "id":  "abbd32a7-9149-48bc-9f43-cb69880d59f5",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: Kotak besi panjang - 1 unit",
+                         "createdAt":  "2026-09-11T07:44:04.135Z"
+                     },
+                     {
+                         "id":  "efa547f4-4da1-4211-aabb-f7f2277f7909",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: Long drat besi - 26 unit",
+                         "createdAt":  "2026-09-11T07:40:57.723Z"
+                     },
+                     {
+                         "id":  "8660a019-ad69-467c-ae84-86f800003654",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: Siku besi - 7 unit",
+                         "createdAt":  "2026-09-11T07:36:07.598Z"
+                     },
+                     {
+                         "id":  "57c5cbc8-b368-4bef-9237-43c3775df4ac",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: Pipa PPC - 8 unit",
+                         "createdAt":  "2026-09-11T07:33:04.235Z"
+                     },
+                     {
+                         "id":  "95b88de8-f462-4098-9b4c-6f339e7e358a",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: Wall angel (W) - 17 unit",
+                         "createdAt":  "2026-09-11T07:29:38.860Z"
+                     },
+                     {
+                         "id":  "0ee09e54-bd12-496e-a792-d3895ebeb6dc",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: Katrol - 1 unit",
+                         "createdAt":  "2026-09-11T07:20:30.930Z"
+                     },
+                     {
+                         "id":  "18c7f746-3cd8-4c63-b57e-10326cdfc058",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: Puffin - 11 unit",
+                         "createdAt":  "2026-09-11T07:17:35.021Z"
+                     },
+                     {
+                         "id":  "facb336a-0746-41e4-b4d4-b935dd1c30cf",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: Veneer ijo buat pameran - 97 unit",
+                         "createdAt":  "2026-09-04T12:27:51.615Z"
+                     },
+                     {
+                         "id":  "eae0942e-e902-4e96-9d9c-d22400ab5ea1",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: cairan nat - 6 unit",
+                         "createdAt":  "2026-09-04T12:18:03.241Z"
+                     },
+                     {
+                         "id":  "1910d647-42ef-49bd-a733-2b9fc95d7511",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: Kain ball kain majun - 45 unit",
+                         "createdAt":  "2026-09-04T11:07:55.101Z"
+                     },
+                     {
+                         "id":  "0ff3a8a6-83c1-4fa9-a4e5-a5c17c4ccf44",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: Lampu panjang (bulat/T5) - 14 unit",
+                         "createdAt":  "2026-09-04T11:06:09.521Z"
+                     },
+                     {
+                         "id":  "47b0df7a-199e-4034-b9dc-ef7dcd902d45",
+                         "type":  "delete",
+                         "message":  "Menghapus barang: si ganteng",
+                         "createdAt":  "2026-09-04T11:03:01.111Z"
+                     },
+                     {
+                         "id":  "aa2a9ee9-a64b-450b-9c4b-6f7230ea543e",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: Lampu T5 (panjang kotak) - 23 unit",
+                         "createdAt":  "2026-09-04T11:01:35.109Z"
+                     },
+                     {
+                         "id":  "b456ed14-a7e6-47c7-960e-30c82aec49f1",
+                         "type":  "out",
+                         "message":  "Barang keluar: si ganteng -9 unit (stok 90)",
+                         "createdAt":  "2026-09-04T10:27:34.088Z"
+                     },
+                     {
+                         "id":  "9c8aaccc-7530-4f96-8965-e58470e137fb",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: Kawat pengalang - 1 unit",
+                         "createdAt":  "2026-09-04T09:51:40.654Z"
+                     },
+                     {
+                         "id":  "21dc92b5-a1a1-4a1f-b73f-4ab4589cf35e",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: Waterproof membran bakar - 9 unit",
+                         "createdAt":  "2026-09-04T09:47:56.809Z"
+                     },
+                     {
+                         "id":  "41ecb092-ce1e-4669-83d9-2bb935ca5b32",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: Galon - 2 unit",
+                         "createdAt":  "2026-09-04T09:45:49.419Z"
+                     },
+                     {
+                         "id":  "25125143-5e6e-4e84-a515-0076fb7d7c25",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: Drijen besar - 17 unit",
+                         "createdAt":  "2026-09-04T09:41:27.685Z"
+                     },
+                     {
+                         "id":  "8f17eb45-de30-4a47-b522-a1e164b973d1",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: Wpc tubes (englis chestnut/ coklat) - 72 unit",
+                         "createdAt":  "2026-09-04T09:38:26.922Z"
+                     },
+                     {
+                         "id":  "f0238839-8e51-44e1-b3ef-0e38b9c0b4de",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: alat bakar - 1 unit",
+                         "createdAt":  "2026-09-04T09:32:52.573Z"
+                     },
+                     {
+                         "id":  "02f7efdc-2390-4423-a0ec-5d7ecf8c9e51",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: Tabung gas - 2 unit",
+                         "createdAt":  "2026-09-04T09:31:58.983Z"
+                     },
+                     {
+                         "id":  "ca1b63aa-c608-4d06-85f6-5d25dfc634c3",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: Lakban kertas - 2 unit",
+                         "createdAt":  "2026-09-04T09:30:16.409Z"
+                     },
+                     {
+                         "id":  "f0e69621-b6ae-4ec4-a6de-a9b05f60689f",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: Kunci inggris - 1 unit",
+                         "createdAt":  "2026-09-04T09:28:42.896Z"
+                     },
+                     {
+                         "id":  "8678146e-8a43-403d-bd3f-066a82d44b98",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: Marmer (hitam bintik | marmer bekas dan ada yang utuh) - 3 unit",
+                         "createdAt":  "2026-09-04T07:21:32.311Z"
+                     },
+                     {
+                         "id":  "e81d9b00-42f1-4f9a-b1a3-7a317ebf7909",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: Pasir - 8 unit",
+                         "createdAt":  "2026-09-04T07:17:18.381Z"
+                     },
+                     {
+                         "id":  "d0800842-6bf3-4704-8c9c-86f51a65cd34",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: Besi hollo - 1 unit",
+                         "createdAt":  "2026-09-04T07:12:25.496Z"
+                     },
+                     {
+                         "id":  "7645c582-3c5a-40a4-b60f-2472e0df860b",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: Keramik abu - 5 unit",
+                         "createdAt":  "2026-09-04T07:03:37.175Z"
+                     },
+                     {
+                         "id":  "9c448819-3c8e-4e25-81dd-f95f4fcc8acb",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: Keramik (abu bintik\" kecil) - 3 unit",
+                         "createdAt":  "2026-09-04T07:02:19.000Z"
+                     },
+                     {
+                         "id":  "4a07155a-312f-4095-97d0-37c6ad4c166f",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: Bak mandi - 1 unit",
+                         "createdAt":  "2026-09-04T06:55:23.830Z"
+                     },
+                     {
+                         "id":  "9329a90c-d1f3-4cea-ad78-34fb93940cd6",
+                         "type":  "delete",
+                         "message":  "Menghapus barang: Papan kayu( potongan potongan random)",
+                         "createdAt":  "2026-09-04T06:53:07.069Z"
+                     },
+                     {
+                         "id":  "8ddec5f2-6e0b-43f2-a141-d2d7c001b33d",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: Papan kayu( potongan potongan random) - 48 unit",
+                         "createdAt":  "2026-09-04T06:52:34.553Z"
+                     },
+                     {
+                         "id":  "10034c5d-4f60-475e-be4e-5be22c952952",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: Papan kayu( potongan potongan random) - 48 unit",
+                         "createdAt":  "2026-09-04T06:50:22.889Z"
+                     },
+                     {
+                         "id":  "27546fa6-db1b-4f1c-9357-b3853593f9d0",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: Wastepel - 1 unit",
+                         "createdAt":  "2026-09-04T06:42:26.972Z"
+                     },
+                     {
+                         "id":  "e834c1e0-9e29-4c40-a3ae-cae4674cebaa",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: Keramik (hitam berbintik) - 13 unit",
+                         "createdAt":  "2026-09-04T06:39:48.750Z"
+                     },
+                     {
+                         "id":  "8706b059-2708-46ec-9f3f-5d145e085db1",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: Keramik sehati (almera apricot glz mt) - 16 unit",
+                         "createdAt":  "2026-09-04T06:38:04.389Z"
+                     },
+                     {
+                         "id":  "ed6f3b59-8ed6-41d8-ab8e-dbe8ec613187",
+                         "type":  "delete",
+                         "message":  "Menghapus barang: Keramik sehati",
+                         "createdAt":  "2026-09-04T06:35:20.283Z"
+                     },
+                     {
+                         "id":  "fc935ed0-942e-4881-b9fe-7dd08f233905",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: Keramik sehati - 16 unit",
+                         "createdAt":  "2026-09-04T06:34:45.090Z"
+                     },
+                     {
+                         "id":  "973d2879-577a-49a7-b78c-1035df678d9c",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: Pintu (untuk 38) - 2 unit",
+                         "createdAt":  "2026-09-04T06:31:21.005Z"
+                     },
+                     {
+                         "id":  "0c2678f9-3a1b-43b7-9e7d-b150791ad763",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: Keramik sehati (cm6300-2) - 6 unit",
+                         "createdAt":  "2026-09-04T06:08:07.102Z"
+                     },
+                     {
+                         "id":  "6cdb60a9-d83b-4718-8e9c-31e09d4dfc0f",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: si ganteng - 99 unit",
+                         "createdAt":  "2026-09-04T04:48:07.000Z"
+                     },
+                     {
+                         "id":  "82e97d12-c7e5-45e9-b10d-fcd7a2431a1e",
+                         "type":  "delete",
+                         "message":  "Menghapus barang: Test Kabel",
+                         "createdAt":  "2026-09-04T04:36:54.076Z"
+                     },
+                     {
+                         "id":  "7202e5a7-fbd3-495a-accf-440ec2ae531f",
+                         "type":  "in",
+                         "message":  "Menambahkan barang: Test Kabel - 10 unit",
+                         "createdAt":  "2026-09-04T04:36:45.564Z"
+                     }
+                 ]
+}
