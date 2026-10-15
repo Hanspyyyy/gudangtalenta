@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "cc7650f2-55da-4d23-8cb1-0f259694b8b6",
+      "name": "Shock scafolding",
+      "size": "-",
+      "category": "Scafolding",
+      "warehouse": "Gudang 1",
+      "rack": "1A",
+      "stock": 5,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/cc7650f2-55da-4d23-8cb1-0f259694b8b6-1792050477836.jpeg",
+      "created_at": "2026-10-15T07:47:59.081Z",
+      "updated_at": "2026-10-15T07:47:59.081Z"
+    },
+    {
       "id": "700297aa-a4cc-4f8f-ac41-e4d5d6cb9e27",
       "name": "Roda scafolding",
       "size": "-",
@@ -1237,6 +1249,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "d09d7096-92ae-4cc5-93c7-59fd7ba54a2a",
+      "item_id": "cc7650f2-55da-4d23-8cb1-0f259694b8b6",
+      "item_name": "Shock scafolding",
+      "action": "ADD_ITEM",
+      "quantity": 5,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-15T07:47:59.081Z"
+    },
     {
       "id": "52d119f6-aef8-410e-8db6-4aa6fea4dfa3",
       "item_id": "700297aa-a4cc-4f8f-ac41-e4d5d6cb9e27",
