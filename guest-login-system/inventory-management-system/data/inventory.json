@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "3be2bd45-220c-4fc4-b4a4-adc9e56bdead",
+      "name": "Ramset sedang (merah)",
+      "size": "Sedang",
+      "category": "Ramset/tembakan",
+      "warehouse": "Gudang 1",
+      "rack": "9 | No 2",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/3be2bd45-220c-4fc4-b4a4-adc9e56bdead-1792041716308.jpeg",
+      "created_at": "2026-10-15T05:21:57.332Z",
+      "updated_at": "2026-10-15T05:21:57.332Z"
+    },
+    {
       "id": "5684e778-6e31-469f-a14f-f469299d9bd4",
       "name": "Silent General (Black)",
       "size": "1 tube",
@@ -908,6 +920,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "bbf147f8-ae38-459f-8117-0ec80f14dc7c",
+      "item_id": "3be2bd45-220c-4fc4-b4a4-adc9e56bdead",
+      "item_name": "Ramset sedang (merah)",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-15T05:21:57.332Z"
+    },
     {
       "id": "7ee70817-b9e0-43bc-b2d1-a860f13228a3",
       "item_id": "5684e778-6e31-469f-a14f-f469299d9bd4",
