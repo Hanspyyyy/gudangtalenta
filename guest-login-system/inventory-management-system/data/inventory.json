@@ -791,9 +791,10 @@
       "category": "Lampu",
       "warehouse": "Gudang 1",
       "rack": "R2B2",
-      "stock": 14,
+      "stock": 0,
       "photo": "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/59181aed-563c-42fc-8393-d8387c0be99d.jpeg",
-      "createdAt": "2026-09-04T11:06:09.521Z"
+      "createdAt": "2026-09-04T11:06:09.521Z",
+      "updated_at": "2026-10-15T05:50:23.656Z"
     },
     {
       "id": "dbbe6bde-d238-4ac3-8bec-e4aea964536c",
@@ -1019,6 +1020,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "43396cfd-a666-4773-a174-b287924275d5",
+      "item_id": "59181aed-563c-42fc-8393-d8387c0be99d",
+      "item_name": "Lampu panjang (bulat/T5)",
+      "action": "STOCK_OUT",
+      "quantity": 14,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-15T05:50:23.656Z"
+    },
     {
       "id": "937a8716-5e43-4710-b7f6-446bc63ec865",
       "item_id": "dbbe6bde-d238-4ac3-8bec-e4aea964536c",
