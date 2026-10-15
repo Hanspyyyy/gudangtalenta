@@ -13,18 +13,6 @@
       "updated_at": "2026-10-15T04:02:31.951Z"
     },
     {
-      "id": "6e8e3a08-df9f-4857-9dc2-2ffece3e6efc",
-      "name": "Tes",
-      "size": "2x12",
-      "category": "Keramik",
-      "warehouse": "Gudang 1",
-      "rack": "12",
-      "stock": 0,
-      "photo_url": "/inventory-photos/6e8e3a08-df9f-4857-9dc2-2ffece3e6efc-1792036262596.jpeg",
-      "created_at": "2026-10-15T03:51:03.788Z",
-      "updated_at": "2026-10-15T04:02:15.446Z"
-    },
-    {
       "id": "cd7fdcfd-1744-4e79-913c-47dc68134ab9",
       "name": "Cat Dulux Catylac exterior (putih888)",
       "size": "5 kg sisa = 3 kg",
@@ -917,6 +905,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "0ebdb752-ddff-4981-8dc8-7de03e0df301",
+      "item_id": "6e8e3a08-df9f-4857-9dc2-2ffece3e6efc",
+      "item_name": "Tes",
+      "action": "DELETE_ITEM",
+      "quantity": 0,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-15T04:10:21.645Z"
+    },
     {
       "id": "fb5e8548-cdcf-4bbd-a3af-e66d38e2dff6",
       "item_id": "b07abb77-a645-4dbb-8f26-4adb8bd56d11",
