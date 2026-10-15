@@ -48,7 +48,7 @@ export default function LoginPage() {
               Gudang Talenta
             </h1>
             <p className="text-sm text-muted-foreground text-pretty">
-              Silakan login sebagai Guest untuk melihat daftar barang dan mengecek ketersediaan stok. | Dev. Hakim |
+              Silakan login sebagai Guest untuk melihat daftar barang dan mengecek ketersediaan stok. | Dev. Hakiman |
             </p>
           </div>
         </div>
