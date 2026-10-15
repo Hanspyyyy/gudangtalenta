@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "90e66283-2257-4931-a4aa-4536a77e8f2d",
+      "name": "Pembersih kaca(cleaning with)",
+      "size": "1 botol kecil",
+      "category": "Pembersih",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 9 | NO 3",
+      "stock": 4,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/90e66283-2257-4931-a4aa-4536a77e8f2d-1792043575303.jpeg",
+      "created_at": "2026-10-15T05:52:56.422Z",
+      "updated_at": "2026-10-15T05:52:56.422Z"
+    },
+    {
       "id": "7c722371-6b27-4467-b46f-630a839051de",
       "name": "Mesin potong/grinda tangan(potong marmer)",
       "size": "Sedang",
@@ -1020,6 +1032,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "2a09b9b8-81d4-4079-9ead-ec0e3dc63804",
+      "item_id": "90e66283-2257-4931-a4aa-4536a77e8f2d",
+      "item_name": "Pembersih kaca(cleaning with)",
+      "action": "ADD_ITEM",
+      "quantity": 4,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-15T05:52:56.422Z"
+    },
     {
       "id": "43396cfd-a666-4773-a174-b287924275d5",
       "item_id": "59181aed-563c-42fc-8393-d8387c0be99d",
