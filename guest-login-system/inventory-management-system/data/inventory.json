@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "5e26e07e-216d-44ac-a771-c8ce59a164ca",
+      "name": "Klem /clamp/catok",
+      "size": "-",
+      "category": "Alat",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 9 | NO 3",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/5e26e07e-216d-44ac-a771-c8ce59a164ca-1792048684858.jpeg",
+      "created_at": "2026-10-15T07:18:05.895Z",
+      "updated_at": "2026-10-15T07:18:05.895Z"
+    },
+    {
       "id": "4c429d69-6877-4101-b0fb-f36b7784f2c1",
       "name": "Alat kompon (8\")",
       "size": "Besar",
@@ -1081,6 +1093,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "799a5c51-ff91-4c61-84a4-4f7ef4133171",
+      "item_id": "5e26e07e-216d-44ac-a771-c8ce59a164ca",
+      "item_name": "Klem /clamp/catok",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-15T07:18:05.895Z"
+    },
     {
       "id": "3babb3c5-9649-4541-9440-25d63f26e7cb",
       "item_id": "4c429d69-6877-4101-b0fb-f36b7784f2c1",
