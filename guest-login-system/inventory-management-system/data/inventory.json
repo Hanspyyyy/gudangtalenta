@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "876f6be0-84a2-43f6-94e5-6870d304c780",
+      "name": "Katrol",
+      "size": "Sedang",
+      "category": "Penggerek/katrol",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 9 | NO 2",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/876f6be0-84a2-43f6-94e5-6870d304c780-1792042308832.jpeg",
+      "created_at": "2026-10-15T05:31:49.872Z",
+      "updated_at": "2026-10-15T05:31:49.872Z"
+    },
+    {
       "id": "8bcec4f9-04f9-4f32-a4cd-db1fc42e5cb7",
       "name": "Tembakan silent (tidak bisa nembak seperti contoh di gambar dowload gambar)",
       "size": "-",
@@ -934,6 +946,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "6c83e333-7221-414a-9dcd-e141c7be18e6",
+      "item_id": "876f6be0-84a2-43f6-94e5-6870d304c780",
+      "item_name": "Katrol",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-15T05:31:49.872Z"
+    },
     {
       "id": "c4fc0ba6-fb4b-4567-89de-4fe36d32697a",
       "item_id": "8c7d6d40-e059-47c6-80c9-12e03993c3a5",
