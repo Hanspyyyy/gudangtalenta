@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "d1f960d1-8b80-41a5-b39b-9ae360672e2e",
+      "name": "Tripod laser",
+      "size": "-",
+      "category": "Alat",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 9 | NO 3",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/d1f960d1-8b80-41a5-b39b-9ae360672e2e-1792048766351.jpeg",
+      "created_at": "2026-10-15T07:19:27.416Z",
+      "updated_at": "2026-10-15T07:19:27.416Z"
+    },
+    {
       "id": "5e26e07e-216d-44ac-a771-c8ce59a164ca",
       "name": "Klem /clamp/catok",
       "size": "-",
@@ -1093,6 +1105,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "0833d443-07d5-49c4-941d-5394f176dcff",
+      "item_id": "d1f960d1-8b80-41a5-b39b-9ae360672e2e",
+      "item_name": "Tripod laser",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-15T07:19:27.416Z"
+    },
     {
       "id": "799a5c51-ff91-4c61-84a4-4f7ef4133171",
       "item_id": "5e26e07e-216d-44ac-a771-c8ce59a164ca",
