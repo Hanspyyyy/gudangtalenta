@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "2a316c56-f7e8-47c6-95c9-c160894094e0",
+      "name": "Mesin celup (biru)",
+      "size": "Besar",
+      "category": "Mesin",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 8 | NO 4",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/2a316c56-f7e8-47c6-95c9-c160894094e0-1792050025041.jpeg",
+      "created_at": "2026-10-15T07:40:26.200Z",
+      "updated_at": "2026-10-15T07:40:26.200Z"
+    },
+    {
       "id": "3bee26be-aeeb-464c-b651-c00dd2ecfe55",
       "name": "Gergaji kayu",
       "size": "-",
@@ -1201,6 +1213,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "5a4ca5d6-f71a-4a8d-a788-4b1c929f08ad",
+      "item_id": "2a316c56-f7e8-47c6-95c9-c160894094e0",
+      "item_name": "Mesin celup (biru)",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-15T07:40:26.200Z"
+    },
     {
       "id": "9fcab8db-19d7-4cc2-b043-09f8e2dcfe47",
       "item_id": "3bee26be-aeeb-464c-b651-c00dd2ecfe55",
