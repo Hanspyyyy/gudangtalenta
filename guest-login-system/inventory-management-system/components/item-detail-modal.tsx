@@ -76,7 +76,7 @@ export function ItemDetailModal({ item, isAdmin, onClose }: { item: LocalItem | 
 
   const handleDelete = async () => {
     setBusy(true)
-    const result = await deleteItem(item.id)
+    const result = await deleteItem(item.id, item.name)
     if (!result.ok) {
       setBusy(false)
       toast.error(result.error)
