@@ -693,9 +693,10 @@
       "category": "Laser",
       "warehouse": "Gudang 1",
       "rack": "Gudang 1A",
-      "stock": 1,
+      "stock": 0,
       "photo": "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/23539032-42db-41cc-af17-2bdde6c95648.jpeg",
-      "createdAt": "2026-09-13T10:45:25.356Z"
+      "createdAt": "2026-09-13T10:45:25.356Z",
+      "updated_at": "2026-10-15T12:50:12.388Z"
     },
     {
       "id": "52ff75b7-ffd9-4f31-ace3-6cac50f4f77e",
@@ -1267,6 +1268,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "51627545-35d6-43d5-aa01-d90639b5bc8e",
+      "item_id": "23539032-42db-41cc-af17-2bdde6c95648",
+      "item_name": "Laser tembak",
+      "action": "STOCK_OUT",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-15T12:50:12.388Z"
+    },
     {
       "id": "3bef103f-2302-47a4-827c-13a7dde2aea2",
       "item_id": "33ac3474-b3f0-432a-abfc-ee228ce30f85",
