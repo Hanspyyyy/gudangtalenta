@@ -671,9 +671,10 @@
       "category": "Kardus",
       "warehouse": "Gudang 1",
       "rack": "Lt 1",
-      "stock": 1,
+      "stock": 0,
       "photo": "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/f5f27fbb-fd44-4c3a-a38b-3d8db10ddaf9.jpeg",
-      "createdAt": "2026-09-14T02:05:06.856Z"
+      "createdAt": "2026-09-14T02:05:06.856Z",
+      "updated_at": "2026-10-15T12:50:46.009Z"
     },
     {
       "id": "5793f87a-9703-4838-b602-076917d907ca",
@@ -1269,6 +1270,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "4dca0bbd-923d-4731-a86a-d92831f7ecda",
+      "item_id": "f5f27fbb-fd44-4c3a-a38b-3d8db10ddaf9",
+      "item_name": "Kardus roll",
+      "action": "STOCK_OUT",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-15T12:50:46.010Z"
+    },
     {
       "id": "24ad9a5f-f7bc-4985-8f1c-269369084f2c",
       "item_id": "5793f87a-9703-4838-b602-076917d907ca",
