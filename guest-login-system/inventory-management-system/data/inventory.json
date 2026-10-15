@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "8bcec4f9-04f9-4f32-a4cd-db1fc42e5cb7",
+      "name": "Tembakan silent (tidak bisa nembak seperti contoh di gambar dowload gambar)",
+      "size": "-",
+      "category": "Silent",
+      "warehouse": "Gudang 1",
+      "rack": "9 | No 2",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/8bcec4f9-04f9-4f32-a4cd-db1fc42e5cb7-1792042113471.jpeg",
+      "created_at": "2026-10-15T05:28:34.489Z",
+      "updated_at": "2026-10-15T05:28:34.489Z"
+    },
+    {
       "id": "e1f4789c-e488-4ab5-99dc-af8ebf47fd92",
       "name": "Ramset sedang (tidak lengkap) hanya tembakan",
       "size": "Sedang",
@@ -944,6 +956,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "94eedcbf-64ac-45cb-aca6-bba7090b3174",
+      "item_id": "8bcec4f9-04f9-4f32-a4cd-db1fc42e5cb7",
+      "item_name": "Tembakan silent (tidak bisa nembak seperti contoh di gambar dowload gambar)",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-15T05:28:34.489Z"
+    },
     {
       "id": "d1ff3f2f-2fea-4b2c-9da6-bb961291dbc0",
       "item_id": "e1f4789c-e488-4ab5-99dc-af8ebf47fd92",
