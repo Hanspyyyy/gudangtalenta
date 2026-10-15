@@ -829,18 +829,6 @@
       "createdAt": "2026-09-04T09:47:56.809Z"
     },
     {
-      "id": "18b1dee5-2a17-41db-9822-7d4bd8270d84",
-      "name": "Galon",
-      "size": "-",
-      "category": "-",
-      "warehouse": "Gudang 1",
-      "rack": "LT 3",
-      "stock": 0,
-      "photo": "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/18b1dee5-2a17-41db-9822-7d4bd8270d84.jpeg",
-      "createdAt": "2026-09-04T09:45:49.419Z",
-      "updated_at": "2026-10-15T04:32:57.261Z"
-    },
-    {
       "id": "3d2eeccc-9a27-4a44-b578-3a5b58c55447",
       "name": "Drijen besar",
       "size": "-",
@@ -1030,6 +1018,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "e9c56197-460f-4b7e-b07c-3ace420dd2c0",
+      "item_id": "18b1dee5-2a17-41db-9822-7d4bd8270d84",
+      "item_name": "Galon",
+      "action": "DELETE_ITEM",
+      "quantity": 0,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-15T05:49:36.763Z"
+    },
     {
       "id": "2b9d3ddd-b912-4fec-a87b-6fe6f8b511ae",
       "item_id": "7c722371-6b27-4467-b46f-630a839051de",
