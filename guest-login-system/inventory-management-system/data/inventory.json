@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "b6c36128-1ddd-4ca9-8c2d-a0dcbbe41b5e",
+      "name": "Mesin poles ( besar )",
+      "size": "Besar",
+      "category": "Mesin",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 8 | NO 2",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/b6c36128-1ddd-4ca9-8c2d-a0dcbbe41b5e-1792042612811.jpeg",
+      "created_at": "2026-10-15T05:36:53.916Z",
+      "updated_at": "2026-10-15T05:36:53.917Z"
+    },
+    {
       "id": "ac21b17c-961e-4803-b67e-d6a13ce5cfd1",
       "name": "Bor listrik ( merah)",
       "size": "Besar",
@@ -970,6 +982,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "49292b51-8077-4305-af1b-3c426841816d",
+      "item_id": "b6c36128-1ddd-4ca9-8c2d-a0dcbbe41b5e",
+      "item_name": "Mesin poles ( besar )",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-15T05:36:53.917Z"
+    },
     {
       "id": "55709bde-bfc8-4908-8767-b833653fc8b9",
       "item_id": "ac21b17c-961e-4803-b67e-d6a13ce5cfd1",
