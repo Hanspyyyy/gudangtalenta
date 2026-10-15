@@ -7,10 +7,10 @@
       "category": "Keramik",
       "warehouse": "Gudang 1",
       "rack": "Gudang 1A",
-      "stock": 12,
+      "stock": 24,
       "photo_url": "https://raw.githubusercontent.com/Hanspyyyy/gudangtalenta/main/guest-login-system/inventory-management-system/public/inventory-photos/62333646-b90f-49ba-9b81-64b3d9b0deaa-1792037467623.jpeg",
       "created_at": "2026-10-15T04:11:08.602Z",
-      "updated_at": "2026-10-15T04:11:08.602Z"
+      "updated_at": "2026-10-15T04:11:33.092Z"
     },
     {
       "id": "cd7fdcfd-1744-4e79-913c-47dc68134ab9",
@@ -905,6 +905,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "8e6a2d26-8e86-4be0-b844-fd858a2a9b7b",
+      "item_id": "62333646-b90f-49ba-9b81-64b3d9b0deaa",
+      "item_name": "Tes",
+      "action": "STOCK_IN",
+      "quantity": 12,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-15T04:11:33.092Z"
+    },
     {
       "id": "5099b863-f008-4b48-9ef1-6d8234bc059e",
       "item_id": "62333646-b90f-49ba-9b81-64b3d9b0deaa",
