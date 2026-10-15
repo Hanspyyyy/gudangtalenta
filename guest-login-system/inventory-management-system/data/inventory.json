@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "e1f4789c-e488-4ab5-99dc-af8ebf47fd92",
+      "name": "Ramset sedang (tidak lengkap) hanya tembakan",
+      "size": "Sedang",
+      "category": "Ramset/tembakan",
+      "warehouse": "Gudang 1",
+      "rack": "9 | No 2",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/e1f4789c-e488-4ab5-99dc-af8ebf47fd92-1792041928330.jpeg",
+      "created_at": "2026-10-15T05:25:29.358Z",
+      "updated_at": "2026-10-15T05:25:29.358Z"
+    },
+    {
       "id": "c6b0dedf-350c-4f67-ba4d-b61f36c2f121",
       "name": "Ramset kecil (kuning)",
       "size": "Kecil",
@@ -932,6 +944,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "d1ff3f2f-2fea-4b2c-9da6-bb961291dbc0",
+      "item_id": "e1f4789c-e488-4ab5-99dc-af8ebf47fd92",
+      "item_name": "Ramset sedang (tidak lengkap) hanya tembakan",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-15T05:25:29.358Z"
+    },
     {
       "id": "5e6ff452-da6b-4a9a-955c-07a3026d466e",
       "item_id": "c6b0dedf-350c-4f67-ba4d-b61f36c2f121",
