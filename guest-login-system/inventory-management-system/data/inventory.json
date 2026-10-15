@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "4b465460-ae15-4e16-832d-777787cc37a7",
+      "name": "Senter (besar)",
+      "size": "Besar",
+      "category": "Penerangan",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 9 | NO 3",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/4b465460-ae15-4e16-832d-777787cc37a7-1792048899687.jpeg",
+      "created_at": "2026-10-15T07:21:40.725Z",
+      "updated_at": "2026-10-15T07:21:40.725Z"
+    },
+    {
       "id": "d1f960d1-8b80-41a5-b39b-9ae360672e2e",
       "name": "Tripod laser",
       "size": "-",
@@ -1105,6 +1117,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "3d7ab51e-f96e-4940-adf9-f4eab980fec0",
+      "item_id": "4b465460-ae15-4e16-832d-777787cc37a7",
+      "item_name": "Senter (besar)",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-15T07:21:40.725Z"
+    },
     {
       "id": "0833d443-07d5-49c4-941d-5394f176dcff",
       "item_id": "d1f960d1-8b80-41a5-b39b-9ae360672e2e",
