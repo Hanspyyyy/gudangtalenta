@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "4c429d69-6877-4101-b0fb-f36b7784f2c1",
+      "name": "Alat kompon (8\")",
+      "size": "Besar",
+      "category": "Alat | kompon",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 9 | NO 3",
+      "stock": 3,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/4c429d69-6877-4101-b0fb-f36b7784f2c1-1792046997070.jpeg",
+      "created_at": "2026-10-15T06:49:58.161Z",
+      "updated_at": "2026-10-15T06:49:58.161Z"
+    },
+    {
       "id": "8848fe01-0f34-44df-8ad3-9ddf24f89ef6",
       "name": "Alat membran bakar (besar)",
       "size": "Besar",
@@ -1069,6 +1081,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "3babb3c5-9649-4541-9440-25d63f26e7cb",
+      "item_id": "4c429d69-6877-4101-b0fb-f36b7784f2c1",
+      "item_name": "Alat kompon (8\")",
+      "action": "ADD_ITEM",
+      "quantity": 3,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-15T06:49:58.161Z"
+    },
     {
       "id": "6aed918e-581a-4cfe-a4db-ce64a5ef942c",
       "item_id": "8848fe01-0f34-44df-8ad3-9ddf24f89ef6",
