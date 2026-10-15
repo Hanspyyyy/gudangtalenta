@@ -6,15 +6,24 @@ export type LocalItem = {
   warehouse: string
   rack: string
   stock: number
-  photo: string | null
-  createdAt: string
+  photo_url?: string
+  photo?: string | null
+  created_at?: string
+  updated_at?: string
+  createdAt?: string
 }
 
 export type ActivityLog = {
   id: string
-  type: 'in' | 'out' | 'delete'
-  message: string
-  createdAt: string
+  item_id?: string
+  item_name?: string
+  action?: 'ADD_ITEM' | 'STOCK_IN' | 'STOCK_OUT' | 'TRANSFER' | 'DELETE_ITEM'
+  quantity?: number
+  warehouse?: string
+  timestamp?: string
+  type?: 'in' | 'out' | 'delete'
+  message?: string
+  createdAt?: string
 }
 
 export type InventoryData = {
