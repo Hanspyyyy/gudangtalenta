@@ -750,17 +750,6 @@
       "createdAt": "2026-09-04T09:31:58.983Z"
     },
     {
-      "id": "0ff2b3b1-a209-4fee-8762-3e51ce801fc4",
-      "name": "Lakban kertas",
-      "size": "-",
-      "category": "Lakban",
-      "warehouse": "Gudang 1",
-      "rack": "R5B2",
-      "stock": 2,
-      "photo": "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/0ff2b3b1-a209-4fee-8762-3e51ce801fc4.jpeg",
-      "createdAt": "2026-09-04T09:30:16.409Z"
-    },
-    {
       "id": "21ed48f8-7fe6-4ef4-83b7-c9e4ff99336b",
       "name": "Kunci inggris",
       "size": "-",
@@ -905,6 +894,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "b637d464-10ab-4d12-b07f-4418175c01e4",
+      "item_id": "0ff2b3b1-a209-4fee-8762-3e51ce801fc4",
+      "item_name": "Lakban kertas",
+      "action": "DELETE_ITEM",
+      "quantity": 2,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-15T04:32:30.988Z"
+    },
     {
       "id": "2563969f-fa3f-4cf0-a906-1cf976e5d11d",
       "item_id": "81d2ac96-d00d-48bc-9f1a-b815c80059f8",
