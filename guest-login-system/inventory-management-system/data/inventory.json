@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "c6b0dedf-350c-4f67-ba4d-b61f36c2f121",
+      "name": "Ramset kecil (kuning)",
+      "size": "Kecil",
+      "category": "Ramset/tembakan",
+      "warehouse": "Gudang 1",
+      "rack": "9 | No 2",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/c6b0dedf-350c-4f67-ba4d-b61f36c2f121-1792041855571.jpeg",
+      "created_at": "2026-10-15T05:24:16.591Z",
+      "updated_at": "2026-10-15T05:24:16.591Z"
+    },
+    {
       "id": "3be2bd45-220c-4fc4-b4a4-adc9e56bdead",
       "name": "Ramset sedang (merah)",
       "size": "Sedang",
@@ -920,6 +932,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "5e6ff452-da6b-4a9a-955c-07a3026d466e",
+      "item_id": "c6b0dedf-350c-4f67-ba4d-b61f36c2f121",
+      "item_name": "Ramset kecil (kuning)",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-15T05:24:16.591Z"
+    },
     {
       "id": "bbf147f8-ae38-459f-8117-0ec80f14dc7c",
       "item_id": "3be2bd45-220c-4fc4-b4a4-adc9e56bdead",
