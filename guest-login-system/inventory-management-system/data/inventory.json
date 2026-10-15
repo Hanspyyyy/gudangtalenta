@@ -676,17 +676,6 @@
       "createdAt": "2026-09-14T02:05:06.856Z"
     },
     {
-      "id": "b324235c-a447-4388-b470-bd9dd7c9d2f5",
-      "name": "Helm (hijau)",
-      "size": "L",
-      "category": "Sipil",
-      "warehouse": "Gudang 1",
-      "rack": "Gudang 1A",
-      "stock": 4,
-      "photo": "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/b324235c-a447-4388-b470-bd9dd7c9d2f5.jpeg",
-      "createdAt": "2026-09-13T10:51:41.111Z"
-    },
-    {
       "id": "5793f87a-9703-4838-b602-076917d907ca",
       "name": "Rompi tukang",
       "size": "L",
@@ -1275,6 +1264,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "3939c157-eb4c-40b3-878c-c08967e065ae",
+      "item_id": "b324235c-a447-4388-b470-bd9dd7c9d2f5",
+      "item_name": "Helm (hijau)",
+      "action": "DELETE_ITEM",
+      "quantity": 4,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-15T12:46:12.759Z"
+    },
     {
       "id": "74b63c1e-3e01-403b-ba6a-07861a1620b9",
       "item_id": "64995198-2984-4e69-aa5e-db18cca231b5",
