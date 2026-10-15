@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "9472e8d4-99d3-4b35-95bc-923476306b14",
+      "name": "Helm safety(random/bebas warna)",
+      "size": "Dewasa",
+      "category": "Safety|sipil",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 8 | NO 3",
+      "stock": 11,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/9472e8d4-99d3-4b35-95bc-923476306b14-1792049204416.jpeg",
+      "created_at": "2026-10-15T07:26:45.532Z",
+      "updated_at": "2026-10-15T07:26:45.532Z"
+    },
+    {
       "id": "be5d9f75-a2fe-4def-9cf2-e951c00f93b3",
       "name": "Body Harness",
       "size": "Dewasa",
@@ -1129,6 +1141,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "c17c6fa4-ed04-441e-ac7a-140efc32a051",
+      "item_id": "9472e8d4-99d3-4b35-95bc-923476306b14",
+      "item_name": "Helm safety(random/bebas warna)",
+      "action": "ADD_ITEM",
+      "quantity": 11,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-15T07:26:45.532Z"
+    },
     {
       "id": "6112b223-a63f-451c-bc5a-4d0f40a5cafd",
       "item_id": "be5d9f75-a2fe-4def-9cf2-e951c00f93b3",
