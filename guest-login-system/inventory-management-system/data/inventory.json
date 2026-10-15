@@ -626,9 +626,10 @@
       "category": "Kompresor",
       "warehouse": "Gudang 1",
       "rack": "-",
-      "stock": 1,
+      "stock": 0,
       "photo": "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/64995198-2984-4e69-aa5e-db18cca231b5.jpeg",
-      "createdAt": "2026-09-14T02:12:10.490Z"
+      "createdAt": "2026-09-14T02:12:10.490Z",
+      "updated_at": "2026-10-15T12:46:01.919Z"
     },
     {
       "id": "e1a02ddd-1b28-4ada-99fd-c06a52c2e1e5",
@@ -1274,6 +1275,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "74b63c1e-3e01-403b-ba6a-07861a1620b9",
+      "item_id": "64995198-2984-4e69-aa5e-db18cca231b5",
+      "item_name": "Kompresor (izumi)",
+      "action": "STOCK_OUT",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-15T12:46:01.919Z"
+    },
     {
       "id": "2616ec0b-8ca9-4545-85cc-7c41a0705abb",
       "item_id": "0842b41c-b1e6-4fd0-831e-9d5d61f770e5",
