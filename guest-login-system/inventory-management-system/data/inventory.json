@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "c9d4c38c-501d-44d9-a0c2-29b0afa414d5",
+      "name": "Bor listrik ( merah)",
+      "size": "sedang",
+      "category": "BOR",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 8 | NO 2",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/c9d4c38c-501d-44d9-a0c2-29b0afa414d5-1792042431345.jpeg",
+      "created_at": "2026-10-15T05:33:52.279Z",
+      "updated_at": "2026-10-15T05:33:52.279Z"
+    },
+    {
       "id": "876f6be0-84a2-43f6-94e5-6870d304c780",
       "name": "Katrol",
       "size": "Sedang",
@@ -946,6 +958,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "101d8329-8f0f-44bf-abb8-732f9a1f2350",
+      "item_id": "c9d4c38c-501d-44d9-a0c2-29b0afa414d5",
+      "item_name": "Bor listrik ( merah)",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-15T05:33:52.279Z"
+    },
     {
       "id": "6c83e333-7221-414a-9dcd-e141c7be18e6",
       "item_id": "876f6be0-84a2-43f6-94e5-6870d304c780",
