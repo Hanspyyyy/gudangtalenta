@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "064e3553-0cb0-4e89-b1a8-a419d05f25a8",
+      "name": "Sikat kawat kasar",
+      "size": "Kasar",
+      "category": "Pembersih",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 9 | NO 4",
+      "stock": 2,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/064e3553-0cb0-4e89-b1a8-a419d05f25a8-1792049453802.jpeg",
+      "created_at": "2026-10-15T07:30:54.840Z",
+      "updated_at": "2026-10-15T07:30:54.840Z"
+    },
+    {
       "id": "ec13f13e-26c4-43d7-9a5c-c95401ea2fb2",
       "name": "Gunting baja ringan",
       "size": "Besar",
@@ -1153,6 +1165,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "99f283ef-6af9-4b9b-bf5c-d62bfc14b8f6",
+      "item_id": "064e3553-0cb0-4e89-b1a8-a419d05f25a8",
+      "item_name": "Sikat kawat kasar",
+      "action": "ADD_ITEM",
+      "quantity": 2,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-15T07:30:54.840Z"
+    },
     {
       "id": "799e332d-4964-4419-b95a-77e2df33255f",
       "item_id": "ec13f13e-26c4-43d7-9a5c-c95401ea2fb2",
