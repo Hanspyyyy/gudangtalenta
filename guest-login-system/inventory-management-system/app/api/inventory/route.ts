@@ -40,14 +40,19 @@ export async function POST(req: NextRequest) {
       photoUrl = photo
     }
 
+    const parsedStock = typeof stock === 'number' ? stock : Number(stock ?? 0)
+    if (!Number.isInteger(parsedStock) || parsedStock < 0) {
+      return NextResponse.json({ error: 'Stok harus berupa angka bulat positif' }, { status: 400 })
+    }
+
     const newItem: LocalItem = {
       id,
-      name,
+      name: String(name).trim(),
       size: size || '-',
       category: category || '-',
       warehouse: normalizeWarehouse(warehouse || 'Gudang 1'),
       rack: rack || '-',
-      stock: typeof stock === 'number' ? stock : parseInt(stock || '0', 10),
+      stock: parsedStock,
       photo_url: photoUrl,
       created_at: new Date().toISOString(),
       updated_at: new Date().toISOString(),
@@ -104,8 +109,10 @@ export async function PUT(req: NextRequest) {
       const item = { ...items[idx] }
 
       if (action === 'update_stock') {
-        const diff = (stock || 0) - item.stock
-        item.stock = typeof stock === 'number' ? stock : item.stock
+        const nextStock = typeof stock === 'number' ? stock : Number(stock)
+        if (!Number.isInteger(nextStock) || nextStock < 0) throw new Error('Stok harus berupa angka bulat positif')
+        const diff = nextStock - item.stock
+        item.stock = nextStock
         activities.unshift({
           id: randomUUID(),
           item_id: item.id,
@@ -145,7 +152,43 @@ export async function PUT(req: NextRequest) {
     return NextResponse.json({ item: updatedItem })
   } catch (err: any) {
     console.error('PUT Error:', err)
-    return NextResponse.json({ error: err instanceof Error ? err.message : 'Gagal memperbarui barang' }, { status: 500 })
+    const message = err instanceof Error ? err.message : 'Gagal memperbarui barang'
+    return NextResponse.json({ error: message }, { status: message === 'Stok tidak mencukupi' ? 400 : 500 })
+  }
+}
+
+export async function PATCH(req: NextRequest) {
+  try {
+    const { id, type, quantity } = await req.json()
+    const amount = Number(quantity)
+    if (!id || !['in', 'out'].includes(type) || !Number.isInteger(amount) || amount <= 0) {
+      return NextResponse.json({ error: 'ID, tipe, dan jumlah stok tidak valid' }, { status: 400 })
+    }
+    let updatedItem: LocalItem | null = null
+    await mutateInventory((data) => {
+      const items = [...data.items]
+      const itemIndex = items.findIndex((item) => item.id === String(id))
+      if (itemIndex < 0) return { data, result: null }
+      const item = { ...items[itemIndex] }
+      if (type === 'out' && amount > item.stock) throw new Error('Stok tidak mencukupi')
+      item.stock += type === 'in' ? amount : -amount
+      item.updated_at = new Date().toISOString()
+      items[itemIndex] = item
+      updatedItem = item
+      return {
+        data: {
+          items,
+          activity: [{ id: randomUUID(), item_id: item.id, item_name: item.name, action: type === 'in' ? 'STOCK_IN' : 'STOCK_OUT', quantity: amount, warehouse: item.warehouse, timestamp: new Date().toISOString() }, ...data.activity],
+        },
+        result: item,
+      }
+    })
+    if (!updatedItem) return NextResponse.json({ error: 'Barang tidak ditemukan' }, { status: 404 })
+    return NextResponse.json({ item: updatedItem })
+  } catch (err) {
+    const message = err instanceof Error ? err.message : 'Gagal memperbarui stok'
+    console.error('PATCH Error:', err)
+    return NextResponse.json({ error: message }, { status: message === 'Stok tidak mencukupi' ? 400 : 500 })
   }
 }
 

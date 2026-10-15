@@ -88,16 +88,25 @@ export async function mutateInventory<T>(
   mutator: (data: InventoryData) => { data: InventoryData; result: T }
 ): Promise<T> {
   const run = writeChain.then(async () => {
-    const inventoryFile = await getGitHubFile(FILE_PATH)
-    const current = inventoryFile ? decodeInventory(inventoryFile) : { ...EMPTY }
-    const { data, result } = mutator(current)
+    let lastError: unknown
 
-    if (!inventoryFile) {
-      throw new Error('File inventory tidak tersedia di GitHub')
+    // Always read immediately before writing. Retry once if another writer updated
+    // the GitHub blob between the read and PUT (GitHub returns 409 in that case).
+    for (let attempt = 0; attempt < 2; attempt += 1) {
+      const inventoryFile = await getGitHubFile(FILE_PATH)
+      if (!inventoryFile) throw new Error('File inventory tidak tersedia di GitHub')
+
+      const { data, result } = mutator(decodeInventory(inventoryFile))
+      try {
+        await writeInventory(data, inventoryFile.sha)
+        return result
+      } catch (error) {
+        lastError = error
+        if (!(error instanceof Error) || !error.message.includes('(409)') || attempt === 1) throw error
+      }
     }
 
-    await writeInventory(data, inventoryFile.sha)
-    return result
+    throw lastError instanceof Error ? lastError : new Error('Gagal menyimpan inventaris')
   })
   writeChain = run.then(
     () => undefined,
@@ -110,7 +119,7 @@ export async function uploadPhoto(dataUrl: string, id: string): Promise<string |
   if (!dataUrl) return null
   if (!dataUrl.startsWith('data:')) return dataUrl
   try {
-    const match = dataUrl.match(/^data:([^;]+);base64,(.+)$/s)
+    const match = dataUrl.match(/^data:([^;]+);base64,([\s\S]+)$/)
     if (!match) throw new Error('Format foto tidak valid')
     const [, contentType, content] = match
     const extension = (contentType.split('/')[1] || 'jpeg').replace(/[^a-z0-9]/gi, '')
@@ -152,4 +161,3 @@ export async function deletePhoto(item: LocalItem | undefined): Promise<void> {
   }
 }
 
-export { EMPTY }
