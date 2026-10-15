@@ -49,7 +49,7 @@ export default function LoginPage() {
             </h1>
             <p className="text-sm text-muted-foreground text-pretty">
               Silakan login sebagai Guest untuk melihat daftar barang dan mengecek ketersediaan stok. | Dev. Hakim |
-            </p>a
+            </p>
           </div>
         </div>
 
