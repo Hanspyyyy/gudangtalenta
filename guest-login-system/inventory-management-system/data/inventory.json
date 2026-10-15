@@ -348,17 +348,6 @@
       "createdAt": "2026-09-13T10:45:25.356Z"
     },
     {
-      "id": "8c7d6d40-e059-47c6-80c9-12e03993c3a5",
-      "name": "Tembakan silent",
-      "size": "-",
-      "category": "Silent",
-      "warehouse": "Gudang 1",
-      "rack": "Gudang 1A",
-      "stock": 1,
-      "photo": "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/8c7d6d40-e059-47c6-80c9-12e03993c3a5.jpeg",
-      "createdAt": "2026-09-13T10:43:54.794Z"
-    },
-    {
       "id": "52ff75b7-ffd9-4f31-ace3-6cac50f4f77e",
       "name": "Lampu tembak",
       "size": "-",
@@ -945,6 +934,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "c4fc0ba6-fb4b-4567-89de-4fe36d32697a",
+      "item_id": "8c7d6d40-e059-47c6-80c9-12e03993c3a5",
+      "item_name": "Tembakan silent",
+      "action": "DELETE_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-15T05:29:46.865Z"
+    },
     {
       "id": "452515a6-1357-4c6b-ad62-2d2ab6f59a38",
       "item_id": "9d829d98-7246-4003-8a8f-fccffcb51e96",
