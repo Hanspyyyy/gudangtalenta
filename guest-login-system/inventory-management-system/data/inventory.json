@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "cf3dbebe-8000-4550-b357-a0994e8288f9",
+      "name": "Mesin amplas",
+      "size": "Sedang",
+      "category": "Mesin",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 9 | NO 2",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/cf3dbebe-8000-4550-b357-a0994e8288f9-1792043950596.jpeg",
+      "created_at": "2026-10-15T05:59:11.509Z",
+      "updated_at": "2026-10-15T05:59:11.509Z"
+    },
+    {
       "id": "90e66283-2257-4931-a4aa-4536a77e8f2d",
       "name": "Pembersih kaca(cleaning with)",
       "size": "1 botol kecil",
@@ -1033,6 +1045,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "fdc5186f-f65f-4b21-8326-980a1ada787a",
+      "item_id": "cf3dbebe-8000-4550-b357-a0994e8288f9",
+      "item_name": "Mesin amplas",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-15T05:59:11.510Z"
+    },
     {
       "id": "a3615c30-fc67-407a-92cb-9f9c86103e9f",
       "item_id": "73dab585-bef7-4622-bab9-a9f77af0b6cc",
