@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "b07abb77-a645-4dbb-8f26-4adb8bd56d11",
+      "name": "Tes",
+      "size": "2x12",
+      "category": "Keramik",
+      "warehouse": "Gudang 1",
+      "rack": "-",
+      "stock": 12,
+      "photo_url": "/inventory-photos/b07abb77-a645-4dbb-8f26-4adb8bd56d11-1792037030260.jpeg",
+      "created_at": "2026-10-15T04:03:51.324Z",
+      "updated_at": "2026-10-15T04:03:51.324Z"
+    },
+    {
       "id": "13362d88-d663-4af1-b413-f38ec4e581c7",
       "name": "Tes",
       "size": "-",
@@ -917,6 +929,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "c5a2b86d-15e9-4989-a6ca-9fdd06728385",
+      "item_id": "b07abb77-a645-4dbb-8f26-4adb8bd56d11",
+      "item_name": "Tes",
+      "action": "ADD_ITEM",
+      "quantity": 12,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-15T04:03:51.324Z"
+    },
     {
       "id": "5cda76ca-4bea-411d-aba2-8186960f5c80",
       "item_id": "13362d88-d663-4af1-b413-f38ec4e581c7",
