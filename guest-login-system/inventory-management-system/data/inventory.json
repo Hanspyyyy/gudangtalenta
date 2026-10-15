@@ -1,18 +1,6 @@
 {
   "items": [
     {
-      "id": "62333646-b90f-49ba-9b81-64b3d9b0deaa",
-      "name": "Tes",
-      "size": "2x12",
-      "category": "Keramik",
-      "warehouse": "Gudang 1",
-      "rack": "Gudang 1A",
-      "stock": 0,
-      "photo_url": "https://raw.githubusercontent.com/Hanspyyyy/gudangtalenta/main/guest-login-system/inventory-management-system/public/inventory-photos/62333646-b90f-49ba-9b81-64b3d9b0deaa-1792037467623.jpeg",
-      "created_at": "2026-10-15T04:11:08.602Z",
-      "updated_at": "2026-10-15T04:11:41.448Z"
-    },
-    {
       "id": "cd7fdcfd-1744-4e79-913c-47dc68134ab9",
       "name": "Cat Dulux Catylac exterior (putih888)",
       "size": "5 kg sisa = 3 kg",
@@ -905,6 +893,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "b52204ed-d7df-47db-8867-5192b63dc3e2",
+      "item_id": "62333646-b90f-49ba-9b81-64b3d9b0deaa",
+      "item_name": "Tes",
+      "action": "DELETE_ITEM",
+      "quantity": 0,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-15T04:11:48.669Z"
+    },
     {
       "id": "f660acdc-4ceb-4233-95c6-89959f4834f3",
       "item_id": "62333646-b90f-49ba-9b81-64b3d9b0deaa",
