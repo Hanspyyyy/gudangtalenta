@@ -1013,9 +1013,10 @@
       "category": "Cairan",
       "warehouse": "Gudang 1",
       "rack": "R2B2",
-      "stock": 6,
+      "stock": 1,
       "photo": "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/33ac3474-b3f0-432a-abfc-ee228ce30f85.jpeg",
-      "createdAt": "2026-09-04T12:18:03.241Z"
+      "createdAt": "2026-09-04T12:18:03.241Z",
+      "updated_at": "2026-10-15T12:49:24.670Z"
     },
     {
       "id": "23842759-e94c-4b18-9c4a-e722170d4ea5",
@@ -1266,6 +1267,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "3bef103f-2302-47a4-827c-13a7dde2aea2",
+      "item_id": "33ac3474-b3f0-432a-abfc-ee228ce30f85",
+      "item_name": "cairan nat",
+      "action": "STOCK_OUT",
+      "quantity": 5,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-15T12:49:24.670Z"
+    },
     {
       "id": "e0a9907c-2da1-44e4-99d5-70df65a4cf3f",
       "item_id": "23842759-e94c-4b18-9c4a-e722170d4ea5",
