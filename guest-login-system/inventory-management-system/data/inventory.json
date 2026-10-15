@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "a001b0ea-1f4b-4c53-aa57-9ccd98cb2de9",
+      "name": "Alat Test Pump Manual",
+      "size": "Sedang",
+      "category": "Alat",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 9 | NO 4",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/a001b0ea-1f4b-4c53-aa57-9ccd98cb2de9-1792050190305.jpeg",
+      "created_at": "2026-10-15T07:43:11.487Z",
+      "updated_at": "2026-10-15T07:43:11.487Z"
+    },
+    {
       "id": "2a316c56-f7e8-47c6-95c9-c160894094e0",
       "name": "Mesin celup (biru)",
       "size": "Besar",
@@ -1213,6 +1225,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "b221a171-5ed2-4c9d-b189-827dc7297273",
+      "item_id": "a001b0ea-1f4b-4c53-aa57-9ccd98cb2de9",
+      "item_name": "Alat Test Pump Manual",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-15T07:43:11.487Z"
+    },
     {
       "id": "5a4ca5d6-f71a-4a8d-a788-4b1c929f08ad",
       "item_id": "2a316c56-f7e8-47c6-95c9-c160894094e0",
