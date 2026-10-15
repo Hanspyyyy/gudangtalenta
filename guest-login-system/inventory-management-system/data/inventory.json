@@ -1092,9 +1092,10 @@
       "category": "wpc",
       "warehouse": "Gudang 1",
       "rack": "Lorong",
-      "stock": 72,
+      "stock": 54,
       "photo": "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/e72cc7de-449e-4477-89c1-46778cfb813a.jpeg",
-      "createdAt": "2026-09-04T09:38:26.922Z"
+      "createdAt": "2026-09-04T09:38:26.922Z",
+      "updated_at": "2026-10-15T12:48:47.348Z"
     },
     {
       "id": "3fc9ae89-2888-4057-8295-b2b9d374f637",
@@ -1264,6 +1265,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "c285ab25-b1db-458d-9b65-18f0df81ef00",
+      "item_id": "e72cc7de-449e-4477-89c1-46778cfb813a",
+      "item_name": "Wpc tubes (englis chestnut/ coklat)",
+      "action": "STOCK_OUT",
+      "quantity": 18,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-15T12:48:47.348Z"
+    },
     {
       "id": "3939c157-eb4c-40b3-878c-c08967e065ae",
       "item_id": "b324235c-a447-4388-b470-bd9dd7c9d2f5",
