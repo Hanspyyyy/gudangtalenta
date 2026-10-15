@@ -34,8 +34,7 @@ export async function POST(req: NextRequest) {
     let photoUrl = ''
 
     if (photo && typeof photo === 'string' && photo.startsWith('data:')) {
-      const uploaded = await uploadPhoto(photo, id)
-      photoUrl = uploaded || ''
+      photoUrl = await uploadPhoto(photo, id)
     } else if (typeof photo === 'string') {
       photoUrl = photo
     }
@@ -92,7 +91,7 @@ export async function PUT(req: NextRequest) {
 
     if (!id) return NextResponse.json({ error: 'ID tidak ditemukan' }, { status: 400 })
     if (photo && typeof photo === 'string' && photo.startsWith('data:')) {
-      updates.photo_url = (await uploadPhoto(photo, id)) || ''
+      updates.photo_url = await uploadPhoto(photo, id)
     } else if (typeof photo === 'string') {
       updates.photo_url = photo
     }

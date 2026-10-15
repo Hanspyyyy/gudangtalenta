@@ -68,7 +68,7 @@ export function DashboardLive({
                 onClick={() => setSelected(item)}
                 className="flex items-center gap-3 rounded-xl border bg-card p-3 text-left transition-colors hover:bg-secondary"
               >
-                <ProductImage src={item.photo} alt="" className="size-12 shrink-0 rounded-lg" />
+                <ProductImage src={item.photo_url ?? item.photo} alt="" className="size-12 shrink-0 rounded-lg" />
                 <div className="min-w-0">
                   <p className="truncate font-medium">{item.name}</p>
                   <p className="truncate text-xs text-muted-foreground">
