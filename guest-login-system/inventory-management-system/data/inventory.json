@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "bbcacc61-7d52-4a88-9ec8-6e709010b969",
+      "name": "Tes gambar 2",
+      "size": "2x12",
+      "category": "Keramik",
+      "warehouse": "Gudang 1",
+      "rack": "12",
+      "stock": 13,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/bbcacc61-7d52-4a88-9ec8-6e709010b969-1792037873319.jpeg",
+      "created_at": "2026-10-15T04:17:54.622Z",
+      "updated_at": "2026-10-15T04:17:54.622Z"
+    },
+    {
       "id": "81d2ac96-d00d-48bc-9f1a-b815c80059f8",
       "name": "Tes gambar yang lain udah oke",
       "size": "2x12",
@@ -905,6 +917,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "696d007d-7f00-4ad4-9637-472c305dd53e",
+      "item_id": "bbcacc61-7d52-4a88-9ec8-6e709010b969",
+      "item_name": "Tes gambar 2",
+      "action": "ADD_ITEM",
+      "quantity": 13,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-15T04:17:54.622Z"
+    },
     {
       "id": "0d39cdde-3b7d-4cdc-9235-4fd720916aea",
       "item_id": "81d2ac96-d00d-48bc-9f1a-b815c80059f8",
