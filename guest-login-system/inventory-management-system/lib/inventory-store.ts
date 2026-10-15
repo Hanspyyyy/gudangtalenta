@@ -8,7 +8,7 @@ type GitHubFile = {
 }
 
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN
-const REPO_OWNER = 'Hanspyyy'
+const REPO_OWNER = 'Hanspyyyy'
 const REPO_NAME = 'gudangtalenta'
 const ROOT_PATH = 'guest-login-system/inventory-management-system'
 const FILE_PATH = `${ROOT_PATH}/data/inventory.json`
