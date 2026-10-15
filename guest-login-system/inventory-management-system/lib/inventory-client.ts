@@ -75,12 +75,12 @@ export async function adjustItemStock(id: string, type: 'in' | 'out', quantity: 
   }
 }
 
-export async function deleteItem(id: string): Promise<MutationResult> {
+export async function deleteItem(id: string | undefined, name: string): Promise<MutationResult> {
   try {
     const res = await fetch(KEY, {
       method: 'DELETE',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ id }),
+      body: JSON.stringify({ id, name }),
     })
     if (!res.ok) return { ok: false, error: await parseError(res) }
     await refreshInventory()

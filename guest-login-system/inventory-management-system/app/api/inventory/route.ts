@@ -195,19 +195,21 @@ export async function PATCH(req: NextRequest) {
 export async function DELETE(req: NextRequest) {
   try {
     const { searchParams } = new URL(req.url)
-    const id = searchParams.get('id')
+    const body = await req.json().catch(() => ({}))
+    const id = searchParams.get('id') || (typeof body.id === 'string' ? body.id : '')
+    const name = searchParams.get('name') || (typeof body.name === 'string' ? body.name.trim() : '')
 
-    if (!id) {
-      return NextResponse.json({ error: 'ID tidak ditemukan' }, { status: 400 })
+    if (!id && !name) {
+      return NextResponse.json({ error: 'ID atau nama barang wajib diisi' }, { status: 400 })
     }
 
     const current = await readInventory()
-    const itemToDelete = current.items.find((i) => i.id === id)
+    const itemToDelete = current.items.find((item) => (id && item.id === id) || (!item.id && name && item.name === name))
     if (!itemToDelete) return NextResponse.json({ error: 'Barang tidak ditemukan' }, { status: 404 })
     await deletePhoto(itemToDelete)
 
     await mutateInventory((data) => {
-      const filteredItems = data.items.filter((i) => i.id !== id)
+      const filteredItems = data.items.filter((item) => item !== itemToDelete && !(id && item.id === id) && !(!item.id && name && item.name === name))
 
       const log: ActivityLog | null = itemToDelete
         ? {

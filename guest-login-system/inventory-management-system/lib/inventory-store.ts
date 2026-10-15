@@ -130,7 +130,7 @@ export async function uploadPhoto(dataUrl: string, id: string): Promise<string |
       body: JSON.stringify({ message: `Upload photo ${fileName}`, content, branch: BRANCH }),
     })
     if (!response.ok) throw new Error(`Gagal upload foto ke GitHub (${response.status})`)
-    return `/inventory-photos/${fileName}`
+    return `https://raw.githubusercontent.com/${REPO_OWNER}/${REPO_NAME}/${BRANCH}/${PHOTO_PATH}/${fileName}`
   } catch (err) {
     console.error('Error uploadPhoto:', err)
     return null
