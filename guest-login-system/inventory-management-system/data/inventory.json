@@ -337,17 +337,6 @@
       "createdAt": "2026-09-13T10:50:58.934Z"
     },
     {
-      "id": "9d829d98-7246-4003-8a8f-fccffcb51e96",
-      "name": "Gergaji hebel",
-      "size": "-",
-      "category": "Gergaji",
-      "warehouse": "Gudang 1",
-      "rack": "Gudang 1A",
-      "stock": 2,
-      "photo": "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/9d829d98-7246-4003-8a8f-fccffcb51e96.jpeg",
-      "createdAt": "2026-09-13T10:47:43.179Z"
-    },
-    {
       "id": "23539032-42db-41cc-af17-2bdde6c95648",
       "name": "Laser tembak",
       "size": "-",
@@ -956,6 +945,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "452515a6-1357-4c6b-ad62-2d2ab6f59a38",
+      "item_id": "9d829d98-7246-4003-8a8f-fccffcb51e96",
+      "item_name": "Gergaji hebel",
+      "action": "DELETE_ITEM",
+      "quantity": 2,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-15T05:29:37.954Z"
+    },
     {
       "id": "94eedcbf-64ac-45cb-aca6-bba7090b3174",
       "item_id": "8bcec4f9-04f9-4f32-a4cd-db1fc42e5cb7",
