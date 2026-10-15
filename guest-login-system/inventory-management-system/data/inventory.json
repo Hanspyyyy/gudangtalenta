@@ -746,9 +746,10 @@
       "category": "Bakar",
       "warehouse": "Gudang 1",
       "rack": "WS",
-      "stock": 1,
+      "stock": 0,
       "photo": "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/48846936-1e29-4b09-ac5c-ca7d231d0a29.jpeg",
-      "createdAt": "2026-09-04T09:31:58.983Z"
+      "createdAt": "2026-09-04T09:31:58.983Z",
+      "updated_at": "2026-10-15T04:33:10.925Z"
     },
     {
       "id": "21ed48f8-7fe6-4ef4-83b7-c9e4ff99336b",
@@ -895,6 +896,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "04d59b5d-cc9f-40b1-bb24-7f1754f49a29",
+      "item_id": "48846936-1e29-4b09-ac5c-ca7d231d0a29",
+      "item_name": "Tabung gas",
+      "action": "STOCK_OUT",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-15T04:33:10.926Z"
+    },
     {
       "id": "8330fea0-44b3-429c-b403-e04b9afae791",
       "item_id": "18b1dee5-2a17-41db-9822-7d4bd8270d84",
