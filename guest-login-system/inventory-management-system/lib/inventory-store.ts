@@ -129,11 +129,14 @@ export async function uploadPhoto(dataUrl: string, id: string): Promise<string |
       headers: { ...githubHeaders(), 'Content-Type': 'application/json' },
       body: JSON.stringify({ message: `Upload photo ${fileName}`, content, branch: BRANCH }),
     })
-    if (!response.ok) throw new Error(`Gagal upload foto ke GitHub (${response.status})`)
+    if (!response.ok) {
+      const details = await response.text().catch(() => '')
+      throw new Error(`Gagal upload foto ke GitHub (${response.status}): ${details || response.statusText}`)
+    }
     return `https://cdn.jsdelivr.net/gh/${REPO_OWNER}/${REPO_NAME}@${BRANCH}/${PHOTO_PATH}/${fileName}`
   } catch (err) {
     console.error('Error uploadPhoto:', err)
-    return null
+    return dataUrl
   }
 }
 

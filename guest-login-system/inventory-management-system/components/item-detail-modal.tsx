@@ -109,7 +109,7 @@ export function ItemDetailModal({ item, isAdmin, onClose }: { item: LocalItem | 
             <X className="size-5" />
           </button>
         </div>
-        <ProductImage src={item.photo} alt={item.name} className="mt-4 h-48 w-full rounded-2xl" />
+        <ProductImage src={item.photo_url ?? item.photo} alt={item.name} className="mt-4 h-48 w-full rounded-2xl" />
         <h3 className="mt-4 text-xl font-semibold">{item.name}</h3>
         <dl className="mt-4 grid grid-cols-2 gap-3 text-sm">
           <Detail label="Kategori" value={item.category} />
