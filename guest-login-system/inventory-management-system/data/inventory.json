@@ -701,9 +701,10 @@
       "category": "-",
       "warehouse": "Gudang 1",
       "rack": "LT 3",
-      "stock": 2,
+      "stock": 0,
       "photo": "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/18b1dee5-2a17-41db-9822-7d4bd8270d84.jpeg",
-      "createdAt": "2026-09-04T09:45:49.419Z"
+      "createdAt": "2026-09-04T09:45:49.419Z",
+      "updated_at": "2026-10-15T04:32:57.261Z"
     },
     {
       "id": "3d2eeccc-9a27-4a44-b578-3a5b58c55447",
@@ -894,6 +895,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "8330fea0-44b3-429c-b403-e04b9afae791",
+      "item_id": "18b1dee5-2a17-41db-9822-7d4bd8270d84",
+      "item_name": "Galon",
+      "action": "STOCK_OUT",
+      "quantity": 2,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-15T04:32:57.261Z"
+    },
     {
       "id": "b637d464-10ab-4d12-b07f-4418175c01e4",
       "item_id": "0ff2b3b1-a209-4fee-8762-3e51ce801fc4",
