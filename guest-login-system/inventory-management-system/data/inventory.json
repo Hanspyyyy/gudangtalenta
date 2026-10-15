@@ -1024,9 +1024,10 @@
       "category": "Kain",
       "warehouse": "Gudang 1",
       "rack": "Dalam gudang B2",
-      "stock": 40,
+      "stock": 30,
       "photo": "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/23842759-e94c-4b18-9c4a-e722170d4ea5.jpeg",
-      "createdAt": "2026-09-04T11:07:55.101Z"
+      "createdAt": "2026-09-04T11:07:55.101Z",
+      "updated_at": "2026-10-15T12:49:14.211Z"
     },
     {
       "id": "59181aed-563c-42fc-8393-d8387c0be99d",
@@ -1265,6 +1266,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "e0a9907c-2da1-44e4-99d5-70df65a4cf3f",
+      "item_id": "23842759-e94c-4b18-9c4a-e722170d4ea5",
+      "item_name": "Kain ball kain majun",
+      "action": "STOCK_OUT",
+      "quantity": 10,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-15T12:49:14.211Z"
+    },
     {
       "id": "c285ab25-b1db-458d-9b65-18f0df81ef00",
       "item_id": "e72cc7de-449e-4477-89c1-46778cfb813a",
