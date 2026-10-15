@@ -12,11 +12,15 @@ export function ProductImage({
   className?: string
   iconClassName?: string
 }) {
-  if (src) {
+  const imageSrc = src?.startsWith('/inventory-photos/')
+    ? `https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public${src}`
+    : src
+
+  if (imageSrc) {
     return (
       // eslint-disable-next-line @next/next/no-img-element
       <img
-        src={src || '/placeholder.svg'}
+        src={imageSrc}
         alt={alt}
         className={cn('object-cover', className)}
         loading="lazy"

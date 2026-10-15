@@ -3,6 +3,7 @@ import { useMemo, useState } from 'react'
 import { Package, Tags, Warehouse, Grid3x3 } from 'lucide-react'
 import { StatCard } from '@/components/dashboard/stat-card'
 import { ItemDetailModal } from '@/components/item-detail-modal'
+import { ProductImage } from '@/components/product-image'
 import { useInventory, type LocalItem } from '@/lib/inventory-client'
 
 const WAREHOUSES = ['Gudang 1', 'Gudang 2']
@@ -67,9 +68,7 @@ export function DashboardLive({
                 onClick={() => setSelected(item)}
                 className="flex items-center gap-3 rounded-xl border bg-card p-3 text-left transition-colors hover:bg-secondary"
               >
-                <div className="size-12 shrink-0 overflow-hidden rounded-lg bg-secondary">
-                  <img src={item.photo || '/placeholder.svg'} alt="" className="size-full object-cover" />
-                </div>
+                <ProductImage src={item.photo} alt="" className="size-12 shrink-0 rounded-lg" />
                 <div className="min-w-0">
                   <p className="truncate font-medium">{item.name}</p>
                   <p className="truncate text-xs text-muted-foreground">
