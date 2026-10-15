@@ -7,10 +7,10 @@
       "category": "Safety|sipil",
       "warehouse": "Gudang 1",
       "rack": "1A | 8 | NO 4",
-      "stock": 1,
+      "stock": 2,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/e35aa173-a5fc-4b11-a20e-889f5c53388c-1792050955370.jpeg",
       "created_at": "2026-10-15T07:55:56.414Z",
-      "updated_at": "2026-10-15T07:55:56.414Z"
+      "updated_at": "2026-10-15T07:56:47.501Z"
     },
     {
       "id": "f31118ac-1697-471c-aa5f-6a34f5cc2fe0",
@@ -1273,6 +1273,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "1b4c6317-0815-4881-8ee8-c4a63e31edc4",
+      "item_id": "e35aa173-a5fc-4b11-a20e-889f5c53388c",
+      "item_name": "webbing sling (tali pengangkat/pengikat beban berbahan poliester)",
+      "action": "STOCK_IN",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-15T07:56:47.501Z"
+    },
     {
       "id": "d3593e52-9b9b-4a23-84f0-672876a25084",
       "item_id": "e35aa173-a5fc-4b11-a20e-889f5c53388c",
