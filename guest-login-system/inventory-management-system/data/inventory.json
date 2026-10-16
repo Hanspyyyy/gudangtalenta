@@ -461,9 +461,10 @@
       "category": "Dinabold",
       "warehouse": "Gudang 1",
       "rack": "-",
-      "stock": 10,
+      "stock": 0,
       "photo": "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/348e5ac2-7fee-4c87-b385-2a961b88b6cc.jpeg",
-      "createdAt": "2026-09-14T03:29:15.340Z"
+      "createdAt": "2026-09-14T03:29:15.340Z",
+      "updated_at": "2026-10-16T12:04:38.609Z"
     },
     {
       "id": "4c2fd9ac-7f3b-43b2-9560-b3d91410a902",
@@ -1270,6 +1271,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "6be8fe0a-a54d-4f18-ac8c-dad6968225af",
+      "item_id": "348e5ac2-7fee-4c87-b385-2a961b88b6cc",
+      "item_name": "Dina bold ( M10 x 77)",
+      "action": "STOCK_OUT",
+      "quantity": 10,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-16T12:04:38.609Z"
+    },
     {
       "id": "4dca0bbd-923d-4731-a86a-d92831f7ecda",
       "item_id": "f5f27fbb-fd44-4c3a-a38b-3d8db10ddaf9",
