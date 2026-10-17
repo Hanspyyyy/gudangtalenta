@@ -31,10 +31,10 @@
       "category": "Veneer tebal",
       "warehouse": "Gudang 1",
       "rack": "1A",
-      "stock": 2,
+      "stock": 5,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/adc34f96-4593-45f7-bbcf-95000eb8e157-1792209934389.jpeg",
       "created_at": "2026-10-17T04:05:35.541Z",
-      "updated_at": "2026-10-17T04:19:33.044Z"
+      "updated_at": "2026-10-17T04:32:35.372Z"
     },
     {
       "id": "56c094f6-6037-4a65-9969-b72125819b16",
@@ -1367,6 +1367,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "9bb3c993-0110-4d57-9390-0f369c21edac",
+      "item_id": "adc34f96-4593-45f7-bbcf-95000eb8e157",
+      "item_name": "Veneer fantasi playwood (Plywood Fancy Veneer Kayu Oak Merah)",
+      "action": "STOCK_IN",
+      "quantity": 3,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-17T04:32:35.372Z"
+    },
     {
       "id": "3a28c21a-a225-4d18-846b-4286e0f487b6",
       "item_id": "8137bc34-8c2e-427c-bf3c-84e026f08fcf",
