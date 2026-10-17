@@ -75,6 +75,21 @@ export async function updateItemName(id: string | undefined, name: string): Prom
   }
 }
 
+export async function updateItemRack(id: string | undefined, rack: string): Promise<MutationResult> {
+  try {
+    const res = await fetch(KEY, {
+      method: 'PATCH',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ id, rack }),
+    })
+    if (!res.ok) return { ok: false, error: await parseError(res) }
+    await refreshInventory()
+    return { ok: true }
+  } catch {
+    return { ok: false, error: 'Gagal terhubung ke server.' }
+  }
+}
+
 export async function adjustItemStock(id: string, type: 'in' | 'out', quantity: number): Promise<MutationResult> {
   try {
     const res = await fetch(KEY, {
