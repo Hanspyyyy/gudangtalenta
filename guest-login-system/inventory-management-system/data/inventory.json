@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "50207f80-c579-4e86-ab88-32b143c6b367",
+      "name": "Busa spon kuning",
+      "size": "100x150x2",
+      "category": "Spons",
+      "warehouse": "Gudang 1",
+      "rack": "1A",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/50207f80-c579-4e86-ab88-32b143c6b367-1792215657956.jpeg",
+      "created_at": "2026-10-17T05:40:58.892Z",
+      "updated_at": "2026-10-17T05:40:58.892Z"
+    },
+    {
       "id": "72ed6857-3445-4f2a-afaf-1a2c1a70fa1d",
       "name": "body kunci pintu (mortise lock) bukan bulat",
       "size": "16x6mm",
@@ -1511,6 +1523,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "e98c473a-7bb6-46a4-b85a-67025d9aaaf0",
+      "item_id": "50207f80-c579-4e86-ab88-32b143c6b367",
+      "item_name": "Busa spon kuning",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-17T05:40:58.892Z"
+    },
     {
       "id": "60c60dab-560a-4a0b-98f7-87c4e1d10651",
       "item_id": "72ed6857-3445-4f2a-afaf-1a2c1a70fa1d",
