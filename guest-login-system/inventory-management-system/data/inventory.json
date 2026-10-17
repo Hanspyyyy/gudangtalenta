@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "6d12b4d5-11cd-4b69-9fdf-48d5863dd355",
+      "name": "Veneer beige oak 3100",
+      "size": "120x240",
+      "category": "Veneer tebal",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 8 | NO 1",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/6d12b4d5-11cd-4b69-9fdf-48d5863dd355-1792220429994.jpeg",
+      "created_at": "2026-10-17T07:00:30.823Z",
+      "updated_at": "2026-10-17T07:00:30.823Z"
+    },
+    {
       "id": "6cdc0e71-b517-47da-96c8-c942a5113ea5",
       "name": "Veneer 4 warna (yang pernah di pajang di ruang meet)",
       "size": "120x240",
@@ -1787,6 +1799,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "0840ad47-293a-4b27-b2f5-9afbeb06305d",
+      "item_id": "6d12b4d5-11cd-4b69-9fdf-48d5863dd355",
+      "item_name": "Veneer beige oak 3100",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-17T07:00:30.823Z"
+    },
     {
       "id": "5d13a709-6b93-4b73-8a05-510d32023bd8",
       "item_id": "42cd1d30-2f28-4bed-a1d4-391b01a28866",
