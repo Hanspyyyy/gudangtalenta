@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "a1ba55f2-8c05-4f16-965f-1036ef69fadf",
+      "name": "Vener x 2 warna juga motip pantasi",
+      "size": "120x210",
+      "category": "Veneer tebal",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 8 | NO 1",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/a1ba55f2-8c05-4f16-965f-1036ef69fadf-1792218425581.jpeg",
+      "created_at": "2026-10-17T06:27:06.407Z",
+      "updated_at": "2026-10-17T06:27:06.407Z"
+    },
+    {
       "id": "200fb535-c641-4f66-aa49-8f6e327c1370",
       "name": "Veneer x (cirinya 2 warna)",
       "size": "120x240",
@@ -1643,6 +1655,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "a78e3064-0e2f-4fd1-839f-9079a30f3fac",
+      "item_id": "a1ba55f2-8c05-4f16-965f-1036ef69fadf",
+      "item_name": "Vener x 2 warna juga motip pantasi",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-17T06:27:06.407Z"
+    },
     {
       "id": "f7e8e40f-8a29-4359-a3f5-9c86fc2a79b8",
       "item_id": "200fb535-c641-4f66-aa49-8f6e327c1370",
