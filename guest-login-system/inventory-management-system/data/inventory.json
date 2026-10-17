@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "16f846ea-454d-48ea-95e9-019ca95e5650",
+      "name": "Mesin vakum (brisik doang kaga nyedot)",
+      "size": "Sedang",
+      "category": "Mesin",
+      "warehouse": "Gudang 1",
+      "rack": "1A",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/16f846ea-454d-48ea-95e9-019ca95e5650-1792215846713.jpeg",
+      "created_at": "2026-10-17T05:44:07.922Z",
+      "updated_at": "2026-10-17T05:44:07.922Z"
+    },
+    {
       "id": "995ee3ed-09e4-49b2-b175-55cbdec753fd",
       "name": "Mesin gosok (marmer/kramik)",
       "size": "Besar",
@@ -1535,6 +1547,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "5736ec2c-3d26-42f4-9a74-abc55dba565b",
+      "item_id": "16f846ea-454d-48ea-95e9-019ca95e5650",
+      "item_name": "Mesin vakum (brisik doang kaga nyedot)",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-17T05:44:07.922Z"
+    },
     {
       "id": "93c0f1ab-12b8-488c-9d09-6b65355d795d",
       "item_id": "995ee3ed-09e4-49b2-b175-55cbdec753fd",
