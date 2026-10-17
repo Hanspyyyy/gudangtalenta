@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "42cd1d30-2f28-4bed-a1d4-391b01a28866",
+      "name": "Veneer x mungkin uniq",
+      "size": "120x240",
+      "category": "Veneer tebal",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 8 | NO 1",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/42cd1d30-2f28-4bed-a1d4-391b01a28866-1792217886340.jpeg",
+      "created_at": "2026-10-17T06:18:07.438Z",
+      "updated_at": "2026-10-17T06:18:07.438Z"
+    },
+    {
       "id": "f4b6cac0-a8ea-4263-a3c1-fc7cf9648c3f",
       "name": "Zet power (shimizu)",
       "size": "Sedang",
@@ -1595,6 +1607,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "0315f0d1-7ce5-492c-8d8f-17444cdff1fc",
+      "item_id": "42cd1d30-2f28-4bed-a1d4-391b01a28866",
+      "item_name": "Veneer x mungkin uniq",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-17T06:18:07.438Z"
+    },
     {
       "id": "5e28e599-c8e3-4647-ac1a-8109dcd37e97",
       "item_id": "f4b6cac0-a8ea-4263-a3c1-fc7cf9648c3f",
