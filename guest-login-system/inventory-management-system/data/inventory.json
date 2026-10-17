@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "644e7748-82f0-4889-88fa-c1ade9b5b16b",
+      "name": "Vener x coklat",
+      "size": "120x240",
+      "category": "Vene",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 8 | NO 1",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/644e7748-82f0-4889-88fa-c1ade9b5b16b-1792218556003.jpeg",
+      "created_at": "2026-10-17T06:29:16.876Z",
+      "updated_at": "2026-10-17T06:29:16.876Z"
+    },
+    {
       "id": "a1ba55f2-8c05-4f16-965f-1036ef69fadf",
       "name": "Vener x 2 warna juga motip pantasi",
       "size": "120x210",
@@ -1655,6 +1667,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "120f8145-9fbb-4431-9443-4b9c9cd4bf73",
+      "item_id": "644e7748-82f0-4889-88fa-c1ade9b5b16b",
+      "item_name": "Vener x coklat",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-17T06:29:16.876Z"
+    },
     {
       "id": "a78e3064-0e2f-4fd1-839f-9079a30f3fac",
       "item_id": "a1ba55f2-8c05-4f16-965f-1036ef69fadf",
