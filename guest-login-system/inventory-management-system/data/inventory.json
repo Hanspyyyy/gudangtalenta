@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "6cdc0e71-b517-47da-96c8-c942a5113ea5",
+      "name": "Veneer 4 warna (yang pernah di pajang di ruang meet)",
+      "size": "120x240",
+      "category": "Veneer tebal",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 8 | NO 1",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/6cdc0e71-b517-47da-96c8-c942a5113ea5-1792220274187.jpeg",
+      "created_at": "2026-10-17T06:57:55.126Z",
+      "updated_at": "2026-10-17T06:57:55.126Z"
+    },
+    {
       "id": "961b68e5-b3b7-4614-85ba-88e6dc828166",
       "name": "Veneer x",
       "size": "120x210",
@@ -1775,6 +1787,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "708ae1d2-6d83-43a1-9572-f18d6fcd7d5e",
+      "item_id": "6cdc0e71-b517-47da-96c8-c942a5113ea5",
+      "item_name": "Veneer 4 warna (yang pernah di pajang di ruang meet)",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-17T06:57:55.126Z"
+    },
     {
       "id": "1226660c-d45b-4a85-b7c1-518663df1c9e",
       "item_id": "961b68e5-b3b7-4614-85ba-88e6dc828166",
