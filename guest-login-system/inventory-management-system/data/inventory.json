@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "45828c20-d5c3-43b2-84a0-0b3ed83d229f",
+      "name": "Vener x 2 warna",
+      "size": "120x210",
+      "category": "Veneer tebal",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 8 | NO 1",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/45828c20-d5c3-43b2-84a0-0b3ed83d229f-1792218888585.jpeg",
+      "created_at": "2026-10-17T06:34:49.444Z",
+      "updated_at": "2026-10-17T06:34:49.444Z"
+    },
+    {
       "id": "644e7748-82f0-4889-88fa-c1ade9b5b16b",
       "name": "Vener x coklat",
       "size": "120x240",
@@ -1667,6 +1679,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "6706288e-0921-4e35-9d4a-496e5998c43e",
+      "item_id": "45828c20-d5c3-43b2-84a0-0b3ed83d229f",
+      "item_name": "Vener x 2 warna",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-17T06:34:49.444Z"
+    },
     {
       "id": "120f8145-9fbb-4431-9443-4b9c9cd4bf73",
       "item_id": "644e7748-82f0-4889-88fa-c1ade9b5b16b",
