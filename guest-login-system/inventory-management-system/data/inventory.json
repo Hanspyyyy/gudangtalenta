@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "91f8e05b-722a-49d4-b470-3cb52a4b27cc",
+      "name": "Veneer walnut kembang",
+      "size": "120x240",
+      "category": "Veneer tebal",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 8 | NO 1",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/91f8e05b-722a-49d4-b470-3cb52a4b27cc-1792220569468.jpeg",
+      "created_at": "2026-10-17T07:02:50.293Z",
+      "updated_at": "2026-10-17T07:02:50.293Z"
+    },
+    {
       "id": "6d12b4d5-11cd-4b69-9fdf-48d5863dd355",
       "name": "Veneer beige oak 3100",
       "size": "120x240",
@@ -1799,6 +1811,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "e5d6c118-40e7-4759-948a-21730533ec45",
+      "item_id": "91f8e05b-722a-49d4-b470-3cb52a4b27cc",
+      "item_name": "Veneer walnut kembang",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-17T07:02:50.293Z"
+    },
     {
       "id": "0840ad47-293a-4b27-b2f5-9afbeb06305d",
       "item_id": "6d12b4d5-11cd-4b69-9fdf-48d5863dd355",
