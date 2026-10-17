@@ -31,10 +31,10 @@
       "category": "Veneer tebal",
       "warehouse": "Gudang 1",
       "rack": "1A | 7 | NO 2",
-      "stock": 11,
+      "stock": 13,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/3cba5e0d-a078-4e7a-8fc9-6f97c754be25-1792212298380.jpeg",
       "created_at": "2026-10-17T04:44:59.177Z",
-      "updated_at": "2026-10-17T04:44:59.177Z"
+      "updated_at": "2026-10-17T04:52:59.453Z"
     },
     {
       "id": "8137bc34-8c2e-427c-bf3c-84e026f08fcf",
@@ -1403,6 +1403,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "e5402194-ef52-49d6-8697-9fab2d38ed50",
+      "item_id": "3cba5e0d-a078-4e7a-8fc9-6f97c754be25",
+      "item_name": "Veneer valencia walnut (3mm)",
+      "action": "STOCK_IN",
+      "quantity": 2,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-17T04:52:59.453Z"
+    },
     {
       "id": "c83bb03d-69bf-4a35-9345-47371d6e587c",
       "item_id": "acf957c0-5b98-4637-abf2-14ab72a52bb9",
