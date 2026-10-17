@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "f478cc78-eb21-44ae-a8cf-1335a73c7f3c",
+      "name": "Vener x",
+      "size": "120x240",
+      "category": "Veneer tebal",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 8 | NO 1",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/f478cc78-eb21-44ae-a8cf-1335a73c7f3c-1792220904987.jpeg",
+      "created_at": "2026-10-17T07:08:26.084Z",
+      "updated_at": "2026-10-17T07:08:26.084Z"
+    },
+    {
       "id": "11d6c044-7d0e-418a-9098-a98aafc42106",
       "name": "Veneer x blue",
       "size": "120x240",
@@ -1835,6 +1847,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "9738da93-11b3-4d9d-ba04-0c80ce65c376",
+      "item_id": "f478cc78-eb21-44ae-a8cf-1335a73c7f3c",
+      "item_name": "Vener x",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-17T07:08:26.084Z"
+    },
     {
       "id": "7c49d982-b27b-4a8b-a038-480abc12859b",
       "item_id": "11d6c044-7d0e-418a-9098-a98aafc42106",
