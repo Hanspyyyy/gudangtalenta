@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "995ee3ed-09e4-49b2-b175-55cbdec753fd",
+      "name": "Mesin gosok (marmer/kramik)",
+      "size": "Besar",
+      "category": "Mesin",
+      "warehouse": "Gudang 1",
+      "rack": "1A",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/995ee3ed-09e4-49b2-b175-55cbdec753fd-1792215779934.jpeg",
+      "created_at": "2026-10-17T05:43:00.771Z",
+      "updated_at": "2026-10-17T05:43:00.771Z"
+    },
+    {
       "id": "50207f80-c579-4e86-ab88-32b143c6b367",
       "name": "Busa spon kuning",
       "size": "100x150x2",
@@ -1523,6 +1535,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "93c0f1ab-12b8-488c-9d09-6b65355d795d",
+      "item_id": "995ee3ed-09e4-49b2-b175-55cbdec753fd",
+      "item_name": "Mesin gosok (marmer/kramik)",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-17T05:43:00.771Z"
+    },
     {
       "id": "e98c473a-7bb6-46a4-b85a-67025d9aaaf0",
       "item_id": "50207f80-c579-4e86-ab88-32b143c6b367",
