@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "0dda772e-76a4-4b83-849f-989d28bc0e1d",
+      "name": "Veneer tipis walnut brul new",
+      "size": "240x80x1",
+      "category": "Veneer tipis",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 8 | NO 1",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/0dda772e-76a4-4b83-849f-989d28bc0e1d-1792225099257.jpeg",
+      "created_at": "2026-10-17T08:18:20.079Z",
+      "updated_at": "2026-10-17T08:18:20.079Z"
+    },
+    {
       "id": "636f3830-46cf-4255-9567-0794d658c5d7",
       "name": "Veneer tipis (valencia walnut)",
       "size": "240x80x1",
@@ -1979,6 +1991,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "7c983726-6f70-4fb7-9ef1-032103ec40df",
+      "item_id": "0dda772e-76a4-4b83-849f-989d28bc0e1d",
+      "item_name": "Veneer tipis walnut brul new",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-17T08:18:20.079Z"
+    },
     {
       "id": "6a137763-406e-48f9-8796-4deea442e3ba",
       "item_id": "636f3830-46cf-4255-9567-0794d658c5d7",
