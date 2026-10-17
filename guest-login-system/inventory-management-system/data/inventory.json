@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "8d213915-303a-4443-8d6e-f37035e0a661",
+      "name": "Veneer tipis X (X= engga tau teh) kayanya fantasi",
+      "size": "240x80x1",
+      "category": "Veneer tipis",
+      "warehouse": "Gudang 1",
+      "rack": "1A",
+      "stock": 5,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/8d213915-303a-4443-8d6e-f37035e0a661-1792228615699.jpeg",
+      "created_at": "2026-10-17T09:16:56.493Z",
+      "updated_at": "2026-10-17T09:16:56.493Z"
+    },
+    {
       "id": "7263bf8a-dea2-44d2-aca4-28b07869b348",
       "name": "Vener tipis taupe lacewood",
       "size": "240x80x1mm",
@@ -2099,6 +2111,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "e67e3d5b-8fc9-445b-a96a-3464299a7891",
+      "item_id": "8d213915-303a-4443-8d6e-f37035e0a661",
+      "item_name": "Veneer tipis X (X= engga tau teh) kayanya fantasi",
+      "action": "ADD_ITEM",
+      "quantity": 5,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-17T09:16:56.493Z"
+    },
     {
       "id": "e9c1eeab-e256-40bd-9f6f-658ef994bc82",
       "item_id": "7263bf8a-dea2-44d2-aca4-28b07869b348",
