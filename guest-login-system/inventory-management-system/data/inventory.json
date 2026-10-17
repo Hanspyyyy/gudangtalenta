@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "5455c96a-d468-4336-acb4-eb87f7763ea1",
+      "name": "Veneer Bereeze oak",
+      "size": "120x240",
+      "category": "Veneer tebal",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 8 | NO 1",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/5455c96a-d468-4336-acb4-eb87f7763ea1-1792220038519.jpeg",
+      "created_at": "2026-10-17T06:53:59.417Z",
+      "updated_at": "2026-10-17T06:53:59.417Z"
+    },
+    {
       "id": "35f516cd-2136-4676-88fd-b3d2a40cc550",
       "name": "Veneer Grey brusel",
       "size": "120x240",
@@ -1751,6 +1763,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "15ccc777-d3e3-40d4-87be-0847dbd12d01",
+      "item_id": "5455c96a-d468-4336-acb4-eb87f7763ea1",
+      "item_name": "Veneer Bereeze oak",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-17T06:53:59.417Z"
+    },
     {
       "id": "2baeacb6-6e82-406e-8870-150ec7a52358",
       "item_id": "35f516cd-2136-4676-88fd-b3d2a40cc550",
