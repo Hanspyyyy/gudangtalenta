@@ -1,9 +1,9 @@
 'use client'
 
 import { useState } from 'react'
-import { X, Trash2, PackagePlus, PackageMinus, Check, MessageCircle } from 'lucide-react'
+import { X, Trash2, PackagePlus, PackageMinus, Check, MessageCircle, Pencil } from 'lucide-react'
 import { ProductImage } from '@/components/product-image'
-import { adjustItemStock, deleteItem, type LocalItem } from '@/lib/inventory-client'
+import { adjustItemStock, deleteItem, updateItemName, type LocalItem } from '@/lib/inventory-client'
 import { toast } from 'sonner'
 
 type Mode = 'in' | 'out' | null
@@ -14,6 +14,8 @@ export function ItemDetailModal({ item, isAdmin, onClose }: { item: LocalItem | 
   const [mode, setMode] = useState<Mode>(null)
   const [quantity, setQuantity] = useState('')
   const [busy, setBusy] = useState(false)
+  const [editingName, setEditingName] = useState(false)
+  const [name, setName] = useState('')
   const [showRequest, setShowRequest] = useState(false)
   const [reqQuantity, setReqQuantity] = useState('')
   const [reqProject, setReqProject] = useState('')
@@ -86,6 +88,23 @@ export function ItemDetailModal({ item, isAdmin, onClose }: { item: LocalItem | 
     onClose()
   }
 
+  const saveName = async () => {
+    const nextName = name.trim()
+    if (!nextName) {
+      toast.error('Nama barang wajib diisi.')
+      return
+    }
+    setBusy(true)
+    const result = await updateItemName(item.id, nextName)
+    setBusy(false)
+    if (!result.ok) {
+      toast.error(result.error)
+      return
+    }
+    setEditingName(false)
+    toast.success('Nama barang berhasil diperbarui.')
+  }
+
   return (
     <div
       className="fixed inset-0 z-50 grid place-items-center bg-foreground/50 p-4"
@@ -110,7 +129,38 @@ export function ItemDetailModal({ item, isAdmin, onClose }: { item: LocalItem | 
           </button>
         </div>
         <ProductImage src={item.photo_url ?? item.photo} alt={item.name} className="mt-4 h-48 w-full rounded-2xl" />
-        <h3 className="mt-4 text-xl font-semibold">{item.name}</h3>
+        {editingName ? (
+          <div className="mt-4 flex flex-col gap-2">
+            <label htmlFor="edit-item-name" className="text-sm font-medium">Nama Barang</label>
+            <input
+              id="edit-item-name"
+              type="text"
+              autoFocus
+              value={name}
+              onChange={(event) => setName(event.target.value)}
+              className="h-11 rounded-xl border border-input bg-background px-3 text-base outline-none focus-visible:ring-2"
+            />
+            <div className="flex gap-2">
+              <button type="button" onClick={() => setEditingName(false)} disabled={busy} className="h-10 flex-1 rounded-xl border bg-card font-medium hover:bg-secondary disabled:opacity-60">Batal</button>
+              <button type="button" onClick={saveName} disabled={busy} className="h-10 flex-1 rounded-xl bg-primary font-medium text-primary-foreground disabled:opacity-60">{busy ? 'Menyimpan...' : 'Simpan'}</button>
+            </div>
+          </div>
+        ) : (
+          <div className="mt-4 flex items-center gap-2">
+            <h3 className="text-xl font-semibold">{item.name}</h3>
+            {isAdmin && (
+              <button
+                type="button"
+                onClick={() => { setName(item.name); setEditingName(true) }}
+                disabled={busy}
+                aria-label="Edit nama barang"
+                className="grid size-8 place-items-center rounded-lg text-muted-foreground hover:bg-secondary hover:text-foreground disabled:opacity-60"
+              >
+                <Pencil className="size-4" />
+              </button>
+            )}
+          </div>
+        )}
         <dl className="mt-4 grid grid-cols-2 gap-3 text-sm">
           <Detail label="Kategori" value={item.category} />
           <Detail label="Ukuran" value={item.size} />

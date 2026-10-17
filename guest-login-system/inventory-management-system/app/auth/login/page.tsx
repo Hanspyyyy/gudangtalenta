@@ -93,7 +93,7 @@ export default function LoginPage() {
 
           <Button
             type="submit"
-            className="h-11 w-full text-base"
+            className="h-11 w-full border border-gray-300 bg-white text-base text-gray-900 hover:bg-gray-50"
             disabled={isLoading}
           >
             {isLoading ? 'Memproses...' : 'Masuk'}
@@ -103,7 +103,7 @@ export default function LoginPage() {
         <Button
           type="button"
           variant="outline"
-          className="mt-3 h-11 w-full text-base"
+          className="mt-3 h-11 w-full border-blue-600 bg-blue-600 text-base text-white hover:bg-blue-700"
           onClick={async () => {
             setIsLoading(true)
             setError(null)
