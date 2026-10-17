@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "961b68e5-b3b7-4614-85ba-88e6dc828166",
+      "name": "Veneer x",
+      "size": "120x210",
+      "category": "Veneer tebal",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 8 | NO 1",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/961b68e5-b3b7-4614-85ba-88e6dc828166-1792220134704.jpeg",
+      "created_at": "2026-10-17T06:55:35.521Z",
+      "updated_at": "2026-10-17T06:55:35.521Z"
+    },
+    {
       "id": "5455c96a-d468-4336-acb4-eb87f7763ea1",
       "name": "Veneer Bereeze oak",
       "size": "120x240",
@@ -1763,6 +1775,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "1226660c-d45b-4a85-b7c1-518663df1c9e",
+      "item_id": "961b68e5-b3b7-4614-85ba-88e6dc828166",
+      "item_name": "Veneer x",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-17T06:55:35.521Z"
+    },
     {
       "id": "15ccc777-d3e3-40d4-87be-0847dbd12d01",
       "item_id": "5455c96a-d468-4336-acb4-eb87f7763ea1",
