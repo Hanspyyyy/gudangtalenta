@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "1b99838c-2022-4b2c-8a92-dfe5a2fa5887",
+      "name": "Zet PAM (etndah idup atau mati)",
+      "size": "Besar",
+      "category": "Mesin",
+      "warehouse": "Gudang 1",
+      "rack": "1A",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/1b99838c-2022-4b2c-8a92-dfe5a2fa5887-1792216096366.jpeg",
+      "created_at": "2026-10-17T05:48:17.208Z",
+      "updated_at": "2026-10-17T05:48:17.208Z"
+    },
+    {
       "id": "78c67cb7-d3a5-4ad9-a53f-e8f29b240dac",
       "name": "Mesin vakum kecil",
       "size": "Kecil",
@@ -1559,6 +1571,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "b36764e8-4967-4f21-a105-18131b1a10f9",
+      "item_id": "1b99838c-2022-4b2c-8a92-dfe5a2fa5887",
+      "item_name": "Zet PAM (etndah idup atau mati)",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-17T05:48:17.208Z"
+    },
     {
       "id": "420478da-1e10-40c0-8ba1-6a8748508cff",
       "item_id": "78c67cb7-d3a5-4ad9-a53f-e8f29b240dac",
