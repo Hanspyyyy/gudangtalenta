@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import { X, Trash2, PackagePlus, PackageMinus, Check, MessageCircle, Pencil } from 'lucide-react'
+import { X, Trash2, PackagePlus, PackageMinus, Check, MessageCircle, Pencil, Maximize2, Download } from 'lucide-react'
 import { ProductImage } from '@/components/product-image'
 import { adjustItemStock, deleteItem, updateItemName, updateItemRack, type LocalItem } from '@/lib/inventory-client'
 import { toast } from 'sonner'
@@ -19,11 +19,17 @@ export function ItemDetailModal({ item, isAdmin, onClose }: { item: LocalItem | 
   const [editingRack, setEditingRack] = useState(false)
   const [rack, setRack] = useState('')
   const [showRequest, setShowRequest] = useState(false)
+  const [showLightbox, setShowLightbox] = useState(false)
   const [reqQuantity, setReqQuantity] = useState('')
   const [reqProject, setReqProject] = useState('')
   const [reqReceiver, setReqReceiver] = useState('')
 
   if (!item) return null
+
+  const photoSrc = item.photo_url ?? item.photo
+  const resolvedPhotoSrc = photoSrc?.startsWith('/inventory-photos/')
+    ? `https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public${photoSrc}`
+    : photoSrc
 
   const resetFlow = () => {
     setMode(null)
@@ -147,7 +153,15 @@ export function ItemDetailModal({ item, isAdmin, onClose }: { item: LocalItem | 
             <X className="size-5" />
           </button>
         </div>
-        <ProductImage src={item.photo_url ?? item.photo} alt={item.name} className="mt-4 h-48 w-full rounded-2xl" />
+        <button
+          type="button"
+          onClick={() => resolvedPhotoSrc && setShowLightbox(true)}
+          disabled={!resolvedPhotoSrc}
+          className="mt-4 block w-full cursor-pointer rounded-2xl text-left disabled:cursor-default"
+          aria-label={resolvedPhotoSrc ? `Perbesar foto ${item.name}` : undefined}
+        >
+          <ProductImage src={photoSrc} alt={item.name} className="h-48 w-full rounded-2xl" />
+        </button>
         {editingName ? (
           <div className="mt-4 flex flex-col gap-2">
             <label htmlFor="edit-item-name" className="text-sm font-medium">Nama Barang</label>
@@ -220,6 +234,18 @@ export function ItemDetailModal({ item, isAdmin, onClose }: { item: LocalItem | 
               </div>
             </div>
           )}
+          <div className="rounded-xl bg-secondary/60 p-3">
+            <dt className="text-xs text-muted-foreground">Foto</dt>
+            <button
+              type="button"
+              onClick={() => resolvedPhotoSrc && setShowLightbox(true)}
+              disabled={!resolvedPhotoSrc}
+              className="mt-1 flex items-center gap-2 font-medium text-primary disabled:cursor-not-allowed disabled:opacity-50"
+            >
+              <Maximize2 className="size-4" />
+              Perbesar Foto
+            </button>
+          </div>
         </dl>
 
         {!isAdmin && (
@@ -368,6 +394,42 @@ export function ItemDetailModal({ item, isAdmin, onClose }: { item: LocalItem | 
           </div>
         )}
       </article>
+      {showLightbox && resolvedPhotoSrc && (
+        <div
+          className="fixed inset-0 z-[60] flex flex-col items-center justify-center bg-black/90 p-4"
+          role="dialog"
+          aria-modal="true"
+          aria-label={`Foto ${item.name}`}
+          onClick={() => setShowLightbox(false)}
+        >
+          <button
+            type="button"
+            onClick={() => setShowLightbox(false)}
+            aria-label="Tutup"
+            className="absolute right-4 top-4 grid size-10 place-items-center rounded-full bg-white/10 text-white hover:bg-white/20"
+          >
+            <X className="size-6" />
+          </button>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={resolvedPhotoSrc}
+            alt={item.name}
+            className="max-h-[calc(100vh-8rem)] max-w-full rounded-xl object-contain"
+            onClick={(event) => event.stopPropagation()}
+          />
+          <a
+            href={resolvedPhotoSrc}
+            download
+            target="_blank"
+            rel="noreferrer"
+            onClick={(event) => event.stopPropagation()}
+            className="mt-5 flex items-center gap-2 rounded-xl bg-white px-4 py-2.5 font-medium text-black hover:bg-white/90"
+          >
+            <Download className="size-4" />
+            Unduh Foto
+          </a>
+        </div>
+      )}
     </div>
   )
 }
