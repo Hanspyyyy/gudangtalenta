@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import { X, Trash2, PackagePlus, PackageMinus, Check, MessageCircle, Pencil, Maximize2, Download } from 'lucide-react'
+import { X, Trash2, PackagePlus, PackageMinus, Check, MessageCircle, Pencil, Maximize2 } from 'lucide-react'
 import { ProductImage } from '@/components/product-image'
 import { adjustItemStock, deleteItem, updateItemName, updateItemRack, type LocalItem } from '@/lib/inventory-client'
 import { toast } from 'sonner'
@@ -417,17 +417,10 @@ export function ItemDetailModal({ item, isAdmin, onClose }: { item: LocalItem | 
             className="max-h-[calc(100vh-8rem)] max-w-full rounded-xl object-contain"
             onClick={(event) => event.stopPropagation()}
           />
-          <a
-            href={resolvedPhotoSrc}
-            download
-            target="_blank"
-            rel="noreferrer"
-            onClick={(event) => event.stopPropagation()}
-            className="mt-5 flex items-center gap-2 rounded-xl bg-white px-4 py-2.5 font-medium text-black hover:bg-white/90"
-          >
-            <Download className="size-4" />
-            Unduh Foto
-          </a>
+          <p className="mt-5 text-center text-sm leading-6 text-white/80">
+            <span className="block">Tekan lama pada gambar untuk mengunduh lalu download gambar</span>
+            <span className="block">Opsi lain: Screenshot</span>
+          </p>
         </div>
       )}
     </div>
