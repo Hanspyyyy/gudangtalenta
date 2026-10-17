@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "636f3830-46cf-4255-9567-0794d658c5d7",
+      "name": "Veneer tipis (valencia walnut)",
+      "size": "240x80x1",
+      "category": "Veneer tipis",
+      "warehouse": "Gudang 1",
+      "rack": "1A",
+      "stock": 6,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/636f3830-46cf-4255-9567-0794d658c5d7-1792224003389.jpeg",
+      "created_at": "2026-10-17T08:00:04.284Z",
+      "updated_at": "2026-10-17T08:00:04.284Z"
+    },
+    {
       "id": "80e0c2dc-13c8-480b-834f-3a721045aa08",
       "name": "Vener tipis white oak (uk10)",
       "size": "240x10",
@@ -1967,6 +1979,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "6a137763-406e-48f9-8796-4deea442e3ba",
+      "item_id": "636f3830-46cf-4255-9567-0794d658c5d7",
+      "item_name": "Veneer tipis (valencia walnut)",
+      "action": "ADD_ITEM",
+      "quantity": 6,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-17T08:00:04.284Z"
+    },
     {
       "id": "021eaa3c-e258-47a4-be9e-f9923bffe721",
       "item_id": "80e0c2dc-13c8-480b-834f-3a721045aa08",
