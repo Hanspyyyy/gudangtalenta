@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "244a839e-0cb9-4f6a-83df-f43e0823e0eb",
+      "name": "Vener tipis white oak (uk20)",
+      "size": "1mm",
+      "category": "Veneer tipis",
+      "warehouse": "Gudang 1",
+      "rack": "1A",
+      "stock": 8,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/244a839e-0cb9-4f6a-83df-f43e0823e0eb-1792223538902.jpeg",
+      "created_at": "2026-10-17T07:52:19.804Z",
+      "updated_at": "2026-10-17T07:52:19.804Z"
+    },
+    {
       "id": "dc53aaca-1ee5-444c-be31-61bf67de0126",
       "name": "Veneer x coklat",
       "size": "120x210",
@@ -1943,6 +1955,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "37a4f506-ecd6-4e84-8dea-6ca5f018022e",
+      "item_id": "244a839e-0cb9-4f6a-83df-f43e0823e0eb",
+      "item_name": "Vener tipis white oak (uk20)",
+      "action": "ADD_ITEM",
+      "quantity": 8,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-17T07:52:19.804Z"
+    },
     {
       "id": "e454018c-b63f-464a-9d8b-4a8f9ac1810d",
       "item_id": "dc53aaca-1ee5-444c-be31-61bf67de0126",
