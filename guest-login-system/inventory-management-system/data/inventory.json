@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "ea934fb7-b024-4df9-a047-8b1390994aa2",
+      "name": "Veneer jade",
+      "size": "120x240",
+      "category": "Veneer tebal",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 8 | NO 1",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/ea934fb7-b024-4df9-a047-8b1390994aa2-1792219558937.jpeg",
+      "created_at": "2026-10-17T06:45:59.879Z",
+      "updated_at": "2026-10-17T06:45:59.879Z"
+    },
+    {
       "id": "bf96864e-ae13-45dc-b04f-47ccebd1470c",
       "name": "Veneer Mocha rough cut",
       "size": "120x210",
@@ -1727,6 +1739,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "a9b74f9b-3e49-4f32-ae4f-c7d916e46320",
+      "item_id": "ea934fb7-b024-4df9-a047-8b1390994aa2",
+      "item_name": "Veneer jade",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-17T06:45:59.879Z"
+    },
     {
       "id": "3d192399-c8e1-4123-9bf6-c483ee8b2a8e",
       "item_id": "bf96864e-ae13-45dc-b04f-47ccebd1470c",
