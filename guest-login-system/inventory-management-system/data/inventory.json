@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "b2db2cfd-7248-42b4-861c-e05de559fdfd",
+      "name": "Japanes | grey gradation",
+      "size": "120x240",
+      "category": "Veneer tebal",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 8 | NO 1",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/b2db2cfd-7248-42b4-861c-e05de559fdfd-1792219234803.jpeg",
+      "created_at": "2026-10-17T06:40:35.727Z",
+      "updated_at": "2026-10-17T06:40:35.727Z"
+    },
+    {
       "id": "11aa9cee-bb4a-4626-8035-4faa45f987ee",
       "name": "Veneer x",
       "size": "120x240",
@@ -1703,6 +1715,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "f2c182da-5734-4020-9167-23cfe5083bf0",
+      "item_id": "b2db2cfd-7248-42b4-861c-e05de559fdfd",
+      "item_name": "Japanes | grey gradation",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-17T06:40:35.727Z"
+    },
     {
       "id": "72db0a6d-67fb-408a-87cf-62d47fbed0d0",
       "item_id": "11aa9cee-bb4a-4626-8035-4faa45f987ee",
