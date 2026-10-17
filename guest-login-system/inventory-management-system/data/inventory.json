@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "ed238a5e-8d33-4f16-a8b9-e80d1a1c647d",
+      "name": "Veneer x bertektur menonjol yang panjang 3,5m yang dulu pernah di return ada bercak",
+      "size": "120x350",
+      "category": "Veneer tebal bertekstur menonjol",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 8 | NO 1",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/ed238a5e-8d33-4f16-a8b9-e80d1a1c647d-1792221201440.jpeg",
+      "created_at": "2026-10-17T07:13:22.223Z",
+      "updated_at": "2026-10-17T07:13:22.223Z"
+    },
+    {
       "id": "612506c8-895a-49d5-aa18-f567a4c5d86c",
       "name": "Veneer x",
       "size": "120x210",
@@ -1859,6 +1871,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "f9eb885f-0f99-4955-8e77-445eec2acdd4",
+      "item_id": "ed238a5e-8d33-4f16-a8b9-e80d1a1c647d",
+      "item_name": "Veneer x bertektur menonjol yang panjang 3,5m yang dulu pernah di return ada bercak",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-17T07:13:22.223Z"
+    },
     {
       "id": "bd412336-34df-4fe3-8da1-9569e187c0b0",
       "item_id": "612506c8-895a-49d5-aa18-f567a4c5d86c",
