@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "7263bf8a-dea2-44d2-aca4-28b07869b348",
+      "name": "Vener tipis X",
+      "size": "240x80x1mm",
+      "category": "Veneer tipis",
+      "warehouse": "Gudang 1",
+      "rack": "1A",
+      "stock": 0,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/7263bf8a-dea2-44d2-aca4-28b07869b348-1792228430534.jpeg",
+      "created_at": "2026-10-17T09:13:51.639Z",
+      "updated_at": "2026-10-17T09:13:51.639Z"
+    },
+    {
       "id": "d1563790-e5ba-4bcf-944a-37d51de30eb5",
       "name": "Veneer White oak ( ada seratnya mahal)",
       "size": "240x10x1",
@@ -2087,6 +2099,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "c700fe0b-a145-4930-af0d-be85872a8306",
+      "item_id": "7263bf8a-dea2-44d2-aca4-28b07869b348",
+      "item_name": "Vener tipis X",
+      "action": "ADD_ITEM",
+      "quantity": 0,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-17T09:13:51.639Z"
+    },
     {
       "id": "988ec8a7-aac7-4642-989d-06c375579be4",
       "item_id": "d1563790-e5ba-4bcf-944a-37d51de30eb5",
