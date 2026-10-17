@@ -7,10 +7,10 @@
       "category": "Veneer tipis",
       "warehouse": "Gudang 1",
       "rack": "1A",
-      "stock": 10,
+      "stock": 1,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/80e0c2dc-13c8-480b-834f-3a721045aa08-1792223663773.jpeg",
       "created_at": "2026-10-17T07:54:24.923Z",
-      "updated_at": "2026-10-17T07:54:24.923Z"
+      "updated_at": "2026-10-17T07:54:35.279Z"
     },
     {
       "id": "244a839e-0cb9-4f6a-83df-f43e0823e0eb",
@@ -1967,6 +1967,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "1123d52c-c9b5-4f39-8c15-1fac95e020ef",
+      "item_id": "80e0c2dc-13c8-480b-834f-3a721045aa08",
+      "item_name": "Vener tipis white oak (uk10)",
+      "action": "STOCK_OUT",
+      "quantity": 9,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-17T07:54:35.280Z"
+    },
     {
       "id": "fecd2c2b-9842-4a56-85ab-6af99b3989b6",
       "item_id": "80e0c2dc-13c8-480b-834f-3a721045aa08",
