@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "84dc9c4d-fe5b-4ebe-a2ce-4338964523f6",
+      "name": "Veneer tipis ( Mocha Brussel 3100 )",
+      "size": "240x80x1",
+      "category": "Veneer tipis",
+      "warehouse": "Gudang 1",
+      "rack": "1A",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/84dc9c4d-fe5b-4ebe-a2ce-4338964523f6-1792225297475.jpeg",
+      "created_at": "2026-10-17T08:21:38.438Z",
+      "updated_at": "2026-10-17T08:21:38.438Z"
+    },
+    {
       "id": "997d017b-7bb0-4807-81a2-3b48854170ab",
       "name": "Veneer tipis (black sucupira)",
       "size": "240x80x1",
@@ -2003,6 +2015,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "27dd4da0-fb39-493f-a33c-c1e13b539d06",
+      "item_id": "84dc9c4d-fe5b-4ebe-a2ce-4338964523f6",
+      "item_name": "Veneer tipis ( Mocha Brussel 3100 )",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-17T08:21:38.438Z"
+    },
     {
       "id": "dd4128e6-345f-4c59-b655-d0aa961d9249",
       "item_id": "997d017b-7bb0-4807-81a2-3b48854170ab",
