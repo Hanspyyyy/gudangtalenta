@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "90d6f5ad-cb37-4e37-b3b0-e9970364c5d6",
+      "name": "Veneer tipis (valsean # 1)",
+      "size": "200x80x1",
+      "category": "Veneer tipis",
+      "warehouse": "Gudang 1",
+      "rack": "1A",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/90d6f5ad-cb37-4e37-b3b0-e9970364c5d6-1792227498898.jpeg",
+      "created_at": "2026-10-17T08:58:19.761Z",
+      "updated_at": "2026-10-17T08:58:19.761Z"
+    },
+    {
       "id": "1375e0da-87c2-4e20-9672-9f90f70853dd",
       "name": "Veneer tipis (Dusk oak)",
       "size": "200x80x1",
@@ -2039,6 +2051,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "0bc66cf3-f175-4419-8603-311d9a15cfee",
+      "item_id": "90d6f5ad-cb37-4e37-b3b0-e9970364c5d6",
+      "item_name": "Veneer tipis (valsean # 1)",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-17T08:58:19.761Z"
+    },
     {
       "id": "04f377d4-5913-4ea8-9bac-6a7d1598bb87",
       "item_id": "1375e0da-87c2-4e20-9672-9f90f70853dd",
