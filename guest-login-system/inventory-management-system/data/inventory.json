@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "72ed6857-3445-4f2a-afaf-1a2c1a70fa1d",
+      "name": "body kunci pintu (mortise lock) bukan bulat",
+      "size": "16x6mm",
+      "category": "Badan kunci / body kunci",
+      "warehouse": "Gudang 1",
+      "rack": "1A",
+      "stock": 3,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/72ed6857-3445-4f2a-afaf-1a2c1a70fa1d-1792215538204.jpeg",
+      "created_at": "2026-10-17T05:38:59.132Z",
+      "updated_at": "2026-10-17T05:38:59.132Z"
+    },
+    {
       "id": "22f7fb7b-b13d-4f5f-ac92-f76b8c768b28",
       "name": "gagang pintu tipe lever (lever door handle)",
       "size": "-",
@@ -1499,6 +1511,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "60c60dab-560a-4a0b-98f7-87c4e1d10651",
+      "item_id": "72ed6857-3445-4f2a-afaf-1a2c1a70fa1d",
+      "item_name": "body kunci pintu (mortise lock) bukan bulat",
+      "action": "ADD_ITEM",
+      "quantity": 3,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-17T05:38:59.132Z"
+    },
     {
       "id": "99d41912-98b7-4f16-ae7f-b878e14ef751",
       "item_id": "22f7fb7b-b13d-4f5f-ac92-f76b8c768b28",
