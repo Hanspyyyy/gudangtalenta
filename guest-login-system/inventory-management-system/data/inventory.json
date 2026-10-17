@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "eb7940cf-9c3f-4176-9b4c-6b6b355d1314",
+      "name": "Hmr garis buat pameran",
+      "size": "240x100",
+      "category": "HMR",
+      "warehouse": "Gudang 1",
+      "rack": "1B | 1",
+      "stock": 4,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/eb7940cf-9c3f-4176-9b4c-6b6b355d1314-1792229481748.jpeg",
+      "created_at": "2026-10-17T09:31:22.722Z",
+      "updated_at": "2026-10-17T09:31:22.722Z"
+    },
+    {
       "id": "c4ed2d7f-3879-4832-8373-7e02925154f5",
       "name": "Veneer x apa meren",
       "size": "240x80x40",
@@ -2135,6 +2147,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "6056a7b3-7e7a-45f2-92c1-7315fc31342c",
+      "item_id": "eb7940cf-9c3f-4176-9b4c-6b6b355d1314",
+      "item_name": "Hmr garis buat pameran",
+      "action": "ADD_ITEM",
+      "quantity": 4,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-17T09:31:22.722Z"
+    },
     {
       "id": "bf2bf9cc-565f-4000-a3be-97d19a4734d3",
       "item_id": "c4ed2d7f-3879-4832-8373-7e02925154f5",
