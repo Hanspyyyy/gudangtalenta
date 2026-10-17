@@ -7,10 +7,10 @@
       "category": "Veneer tipis",
       "warehouse": "Gudang 1",
       "rack": "1A",
-      "stock": 0,
+      "stock": 4,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/31789c85-3f08-41bb-9821-6074c771c3a5-1792225422224.jpeg",
       "created_at": "2026-10-17T08:23:43.206Z",
-      "updated_at": "2026-10-17T08:23:43.207Z"
+      "updated_at": "2026-10-17T08:23:57.604Z"
     },
     {
       "id": "84dc9c4d-fe5b-4ebe-a2ce-4338964523f6",
@@ -2027,6 +2027,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "7398957d-11f1-4634-ac89-8cd03c3277a1",
+      "item_id": "31789c85-3f08-41bb-9821-6074c771c3a5",
+      "item_name": "Veneer tipis walnut (yp)",
+      "action": "STOCK_IN",
+      "quantity": 4,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-17T08:23:57.604Z"
+    },
     {
       "id": "9f1dfe65-2b75-4597-8e2e-ec3005739d02",
       "item_id": "31789c85-3f08-41bb-9821-6074c771c3a5",
