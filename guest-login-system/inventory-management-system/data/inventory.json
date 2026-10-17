@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "3cba5e0d-a078-4e7a-8fc9-6f97c754be25",
+      "name": "Veneer valencia walnut (3mm)",
+      "size": "3mm 120x240",
+      "category": "Veneer tebal",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 7 | NO 2",
+      "stock": 11,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/3cba5e0d-a078-4e7a-8fc9-6f97c754be25-1792212298380.jpeg",
+      "created_at": "2026-10-17T04:44:59.177Z",
+      "updated_at": "2026-10-17T04:44:59.177Z"
+    },
+    {
       "id": "8137bc34-8c2e-427c-bf3c-84e026f08fcf",
       "name": "Vener White oak ( merah 6 motip )",
       "size": "120x240",
@@ -1367,6 +1379,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "9866d371-e620-45df-8207-4abbb1f3eafa",
+      "item_id": "3cba5e0d-a078-4e7a-8fc9-6f97c754be25",
+      "item_name": "Veneer valencia walnut (3mm)",
+      "action": "ADD_ITEM",
+      "quantity": 11,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-17T04:44:59.177Z"
+    },
     {
       "id": "be71dc59-dfd5-4322-9079-e424a2bd0169",
       "item_id": "adc34f96-4593-45f7-bbcf-95000eb8e157",
