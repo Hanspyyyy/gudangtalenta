@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "8137bc34-8c2e-427c-bf3c-84e026f08fcf",
+      "name": "Vener White oak ( merah 6 motip )",
+      "size": "120x240",
+      "category": "Veneer tebal",
+      "warehouse": "Gudang 1",
+      "rack": "1A",
+      "stock": 4,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/8137bc34-8c2e-427c-bf3c-84e026f08fcf-1792211326468.jpeg",
+      "created_at": "2026-10-17T04:28:47.334Z",
+      "updated_at": "2026-10-17T04:28:47.334Z"
+    },
+    {
       "id": "f3fc9f6e-d17d-4922-bea3-eed80e5c488c",
       "name": "Vener White oak ( putih 6 motip )",
       "size": "120x240",
@@ -1355,6 +1367,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "3a28c21a-a225-4d18-846b-4286e0f487b6",
+      "item_id": "8137bc34-8c2e-427c-bf3c-84e026f08fcf",
+      "item_name": "Vener White oak ( merah 6 motip )",
+      "action": "ADD_ITEM",
+      "quantity": 4,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-17T04:28:47.334Z"
+    },
     {
       "id": "ab31fea6-437d-46aa-96aa-82ba67bea532",
       "item_id": "f3fc9f6e-d17d-4922-bea3-eed80e5c488c",
