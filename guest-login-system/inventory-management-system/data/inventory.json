@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "bf96864e-ae13-45dc-b04f-47ccebd1470c",
+      "name": "Mocha rough cut",
+      "size": "120x210",
+      "category": "Veneer tebal",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 8 | NO 1",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/bf96864e-ae13-45dc-b04f-47ccebd1470c-1792219358392.jpeg",
+      "created_at": "2026-10-17T06:42:39.384Z",
+      "updated_at": "2026-10-17T06:42:39.384Z"
+    },
+    {
       "id": "b2db2cfd-7248-42b4-861c-e05de559fdfd",
       "name": "Japanes | grey gradation",
       "size": "120x240",
@@ -1715,6 +1727,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "3d192399-c8e1-4123-9bf6-c483ee8b2a8e",
+      "item_id": "bf96864e-ae13-45dc-b04f-47ccebd1470c",
+      "item_name": "Mocha rough cut",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-17T06:42:39.384Z"
+    },
     {
       "id": "f2c182da-5734-4020-9167-23cfe5083bf0",
       "item_id": "b2db2cfd-7248-42b4-861c-e05de559fdfd",
