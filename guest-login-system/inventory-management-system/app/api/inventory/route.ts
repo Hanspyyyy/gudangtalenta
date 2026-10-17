@@ -158,7 +158,25 @@ export async function PUT(req: NextRequest) {
 
 export async function PATCH(req: NextRequest) {
   try {
-    const { id, type, quantity, name } = await req.json()
+    const { id, type, quantity, name, rack } = await req.json()
+
+    if (id && typeof rack === 'string') {
+      const nextRack = rack.trim()
+      if (!nextRack) return NextResponse.json({ error: 'Rak wajib diisi' }, { status: 400 })
+
+      let updatedItem: LocalItem | null = null
+      await mutateInventory((data) => {
+        const items = [...data.items]
+        const itemIndex = items.findIndex((item) => String(item.id) === String(id))
+        if (itemIndex < 0) return { data, result: null }
+        const item = { ...items[itemIndex], rack: nextRack, updated_at: new Date().toISOString() }
+        items[itemIndex] = item
+        updatedItem = item
+        return { data: { items, activity: data.activity }, result: item }
+      })
+      if (!updatedItem) return NextResponse.json({ error: 'Barang tidak ditemukan' }, { status: 404 })
+      return NextResponse.json({ item: updatedItem })
+    }
 
     if (id && typeof name === 'string') {
       const nextName = name.trim()
