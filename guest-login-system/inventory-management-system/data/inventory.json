@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "78c67cb7-d3a5-4ad9-a53f-e8f29b240dac",
+      "name": "Mesin vakum kecil",
+      "size": "Kecil",
+      "category": "Mesin",
+      "warehouse": "Gudang 1",
+      "rack": "1A",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/78c67cb7-d3a5-4ad9-a53f-e8f29b240dac-1792216007118.jpeg",
+      "created_at": "2026-10-17T05:46:48.173Z",
+      "updated_at": "2026-10-17T05:46:48.173Z"
+    },
+    {
       "id": "16f846ea-454d-48ea-95e9-019ca95e5650",
       "name": "Mesin vakum (brisik doang kaga nyedot)",
       "size": "Sedang",
@@ -1547,6 +1559,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "420478da-1e10-40c0-8ba1-6a8748508cff",
+      "item_id": "78c67cb7-d3a5-4ad9-a53f-e8f29b240dac",
+      "item_name": "Mesin vakum kecil",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-17T05:46:48.173Z"
+    },
     {
       "id": "5736ec2c-3d26-42f4-9a74-abc55dba565b",
       "item_id": "16f846ea-454d-48ea-95e9-019ca95e5650",
