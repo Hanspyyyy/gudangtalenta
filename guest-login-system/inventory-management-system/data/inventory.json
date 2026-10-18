@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "ebd73189-7967-4d44-adbd-1a907cd4f510",
+      "name": "HPL X",
+      "size": "4X8X0.8MM",
+      "category": "Veneer tipis",
+      "warehouse": "Gudang 1",
+      "rack": "1A",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/ebd73189-7967-4d44-adbd-1a907cd4f510-1792314005127.jpeg",
+      "created_at": "2026-10-18T09:00:06.037Z",
+      "updated_at": "2026-10-18T09:00:06.037Z"
+    },
+    {
       "id": "fa07f321-815a-4343-b050-9a87f1b2060c",
       "name": "HPL X",
       "size": "4X8X0.8MM",
@@ -2496,6 +2508,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "f8a8ccae-ba28-46cf-af95-8a8d1a4244c1",
+      "item_id": "ebd73189-7967-4d44-adbd-1a907cd4f510",
+      "item_name": "HPL X",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-18T09:00:06.037Z"
+    },
     {
       "id": "680e31f2-9ff4-4da6-8dd9-63859aa6414c",
       "item_id": "fa07f321-815a-4343-b050-9a87f1b2060c",
