@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "9eeffada-e3b5-46dd-8112-d719ccbd8d34",
+      "name": "List gypsum (PI)",
+      "size": "240x10x3",
+      "category": "Gypsum",
+      "warehouse": "Gudang 1",
+      "rack": "1A",
+      "stock": 18,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/9eeffada-e3b5-46dd-8112-d719ccbd8d34-1792315292514.jpeg",
+      "created_at": "2026-10-18T09:21:33.511Z",
+      "updated_at": "2026-10-18T09:21:33.511Z"
+    },
+    {
       "id": "ebd73189-7967-4d44-adbd-1a907cd4f510",
       "name": "HPL X",
       "size": "4X8X0.8MM",
@@ -2508,6 +2520,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "6fdd371a-e6fc-4d65-b1da-16796280a9b3",
+      "item_id": "9eeffada-e3b5-46dd-8112-d719ccbd8d34",
+      "item_name": "List gypsum (PI)",
+      "action": "ADD_ITEM",
+      "quantity": 18,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-18T09:21:33.511Z"
+    },
     {
       "id": "f144d170-e814-4100-9b37-600f08325984",
       "item_id": "ebd73189-7967-4d44-adbd-1a907cd4f510",
