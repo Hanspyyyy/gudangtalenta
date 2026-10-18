@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "21f56dc5-9727-48d4-976e-a3d2847b500a",
+      "name": "Veneer tipis (silver stralgth)",
+      "size": "240x80x1",
+      "category": "Veneer tipis",
+      "warehouse": "Gudang 1",
+      "rack": "1A",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/21f56dc5-9727-48d4-976e-a3d2847b500a-1792310608850.jpeg",
+      "created_at": "2026-10-18T08:03:29.669Z",
+      "updated_at": "2026-10-18T08:03:29.669Z"
+    },
+    {
       "id": "6c4e635a-bd49-4cf1-9c15-66114178219b",
       "name": "Veneer tipis yellow gothic",
       "size": "240x80x1",
@@ -2244,6 +2256,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "38fc7e28-def2-4c29-bf0d-4f97bf0e1c12",
+      "item_id": "21f56dc5-9727-48d4-976e-a3d2847b500a",
+      "item_name": "Veneer tipis (silver stralgth)",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-18T08:03:29.669Z"
+    },
     {
       "id": "29eee3a0-9d9b-4a95-9c12-577e6517670b",
       "item_id": "6c4e635a-bd49-4cf1-9c15-66114178219b",
