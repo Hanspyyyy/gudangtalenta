@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "732f4528-0f52-4663-a36f-a588554d982f",
+      "name": "HPL 1234 TA",
+      "size": "4X8X0.8MM",
+      "category": "HPL",
+      "warehouse": "Gudang 1",
+      "rack": "1A",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/732f4528-0f52-4663-a36f-a588554d982f-1792312543990.jpeg",
+      "created_at": "2026-10-18T08:35:44.935Z",
+      "updated_at": "2026-10-18T08:35:44.935Z"
+    },
+    {
       "id": "b1ca16b1-6819-4c88-8fed-01d4c7d0b552",
       "name": "HPL TAS 14054 CTG",
       "size": "4X8X0.8MM",
@@ -2352,6 +2364,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "88369810-fffd-4f1e-b0b3-25599eebafc9",
+      "item_id": "732f4528-0f52-4663-a36f-a588554d982f",
+      "item_name": "HPL 1234 TA",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-18T08:35:44.935Z"
+    },
     {
       "id": "caae4ecc-5d21-42f9-b4cf-195fd9d26e61",
       "item_id": "b1ca16b1-6819-4c88-8fed-01d4c7d0b552",
