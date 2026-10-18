@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "21e04fec-1de5-4512-be1f-6904f0819f29",
+      "name": "Veneer beige oak",
+      "size": "240x80x1",
+      "category": "Veneer tipis",
+      "warehouse": "Gudang 1",
+      "rack": "1A",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/21e04fec-1de5-4512-be1f-6904f0819f29-1792311668709.jpeg",
+      "created_at": "2026-10-18T08:21:09.562Z",
+      "updated_at": "2026-10-18T08:21:09.562Z"
+    },
+    {
       "id": "4b39a176-5e17-46f4-b8eb-1a53e8d93441",
       "name": "Veneer tipis",
       "size": "240x10x1",
@@ -2316,6 +2328,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "77939c6f-0e10-4a5c-9161-3c52858a17d1",
+      "item_id": "21e04fec-1de5-4512-be1f-6904f0819f29",
+      "item_name": "Veneer beige oak",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-18T08:21:09.562Z"
+    },
     {
       "id": "af261004-0677-4443-b035-1c9fb1d585c7",
       "item_id": "4b39a176-5e17-46f4-b8eb-1a53e8d93441",
