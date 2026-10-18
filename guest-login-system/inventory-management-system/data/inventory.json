@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "730cdda8-4f41-47e9-b469-9cbd47a1e722",
+      "name": "HPL biru tua",
+      "size": "4X8X0.8MM",
+      "category": "HPL",
+      "warehouse": "Gudang 1",
+      "rack": "1A",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/730cdda8-4f41-47e9-b469-9cbd47a1e722-1792313204522.jpeg",
+      "created_at": "2026-10-18T08:46:45.491Z",
+      "updated_at": "2026-10-18T08:46:45.491Z"
+    },
+    {
       "id": "15b11b27-43fb-4c03-a6bc-f8d9b0df497e",
       "name": "HPL G 1835",
       "size": "4X8X0.8MM",
@@ -2412,6 +2424,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "d29f373e-3e79-4e42-ac96-417033e5e914",
+      "item_id": "730cdda8-4f41-47e9-b469-9cbd47a1e722",
+      "item_name": "HPL biru tua",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-18T08:46:45.491Z"
+    },
     {
       "id": "04f89101-c914-4c1f-a79c-c3afabaa0e7c",
       "item_id": "15b11b27-43fb-4c03-a6bc-f8d9b0df497e",
