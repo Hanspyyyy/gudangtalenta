@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "95c5a51e-2175-48fc-b64a-c8cd471d933d",
+      "name": "Vener tipis x kaya white oak merah teh",
+      "size": "240x80x1",
+      "category": "Veneer tipis",
+      "warehouse": "Gudang 1",
+      "rack": "1A",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/95c5a51e-2175-48fc-b64a-c8cd471d933d-1792306196952.jpeg",
+      "created_at": "2026-10-18T06:49:58.008Z",
+      "updated_at": "2026-10-18T06:49:58.008Z"
+    },
+    {
       "id": "13db380e-2d8d-4ef0-a80f-410f470e31b1",
       "name": "Vener tipis Russian oak",
       "size": "240x80x1",
@@ -2184,6 +2196,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "c87f7665-d879-428a-a2be-8ea1d636a3ae",
+      "item_id": "95c5a51e-2175-48fc-b64a-c8cd471d933d",
+      "item_name": "Vener tipis x kaya white oak merah teh",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-18T06:49:58.008Z"
+    },
     {
       "id": "186f1b5e-d101-44ab-b693-6f649a14060c",
       "item_id": "13db380e-2d8d-4ef0-a80f-410f470e31b1",
