@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "3bcb0386-b367-44f9-9c5f-004f3b9b93b6",
+      "name": "Veneer tipis rustic walnut sisa",
+      "size": "-",
+      "category": "Veneer tipis",
+      "warehouse": "Gudang 1",
+      "rack": "1A",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/3bcb0386-b367-44f9-9c5f-004f3b9b93b6-1792311034163.jpeg",
+      "created_at": "2026-10-18T08:10:35.125Z",
+      "updated_at": "2026-10-18T08:10:35.125Z"
+    },
+    {
       "id": "fea7bfaa-f5b3-435e-9c86-18298d8cdd4c",
       "name": "Veneer tipis Mocha rustic ½",
       "size": "120x80x1",
@@ -2268,6 +2280,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "61095496-760c-4cd9-8f39-25820616d4bf",
+      "item_id": "3bcb0386-b367-44f9-9c5f-004f3b9b93b6",
+      "item_name": "Veneer tipis rustic walnut sisa",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-18T08:10:35.125Z"
+    },
     {
       "id": "6a78d24e-4be9-4941-9a28-c7c7b8168099",
       "item_id": "fea7bfaa-f5b3-435e-9c86-18298d8cdd4c",
