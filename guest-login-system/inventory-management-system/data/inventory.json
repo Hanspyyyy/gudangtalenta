@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "6c4e635a-bd49-4cf1-9c15-66114178219b",
+      "name": "Veneer tipis yellow gothic",
+      "size": "240x80x1",
+      "category": "Veneer tipis",
+      "warehouse": "Gudang 1",
+      "rack": "1A",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/6c4e635a-bd49-4cf1-9c15-66114178219b-1792310484379.jpeg",
+      "created_at": "2026-10-18T08:01:25.368Z",
+      "updated_at": "2026-10-18T08:01:25.368Z"
+    },
+    {
       "id": "2169b36d-f2be-4307-af03-c56f846bd014",
       "name": "Veneer tipis taupe rought cut",
       "size": "240x80x1",
@@ -2232,6 +2244,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "29eee3a0-9d9b-4a95-9c12-577e6517670b",
+      "item_id": "6c4e635a-bd49-4cf1-9c15-66114178219b",
+      "item_name": "Veneer tipis yellow gothic",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-18T08:01:25.368Z"
+    },
     {
       "id": "a51dab45-e7a2-4d23-8e62-59f122ab254f",
       "item_id": "2169b36d-f2be-4307-af03-c56f846bd014",
