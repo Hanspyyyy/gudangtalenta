@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "fea7bfaa-f5b3-435e-9c86-18298d8cdd4c",
+      "name": "Veneer tipis Mocha rustic ½",
+      "size": "120x80x1",
+      "category": "Veneer tipis",
+      "warehouse": "Gudang 1",
+      "rack": "1A",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/fea7bfaa-f5b3-435e-9c86-18298d8cdd4c-1792310697759.jpeg",
+      "created_at": "2026-10-18T08:04:58.751Z",
+      "updated_at": "2026-10-18T08:04:58.751Z"
+    },
+    {
       "id": "21f56dc5-9727-48d4-976e-a3d2847b500a",
       "name": "Veneer tipis (silver stralgth)",
       "size": "240x80x1",
@@ -2256,6 +2268,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "6a78d24e-4be9-4941-9a28-c7c7b8168099",
+      "item_id": "fea7bfaa-f5b3-435e-9c86-18298d8cdd4c",
+      "item_name": "Veneer tipis Mocha rustic ½",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-18T08:04:58.751Z"
+    },
     {
       "id": "38fc7e28-def2-4c29-bf0d-4f97bf0e1c12",
       "item_id": "21f56dc5-9727-48d4-976e-a3d2847b500a",
