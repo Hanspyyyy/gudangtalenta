@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "fc7e2cbb-a9cd-4808-b67e-8bf928dc5dfb",
+      "name": "HPL telur asin",
+      "size": "4X8X0.8MM",
+      "category": "Veneer tipis",
+      "warehouse": "Gudang 1",
+      "rack": "1A",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/fc7e2cbb-a9cd-4808-b67e-8bf928dc5dfb-1792313246088.jpeg",
+      "created_at": "2026-10-18T08:47:26.878Z",
+      "updated_at": "2026-10-18T08:47:26.878Z"
+    },
+    {
       "id": "730cdda8-4f41-47e9-b469-9cbd47a1e722",
       "name": "HPL biru tua",
       "size": "4X8X0.8MM",
@@ -2424,6 +2436,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "52c0dddd-e0cb-4a40-8190-166c8291f3c0",
+      "item_id": "fc7e2cbb-a9cd-4808-b67e-8bf928dc5dfb",
+      "item_name": "HPL telur asin",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-18T08:47:26.878Z"
+    },
     {
       "id": "d29f373e-3e79-4e42-ac96-417033e5e914",
       "item_id": "730cdda8-4f41-47e9-b469-9cbd47a1e722",
