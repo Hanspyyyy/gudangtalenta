@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "62b7bed3-2303-4b7e-9b92-ac947545777b",
+      "name": "Vener tipis grey rought cut",
+      "size": "240x80x1",
+      "category": "Veneer tipis",
+      "warehouse": "Gudang 1",
+      "rack": "1A",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/62b7bed3-2303-4b7e-9b92-ac947545777b-1792306378373.jpeg",
+      "created_at": "2026-10-18T06:52:59.194Z",
+      "updated_at": "2026-10-18T06:52:59.194Z"
+    },
+    {
       "id": "ef5d1710-c5da-46fa-982d-b104b06a7f72",
       "name": "Vener tipis greey brussel",
       "size": "240x80x1",
@@ -2208,6 +2220,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "111809fc-0b1a-4d9b-8f94-ba429fe85acf",
+      "item_id": "62b7bed3-2303-4b7e-9b92-ac947545777b",
+      "item_name": "Vener tipis grey rought cut",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-18T06:52:59.194Z"
+    },
     {
       "id": "625e7595-3e64-452a-b887-b52339428cda",
       "item_id": "ef5d1710-c5da-46fa-982d-b104b06a7f72",
