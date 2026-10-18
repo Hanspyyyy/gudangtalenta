@@ -1906,9 +1906,10 @@
       "category": "Vener",
       "warehouse": "Gudang 1",
       "rack": "WS",
-      "stock": 0,
+      "stock": 7,
       "photo": "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/fedcb07e-b963-43eb-b709-30d79f8c4b81.jpeg",
-      "createdAt": "2026-09-04T12:27:51.615Z"
+      "createdAt": "2026-09-04T12:27:51.615Z",
+      "updated_at": "2026-10-18T06:39:30.961Z"
     },
     {
       "id": "33ac3474-b3f0-432a-abfc-ee228ce30f85",
@@ -2171,6 +2172,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "e121d4e9-1af5-494d-a281-06d8827d64e8",
+      "item_id": "fedcb07e-b963-43eb-b709-30d79f8c4b81",
+      "item_name": "Veneer ijo buat pameran",
+      "action": "STOCK_IN",
+      "quantity": 7,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-18T06:39:30.961Z"
+    },
     {
       "id": "147d1ca3-352f-4604-b3b7-9e9f29a25153",
       "item_id": "f468ee0b-322a-4127-87f3-14d6fb851962",
