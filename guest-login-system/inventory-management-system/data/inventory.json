@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "f468ee0b-322a-4127-87f3-14d6fb851962",
+      "name": "Japanese",
+      "size": "240x50x1",
+      "category": "Veneer tipis",
+      "warehouse": "Gudang 1",
+      "rack": "1A",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/f468ee0b-322a-4127-87f3-14d6fb851962-1792304357629.jpeg",
+      "created_at": "2026-10-18T06:19:18.612Z",
+      "updated_at": "2026-10-18T06:19:18.612Z"
+    },
+    {
       "id": "b51e183a-8219-470a-b47e-e2398da6d5a6",
       "name": "Veneer x",
       "size": "240x80x1",
@@ -2159,6 +2171,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "147d1ca3-352f-4604-b3b7-9e9f29a25153",
+      "item_id": "f468ee0b-322a-4127-87f3-14d6fb851962",
+      "item_name": "Japanese",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-18T06:19:18.612Z"
+    },
     {
       "id": "a0b06a6e-557c-4b2f-943a-a3d42685f100",
       "item_id": "b51e183a-8219-470a-b47e-e2398da6d5a6",
