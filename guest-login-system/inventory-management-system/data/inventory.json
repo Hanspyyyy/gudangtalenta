@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "710cef61-c68e-4be5-8e47-bbbe045c4e0e",
+      "name": "HPL 2 HPL x",
+      "size": "4X8X0.8MM",
+      "category": "HPL",
+      "warehouse": "Gudang 1",
+      "rack": "1A",
+      "stock": 2,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/710cef61-c68e-4be5-8e47-bbbe045c4e0e-1792313456999.jpeg",
+      "created_at": "2026-10-18T08:50:57.982Z",
+      "updated_at": "2026-10-18T08:50:57.982Z"
+    },
+    {
       "id": "72fc0bfc-1db0-4194-8497-e2c1c6662e9d",
       "name": "HPL ITEM",
       "size": "-",
@@ -2460,6 +2472,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "0c330bae-62ff-4aa0-85e9-188094b73470",
+      "item_id": "710cef61-c68e-4be5-8e47-bbbe045c4e0e",
+      "item_name": "HPL 2 HPL x",
+      "action": "ADD_ITEM",
+      "quantity": 2,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-18T08:50:57.982Z"
+    },
     {
       "id": "8369b1cf-7e85-4808-ab8d-947b142d2fc8",
       "item_id": "72fc0bfc-1db0-4194-8497-e2c1c6662e9d",
