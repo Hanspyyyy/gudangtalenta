@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "18ad1072-e373-4ad7-8dfc-8e5bc4e5f83c",
+      "name": "HPL x",
+      "size": "-",
+      "category": "HPL",
+      "warehouse": "Gudang 1",
+      "rack": "1A",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/18ad1072-e373-4ad7-8dfc-8e5bc4e5f83c-1792313302126.jpeg",
+      "created_at": "2026-10-18T08:48:23.040Z",
+      "updated_at": "2026-10-18T08:48:23.040Z"
+    },
+    {
       "id": "fc7e2cbb-a9cd-4808-b67e-8bf928dc5dfb",
       "name": "HPL telur asin",
       "size": "4X8X0.8MM",
@@ -2436,6 +2448,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "4877a392-2a63-458e-837b-4fefcf314a13",
+      "item_id": "18ad1072-e373-4ad7-8dfc-8e5bc4e5f83c",
+      "item_name": "HPL x",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-18T08:48:23.040Z"
+    },
     {
       "id": "52c0dddd-e0cb-4a40-8190-166c8291f3c0",
       "item_id": "fc7e2cbb-a9cd-4808-b67e-8bf928dc5dfb",
