@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "60bd25d4-cbeb-43f7-bd0d-99112ee976af",
+      "name": "alat perata keramik (tile leveling wedge atau tile spacer/lash)",
+      "size": "-",
+      "category": "Alat",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 6",
+      "stock": 600,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/60bd25d4-cbeb-43f7-bd0d-99112ee976af-1792400949691.jpeg",
+      "created_at": "2026-10-19T09:09:11.040Z",
+      "updated_at": "2026-10-19T09:09:11.040Z"
+    },
+    {
       "id": "83385b6b-1fbb-498c-a325-591835fc9297",
       "name": "Klip Perata Keramik ( isi 100, stok di hitung berdasarkan pcs)",
       "size": "1.5mm",
@@ -2568,6 +2580,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "dbbaba74-019f-4e43-96f4-fd1376130039",
+      "item_id": "60bd25d4-cbeb-43f7-bd0d-99112ee976af",
+      "item_name": "alat perata keramik (tile leveling wedge atau tile spacer/lash)",
+      "action": "ADD_ITEM",
+      "quantity": 600,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-19T09:09:11.040Z"
+    },
     {
       "id": "07c43e52-b01f-4069-b1b7-e89449825d16",
       "item_id": "83385b6b-1fbb-498c-a325-591835fc9297",
