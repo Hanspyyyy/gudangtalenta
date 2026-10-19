@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "985af299-fee6-49c2-8c27-2d4865781b12",
+      "name": "Klip Perata Keramik(isi 100 )",
+      "size": "3mm",
+      "category": "Alat",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 7",
+      "stock": 400,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/985af299-fee6-49c2-8c27-2d4865781b12-1792401096776.jpeg",
+      "created_at": "2026-10-19T09:11:37.794Z",
+      "updated_at": "2026-10-19T09:11:37.794Z"
+    },
+    {
       "id": "60bd25d4-cbeb-43f7-bd0d-99112ee976af",
       "name": "alat perata keramik (tile leveling wedge atau tile spacer/lash)",
       "size": "-",
@@ -2580,6 +2592,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "e1a052bc-7257-47c5-be1e-720448f51d45",
+      "item_id": "985af299-fee6-49c2-8c27-2d4865781b12",
+      "item_name": "Klip Perata Keramik(isi 100 )",
+      "action": "ADD_ITEM",
+      "quantity": 400,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-19T09:11:37.794Z"
+    },
     {
       "id": "8f0f1397-b33d-420a-88d3-a5fb0f90859e",
       "item_id": "83385b6b-1fbb-498c-a325-591835fc9297",
