@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "433860ec-c5c3-45e1-88e2-b271c00c2f66",
+      "name": "Roll cat (tidak ada bulu roll butuh refilan)",
+      "size": "-",
+      "category": "Cat",
+      "warehouse": "Gudang 1",
+      "rack": "1B | 1",
+      "stock": 10,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/433860ec-c5c3-45e1-88e2-b271c00c2f66-1792402161450.jpeg",
+      "created_at": "2026-10-19T09:29:22.411Z",
+      "updated_at": "2026-10-19T09:29:22.411Z"
+    },
+    {
       "id": "33b52974-e933-4d15-957a-19d6db9a7473",
       "name": "Specer kramik 1,5 rausable tile leveling sistem",
       "size": "1,5mm",
@@ -2605,6 +2617,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "9fd330a0-5ccb-4028-b85b-2a24e85b2a93",
+      "item_id": "433860ec-c5c3-45e1-88e2-b271c00c2f66",
+      "item_name": "Roll cat (tidak ada bulu roll butuh refilan)",
+      "action": "ADD_ITEM",
+      "quantity": 10,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-19T09:29:22.411Z"
+    },
     {
       "id": "f569b3c6-65c8-4489-8968-18b0c9de0c94",
       "item_id": "d247dec0-fc3e-4a71-a0e6-6e025ede5c14",
