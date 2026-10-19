@@ -1230,11 +1230,11 @@
       "size": "120x240",
       "category": "Veneer tebal",
       "warehouse": "Gudang 1",
-      "rack": "1A",
+      "rack": "1A | 7 | NO 1",
       "stock": 3,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/adc34f96-4593-45f7-bbcf-95000eb8e157-1792209934389.jpeg",
       "created_at": "2026-10-17T04:05:35.541Z",
-      "updated_at": "2026-10-17T04:32:58.771Z"
+      "updated_at": "2026-10-19T08:43:41.163Z"
     },
     {
       "id": "56c094f6-6037-4a65-9969-b72125819b16",
