@@ -2,7 +2,7 @@
   "items": [
     {
       "id": "83385b6b-1fbb-498c-a325-591835fc9297",
-      "name": "Klip Perata Keramik ( isi100 stok di hitung berdasarkan pcs)",
+      "name": "Klip Perata Keramik ( isi 100, stok di hitung berdasarkan pcs)",
       "size": "1.5mm",
       "category": "Alat",
       "warehouse": "Gudang 1",
@@ -10,7 +10,7 @@
       "stock": 2900,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/83385b6b-1fbb-498c-a325-591835fc9297-1792399280855.jpeg",
       "created_at": "2026-10-19T08:41:21.884Z",
-      "updated_at": "2026-10-19T08:56:06.574Z"
+      "updated_at": "2026-10-19T08:56:26.186Z"
     },
     {
       "id": "f9ec83ac-32d3-4e34-9519-d9d2b9cbfb91",
