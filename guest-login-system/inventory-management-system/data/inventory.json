@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "da2f7ce8-7be7-459d-b0af-9e114345513e",
+      "name": "Klip Perata Keramik(isi 100 )",
+      "size": "2mm",
+      "category": "Alat",
+      "warehouse": "Gudang 1",
+      "rack": "A1 | 7",
+      "stock": 1900,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/da2f7ce8-7be7-459d-b0af-9e114345513e-1792401277479.jpeg",
+      "created_at": "2026-10-19T09:14:38.546Z",
+      "updated_at": "2026-10-19T09:14:38.546Z"
+    },
+    {
       "id": "985af299-fee6-49c2-8c27-2d4865781b12",
       "name": "Klip Perata Keramik(isi 100 )",
       "size": "3mm",
@@ -2592,6 +2604,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "30801943-437a-4035-8783-9fe168107385",
+      "item_id": "da2f7ce8-7be7-459d-b0af-9e114345513e",
+      "item_name": "Klip Perata Keramik(isi 100 )",
+      "action": "ADD_ITEM",
+      "quantity": 1900,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-19T09:14:38.546Z"
+    },
     {
       "id": "64493a1a-9bc3-40b2-8a32-11b56d8224a1",
       "item_id": "290d6757-f97d-43b1-8f29-b1121e8b2066",
