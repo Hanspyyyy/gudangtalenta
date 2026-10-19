@@ -19,10 +19,10 @@
       "category": "Alat",
       "warehouse": "Gudang 1",
       "rack": "1A | 6 | NO 3",
-      "stock": 4500,
+      "stock": 5100,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/83385b6b-1fbb-498c-a325-591835fc9297-1792399280855.jpeg",
       "created_at": "2026-10-19T08:41:21.884Z",
-      "updated_at": "2026-10-19T08:59:34.500Z"
+      "updated_at": "2026-10-19T09:09:41.080Z"
     },
     {
       "id": "f9ec83ac-32d3-4e34-9519-d9d2b9cbfb91",
@@ -2580,6 +2580,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "8f0f1397-b33d-420a-88d3-a5fb0f90859e",
+      "item_id": "83385b6b-1fbb-498c-a325-591835fc9297",
+      "item_name": "Klip Perata Keramik ( isi 100, stok di hitung berdasarkan pcs)",
+      "action": "STOCK_IN",
+      "quantity": 600,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-19T09:09:41.080Z"
+    },
     {
       "id": "dbbaba74-019f-4e43-96f4-fd1376130039",
       "item_id": "60bd25d4-cbeb-43f7-bd0d-99112ee976af",
