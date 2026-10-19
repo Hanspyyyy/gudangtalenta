@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "33b52974-e933-4d15-957a-19d6db9a7473",
+      "name": "Specer kramik 1,5 rausable tile leveling sistem",
+      "size": "1,5mm",
+      "category": "Alat",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 7",
+      "stock": 400,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/33b52974-e933-4d15-957a-19d6db9a7473-1792401843936.jpeg",
+      "created_at": "2026-10-19T09:24:05.131Z",
+      "updated_at": "2026-10-19T09:24:05.131Z"
+    },
+    {
       "id": "da2f7ce8-7be7-459d-b0af-9e114345513e",
       "name": "Klip Perata Keramik(isi 100 )",
       "size": "2mm",
@@ -2604,6 +2616,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "49bfd753-e3f7-4ac6-a7c7-bf0e82f93f40",
+      "item_id": "33b52974-e933-4d15-957a-19d6db9a7473",
+      "item_name": "Specer kramik 1,5 rausable tile leveling sistem",
+      "action": "ADD_ITEM",
+      "quantity": 400,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-19T09:24:05.131Z"
+    },
     {
       "id": "30801943-437a-4035-8783-9fe168107385",
       "item_id": "da2f7ce8-7be7-459d-b0af-9e114345513e",
