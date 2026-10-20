@@ -1902,17 +1902,6 @@
       "createdAt": "2026-09-14T02:48:24.316Z"
     },
     {
-      "id": "3fd89074-9120-4453-9a34-fd4eb1a95ee5",
-      "name": "Floksok | Flame (PPR | 1Â½ )",
-      "size": "1Â½ inch",
-      "category": "Pipa",
-      "warehouse": "Gudang 1",
-      "rack": "Gudang 1A",
-      "stock": 14,
-      "photo": "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/3fd89074-9120-4453-9a34-fd4eb1a95ee5.jpeg",
-      "createdAt": "2026-09-14T02:43:56.523Z"
-    },
-    {
       "id": "d5899901-7a63-4ab9-82c3-e9be7c184908",
       "name": "Meteran",
       "size": "5M",
@@ -2619,6 +2608,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "299d2311-5cc0-4ea5-a407-6c1c16457caa",
+      "item_id": "3fd89074-9120-4453-9a34-fd4eb1a95ee5",
+      "item_name": "Floksok | Flame (PPR | 1Â½ )",
+      "action": "DELETE_ITEM",
+      "quantity": 14,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-20T06:17:03.418Z"
+    },
     {
       "id": "151825fd-2815-4f9f-85e0-48a623ca0607",
       "item_id": "190758e5-a248-4551-b85b-d4f0d76da0fd",
