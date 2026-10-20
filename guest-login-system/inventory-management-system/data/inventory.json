@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "1bcc19e2-f167-4c61-bc29-dc91a6f03e2b",
+      "name": "KNEE WESTPEX (20) ½",
+      "size": "½",
+      "category": "Pipa",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 5 | NO 3",
+      "stock": 0,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/1bcc19e2-f167-4c61-bc29-dc91a6f03e2b-1792479618736.jpeg",
+      "created_at": "2026-10-20T07:00:19.744Z",
+      "updated_at": "2026-10-20T07:00:19.744Z"
+    },
+    {
       "id": "9e1cc74a-c428-48fc-bb6f-a686bf80420b",
       "name": "TEE WESTPEX (20) ½",
       "size": "½",
@@ -2776,6 +2788,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "a0e52418-43b4-4621-a4a6-623d7808416d",
+      "item_id": "1bcc19e2-f167-4c61-bc29-dc91a6f03e2b",
+      "item_name": "KNEE WESTPEX (20) ½",
+      "action": "ADD_ITEM",
+      "quantity": 0,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-20T07:00:19.744Z"
+    },
     {
       "id": "42fdb447-16a7-412a-9d50-abe9986fb728",
       "item_id": "9e1cc74a-c428-48fc-bb6f-a686bf80420b",
