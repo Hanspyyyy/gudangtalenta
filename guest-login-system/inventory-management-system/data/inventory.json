@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "4476aa8b-9fa4-4100-ac2e-48fa93161762",
+      "name": "Vloo sok PPR (32/20) 1x½",
+      "size": "1x½",
+      "category": "Pipa",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 5 | NO 3",
+      "stock": 14,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/4476aa8b-9fa4-4100-ac2e-48fa93161762-1792476636099.jpeg",
+      "created_at": "2026-10-20T06:10:37.129Z",
+      "updated_at": "2026-10-20T06:10:37.129Z"
+    },
+    {
       "id": "433860ec-c5c3-45e1-88e2-b271c00c2f66",
       "name": "Roll cat (tidak ada bulu roll butuh refilan)",
       "size": "-",
@@ -2617,6 +2629,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "f3896d54-9d45-421f-b864-9bfa95c7bd2a",
+      "item_id": "4476aa8b-9fa4-4100-ac2e-48fa93161762",
+      "item_name": "Vloo sok PPR (32/20) 1x½",
+      "action": "ADD_ITEM",
+      "quantity": 14,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-20T06:10:37.129Z"
+    },
     {
       "id": "9fd330a0-5ccb-4028-b85b-2a24e85b2a93",
       "item_id": "433860ec-c5c3-45e1-88e2-b271c00c2f66",
