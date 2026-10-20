@@ -55,10 +55,10 @@
       "category": "Pipa",
       "warehouse": "Gudang 1",
       "rack": "1A | 5 | NO 3",
-      "stock": 7,
+      "stock": 8,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/57feabcc-2536-413d-b10e-235448c99c3b-1792477418061.jpeg",
       "created_at": "2026-10-20T06:23:38.970Z",
-      "updated_at": "2026-10-20T06:23:38.970Z"
+      "updated_at": "2026-10-20T06:35:08.062Z"
     },
     {
       "id": "50c8fd46-0545-424d-a1e5-ff96d1f4e9b8",
@@ -2680,6 +2680,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "f9832c17-d5dc-48fa-918a-ced4b1b02b82",
+      "item_id": "57feabcc-2536-413d-b10e-235448c99c3b",
+      "item_name": "TEE PPR (32x20) 1x½",
+      "action": "STOCK_IN",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-20T06:35:08.063Z"
+    },
     {
       "id": "4018ce88-e77f-4d74-b971-373982c54869",
       "item_id": "e38077fe-adc1-4929-b1c5-65cc3d46aa1d",
