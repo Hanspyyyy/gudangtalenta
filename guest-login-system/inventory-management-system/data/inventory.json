@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "bd001c06-ef00-49a9-bb95-16c01b204be0",
+      "name": "STOP KRAN WESTPEX (20) ½",
+      "size": "½",
+      "category": "Pipa",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 5 | NO 3",
+      "stock": 7,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/bd001c06-ef00-49a9-bb95-16c01b204be0-1792479142509.jpeg",
+      "created_at": "2026-10-20T06:52:23.472Z",
+      "updated_at": "2026-10-20T06:52:23.472Z"
+    },
+    {
       "id": "56ed6c13-0bd9-41ad-872f-063426f78db0",
       "name": "SOK DRAT DALAM (32x1ich) 1x1",
       "size": "1x1 ich",
@@ -2752,6 +2764,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "844e15b4-9caf-43a4-b070-9101051b4af7",
+      "item_id": "bd001c06-ef00-49a9-bb95-16c01b204be0",
+      "item_name": "STOP KRAN WESTPEX (20) ½",
+      "action": "ADD_ITEM",
+      "quantity": 7,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-20T06:52:23.472Z"
+    },
     {
       "id": "39072507-a899-4501-8eea-208fa8deb693",
       "item_id": "70b259f2-02fd-416f-96aa-a48163244c0c",
