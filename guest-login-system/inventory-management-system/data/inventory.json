@@ -1935,17 +1935,6 @@
       "createdAt": "2026-09-14T02:37:41.781Z"
     },
     {
-      "id": "40893f86-4b78-4cd7-8c30-4d9e9b815934",
-      "name": "Knee keni elbow 1 Â½ (PPR)",
-      "size": "1Â½ inch",
-      "category": "Pipa",
-      "warehouse": "Gudang 1",
-      "rack": "Gudang 1A",
-      "stock": 7,
-      "photo": "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/40893f86-4b78-4cd7-8c30-4d9e9b815934.jpeg",
-      "createdAt": "2026-09-14T02:36:09.926Z"
-    },
-    {
       "id": "6238a736-a3ea-425e-8bb3-e686bcf79270",
       "name": "apar | pemadam api ( rusak | bekas)",
       "size": "-",
@@ -2641,6 +2630,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "000caa13-73e4-44db-9e9b-324329b9104b",
+      "item_id": "40893f86-4b78-4cd7-8c30-4d9e9b815934",
+      "item_name": "Knee keni elbow 1 Â½ (PPR)",
+      "action": "DELETE_ITEM",
+      "quantity": 7,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-20T06:16:27.054Z"
+    },
     {
       "id": "408f3c85-f093-4ca8-9660-fb8f3300df26",
       "item_id": "5138cbef-cf45-4cd5-b07c-f9e9771d5b03",
