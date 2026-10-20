@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "c3ee067d-d07c-4325-8fbd-798f0da889b9",
+      "name": "Karung pak Turin",
+      "size": "Sedang",
+      "category": "Karung",
+      "warehouse": "Gudang 1",
+      "rack": "1A",
+      "stock": 30,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/c3ee067d-d07c-4325-8fbd-798f0da889b9-1792482703836.jpeg",
+      "created_at": "2026-10-20T07:51:44.786Z",
+      "updated_at": "2026-10-20T07:51:44.786Z"
+    },
+    {
       "id": "0b88ffb1-7efb-4696-924f-230efe5b7e58",
       "name": "KNEE FITTING WESTPEX",
       "size": "20",
@@ -2860,6 +2872,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "23e7b0c7-136d-4efb-b779-6202f77d47ff",
+      "item_id": "c3ee067d-d07c-4325-8fbd-798f0da889b9",
+      "item_name": "Karung pak Turin",
+      "action": "ADD_ITEM",
+      "quantity": 30,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-20T07:51:44.786Z"
+    },
     {
       "id": "8a160de8-3a02-4093-b053-dfb9359dd4c7",
       "item_id": "0b88ffb1-7efb-4696-924f-230efe5b7e58",
