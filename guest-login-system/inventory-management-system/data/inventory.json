@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "369b6c1e-90f4-4e6d-b239-e589ef3c7cc6",
+      "name": "SOK WESTPEX (16)",
+      "size": "16",
+      "category": "Pipa",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 5 | NO 3",
+      "stock": 10,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/369b6c1e-90f4-4e6d-b239-e589ef3c7cc6-1792481066016.jpeg",
+      "created_at": "2026-10-20T07:24:26.932Z",
+      "updated_at": "2026-10-20T07:24:26.932Z"
+    },
+    {
       "id": "3b95b5c5-cbc8-4a39-bf17-1e2779982ae3",
       "name": "KNEE WESTPEX (16x½)",
       "size": "16x½",
@@ -2812,6 +2824,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "edac5472-a0b6-46f0-9ebe-212e58b814bb",
+      "item_id": "369b6c1e-90f4-4e6d-b239-e589ef3c7cc6",
+      "item_name": "SOK WESTPEX (16)",
+      "action": "ADD_ITEM",
+      "quantity": 10,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-20T07:24:26.932Z"
+    },
     {
       "id": "8ea6e78d-3b4d-4c50-abf3-a7f3ab7c8af6",
       "item_id": "3b95b5c5-cbc8-4a39-bf17-1e2779982ae3",
