@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "9e1cc74a-c428-48fc-bb6f-a686bf80420b",
+      "name": "TEE WESTPEX (20) ½",
+      "size": "½",
+      "category": "Pipa",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 5 | NO 3",
+      "stock": 18,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/9e1cc74a-c428-48fc-bb6f-a686bf80420b-1792479422360.jpeg",
+      "created_at": "2026-10-20T06:57:03.327Z",
+      "updated_at": "2026-10-20T06:57:03.327Z"
+    },
+    {
       "id": "bd001c06-ef00-49a9-bb95-16c01b204be0",
       "name": "STOP KRAN WESTPEX (20) ½",
       "size": "½",
@@ -2764,6 +2776,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "42fdb447-16a7-412a-9d50-abe9986fb728",
+      "item_id": "9e1cc74a-c428-48fc-bb6f-a686bf80420b",
+      "item_name": "TEE WESTPEX (20) ½",
+      "action": "ADD_ITEM",
+      "quantity": 18,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-20T06:57:03.328Z"
+    },
     {
       "id": "64d5a2ca-278e-4023-9957-fbe910ad5d1a",
       "item_id": "bd001c06-ef00-49a9-bb95-16c01b204be0",
