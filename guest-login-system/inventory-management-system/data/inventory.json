@@ -91,10 +91,10 @@
       "category": "Pipa",
       "warehouse": "Gudang 1",
       "rack": "1A | 5 | NO 3",
-      "stock": 17,
+      "stock": 18,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/4476aa8b-9fa4-4100-ac2e-48fa93161762-1792476636099.jpeg",
       "created_at": "2026-10-20T06:10:37.129Z",
-      "updated_at": "2026-10-20T06:36:05.373Z"
+      "updated_at": "2026-10-20T06:37:02.668Z"
     },
     {
       "id": "433860ec-c5c3-45e1-88e2-b271c00c2f66",
@@ -2680,6 +2680,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "ae2891fc-e31e-4aa9-a31f-e037077b8218",
+      "item_id": "4476aa8b-9fa4-4100-ac2e-48fa93161762",
+      "item_name": "Vloo sok PPR (32/20) 1x½",
+      "action": "STOCK_IN",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-20T06:37:02.668Z"
+    },
     {
       "id": "5d04a8c6-828d-4a43-8acb-e3c538b7c12b",
       "item_id": "4476aa8b-9fa4-4100-ac2e-48fa93161762",
