@@ -1913,17 +1913,6 @@
       "createdAt": "2026-09-14T02:43:56.523Z"
     },
     {
-      "id": "190758e5-a248-4551-b85b-d4f0d76da0fd",
-      "name": "TEE PPR (1xÂ½)",
-      "size": "1Â½",
-      "category": "Pipa",
-      "warehouse": "Gudang 1",
-      "rack": "Gudang 1A",
-      "stock": 3,
-      "photo": "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/190758e5-a248-4551-b85b-d4f0d76da0fd.jpeg",
-      "createdAt": "2026-09-14T02:40:22.662Z"
-    },
-    {
       "id": "d5899901-7a63-4ab9-82c3-e9be7c184908",
       "name": "Meteran",
       "size": "5M",
@@ -2630,6 +2619,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "151825fd-2815-4f9f-85e0-48a623ca0607",
+      "item_id": "190758e5-a248-4551-b85b-d4f0d76da0fd",
+      "item_name": "TEE PPR (1xÂ½)",
+      "action": "DELETE_ITEM",
+      "quantity": 3,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-20T06:16:46.741Z"
+    },
     {
       "id": "000caa13-73e4-44db-9e9b-324329b9104b",
       "item_id": "40893f86-4b78-4cd7-8c30-4d9e9b815934",
