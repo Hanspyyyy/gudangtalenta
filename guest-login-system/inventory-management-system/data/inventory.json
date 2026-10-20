@@ -7,10 +7,10 @@
       "category": "Pipa",
       "warehouse": "Gudang 1",
       "rack": "1A | 5 | NO 3",
-      "stock": 0,
+      "stock": 8,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/56c7ac1d-7a39-4493-a8bb-c12ebdfa0b5b-1792477579016.jpeg",
       "created_at": "2026-10-20T06:26:19.944Z",
-      "updated_at": "2026-10-20T06:26:19.944Z"
+      "updated_at": "2026-10-20T06:26:32.833Z"
     },
     {
       "id": "57feabcc-2536-413d-b10e-235448c99c3b",
@@ -2644,6 +2644,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "1493f9ed-7b84-48fb-9747-26b09116ae9f",
+      "item_id": "56c7ac1d-7a39-4493-a8bb-c12ebdfa0b5b",
+      "item_name": "TEE PPR (20) ½",
+      "action": "STOCK_IN",
+      "quantity": 8,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-20T06:26:32.833Z"
+    },
     {
       "id": "39eae530-d906-4d52-84f6-11f37149554c",
       "item_id": "56c7ac1d-7a39-4493-a8bb-c12ebdfa0b5b",
