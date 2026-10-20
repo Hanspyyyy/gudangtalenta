@@ -2272,9 +2272,10 @@
       "category": "Terpal",
       "warehouse": "Gudang 1",
       "rack": "Gudang 1A",
-      "stock": 2,
+      "stock": 0,
       "photo": "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/5e2ea2f3-1056-4433-895c-6598032b911a.jpeg",
-      "createdAt": "2026-09-14T02:06:56.106Z"
+      "createdAt": "2026-09-14T02:06:56.106Z",
+      "updated_at": "2026-10-20T07:52:55.471Z"
     },
     {
       "id": "f5f27fbb-fd44-4c3a-a38b-3d8db10ddaf9",
@@ -2872,6 +2873,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "fd01d8d3-ec36-46b6-864a-be77c490ba7a",
+      "item_id": "5e2ea2f3-1056-4433-895c-6598032b911a",
+      "item_name": "Terpal (biru)",
+      "action": "STOCK_OUT",
+      "quantity": 2,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-20T07:52:55.472Z"
+    },
     {
       "id": "23e7b0c7-136d-4efb-b779-6202f77d47ff",
       "item_id": "c3ee067d-d07c-4325-8fbd-798f0da889b9",
