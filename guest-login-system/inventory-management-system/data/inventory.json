@@ -103,10 +103,10 @@
       "category": "Pipa",
       "warehouse": "Gudang 1",
       "rack": "1A | 5 | NO 3",
-      "stock": 22,
+      "stock": 23,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/70b259f2-02fd-416f-96aa-a48163244c0c-1792477755511.jpeg",
       "created_at": "2026-10-20T06:29:16.410Z",
-      "updated_at": "2026-10-20T06:29:16.410Z"
+      "updated_at": "2026-10-20T06:48:33.417Z"
     },
     {
       "id": "56c7ac1d-7a39-4493-a8bb-c12ebdfa0b5b",
@@ -2752,6 +2752,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "39072507-a899-4501-8eea-208fa8deb693",
+      "item_id": "70b259f2-02fd-416f-96aa-a48163244c0c",
+      "item_name": "SOK PPR (25)¾",
+      "action": "STOCK_IN",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-20T06:48:33.417Z"
+    },
     {
       "id": "2720f379-b48d-476f-ab71-321e6a0ca039",
       "item_id": "56ed6c13-0bd9-41ad-872f-063426f78db0",
