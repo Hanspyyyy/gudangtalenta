@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "57feabcc-2536-413d-b10e-235448c99c3b",
+      "name": "TEE PPR (32x20) 1x½",
+      "size": "1x½",
+      "category": "Pipa",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 5 | NO 3",
+      "stock": 7,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/57feabcc-2536-413d-b10e-235448c99c3b-1792477418061.jpeg",
+      "created_at": "2026-10-20T06:23:38.970Z",
+      "updated_at": "2026-10-20T06:23:38.970Z"
+    },
+    {
       "id": "50c8fd46-0545-424d-a1e5-ff96d1f4e9b8",
       "name": "TEE PPR (32) 1",
       "size": "1 inc",
@@ -2620,6 +2632,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "f24386ad-72c1-4839-884b-528c220d1621",
+      "item_id": "57feabcc-2536-413d-b10e-235448c99c3b",
+      "item_name": "TEE PPR (32x20) 1x½",
+      "action": "ADD_ITEM",
+      "quantity": 7,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-20T06:23:38.970Z"
+    },
     {
       "id": "0c3e3736-f503-4775-b456-7876469e55a1",
       "item_id": "50c8fd46-0545-424d-a1e5-ff96d1f4e9b8",
