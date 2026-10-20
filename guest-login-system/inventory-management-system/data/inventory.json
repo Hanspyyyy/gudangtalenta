@@ -307,10 +307,10 @@
       "category": "Alat",
       "warehouse": "Gudang 1",
       "rack": "1A | 7",
-      "stock": 400,
+      "stock": 200,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/33b52974-e933-4d15-957a-19d6db9a7473-1792401843936.jpeg",
       "created_at": "2026-10-19T09:24:05.131Z",
-      "updated_at": "2026-10-19T09:24:05.131Z"
+      "updated_at": "2026-10-20T08:46:06.087Z"
     },
     {
       "id": "da2f7ce8-7be7-459d-b0af-9e114345513e",
@@ -2873,6 +2873,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "5fbc727b-a80a-4ac0-9795-97135011287d",
+      "item_id": "33b52974-e933-4d15-957a-19d6db9a7473",
+      "item_name": "Specer kramik 1,5 rausable tile leveling sistem",
+      "action": "STOCK_OUT",
+      "quantity": 200,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-20T08:46:06.088Z"
+    },
     {
       "id": "fd01d8d3-ec36-46b6-864a-be77c490ba7a",
       "item_id": "5e2ea2f3-1056-4433-895c-6598032b911a",
