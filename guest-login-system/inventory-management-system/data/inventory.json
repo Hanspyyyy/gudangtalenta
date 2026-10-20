@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "c93b9396-0bd7-46f7-8c0d-ccc0618ae5ce",
+      "name": "TEE FITTING WESTPEX",
+      "size": "20",
+      "category": "Pipa",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 5 | NO 3",
+      "stock": 16,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/c93b9396-0bd7-46f7-8c0d-ccc0618ae5ce-1792481330212.jpeg",
+      "created_at": "2026-10-20T07:28:51.281Z",
+      "updated_at": "2026-10-20T07:28:51.281Z"
+    },
+    {
       "id": "ba8d4416-0fce-4d0f-9a2d-65c395fa9110",
       "name": "TEE WESTPEX (16)",
       "size": "16",
@@ -2836,6 +2848,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "d773896f-eb0a-4ff2-9c11-1a09b2981466",
+      "item_id": "c93b9396-0bd7-46f7-8c0d-ccc0618ae5ce",
+      "item_name": "TEE FITTING WESTPEX",
+      "action": "ADD_ITEM",
+      "quantity": 16,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-20T07:28:51.281Z"
+    },
     {
       "id": "8b331d48-4b45-44f0-afa2-8ccdcbc053d6",
       "item_id": "ba8d4416-0fce-4d0f-9a2d-65c395fa9110",
