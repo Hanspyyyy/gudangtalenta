@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "4047f284-9449-4656-979a-65f63cfa089f",
+      "name": "KNEE PPR (20) ½",
+      "size": "½",
+      "category": "Pipa",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 5 | NO 3",
+      "stock": 6,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/4047f284-9449-4656-979a-65f63cfa089f-1792477876207.jpeg",
+      "created_at": "2026-10-20T06:31:17.116Z",
+      "updated_at": "2026-10-20T06:31:17.116Z"
+    },
+    {
       "id": "70b259f2-02fd-416f-96aa-a48163244c0c",
       "name": "SOK PPR (25)¾",
       "size": "¾",
@@ -2656,6 +2668,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "5cc680da-27ab-4b68-8ba8-530c9fec0077",
+      "item_id": "4047f284-9449-4656-979a-65f63cfa089f",
+      "item_name": "KNEE PPR (20) ½",
+      "action": "ADD_ITEM",
+      "quantity": 6,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-20T06:31:17.116Z"
+    },
     {
       "id": "36dab4bb-2bf9-4ed5-b349-7e50f8320b8b",
       "item_id": "70b259f2-02fd-416f-96aa-a48163244c0c",
