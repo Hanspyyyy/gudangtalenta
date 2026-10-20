@@ -7,10 +7,10 @@
       "category": "Pipa",
       "warehouse": "Gudang 1",
       "rack": "1A | 5 | NO",
-      "stock": 17,
+      "stock": 19,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/e126c171-6e04-47a7-8e08-6e2d0cabc547-1792480458784.jpeg",
       "created_at": "2026-10-20T07:14:19.788Z",
-      "updated_at": "2026-10-20T07:14:19.788Z"
+      "updated_at": "2026-10-20T07:15:19.532Z"
     },
     {
       "id": "1bcc19e2-f167-4c61-bc29-dc91a6f03e2b",
@@ -2800,6 +2800,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "783bc775-2f2e-49e7-880d-b300119aadc0",
+      "item_id": "e126c171-6e04-47a7-8e08-6e2d0cabc547",
+      "item_name": "SOK WESPEK (1620-1216)",
+      "action": "STOCK_IN",
+      "quantity": 2,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-20T07:15:19.532Z"
+    },
     {
       "id": "845a4f02-3080-44a7-98e7-ba3564d6cde5",
       "item_id": "e126c171-6e04-47a7-8e08-6e2d0cabc547",
