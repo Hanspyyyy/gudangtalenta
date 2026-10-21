@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "3a4dcd06-9a73-4752-b7db-e0a73de39b9e",
+      "name": "Pintu depan kaca",
+      "size": "296x81",
+      "category": "Pintu",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 6 | NO 1",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/3a4dcd06-9a73-4752-b7db-e0a73de39b9e-1792555998054.jpeg",
+      "created_at": "2026-10-21T04:13:19.025Z",
+      "updated_at": "2026-10-21T04:13:19.025Z"
+    },
+    {
       "id": "c3ee067d-d07c-4325-8fbd-798f0da889b9",
       "name": "Karung pak Turin",
       "size": "Sedang",
@@ -2873,6 +2885,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "2e3cb1f3-b1f2-4971-bb90-ee95a575763d",
+      "item_id": "3a4dcd06-9a73-4752-b7db-e0a73de39b9e",
+      "item_name": "Pintu depan kaca",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-21T04:13:19.025Z"
+    },
     {
       "id": "bbd3f634-d960-416a-9c9a-da83b44720dc",
       "item_id": "46a1a8e8-1667-4049-af09-0546c21a1d80",
