@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "703a1ad8-f7b6-4227-bb31-1299759e7e49",
+      "name": "Alumunium hollo",
+      "size": "282x8",
+      "category": "(savy)",
+      "warehouse": "Gudang 1",
+      "rack": "2A",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/703a1ad8-f7b6-4227-bb31-1299759e7e49-1792580345569.jpeg",
+      "created_at": "2026-10-21T10:59:06.597Z",
+      "updated_at": "2026-10-21T10:59:06.597Z"
+    },
+    {
       "id": "0b2800fd-e744-47e6-be17-ab822e06e986",
       "name": "Air condetion (savy)",
       "size": "15x90",
@@ -3018,6 +3030,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "70fee4ce-b53b-458f-8d8c-8730b90e9e94",
+      "item_id": "703a1ad8-f7b6-4227-bb31-1299759e7e49",
+      "item_name": "Alumunium hollo",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-21T10:59:06.597Z"
+    },
     {
       "id": "6bb6e94e-186c-419f-b1b2-c13d6e487c5c",
       "item_id": "0b2800fd-e744-47e6-be17-ab822e06e986",
