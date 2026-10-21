@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "0b2800fd-e744-47e6-be17-ab822e06e986",
+      "name": "Air condetion (savy)",
+      "size": "15x90",
+      "category": "(savy)",
+      "warehouse": "Gudang 1",
+      "rack": "2",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/0b2800fd-e744-47e6-be17-ab822e06e986-1792579879409.jpeg",
+      "created_at": "2026-10-21T10:51:20.506Z",
+      "updated_at": "2026-10-21T10:51:20.506Z"
+    },
+    {
       "id": "2b46fba9-e4c8-44bb-9541-2ea0d277e202",
       "name": "Air condetion (savy)",
       "size": "5x210",
@@ -3006,6 +3018,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "6bb6e94e-186c-419f-b1b2-c13d6e487c5c",
+      "item_id": "0b2800fd-e744-47e6-be17-ab822e06e986",
+      "item_name": "Air condetion (savy)",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-21T10:51:20.506Z"
+    },
     {
       "id": "f9ca0121-e7bd-4747-9329-30e6bd340616",
       "item_id": "2b46fba9-e4c8-44bb-9541-2ea0d277e202",
