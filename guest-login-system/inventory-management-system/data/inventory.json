@@ -403,10 +403,10 @@
       "category": "Gypsum",
       "warehouse": "Gudang 1",
       "rack": "1A",
-      "stock": 18,
+      "stock": 32,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/9eeffada-e3b5-46dd-8112-d719ccbd8d34-1792315292514.jpeg",
       "created_at": "2026-10-18T09:21:33.511Z",
-      "updated_at": "2026-10-18T09:21:33.511Z"
+      "updated_at": "2026-10-21T04:08:56.730Z"
     },
     {
       "id": "ebd73189-7967-4d44-adbd-1a907cd4f510",
@@ -2873,6 +2873,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "9b14427f-eeb4-42d6-bfa6-31a26374936a",
+      "item_id": "9eeffada-e3b5-46dd-8112-d719ccbd8d34",
+      "item_name": "List gypsum (PI)",
+      "action": "STOCK_IN",
+      "quantity": 14,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-21T04:08:56.731Z"
+    },
     {
       "id": "0b0e1165-ffa4-40c4-a036-aa2c6673e1d7",
       "item_id": "c3ee067d-d07c-4325-8fbd-798f0da889b9",
