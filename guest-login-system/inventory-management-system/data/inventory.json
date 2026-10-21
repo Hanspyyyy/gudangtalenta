@@ -1,18 +1,6 @@
 {
   "items": [
     {
-      "id": "fb177cbd-e8ee-4339-90a6-be71ef816702",
-      "name": "Pasir",
-      "size": "-",
-      "category": "Pasir",
-      "warehouse": "Gudang 1",
-      "rack": "2A",
-      "stock": 2,
-      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/fb177cbd-e8ee-4339-90a6-be71ef816702-1792576715053.jpeg",
-      "created_at": "2026-10-21T09:58:36.082Z",
-      "updated_at": "2026-10-21T09:58:36.082Z"
-    },
-    {
       "id": "c94746e8-5f00-4870-a4c5-8f744d4ff6f5",
       "name": "Rumah lampu (dokgi)",
       "size": "169x170",
@@ -2958,6 +2946,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "a333348f-6f33-4a90-b24a-e7334bd27fd2",
+      "item_id": "fb177cbd-e8ee-4339-90a6-be71ef816702",
+      "item_name": "Pasir",
+      "action": "DELETE_ITEM",
+      "quantity": 2,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-21T09:58:43.802Z"
+    },
     {
       "id": "5cf52411-7ac2-42ee-872c-d2d2f505dd43",
       "item_id": "fb177cbd-e8ee-4339-90a6-be71ef816702",
