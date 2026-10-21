@@ -7,10 +7,10 @@
       "category": "Karung",
       "warehouse": "Gudang 1",
       "rack": "1A",
-      "stock": 30,
+      "stock": 0,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/c3ee067d-d07c-4325-8fbd-798f0da889b9-1792482703836.jpeg",
       "created_at": "2026-10-20T07:51:44.786Z",
-      "updated_at": "2026-10-20T07:51:44.786Z"
+      "updated_at": "2026-10-21T04:08:16.824Z"
     },
     {
       "id": "0b88ffb1-7efb-4696-924f-230efe5b7e58",
@@ -2873,6 +2873,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "0b0e1165-ffa4-40c4-a036-aa2c6673e1d7",
+      "item_id": "c3ee067d-d07c-4325-8fbd-798f0da889b9",
+      "item_name": "Karung pak Turin",
+      "action": "STOCK_OUT",
+      "quantity": 30,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-21T04:08:16.825Z"
+    },
     {
       "id": "48ca95a0-4c16-4b49-a813-e248bb3156b4",
       "item_id": "d339e01a-4d6a-4b6f-ab8d-c6c88a7b47b3",
