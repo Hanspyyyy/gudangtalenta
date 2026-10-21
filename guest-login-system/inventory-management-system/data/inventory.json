@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "c94746e8-5f00-4870-a4c5-8f744d4ff6f5",
+      "name": "Rumah lampu",
+      "size": "169x170",
+      "category": "Lampu",
+      "warehouse": "Gudang 1",
+      "rack": "Ruangmeet",
+      "stock": 15,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/c94746e8-5f00-4870-a4c5-8f744d4ff6f5-1792557792202.jpeg",
+      "created_at": "2026-10-21T04:43:13.320Z",
+      "updated_at": "2026-10-21T04:43:13.320Z"
+    },
+    {
       "id": "b30e14e5-138d-4f84-99cd-add46758fb0f",
       "name": "Inbowdua panasonic",
       "size": "-",
@@ -2933,6 +2945,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "c0c749c5-8cf0-4361-8d18-bf852e3fdae4",
+      "item_id": "c94746e8-5f00-4870-a4c5-8f744d4ff6f5",
+      "item_name": "Rumah lampu",
+      "action": "ADD_ITEM",
+      "quantity": 15,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-21T04:43:13.320Z"
+    },
     {
       "id": "9222b8de-fd75-4a13-b98e-7328cb30855f",
       "item_id": "b30e14e5-138d-4f84-99cd-add46758fb0f",
