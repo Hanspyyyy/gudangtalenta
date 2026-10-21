@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "b30e14e5-138d-4f84-99cd-add46758fb0f",
+      "name": "Inbowdua panasonic",
+      "size": "-",
+      "category": "Lampu",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 2 | NO 2",
+      "stock": 24,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/b30e14e5-138d-4f84-99cd-add46758fb0f-1792557690585.jpeg",
+      "created_at": "2026-10-21T04:41:31.417Z",
+      "updated_at": "2026-10-21T04:41:31.417Z"
+    },
+    {
       "id": "4148f437-2137-4a1c-8c5c-a5aa15d8f6d2",
       "name": "Kaca cermin",
       "size": "33x210",
@@ -2921,6 +2933,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "9222b8de-fd75-4a13-b98e-7328cb30855f",
+      "item_id": "b30e14e5-138d-4f84-99cd-add46758fb0f",
+      "item_name": "Inbowdua panasonic",
+      "action": "ADD_ITEM",
+      "quantity": 24,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-21T04:41:31.417Z"
+    },
     {
       "id": "7082a2d8-5f0e-47bc-9124-d059e9c7ecad",
       "item_id": "4148f437-2137-4a1c-8c5c-a5aa15d8f6d2",
