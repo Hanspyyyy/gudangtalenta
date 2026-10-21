@@ -2228,14 +2228,15 @@
     },
     {
       "id": "332f9a09-1b8b-43c3-9e36-f1f6a1bf1189",
-      "name": "Specer rausable tile leveling sistem ( tidak ada Tulangan perekat)",
+      "name": "Spacer reusable tile leveling system (tidak ada tulangan perekat)",
       "size": "1mm",
       "category": "Keramik",
       "warehouse": "Gudang 1",
       "rack": "Gudang 1A",
       "stock": 90,
       "photo": "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/332f9a09-1b8b-43c3-9e36-f1f6a1bf1189.jpeg",
-      "createdAt": "2026-09-14T02:48:24.316Z"
+      "createdAt": "2026-09-14T02:48:24.316Z",
+      "updated_at": "2026-10-21T09:34:45.653Z"
     },
     {
       "id": "d5899901-7a63-4ab9-82c3-e9be7c184908",
