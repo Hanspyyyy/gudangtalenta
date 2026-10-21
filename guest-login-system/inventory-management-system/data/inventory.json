@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "f7f4862c-a7ee-4bf3-82c3-afe3a5db361e",
+      "name": "Pintu (savy)",
+      "size": "86,5x275",
+      "category": "Pintu",
+      "warehouse": "Gudang 2",
+      "rack": "2A",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/f7f4862c-a7ee-4bf3-82c3-afe3a5db361e-1792579423175.jpeg",
+      "created_at": "2026-10-21T10:43:44.062Z",
+      "updated_at": "2026-10-21T10:43:44.062Z"
+    },
+    {
       "id": "c94746e8-5f00-4870-a4c5-8f744d4ff6f5",
       "name": "Rumah lampu (dokgi)",
       "size": "169x170",
@@ -2946,6 +2958,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "fb674592-2ace-400c-bffc-4f87aeef4eb3",
+      "item_id": "f7f4862c-a7ee-4bf3-82c3-afe3a5db361e",
+      "item_name": "Pintu (savy)",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 2",
+      "timestamp": "2026-10-21T10:43:44.062Z"
+    },
     {
       "id": "a333348f-6f33-4a90-b24a-e7334bd27fd2",
       "item_id": "fb177cbd-e8ee-4339-90a6-be71ef816702",
