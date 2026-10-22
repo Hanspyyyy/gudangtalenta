@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "0e5c9759-984d-4bf5-ac60-329c61037a4d",
+      "name": "Borr drill",
+      "size": "Sedang",
+      "category": "Mesin",
+      "warehouse": "Gudang 1",
+      "rack": "1A",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/0e5c9759-984d-4bf5-ac60-329c61037a4d-1792651562261.jpeg",
+      "created_at": "2026-10-22T06:46:03.304Z",
+      "updated_at": "2026-10-22T06:46:03.304Z"
+    },
+    {
       "id": "6d8f132a-f89c-4da7-a2c3-d2f72797c60c",
       "name": "bor besar",
       "size": "Besar",
@@ -3066,6 +3078,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "de4a9689-050a-4de0-b836-6bb41b1c9b0f",
+      "item_id": "0e5c9759-984d-4bf5-ac60-329c61037a4d",
+      "item_name": "Borr drill",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-22T06:46:03.304Z"
+    },
     {
       "id": "af9edc28-ef9a-473d-86e6-7fbe02916a8a",
       "item_id": "6d8f132a-f89c-4da7-a2c3-d2f72797c60c",
