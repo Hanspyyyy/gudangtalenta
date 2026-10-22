@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "6d8f132a-f89c-4da7-a2c3-d2f72797c60c",
+      "name": "bor besar",
+      "size": "Besar",
+      "category": "Mesin",
+      "warehouse": "Gudang 1",
+      "rack": "1A",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/6d8f132a-f89c-4da7-a2c3-d2f72797c60c-1792651509207.jpeg",
+      "created_at": "2026-10-22T06:45:10.157Z",
+      "updated_at": "2026-10-22T06:45:10.157Z"
+    },
+    {
       "id": "2c982416-c3c8-4699-b258-edc37df319a7",
       "name": "Grinda kecil tangan",
       "size": "Kecil",
@@ -3054,6 +3066,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "af9edc28-ef9a-473d-86e6-7fbe02916a8a",
+      "item_id": "6d8f132a-f89c-4da7-a2c3-d2f72797c60c",
+      "item_name": "bor besar",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-22T06:45:10.157Z"
+    },
     {
       "id": "c0acbdea-89c1-4765-b099-34d0e904ec53",
       "item_id": "2c982416-c3c8-4699-b258-edc37df319a7",
