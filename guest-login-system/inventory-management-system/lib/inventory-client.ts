@@ -76,11 +76,26 @@ export async function updateItemName(id: string | undefined, name: string): Prom
 }
 
 export async function updateItemRack(id: string | undefined, rack: string): Promise<MutationResult> {
+  return updateItemField(id, { rack })
+}
+
+export async function updateItemDetails(
+  id: string | undefined,
+  field: 'category' | 'size' | 'warehouse',
+  value: string,
+): Promise<MutationResult> {
+  return updateItemField(id, { [field]: value })
+}
+
+async function updateItemField(
+  id: string | undefined,
+  changes: Partial<Pick<LocalItem, 'rack' | 'category' | 'size' | 'warehouse'>>,
+): Promise<MutationResult> {
   try {
     const res = await fetch(KEY, {
       method: 'PATCH',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ id, rack }),
+      body: JSON.stringify({ id, ...changes }),
     })
     if (!res.ok) return { ok: false, error: await parseError(res) }
     await refreshInventory()

@@ -158,18 +158,26 @@ export async function PUT(req: NextRequest) {
 
 export async function PATCH(req: NextRequest) {
   try {
-    const { id, type, quantity, name, rack } = await req.json()
+    const { id, type, quantity, name, rack, category, size, warehouse } = await req.json()
 
-    if (id && typeof rack === 'string') {
-      const nextRack = rack.trim()
-      if (!nextRack) return NextResponse.json({ error: 'Rak wajib diisi' }, { status: 400 })
+    const editableField = [
+      ['rack', rack, 'Rak'],
+      ['category', category, 'Kategori'],
+      ['size', size, 'Ukuran'],
+      ['warehouse', warehouse, 'Gudang'],
+    ].find(([, value]) => typeof value === 'string')
+
+    if (id && editableField) {
+      const [field, value, label] = editableField as ['rack' | 'category' | 'size' | 'warehouse', string, string]
+      const nextValue = value.trim()
+      if (!nextValue) return NextResponse.json({ error: `${label} wajib diisi` }, { status: 400 })
 
       let updatedItem: LocalItem | null = null
       await mutateInventory((data) => {
         const items = [...data.items]
         const itemIndex = items.findIndex((item) => String(item.id) === String(id))
         if (itemIndex < 0) return { data, result: null }
-        const item = { ...items[itemIndex], rack: nextRack, updated_at: new Date().toISOString() }
+        const item = { ...items[itemIndex], [field]: nextValue, updated_at: new Date().toISOString() }
         items[itemIndex] = item
         updatedItem = item
         return { data: { items, activity: data.activity }, result: item }

@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import { X, Trash2, PackagePlus, PackageMinus, Check, MessageCircle, Pencil, Maximize2 } from 'lucide-react'
 import { ProductImage } from '@/components/product-image'
-import { adjustItemStock, deleteItem, updateItemName, updateItemRack, type LocalItem } from '@/lib/inventory-client'
+import { adjustItemStock, deleteItem, updateItemDetails, updateItemName, updateItemRack, type LocalItem } from '@/lib/inventory-client'
 import { toast } from 'sonner'
 
 type Mode = 'in' | 'out' | null
@@ -18,6 +18,8 @@ export function ItemDetailModal({ item, isAdmin, onClose }: { item: LocalItem | 
   const [name, setName] = useState('')
   const [editingRack, setEditingRack] = useState(false)
   const [rack, setRack] = useState('')
+  const [editingField, setEditingField] = useState<'category' | 'size' | 'warehouse' | null>(null)
+  const [editValue, setEditValue] = useState('')
   const [showRequest, setShowRequest] = useState(false)
   const [showLightbox, setShowLightbox] = useState(false)
   const [reqQuantity, setReqQuantity] = useState('')
@@ -99,6 +101,65 @@ export function ItemDetailModal({ item, isAdmin, onClose }: { item: LocalItem | 
     }
     setEditingRack(false)
     toast.success('Rak berhasil diperbarui.')
+  }
+
+  const saveDetailField = async () => {
+    const nextValue = editValue.trim()
+    if (!editingField || !nextValue) {
+      toast.error('Nilai wajib diisi.')
+      return
+    }
+    setBusy(true)
+    const result = await updateItemDetails(item.id, editingField, nextValue)
+    setBusy(false)
+    if (!result.ok) {
+      toast.error(result.error)
+      return
+    }
+    setEditingField(null)
+    toast.success('Informasi barang berhasil diperbarui.')
+  }
+
+  const editableDetail = (field: 'category' | 'size' | 'warehouse', label: string, value: string) => {
+    if (editingField === field) {
+      return (
+        <div className="rounded-xl bg-secondary/60 p-3">
+          <label htmlFor={`edit-item-${field}`} className="text-xs text-muted-foreground">{label}</label>
+          <input
+            id={`edit-item-${field}`}
+            type="text"
+            autoFocus
+            value={editValue}
+            onChange={(event) => setEditValue(event.target.value)}
+            className="mt-1 h-9 w-full rounded-lg border border-input bg-background px-2 text-sm font-medium outline-none focus-visible:ring-2"
+          />
+          <div className="mt-2 flex gap-2">
+            <button type="button" onClick={() => setEditingField(null)} disabled={busy} className="h-8 flex-1 rounded-lg border bg-card text-xs font-medium hover:bg-secondary disabled:opacity-60">Batal</button>
+            <button type="button" onClick={saveDetailField} disabled={busy} className="h-8 flex-1 rounded-lg bg-primary text-xs font-medium text-primary-foreground disabled:opacity-60">Simpan</button>
+          </div>
+        </div>
+      )
+    }
+
+    return (
+      <div className="rounded-xl bg-secondary/60 p-3">
+        <dt className="text-xs text-muted-foreground">{label}</dt>
+        <div className="mt-1 flex items-center gap-2">
+          <dd className="font-medium">{value}</dd>
+          {isAdmin && (
+            <button
+              type="button"
+              onClick={() => { setEditValue(value); setEditingField(field) }}
+              disabled={busy}
+              aria-label={`Edit ${label.toLowerCase()}`}
+              className="grid size-7 place-items-center rounded-lg text-muted-foreground hover:bg-secondary hover:text-foreground disabled:opacity-60"
+            >
+              <Pencil className="size-3.5" />
+            </button>
+          )}
+        </div>
+      </div>
+    )
   }
 
   const handleDelete = async () => {
@@ -195,10 +256,10 @@ export function ItemDetailModal({ item, isAdmin, onClose }: { item: LocalItem | 
           </div>
         )}
         <dl className="mt-4 grid grid-cols-2 gap-3 text-sm">
-          <Detail label="Kategori" value={item.category} />
-          <Detail label="Ukuran" value={item.size} />
+          {editableDetail('category', 'Kategori', item.category)}
+          {editableDetail('size', 'Ukuran', item.size)}
           <Detail label="Stok" value={`${item.stock} unit`} />
-          <Detail label="Gudang" value={item.warehouse} />
+          {editableDetail('warehouse', 'Gudang', item.warehouse)}
           {editingRack ? (
             <div className="rounded-xl bg-secondary/60 p-3">
               <label htmlFor="edit-item-rack" className="text-xs text-muted-foreground">Rak</label>
