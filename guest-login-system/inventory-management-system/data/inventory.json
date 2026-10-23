@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "33783c61-6fa7-4c78-9110-94f11f8ac33e",
+      "name": "TEE Y PVC (3)",
+      "size": "3",
+      "category": "Pipa",
+      "warehouse": "Gudang 1",
+      "rack": "1C",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/33783c61-6fa7-4c78-9110-94f11f8ac33e-1792738090135.jpeg",
+      "created_at": "2026-10-23T06:48:11.105Z",
+      "updated_at": "2026-10-23T06:48:11.105Z"
+    },
+    {
       "id": "16ad7ecd-a373-4f9b-bdbb-3a051600e650",
       "name": "SOK DRAT LUAR PVC (1)",
       "size": "1",
@@ -3570,6 +3582,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "02f8dcb5-52fd-477c-a43a-cc4a32ac644e",
+      "item_id": "33783c61-6fa7-4c78-9110-94f11f8ac33e",
+      "item_name": "TEE Y PVC (3)",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-23T06:48:11.105Z"
+    },
     {
       "id": "db930e19-2203-4ca2-bacc-010763527779",
       "item_id": "16ad7ecd-a373-4f9b-bdbb-3a051600e650",
