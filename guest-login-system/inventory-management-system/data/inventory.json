@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "4316e2ed-c910-4067-91c8-4e8e5de20725",
+      "name": "Vlok Sok Reducing Socket / Over Sock(1x¾)",
+      "size": "1x¾",
+      "category": "Pipa",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 5 | NO 3",
+      "stock": 4,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/4316e2ed-c910-4067-91c8-4e8e5de20725-1792721290454.jpeg",
+      "created_at": "2026-10-23T02:08:11.383Z",
+      "updated_at": "2026-10-23T02:08:11.383Z"
+    },
+    {
       "id": "8836d379-badf-4bdf-84d9-e47a6e5fc3f8",
       "name": "TEE PVC (1)",
       "size": "1",
@@ -3198,6 +3210,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "abbb0c8e-dbf7-486a-b048-d98f5821b0b9",
+      "item_id": "4316e2ed-c910-4067-91c8-4e8e5de20725",
+      "item_name": "Vlok Sok Reducing Socket / Over Sock(1x¾)",
+      "action": "ADD_ITEM",
+      "quantity": 4,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-23T02:08:11.383Z"
+    },
     {
       "id": "b29af953-54d7-42a6-af2c-37fbae768676",
       "item_id": "8836d379-badf-4bdf-84d9-e47a6e5fc3f8",
