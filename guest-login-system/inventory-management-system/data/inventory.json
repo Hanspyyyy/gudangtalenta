@@ -7,10 +7,10 @@
       "category": "Pipa",
       "warehouse": "Gudang 1",
       "rack": "1A | 5 | NO 3",
-      "stock": 0,
+      "stock": 1,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/53e35beb-75ad-47e9-b5d1-ffd86e9ab282-1792737500291.jpeg",
       "created_at": "2026-10-23T06:38:21.347Z",
-      "updated_at": "2026-10-23T06:38:21.347Z"
+      "updated_at": "2026-10-23T06:38:35.224Z"
     },
     {
       "id": "dc2dac6c-7cb4-46ae-899e-dd7b916f7ea6",
@@ -3558,6 +3558,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "df2b281a-c0ec-4a00-9f7f-7e47f653214b",
+      "item_id": "53e35beb-75ad-47e9-b5d1-ffd86e9ab282",
+      "item_name": "SOK DRAT LUAR PVC (¾)",
+      "action": "STOCK_IN",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-23T06:38:35.224Z"
+    },
     {
       "id": "b057735d-b60a-459f-8fa4-dbc1f30947c8",
       "item_id": "53e35beb-75ad-47e9-b5d1-ffd86e9ab282",
