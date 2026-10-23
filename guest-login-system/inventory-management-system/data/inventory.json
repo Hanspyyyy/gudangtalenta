@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "9c8c9271-e48b-44b4-bafb-565d9f3fe6e8",
+      "name": "DOP PVC (1¼)",
+      "size": "1¼",
+      "category": "Pipa",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 5 | NO 3",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/9c8c9271-e48b-44b4-bafb-565d9f3fe6e8-1792722199803.jpeg",
+      "created_at": "2026-10-23T02:23:20.819Z",
+      "updated_at": "2026-10-23T02:23:20.819Z"
+    },
+    {
       "id": "addb628c-ecf0-4b35-885f-b48924a89422",
       "name": "DOP (1½)",
       "size": "1½",
@@ -3306,6 +3318,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "77f6a093-992d-450f-b891-f86f7b2ae473",
+      "item_id": "9c8c9271-e48b-44b4-bafb-565d9f3fe6e8",
+      "item_name": "DOP PVC (1¼)",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-23T02:23:20.819Z"
+    },
     {
       "id": "3a486a39-b801-40f1-ad8a-ebf4b4aa51d7",
       "item_id": "addb628c-ecf0-4b35-885f-b48924a89422",
