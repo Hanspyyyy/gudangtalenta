@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "67b5dcf8-95ce-4e38-b145-07a2bccc76bb",
+      "name": "KNEE PVC (2)",
+      "size": "2",
+      "category": "Pipa",
+      "warehouse": "Gudang 1",
+      "rack": "1C",
+      "stock": 4,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/67b5dcf8-95ce-4e38-b145-07a2bccc76bb-1792741622515.jpeg",
+      "created_at": "2026-10-23T07:47:03.476Z",
+      "updated_at": "2026-10-23T07:47:03.476Z"
+    },
+    {
       "id": "ea347757-0cf3-4fe2-88e5-178552406a95",
       "name": "KNEE PVC (1½)",
       "size": "1½",
@@ -3774,6 +3786,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "46800caf-3975-4d2d-8512-ad1a9089a49c",
+      "item_id": "67b5dcf8-95ce-4e38-b145-07a2bccc76bb",
+      "item_name": "KNEE PVC (2)",
+      "action": "ADD_ITEM",
+      "quantity": 4,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-23T07:47:03.476Z"
+    },
     {
       "id": "09933641-3fb1-485d-bf23-4b35cbb13e6b",
       "item_id": "ea347757-0cf3-4fe2-88e5-178552406a95",
