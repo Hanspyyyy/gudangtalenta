@@ -331,10 +331,10 @@
       "category": "Pipa",
       "warehouse": "Gudang 1",
       "rack": "1C",
-      "stock": 4,
+      "stock": 5,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/33783c61-6fa7-4c78-9110-94f11f8ac33e-1792738090135.jpeg",
       "created_at": "2026-10-23T06:48:11.105Z",
-      "updated_at": "2026-10-23T06:53:35.186Z"
+      "updated_at": "2026-10-23T08:08:39.564Z"
     },
     {
       "id": "16ad7ecd-a373-4f9b-bdbb-3a051600e650",
@@ -3906,6 +3906,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "7af77204-6958-44db-b49b-a5a95a4ecee5",
+      "item_id": "33783c61-6fa7-4c78-9110-94f11f8ac33e",
+      "item_name": "TEE Y PVC (3)",
+      "action": "STOCK_IN",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-23T08:08:39.564Z"
+    },
     {
       "id": "7abf74a2-4335-4d04-bd32-a97b59aa09bc",
       "item_id": "c8bf62f4-ea10-4d62-9f67-0afe0fcd5711",
