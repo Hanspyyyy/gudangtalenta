@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "257231a5-ec64-4fc2-a36d-79ac80780b50",
+      "name": "foot valve PVC (foot klep / tusen klep)",
+      "size": "2",
+      "category": "Pipa",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 3 | NO 3",
+      "stock": 2,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/257231a5-ec64-4fc2-a36d-79ac80780b50-1792720564268.jpeg",
+      "created_at": "2026-10-23T01:56:05.105Z",
+      "updated_at": "2026-10-23T01:56:05.105Z"
+    },
+    {
       "id": "51c2f799-c385-4696-904f-33dac76d001b",
       "name": "KNEE PVC (1½)",
       "size": "1½",
@@ -3138,6 +3150,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "a1ec237b-34b5-4fec-a139-3466279cc7a4",
+      "item_id": "257231a5-ec64-4fc2-a36d-79ac80780b50",
+      "item_name": "foot valve PVC (foot klep / tusen klep)",
+      "action": "ADD_ITEM",
+      "quantity": 2,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-23T01:56:05.105Z"
+    },
     {
       "id": "fa41cc9d-4294-410a-bdc6-8b80914dd3ef",
       "item_id": "51c2f799-c385-4696-904f-33dac76d001b",
