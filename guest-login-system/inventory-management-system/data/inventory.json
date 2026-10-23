@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "8836d379-badf-4bdf-84d9-e47a6e5fc3f8",
+      "name": "TEE PVC (1)",
+      "size": "1",
+      "category": "Pipa",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 5 | NO 3",
+      "stock": 3,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/8836d379-badf-4bdf-84d9-e47a6e5fc3f8-1792721150300.jpeg",
+      "created_at": "2026-10-23T02:05:51.177Z",
+      "updated_at": "2026-10-23T02:05:51.177Z"
+    },
+    {
       "id": "fb9c29b6-25a5-47e5-ac5b-3ea4fc3bd1e5",
       "name": "TUSEN KLEP PVC (foot valve/klep tabung)",
       "size": "2",
@@ -3186,6 +3198,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "b29af953-54d7-42a6-af2c-37fbae768676",
+      "item_id": "8836d379-badf-4bdf-84d9-e47a6e5fc3f8",
+      "item_name": "TEE PVC (1)",
+      "action": "ADD_ITEM",
+      "quantity": 3,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-23T02:05:51.177Z"
+    },
     {
       "id": "7457baaf-d15f-4298-97b4-36c923562bc9",
       "item_id": "fb9c29b6-25a5-47e5-ac5b-3ea4fc3bd1e5",
