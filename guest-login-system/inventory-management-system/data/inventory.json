@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "6ebd11be-ecfe-4868-9e38-38fd7eef3a49",
+      "name": "KNEE PVC (2)",
+      "size": "2",
+      "category": "Pipa",
+      "warehouse": "Gudang 1",
+      "rack": "1C R",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/6ebd11be-ecfe-4868-9e38-38fd7eef3a49-1792743180780.jpeg",
+      "created_at": "2026-10-23T08:13:01.740Z",
+      "updated_at": "2026-10-23T08:13:01.740Z"
+    },
+    {
       "id": "4c14530c-521f-4314-8af9-149502b1989a",
       "name": "VLOK SOK PVC (1½x1)",
       "size": "1½x1",
@@ -3942,6 +3954,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "585850f3-43c1-48dc-982e-e2fd7240a666",
+      "item_id": "6ebd11be-ecfe-4868-9e38-38fd7eef3a49",
+      "item_name": "KNEE PVC (2)",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-23T08:13:01.740Z"
+    },
     {
       "id": "d7176d3c-835e-44c2-8076-2b665506533b",
       "item_id": "4c14530c-521f-4314-8af9-149502b1989a",
