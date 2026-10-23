@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "c9f9173b-9e18-4e4f-a2f1-19029d104667",
+      "name": "TEE Y PVC (3X2)",
+      "size": "3x2",
+      "category": "Pipa",
+      "warehouse": "Gudang 1",
+      "rack": "1C R",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/c9f9173b-9e18-4e4f-a2f1-19029d104667-1792743541338.jpeg",
+      "created_at": "2026-10-23T08:19:02.504Z",
+      "updated_at": "2026-10-23T08:19:02.504Z"
+    },
+    {
       "id": "7ddf8aff-7f38-4edd-811a-37935b143f70",
       "name": "SOK PVC (2X½)",
       "size": "2x½",
@@ -4002,6 +4014,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "39126b4c-bf95-4037-9e94-1e134580362f",
+      "item_id": "c9f9173b-9e18-4e4f-a2f1-19029d104667",
+      "item_name": "TEE Y PVC (3X2)",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-23T08:19:02.504Z"
+    },
     {
       "id": "9d658f5a-4ca1-4a38-b4fe-bf867af05d5f",
       "item_id": "7ddf8aff-7f38-4edd-811a-37935b143f70",
