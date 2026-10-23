@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "046f8f2c-af0b-4801-8541-d1b0e31c984e",
+      "name": "TEE PVC (¾)",
+      "size": "¾",
+      "category": "Veneer tebal",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 5 | NO 3",
+      "stock": 2,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/046f8f2c-af0b-4801-8541-d1b0e31c984e-1792722620793.jpeg",
+      "created_at": "2026-10-23T02:30:21.928Z",
+      "updated_at": "2026-10-23T02:30:21.928Z"
+    },
+    {
       "id": "919d6a4c-c54f-473a-9e90-dd9a9790d5e1",
       "name": "VLOK SOK PVC (2X¼)",
       "size": "2x¼",
@@ -3330,6 +3342,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "7655ae32-6523-4f74-878a-e65209371590",
+      "item_id": "046f8f2c-af0b-4801-8541-d1b0e31c984e",
+      "item_name": "TEE PVC (¾)",
+      "action": "ADD_ITEM",
+      "quantity": 2,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-23T02:30:21.928Z"
+    },
     {
       "id": "c5278e06-74be-4b75-a8e0-d54574f01f88",
       "item_id": "8836d379-badf-4bdf-84d9-e47a6e5fc3f8",
