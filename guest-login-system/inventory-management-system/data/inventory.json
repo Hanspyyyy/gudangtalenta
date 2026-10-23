@@ -7,10 +7,10 @@
       "category": "Pipa",
       "warehouse": "Gudang 1",
       "rack": "1C",
-      "stock": 1,
+      "stock": 6,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/5a1b795e-a703-4018-a704-f244c0f96177-1792738209518.jpeg",
       "created_at": "2026-10-23T06:50:10.575Z",
-      "updated_at": "2026-10-23T06:50:10.575Z"
+      "updated_at": "2026-10-23T06:50:32.783Z"
     },
     {
       "id": "33783c61-6fa7-4c78-9110-94f11f8ac33e",
@@ -3594,6 +3594,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "342ca0b2-257b-49dc-9bc4-7a0d063cb7ba",
+      "item_id": "5a1b795e-a703-4018-a704-f244c0f96177",
+      "item_name": "V-Trap PVC atau P-Trap (leher angsa)",
+      "action": "STOCK_IN",
+      "quantity": 5,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-23T06:50:32.783Z"
+    },
     {
       "id": "4e5bc987-8c30-41fd-b375-073d6328c0da",
       "item_id": "5a1b795e-a703-4018-a704-f244c0f96177",
