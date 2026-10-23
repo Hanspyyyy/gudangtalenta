@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "cc5bcd83-f658-4c43-adb3-655895285f39",
+      "name": "SOK PPR (1½)",
+      "size": "1½",
+      "category": "Pipa",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 5 | NO 3",
+      "stock": 2,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/cc5bcd83-f658-4c43-adb3-655895285f39-1792720803359.jpeg",
+      "created_at": "2026-10-23T02:00:04.645Z",
+      "updated_at": "2026-10-23T02:00:04.645Z"
+    },
+    {
       "id": "00d28433-b296-4095-a1ac-df050284bd63",
       "name": "SOK DRAT DALAM PVC (1½)",
       "size": "1½",
@@ -3162,6 +3174,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "f9da6ab5-4153-4dca-aea8-cea95660d841",
+      "item_id": "cc5bcd83-f658-4c43-adb3-655895285f39",
+      "item_name": "SOK PPR (1½)",
+      "action": "ADD_ITEM",
+      "quantity": 2,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-23T02:00:04.645Z"
+    },
     {
       "id": "abce7b11-8cef-4986-af57-7d1152b26afe",
       "item_id": "00d28433-b296-4095-a1ac-df050284bd63",
