@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "00d28433-b296-4095-a1ac-df050284bd63",
+      "name": "Shock drat dalam",
+      "size": "1½",
+      "category": "Pipa",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 5 | NO 3",
+      "stock": 14,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/00d28433-b296-4095-a1ac-df050284bd63-1792720671846.jpeg",
+      "created_at": "2026-10-23T01:57:52.958Z",
+      "updated_at": "2026-10-23T01:57:52.958Z"
+    },
+    {
       "id": "257231a5-ec64-4fc2-a36d-79ac80780b50",
       "name": "foot valve PVC (foot klep / tusen klep)",
       "size": "2",
@@ -3150,6 +3162,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "abce7b11-8cef-4986-af57-7d1152b26afe",
+      "item_id": "00d28433-b296-4095-a1ac-df050284bd63",
+      "item_name": "Shock drat dalam",
+      "action": "ADD_ITEM",
+      "quantity": 14,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-23T01:57:52.958Z"
+    },
     {
       "id": "a1ec237b-34b5-4fec-a139-3466279cc7a4",
       "item_id": "257231a5-ec64-4fc2-a36d-79ac80780b50",
