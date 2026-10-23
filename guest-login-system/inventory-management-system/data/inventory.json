@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "bcf3b21b-d383-48c7-848b-bbb151ee7fb6",
+      "name": "KNEE DRAT LUAR PVC (1½(",
+      "size": "1x½",
+      "category": "Pipa",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 5 | NO 3",
+      "stock": 3,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/bcf3b21b-d383-48c7-848b-bbb151ee7fb6-1792721366214.jpeg",
+      "created_at": "2026-10-23T02:09:27.213Z",
+      "updated_at": "2026-10-23T02:09:27.213Z"
+    },
+    {
       "id": "4316e2ed-c910-4067-91c8-4e8e5de20725",
       "name": "Vlok Sok Reducing Socket / Over Sock(1x¾)",
       "size": "1x¾",
@@ -3210,6 +3222,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "5129e681-025a-486e-a800-cee49e30e8e3",
+      "item_id": "bcf3b21b-d383-48c7-848b-bbb151ee7fb6",
+      "item_name": "KNEE DRAT LUAR PVC (1½(",
+      "action": "ADD_ITEM",
+      "quantity": 3,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-23T02:09:27.213Z"
+    },
     {
       "id": "abbb0c8e-dbf7-486a-b048-d98f5821b0b9",
       "item_id": "4316e2ed-c910-4067-91c8-4e8e5de20725",
