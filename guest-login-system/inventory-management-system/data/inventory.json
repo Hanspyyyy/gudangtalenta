@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "8c2138df-4e88-4493-8f55-4e01d603f6f5",
+      "name": "VLOO SOK PVC (6X4)",
+      "size": "6x4",
+      "category": "Pipa",
+      "warehouse": "Gudang 1",
+      "rack": "1C",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/8c2138df-4e88-4493-8f55-4e01d603f6f5-1792740622142.jpeg",
+      "created_at": "2026-10-23T07:30:23.569Z",
+      "updated_at": "2026-10-23T07:30:23.569Z"
+    },
+    {
       "id": "a3e0d621-b65d-43c0-8cd4-2a31488167bf",
       "name": "SOK PVC (6)",
       "size": "6",
@@ -3726,6 +3738,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "ceea1953-d507-4a66-83b7-9fa48ac318cb",
+      "item_id": "8c2138df-4e88-4493-8f55-4e01d603f6f5",
+      "item_name": "VLOO SOK PVC (6X4)",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-23T07:30:23.569Z"
+    },
     {
       "id": "d470eb49-ff85-4247-ac2b-160d55db8b61",
       "item_id": "a3e0d621-b65d-43c0-8cd4-2a31488167bf",
