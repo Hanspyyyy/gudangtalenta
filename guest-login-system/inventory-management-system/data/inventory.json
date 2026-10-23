@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "c0b98826-f930-4bcb-a66b-f6b0f8f960c3",
+      "name": "Vlok sok pcv(1½x¾)",
+      "size": "1½x¾",
+      "category": "Pipa",
+      "warehouse": "Gudang 1",
+      "rack": "1C R",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/c0b98826-f930-4bcb-a66b-f6b0f8f960c3-1792743071387.jpeg",
+      "created_at": "2026-10-23T08:11:12.267Z",
+      "updated_at": "2026-10-23T08:11:12.267Z"
+    },
+    {
       "id": "73ad24bc-c059-401e-b0ae-d53b9b606dca",
       "name": "TEE PVC (2)",
       "size": "1",
@@ -3918,6 +3930,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "ed8b7f14-b31b-4a4b-9c16-66ff6950f109",
+      "item_id": "c0b98826-f930-4bcb-a66b-f6b0f8f960c3",
+      "item_name": "Vlok sok pcv(1½x¾)",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-23T08:11:12.267Z"
+    },
     {
       "id": "ee273265-d5f3-4cd5-bc35-185f48c761c4",
       "item_id": "73ad24bc-c059-401e-b0ae-d53b9b606dca",
