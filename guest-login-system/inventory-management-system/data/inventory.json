@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "4c14530c-521f-4314-8af9-149502b1989a",
+      "name": "VLOK SOK PVC (1½x1)",
+      "size": "1½x1",
+      "category": "Pipa",
+      "warehouse": "Gudang 1",
+      "rack": "1C R",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/4c14530c-521f-4314-8af9-149502b1989a-1792743133873.jpeg",
+      "created_at": "2026-10-23T08:12:14.756Z",
+      "updated_at": "2026-10-23T08:12:14.756Z"
+    },
+    {
       "id": "c0b98826-f930-4bcb-a66b-f6b0f8f960c3",
       "name": "Vlok sok pcv(1½x¾)",
       "size": "1½x¾",
@@ -3930,6 +3942,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "d7176d3c-835e-44c2-8076-2b665506533b",
+      "item_id": "4c14530c-521f-4314-8af9-149502b1989a",
+      "item_name": "VLOK SOK PVC (1½x1)",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-23T08:12:14.756Z"
+    },
     {
       "id": "ed8b7f14-b31b-4a4b-9c16-66ff6950f109",
       "item_id": "c0b98826-f930-4bcb-a66b-f6b0f8f960c3",
