@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "34d53eee-d32a-4660-9204-253632f3eab9",
+      "name": "SIKU ALUMUNIUM HITAM (2x2x300)",
+      "size": "2x2x300",
+      "category": "SIKU",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 6 | NO 4",
+      "stock": 19,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/34d53eee-d32a-4660-9204-253632f3eab9-1792723667543.jpeg",
+      "created_at": "2026-10-23T02:47:48.478Z",
+      "updated_at": "2026-10-23T02:47:48.478Z"
+    },
+    {
       "id": "0a3ff244-b3fa-4e31-8d66-ad7d7d628abe",
       "name": "KNEE PVC 1¼",
       "size": "1¼",
@@ -3354,6 +3366,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "675dae14-b889-41ca-aa38-9ec6b8311140",
+      "item_id": "34d53eee-d32a-4660-9204-253632f3eab9",
+      "item_name": "SIKU ALUMUNIUM HITAM (2x2x300)",
+      "action": "ADD_ITEM",
+      "quantity": 19,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-23T02:47:48.478Z"
+    },
     {
       "id": "83329907-96d9-4efc-8071-4d3b44ab9383",
       "item_id": "0a3ff244-b3fa-4e31-8d66-ad7d7d628abe",
