@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "6659341f-8b4e-4bbe-98b4-53cbc2395fcd",
+      "name": "KNEE 45° PVC (3)",
+      "size": "3",
+      "category": "Pipa",
+      "warehouse": "Gudang 1",
+      "rack": "1C R",
+      "stock": 0,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/6659341f-8b4e-4bbe-98b4-53cbc2395fcd-1792743360220.jpeg",
+      "created_at": "2026-10-23T08:16:01.361Z",
+      "updated_at": "2026-10-23T08:16:01.361Z"
+    },
+    {
       "id": "a558e80c-07e5-4d0a-98d0-c90b5ad9bb7b",
       "name": "Tee PVC (2½)",
       "size": "2x½",
@@ -3966,6 +3978,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "dc71a88a-a029-4c80-8725-3966fa1de4e1",
+      "item_id": "6659341f-8b4e-4bbe-98b4-53cbc2395fcd",
+      "item_name": "KNEE 45° PVC (3)",
+      "action": "ADD_ITEM",
+      "quantity": 0,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-23T08:16:01.361Z"
+    },
     {
       "id": "7f1488f2-76cc-4e1e-b952-0bc526b23c75",
       "item_id": "a558e80c-07e5-4d0a-98d0-c90b5ad9bb7b",
