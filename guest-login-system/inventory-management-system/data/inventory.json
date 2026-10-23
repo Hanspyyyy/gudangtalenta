@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "5729a96f-b7ef-4f7c-975d-e9f4f34530b6",
+      "name": "VLOK SOK (2X1½)",
+      "size": "2x1½",
+      "category": "Pipa",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 5 | NO 3",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/5729a96f-b7ef-4f7c-975d-e9f4f34530b6-1792737002435.jpeg",
+      "created_at": "2026-10-23T06:30:03.421Z",
+      "updated_at": "2026-10-23T06:30:03.421Z"
+    },
+    {
       "id": "f493e6ac-705a-462e-a6f0-2d18541c6f24",
       "name": "KNEE 45° PVC ( 1¼)",
       "size": "1¼",
@@ -3462,6 +3474,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "9a41899a-1bb2-45d7-9507-02cf2262eec6",
+      "item_id": "5729a96f-b7ef-4f7c-975d-e9f4f34530b6",
+      "item_name": "VLOK SOK (2X1½)",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-23T06:30:03.421Z"
+    },
     {
       "id": "b54b089b-0131-443c-8aea-e674e1bdb0d8",
       "item_id": "f493e6ac-705a-462e-a6f0-2d18541c6f24",
