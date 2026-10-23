@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "b23e65d1-7bd0-46ce-97c9-7e96e0444225",
+      "name": "DOP PVC (2)",
+      "size": "2",
+      "category": "Pipa",
+      "warehouse": "Gudang 1",
+      "rack": "-",
+      "stock": 0,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/b23e65d1-7bd0-46ce-97c9-7e96e0444225-1792721908692.jpeg",
+      "created_at": "2026-10-23T02:18:29.704Z",
+      "updated_at": "2026-10-23T02:18:29.704Z"
+    },
+    {
       "id": "8531e759-e663-4fb5-a6d7-5dd74073e576",
       "name": "KNEE PVC (1)",
       "size": "1",
@@ -3270,6 +3282,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "32fb1153-42a3-4e63-a972-8b42d938b2c3",
+      "item_id": "b23e65d1-7bd0-46ce-97c9-7e96e0444225",
+      "item_name": "DOP PVC (2)",
+      "action": "ADD_ITEM",
+      "quantity": 0,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-23T02:18:29.704Z"
+    },
     {
       "id": "89fd1a34-0537-4132-9b62-93859dda7a57",
       "item_id": "8531e759-e663-4fb5-a6d7-5dd74073e576",
