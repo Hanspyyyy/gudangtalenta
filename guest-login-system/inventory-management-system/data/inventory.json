@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "73ad24bc-c059-401e-b0ae-d53b9b606dca",
+      "name": "TEE PVC (2)",
+      "size": "1",
+      "category": "Pipa",
+      "warehouse": "Gudang 1",
+      "rack": "1C R",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/73ad24bc-c059-401e-b0ae-d53b9b606dca-1792742997788.jpeg",
+      "created_at": "2026-10-23T08:09:58.647Z",
+      "updated_at": "2026-10-23T08:09:58.647Z"
+    },
+    {
       "id": "c8bf62f4-ea10-4d62-9f67-0afe0fcd5711",
       "name": "VLOK SOK PVC (3x1¼)",
       "size": "3x1¼",
@@ -3906,6 +3918,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "ee273265-d5f3-4cd5-bc35-185f48c761c4",
+      "item_id": "73ad24bc-c059-401e-b0ae-d53b9b606dca",
+      "item_name": "TEE PVC (2)",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-23T08:09:58.647Z"
+    },
     {
       "id": "7af77204-6958-44db-b49b-a5a95a4ecee5",
       "item_id": "33783c61-6fa7-4c78-9110-94f11f8ac33e",
