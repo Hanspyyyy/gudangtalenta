@@ -139,10 +139,10 @@
       "category": "Pipa",
       "warehouse": "Gudang 1",
       "rack": "1C",
-      "stock": 6,
+      "stock": 7,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/1fb1f893-6e93-43c6-8069-2c3546789eba-1792738840569.jpeg",
       "created_at": "2026-10-23T07:00:41.508Z",
-      "updated_at": "2026-10-23T07:00:53.444Z"
+      "updated_at": "2026-10-23T07:43:33.624Z"
     },
     {
       "id": "3962e667-036f-42e8-ab4b-3892fea01fc1",
@@ -3762,6 +3762,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "fbcb0685-e823-4826-8ac1-c669ba0fa219",
+      "item_id": "1fb1f893-6e93-43c6-8069-2c3546789eba",
+      "item_name": "TEE PVC (3x2)",
+      "action": "STOCK_IN",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-23T07:43:33.624Z"
+    },
     {
       "id": "c47ea89d-3292-4eb5-90b6-9d58f18ff5f6",
       "item_id": "d0e8fb44-8098-4c45-a40b-339fd4acdc6a",
