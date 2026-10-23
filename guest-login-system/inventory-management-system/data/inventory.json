@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "b6748708-d281-4465-adbf-ac0f4b5a2ddb",
+      "name": "SOK DRAT LUAR KANAN KIRI",
+      "size": "1",
+      "category": "Pipa",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 5 | NO 3",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/b6748708-d281-4465-adbf-ac0f4b5a2ddb-1792737247307.jpeg",
+      "created_at": "2026-10-23T06:34:08.289Z",
+      "updated_at": "2026-10-23T06:34:08.289Z"
+    },
+    {
       "id": "54b2043d-cf9f-4a9e-bd3f-7cbcf5ccec72",
       "name": "TEE PVC ( ¾x½)",
       "size": "¾x½",
@@ -3498,6 +3510,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "70705d21-ea33-4727-bd69-d51e477cca19",
+      "item_id": "b6748708-d281-4465-adbf-ac0f4b5a2ddb",
+      "item_name": "SOK DRAT LUAR KANAN KIRI",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-23T06:34:08.289Z"
+    },
     {
       "id": "99365dfc-93f1-4476-8647-f062e38ff5a0",
       "item_id": "54b2043d-cf9f-4a9e-bd3f-7cbcf5ccec72",
