@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "a3e0d621-b65d-43c0-8cd4-2a31488167bf",
+      "name": "SOK PVC (6)",
+      "size": "6",
+      "category": "Pipa",
+      "warehouse": "Gudang 1",
+      "rack": "1C",
+      "stock": 2,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/a3e0d621-b65d-43c0-8cd4-2a31488167bf-1792740562566.jpeg",
+      "created_at": "2026-10-23T07:29:23.475Z",
+      "updated_at": "2026-10-23T07:29:23.476Z"
+    },
+    {
       "id": "c92d46d9-8fcc-40f3-b51a-bc458cb5681d",
       "name": "SOK PVC (5)",
       "size": "5",
@@ -3714,6 +3726,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "d470eb49-ff85-4247-ac2b-160d55db8b61",
+      "item_id": "a3e0d621-b65d-43c0-8cd4-2a31488167bf",
+      "item_name": "SOK PVC (6)",
+      "action": "ADD_ITEM",
+      "quantity": 2,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-23T07:29:23.476Z"
+    },
     {
       "id": "dea3671a-54a5-4cc3-b44d-d86f218da645",
       "item_id": "c92d46d9-8fcc-40f3-b51a-bc458cb5681d",
