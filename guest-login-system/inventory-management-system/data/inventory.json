@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "c7f6b23b-1c7c-4806-af44-18a0cfff5569",
+      "name": "TEE PVC (1X½)",
+      "size": "1x½",
+      "category": "Pipa",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 5 | NO 3",
+      "stock": 2,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/c7f6b23b-1c7c-4806-af44-18a0cfff5569-1792736743270.jpeg",
+      "created_at": "2026-10-23T06:25:44.334Z",
+      "updated_at": "2026-10-23T06:25:44.334Z"
+    },
+    {
       "id": "66d9b2de-e4cf-4973-87a6-894b367ca0c1",
       "name": "TEE PVC (2)",
       "size": "2",
@@ -3414,6 +3426,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "08b742f9-8d7d-44f1-a211-918432f8d2b3",
+      "item_id": "c7f6b23b-1c7c-4806-af44-18a0cfff5569",
+      "item_name": "TEE PVC (1X½)",
+      "action": "ADD_ITEM",
+      "quantity": 2,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-23T06:25:44.334Z"
+    },
     {
       "id": "d77a86ba-cbb6-4bce-858e-da8f50986562",
       "item_id": "66d9b2de-e4cf-4973-87a6-894b367ca0c1",
