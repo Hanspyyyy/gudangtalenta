@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "ea976232-f889-4066-b625-fd45429ce20f",
+      "name": "VLOK SOK(3X2)",
+      "size": "3x2",
+      "category": "Pipa",
+      "warehouse": "Gudang 1",
+      "rack": "1C",
+      "stock": 8,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/ea976232-f889-4066-b625-fd45429ce20f-1792741965418.jpeg",
+      "created_at": "2026-10-23T07:52:46.267Z",
+      "updated_at": "2026-10-23T07:52:46.267Z"
+    },
+    {
       "id": "a903915e-5333-40e2-a9d6-b20aecda0f3b",
       "name": "TEE Y PVC (2)",
       "size": "2",
@@ -3810,6 +3822,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "32cf069e-7a25-4d9b-903b-d88ad5514dc5",
+      "item_id": "ea976232-f889-4066-b625-fd45429ce20f",
+      "item_name": "VLOK SOK(3X2)",
+      "action": "ADD_ITEM",
+      "quantity": 8,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-23T07:52:46.267Z"
+    },
     {
       "id": "0b2b83ff-0a9c-4a0e-ae8b-f8e4887556a7",
       "item_id": "a903915e-5333-40e2-a9d6-b20aecda0f3b",
