@@ -6,11 +6,11 @@
       "size": "2",
       "category": "Pipa",
       "warehouse": "Gudang 1",
-      "rack": "-",
+      "rack": "1A | 5 | NO 3",
       "stock": 0,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/b23e65d1-7bd0-46ce-97c9-7e96e0444225-1792721908692.jpeg",
       "created_at": "2026-10-23T02:18:29.704Z",
-      "updated_at": "2026-10-23T02:18:29.704Z"
+      "updated_at": "2026-10-23T02:18:47.910Z"
     },
     {
       "id": "8531e759-e663-4fb5-a6d7-5dd74073e576",
