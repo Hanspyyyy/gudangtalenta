@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "dbc60412-9497-40f6-8ce9-59fcda298f83",
+      "name": "VLOO SOK PVC(3x1¼)",
+      "size": "3x1¼",
+      "category": "Pipa",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 5 | NO 3",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/dbc60412-9497-40f6-8ce9-59fcda298f83-1792736797388.jpeg",
+      "created_at": "2026-10-23T06:26:38.228Z",
+      "updated_at": "2026-10-23T06:26:38.228Z"
+    },
+    {
       "id": "c7f6b23b-1c7c-4806-af44-18a0cfff5569",
       "name": "TEE PVC (1X½)",
       "size": "1x½",
@@ -3426,6 +3438,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "7fdeb992-8489-4d46-85f4-71d457a24dac",
+      "item_id": "dbc60412-9497-40f6-8ce9-59fcda298f83",
+      "item_name": "VLOO SOK PVC(3x1¼)",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-23T06:26:38.228Z"
+    },
     {
       "id": "08b742f9-8d7d-44f1-a211-918432f8d2b3",
       "item_id": "c7f6b23b-1c7c-4806-af44-18a0cfff5569",
