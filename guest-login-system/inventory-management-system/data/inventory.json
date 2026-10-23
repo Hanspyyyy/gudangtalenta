@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "b00c4016-af48-4e2c-b932-f4eb3f38c5aa",
+      "name": "SOK DRAT DALAM (1)",
+      "size": "1",
+      "category": "Pipa",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 5 | NO 3",
+      "stock": 3,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/b00c4016-af48-4e2c-b932-f4eb3f38c5aa-1792721575301.jpeg",
+      "created_at": "2026-10-23T02:12:56.179Z",
+      "updated_at": "2026-10-23T02:12:56.179Z"
+    },
+    {
       "id": "d6418a19-3156-4eef-bbe7-cbe92e24f47a",
       "name": "SOK PPR (1½)",
       "size": "1½",
@@ -3234,6 +3246,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "6cb03295-f703-469d-b1ca-4ec514c6d3a3",
+      "item_id": "b00c4016-af48-4e2c-b932-f4eb3f38c5aa",
+      "item_name": "SOK DRAT DALAM (1)",
+      "action": "ADD_ITEM",
+      "quantity": 3,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-23T02:12:56.179Z"
+    },
     {
       "id": "44d3fbd1-30df-44ca-90fc-aece3ffc3ed2",
       "item_id": "d6418a19-3156-4eef-bbe7-cbe92e24f47a",
