@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "8a66c019-5dd4-4374-a19b-ecb634e48692",
+      "name": "Floor Flange / Seal Gasket kloset duduk PVC (3)",
+      "size": "3",
+      "category": "Pipa",
+      "warehouse": "Gudang 1",
+      "rack": "1C R",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/8a66c019-5dd4-4374-a19b-ecb634e48692-1792743672153.jpeg",
+      "created_at": "2026-10-23T08:21:13.088Z",
+      "updated_at": "2026-10-23T08:21:13.088Z"
+    },
+    {
       "id": "c9f9173b-9e18-4e4f-a2f1-19029d104667",
       "name": "TEE Y PVC (3X2)",
       "size": "3x2",
@@ -4014,6 +4026,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "014c44e8-ac0b-4782-8ab2-008dc2976be2",
+      "item_id": "8a66c019-5dd4-4374-a19b-ecb634e48692",
+      "item_name": "Floor Flange / Seal Gasket kloset duduk PVC (3)",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-23T08:21:13.088Z"
+    },
     {
       "id": "39126b4c-bf95-4037-9e94-1e134580362f",
       "item_id": "c9f9173b-9e18-4e4f-a2f1-19029d104667",
