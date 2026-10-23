@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "993c7b07-eb53-4bae-a841-9b4d5a2f518b",
+      "name": "TEE PPR (½)",
+      "size": "½",
+      "category": "Pipa",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 5 | NO 3",
+      "stock": 40,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/993c7b07-eb53-4bae-a841-9b4d5a2f518b-1792720167282.jpeg",
+      "created_at": "2026-10-23T01:49:28.191Z",
+      "updated_at": "2026-10-23T01:49:28.191Z"
+    },
+    {
       "id": "396cdf33-4e61-4510-b341-51746945f0ef",
       "name": "Chemical fire inhibitor (cairan pemadam)",
       "size": "5 liter",
@@ -3114,6 +3126,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "0d7187c0-5571-4f1b-90b7-c68d1a8a3b4f",
+      "item_id": "993c7b07-eb53-4bae-a841-9b4d5a2f518b",
+      "item_name": "TEE PPR (½)",
+      "action": "ADD_ITEM",
+      "quantity": 40,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-23T01:49:28.191Z"
+    },
     {
       "id": "e44440a2-c8c4-4094-a247-5e519797dffe",
       "item_id": "396cdf33-4e61-4510-b341-51746945f0ef",
