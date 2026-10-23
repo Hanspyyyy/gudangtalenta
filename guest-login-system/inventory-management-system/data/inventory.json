@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "396cdf33-4e61-4510-b341-51746945f0ef",
+      "name": "Chemical fire inhibitor (cairan pemadam)",
+      "size": "5 liter",
+      "category": "Cairan",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 1 | NO 4",
+      "stock": 3,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/396cdf33-4e61-4510-b341-51746945f0ef-1792719779067.jpeg",
+      "created_at": "2026-10-23T01:42:59.977Z",
+      "updated_at": "2026-10-23T01:42:59.977Z"
+    },
+    {
       "id": "14f85591-f81a-46bb-886f-ce1f4618c0dd",
       "name": "Cairan pembersih keramik",
       "size": "1 L",
@@ -3102,6 +3114,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "e44440a2-c8c4-4094-a247-5e519797dffe",
+      "item_id": "396cdf33-4e61-4510-b341-51746945f0ef",
+      "item_name": "Chemical fire inhibitor (cairan pemadam)",
+      "action": "ADD_ITEM",
+      "quantity": 3,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-23T01:42:59.977Z"
+    },
     {
       "id": "3dcb24a4-a80e-439d-9443-52e4fb27387c",
       "item_id": "14f85591-f81a-46bb-886f-ce1f4618c0dd",
