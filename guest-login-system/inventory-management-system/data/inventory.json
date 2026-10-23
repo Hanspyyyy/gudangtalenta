@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "d0e8fb44-8098-4c45-a40b-339fd4acdc6a",
+      "name": "KNEE PVC (4)",
+      "size": "4",
+      "category": "Pipa",
+      "warehouse": "Gudang 1",
+      "rack": "1C",
+      "stock": 3,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/d0e8fb44-8098-4c45-a40b-339fd4acdc6a-1792738525982.jpeg",
+      "created_at": "2026-10-23T06:55:26.945Z",
+      "updated_at": "2026-10-23T06:55:26.945Z"
+    },
+    {
       "id": "5a1b795e-a703-4018-a704-f244c0f96177",
       "name": "V-Trap PVC atau P-Trap (leher angsa)",
       "size": "3",
@@ -3594,6 +3606,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "a346fdb3-ded5-4e1d-ba44-2e928dd49e87",
+      "item_id": "d0e8fb44-8098-4c45-a40b-339fd4acdc6a",
+      "item_name": "KNEE PVC (4)",
+      "action": "ADD_ITEM",
+      "quantity": 3,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-23T06:55:26.945Z"
+    },
     {
       "id": "67d914bf-e803-4ca0-bafe-e8ea7502f74e",
       "item_id": "33783c61-6fa7-4c78-9110-94f11f8ac33e",
