@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "14f85591-f81a-46bb-886f-ce1f4618c0dd",
+      "name": "Cairan pembersih keramik",
+      "size": "1 L",
+      "category": "Pembersih",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 1 | NO 4",
+      "stock": 15,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/14f85591-f81a-46bb-886f-ce1f4618c0dd-1792719549275.jpeg",
+      "created_at": "2026-10-23T01:39:10.155Z",
+      "updated_at": "2026-10-23T01:39:10.155Z"
+    },
+    {
       "id": "c99d4c1f-f746-4bc9-a617-56c13ed861a2",
       "name": "Blower 1 set",
       "size": "-",
@@ -3090,6 +3102,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "3dcb24a4-a80e-439d-9443-52e4fb27387c",
+      "item_id": "14f85591-f81a-46bb-886f-ce1f4618c0dd",
+      "item_name": "Cairan pembersih keramik",
+      "action": "ADD_ITEM",
+      "quantity": 15,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-23T01:39:10.155Z"
+    },
     {
       "id": "f5cac40a-dfc0-47fd-8fc3-ee94d12623db",
       "item_id": "c99d4c1f-f746-4bc9-a617-56c13ed861a2",
