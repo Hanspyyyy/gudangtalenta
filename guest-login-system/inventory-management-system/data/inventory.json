@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "ea0e9cf5-d0a4-4b09-a8b4-b59d6713d95c",
+      "name": "Rumah lampu (dokgi)",
+      "size": "-",
+      "category": "Listrik",
+      "warehouse": "Ruang Meet",
+      "rack": "-",
+      "stock": 4,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/ea0e9cf5-d0a4-4b09-a8b4-b59d6713d95c-1793081579916.jpeg",
+      "created_at": "2026-10-27T06:13:00.792Z",
+      "updated_at": "2026-10-27T06:13:00.792Z"
+    },
+    {
       "id": "4d59a409-5c91-4f0b-ac08-cacdafbf7da9",
       "name": "Senter (dokgi)",
       "size": "-",
@@ -4074,6 +4086,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "64be99b6-3304-4b9b-89c8-59777356acc3",
+      "item_id": "ea0e9cf5-d0a4-4b09-a8b4-b59d6713d95c",
+      "item_name": "Rumah lampu (dokgi)",
+      "action": "ADD_ITEM",
+      "quantity": 4,
+      "warehouse": "Ruang Meet",
+      "timestamp": "2026-10-27T06:13:00.792Z"
+    },
     {
       "id": "f53fac34-196f-414a-8078-4f328359d4cf",
       "item_id": "c94746e8-5f00-4870-a4c5-8f744d4ff6f5",
