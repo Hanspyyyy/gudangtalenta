@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "f51bda28-2491-4425-a625-c628009d1ab8",
+      "name": "Cermin 200x25",
+      "size": "200x25",
+      "category": "Cermin",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 6 | 1",
+      "stock": 4,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/f51bda28-2491-4425-a625-c628009d1ab8-1793070199737.jpeg",
+      "created_at": "2026-10-27T03:03:20.663Z",
+      "updated_at": "2026-10-27T03:03:20.663Z"
+    },
+    {
       "id": "8a66c019-5dd4-4374-a19b-ecb634e48692",
       "name": "Floor Flange / Seal Gasket kloset duduk PVC (3)",
       "size": "3",
@@ -4026,6 +4038,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "c773ef6e-31bc-4296-9b38-5574668f0cc3",
+      "item_id": "f51bda28-2491-4425-a625-c628009d1ab8",
+      "item_name": "Cermin 200x25",
+      "action": "ADD_ITEM",
+      "quantity": 4,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-27T03:03:20.663Z"
+    },
     {
       "id": "c801159d-e57a-4bb4-98da-42f195b3b1b2",
       "item_id": "23842759-e94c-4b18-9c4a-e722170d4ea5",
