@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "d907a8c2-bd52-47fd-9d5b-40639c41927e",
+      "name": "klem pipa gantung besi(dokgi)",
+      "size": "-",
+      "category": "Pipa",
+      "warehouse": "Ruang Meet",
+      "rack": "-",
+      "stock": 4,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/d907a8c2-bd52-47fd-9d5b-40639c41927e-1793082359957.jpeg",
+      "created_at": "2026-10-27T06:26:01.074Z",
+      "updated_at": "2026-10-27T06:26:01.074Z"
+    },
+    {
       "id": "720b6496-8c5d-4c4b-be49-df54c72db6d9",
       "name": "T-dus  3 bcanah tanpa merek",
       "size": "-",
@@ -4170,6 +4182,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "006a87a6-9121-4220-8727-dd00ec1d8a94",
+      "item_id": "d907a8c2-bd52-47fd-9d5b-40639c41927e",
+      "item_name": "klem pipa gantung besi(dokgi)",
+      "action": "ADD_ITEM",
+      "quantity": 4,
+      "warehouse": "Ruang Meet",
+      "timestamp": "2026-10-27T06:26:01.074Z"
+    },
     {
       "id": "d41042c2-4bc7-403f-9005-91621fc75012",
       "item_id": "720b6496-8c5d-4c4b-be49-df54c72db6d9",
