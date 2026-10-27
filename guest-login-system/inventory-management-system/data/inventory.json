@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "ef19c0c2-f982-46b2-9eea-1ad78b039059",
+      "name": "engsel kupu-kupu pintu atau jendela merk Dekkson (dokgi)",
+      "size": "-",
+      "category": "Engsel",
+      "warehouse": "Ruang Meet",
+      "rack": "-",
+      "stock": 4,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/ef19c0c2-f982-46b2-9eea-1ad78b039059-1793083103302.jpeg",
+      "created_at": "2026-10-27T06:38:24.387Z",
+      "updated_at": "2026-10-27T06:38:24.387Z"
+    },
+    {
       "id": "595a6674-ef4c-4dee-92dd-525bb91ae45d",
       "name": "Vlok sok drat luar PPR (20x½) dokgi",
       "size": "20x½",
@@ -4206,6 +4218,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "a43924e8-007d-40a1-86fa-e09286bb437e",
+      "item_id": "ef19c0c2-f982-46b2-9eea-1ad78b039059",
+      "item_name": "engsel kupu-kupu pintu atau jendela merk Dekkson (dokgi)",
+      "action": "ADD_ITEM",
+      "quantity": 4,
+      "warehouse": "Ruang Meet",
+      "timestamp": "2026-10-27T06:38:24.387Z"
+    },
     {
       "id": "d58b3964-5b9c-4158-86bd-5f0754da8edd",
       "item_id": "595a6674-ef4c-4dee-92dd-525bb91ae45d",
