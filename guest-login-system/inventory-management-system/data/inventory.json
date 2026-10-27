@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "1b55d050-a785-4752-8c83-c132a8657a8b",
+      "name": "Inbowdus nero (dokgi)",
+      "size": "-",
+      "category": "Listrik",
+      "warehouse": "Ruang Meet",
+      "rack": "-",
+      "stock": 10,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/1b55d050-a785-4752-8c83-c132a8657a8b-1793081886251.jpeg",
+      "created_at": "2026-10-27T06:18:07.247Z",
+      "updated_at": "2026-10-27T06:18:07.247Z"
+    },
+    {
       "id": "e5e93c06-c347-45d8-9a24-d66a2705b27c",
       "name": "TEE PVC (1) DOKGI",
       "size": "1",
@@ -4110,6 +4122,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "2286a11c-c425-471f-909a-bc5140af49db",
+      "item_id": "1b55d050-a785-4752-8c83-c132a8657a8b",
+      "item_name": "Inbowdus nero (dokgi)",
+      "action": "ADD_ITEM",
+      "quantity": 10,
+      "warehouse": "Ruang Meet",
+      "timestamp": "2026-10-27T06:18:07.247Z"
+    },
     {
       "id": "46afcef8-5a86-4468-987c-1ae6cdc0b067",
       "item_id": "e5e93c06-c347-45d8-9a24-d66a2705b27c",
