@@ -1135,10 +1135,10 @@
       "category": "Lampu",
       "warehouse": "Gudang 1",
       "rack": "1A",
-      "stock": 15,
+      "stock": 19,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/c94746e8-5f00-4870-a4c5-8f744d4ff6f5-1792557792202.jpeg",
       "created_at": "2026-10-21T04:43:13.320Z",
-      "updated_at": "2026-10-21T04:47:34.922Z"
+      "updated_at": "2026-10-27T05:36:31.716Z"
     },
     {
       "id": "b30e14e5-138d-4f84-99cd-add46758fb0f",
@@ -4074,6 +4074,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "702ea2f9-2b2e-48e1-ab35-e47ed0439d76",
+      "item_id": "c94746e8-5f00-4870-a4c5-8f744d4ff6f5",
+      "item_name": "Rumah lampu (dokgi)",
+      "action": "STOCK_IN",
+      "quantity": 4,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-27T05:36:31.716Z"
+    },
     {
       "id": "883f1f1d-8e1d-4dfa-bdc7-cb9edbc281a8",
       "item_id": "4d59a409-5c91-4f0b-ac08-cacdafbf7da9",
