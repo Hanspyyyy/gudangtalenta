@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "10d2abea-e4a3-4334-8162-dd0eaf9460d3",
+      "name": "lantai SPC",
+      "size": "1500x228x5.5mm",
+      "category": "SPC",
+      "warehouse": "Gudang 1",
+      "rack": "1D",
+      "stock": 16,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/10d2abea-e4a3-4334-8162-dd0eaf9460d3-1793087095859.jpeg",
+      "created_at": "2026-10-27T07:44:56.935Z",
+      "updated_at": "2026-10-27T07:44:56.935Z"
+    },
+    {
       "id": "bebf52c6-b979-49fe-b138-42a9ddd91b3b",
       "name": "AC ( dokgi)",
       "size": "-",
@@ -4254,6 +4266,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "d545b325-6da7-47a1-bbed-71dbc45ebdc1",
+      "item_id": "10d2abea-e4a3-4334-8162-dd0eaf9460d3",
+      "item_name": "lantai SPC",
+      "action": "ADD_ITEM",
+      "quantity": 16,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-27T07:44:56.936Z"
+    },
     {
       "id": "aee1dfbb-4ded-416e-8fc4-ab621eac362d",
       "item_id": "bebf52c6-b979-49fe-b138-42a9ddd91b3b",
