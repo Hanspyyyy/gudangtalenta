@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "d0c4e858-e323-442a-b812-10ca30ff3285",
+      "name": "Panel (Cisauk)",
+      "size": "-",
+      "category": "Listrik",
+      "warehouse": "Gudang 1",
+      "rack": "1B",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/d0c4e858-e323-442a-b812-10ca30ff3285-1793078073266.jpeg",
+      "created_at": "2026-10-27T05:14:34.188Z",
+      "updated_at": "2026-10-27T05:14:34.188Z"
+    },
+    {
       "id": "f51bda28-2491-4425-a625-c628009d1ab8",
       "name": "Cermin 200x25",
       "size": "200x25",
@@ -4038,6 +4050,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "ca104495-a5d8-44e3-9e50-97445d9817aa",
+      "item_id": "d0c4e858-e323-442a-b812-10ca30ff3285",
+      "item_name": "Panel (Cisauk)",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-27T05:14:34.188Z"
+    },
     {
       "id": "c773ef6e-31bc-4296-9b38-5574668f0cc3",
       "item_id": "f51bda28-2491-4425-a625-c628009d1ab8",
