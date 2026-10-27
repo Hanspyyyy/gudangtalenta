@@ -19,10 +19,10 @@
       "category": "Pipa",
       "warehouse": "Ruang Meet",
       "rack": "-",
-      "stock": 2,
+      "stock": 3,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/e5e93c06-c347-45d8-9a24-d66a2705b27c-1793081782623.jpeg",
       "created_at": "2026-10-27T06:16:23.551Z",
-      "updated_at": "2026-10-27T06:16:23.551Z"
+      "updated_at": "2026-10-27T06:18:28.384Z"
     },
     {
       "id": "16720272-268c-454b-aac3-28f2b1dadf3b",
@@ -4122,6 +4122,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "d1ac6f78-48ed-4456-8a08-454c8b9811fc",
+      "item_id": "e5e93c06-c347-45d8-9a24-d66a2705b27c",
+      "item_name": "TEE PVC (1) DOKGI",
+      "action": "STOCK_IN",
+      "quantity": 1,
+      "warehouse": "Ruang Meet",
+      "timestamp": "2026-10-27T06:18:28.384Z"
+    },
     {
       "id": "2286a11c-c425-471f-909a-bc5140af49db",
       "item_id": "1b55d050-a785-4752-8c83-c132a8657a8b",
