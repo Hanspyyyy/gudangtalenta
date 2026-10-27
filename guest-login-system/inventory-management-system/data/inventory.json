@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "e5e93c06-c347-45d8-9a24-d66a2705b27c",
+      "name": "TEE PVC (1) DOKGI",
+      "size": "1",
+      "category": "Pipa",
+      "warehouse": "Ruang Meet",
+      "rack": "-",
+      "stock": 2,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/e5e93c06-c347-45d8-9a24-d66a2705b27c-1793081782623.jpeg",
+      "created_at": "2026-10-27T06:16:23.551Z",
+      "updated_at": "2026-10-27T06:16:23.551Z"
+    },
+    {
       "id": "16720272-268c-454b-aac3-28f2b1dadf3b",
       "name": "Knee PVC (1¼) dokgi",
       "size": "1¼",
@@ -4098,6 +4110,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "46afcef8-5a86-4468-987c-1ae6cdc0b067",
+      "item_id": "e5e93c06-c347-45d8-9a24-d66a2705b27c",
+      "item_name": "TEE PVC (1) DOKGI",
+      "action": "ADD_ITEM",
+      "quantity": 2,
+      "warehouse": "Ruang Meet",
+      "timestamp": "2026-10-27T06:16:23.551Z"
+    },
     {
       "id": "1fedaba1-01cc-49c3-9741-6673a964c8a5",
       "item_id": "16720272-268c-454b-aac3-28f2b1dadf3b",
