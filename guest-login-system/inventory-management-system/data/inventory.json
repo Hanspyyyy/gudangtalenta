@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "d08067a6-4873-41ea-aabe-728469441509",
+      "name": "Lampu TL T5 LED (Integrated LED Tube Light)",
+      "size": "87x2x3,5",
+      "category": "Listrik",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 2 | NO 4",
+      "stock": 16,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/d08067a6-4873-41ea-aabe-728469441509-1793086510073.jpeg",
+      "created_at": "2026-10-27T07:35:11.071Z",
+      "updated_at": "2026-10-27T07:35:11.071Z"
+    },
+    {
       "id": "ef19c0c2-f982-46b2-9eea-1ad78b039059",
       "name": "engsel kupu-kupu pintu atau jendela merk Dekkson (dokgi)",
       "size": "-",
@@ -4218,6 +4230,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "9075b1d7-88de-435c-8654-7ee128c38741",
+      "item_id": "d08067a6-4873-41ea-aabe-728469441509",
+      "item_name": "Lampu TL T5 LED (Integrated LED Tube Light)",
+      "action": "ADD_ITEM",
+      "quantity": 16,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-27T07:35:11.071Z"
+    },
     {
       "id": "a43924e8-007d-40a1-86fa-e09286bb437e",
       "item_id": "ef19c0c2-f982-46b2-9eea-1ad78b039059",
