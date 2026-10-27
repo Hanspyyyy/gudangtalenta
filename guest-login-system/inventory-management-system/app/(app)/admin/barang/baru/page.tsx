@@ -8,6 +8,7 @@ import { Input } from '@/components/ui/input'
 import { Label } from '@/components/ui/label'
 import { toast } from 'sonner'
 import { addItem } from '@/lib/inventory-client'
+import { WAREHOUSES } from '@/lib/inventory-types'
 
 // Downscale/compress the selected image before uploading so photos transfer quickly to Blob storage.
 function downscaleImage(file: File, maxSize = 800, quality = 0.7): Promise<string> {
@@ -131,8 +132,9 @@ export default function TambahBarangPage() {
               required
               className="h-10 rounded-md border border-input bg-background px-3 text-sm"
             >
-              <option value="Gudang 1">Gudang 1</option>
-              <option value="Gudang 2">Gudang 2</option>
+              {WAREHOUSES.map((name) => (
+                <option key={name} value={name}>{name}</option>
+              ))}
             </select>
           </div>
           <div className="grid gap-2">

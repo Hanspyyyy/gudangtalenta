@@ -5,8 +5,7 @@ import { StatCard } from '@/components/dashboard/stat-card'
 import { ItemDetailModal } from '@/components/item-detail-modal'
 import { ProductImage } from '@/components/product-image'
 import { useInventory, type LocalItem } from '@/lib/inventory-client'
-
-const WAREHOUSES = ['Gudang 1', 'Gudang 2']
+import { normalizeWarehouse, WAREHOUSES } from '@/lib/inventory-types'
 
 export function DashboardLive({
   initial,
@@ -21,7 +20,7 @@ export function DashboardLive({
 
   const localCategories = useMemo(() => new Set(items.map((i) => i.category)).size, [items])
   const filtered = useMemo(
-    () => items.filter((i) => (i.warehouse === 'Gudang 2' ? 'Gudang 2' : 'Gudang 1') === warehouse),
+    () => items.filter((i) => normalizeWarehouse(i.warehouse) === warehouse),
     [items, warehouse],
   )
 
@@ -31,7 +30,7 @@ export function DashboardLive({
         <div className="grid grid-cols-2 gap-3 lg:grid-cols-4">
           <StatCard label="Jenis Barang" value={initial.totalProducts + items.length} icon={Package} tone="primary" />
           <StatCard label="Kategori" value={initial.totalCategories + localCategories} icon={Tags} tone="neutral" />
-          <StatCard label="Gudang" value={2} icon={Warehouse} tone="neutral" />
+          <StatCard label="Gudang" value={WAREHOUSES.length} icon={Warehouse} tone="neutral" />
           <StatCard label="Rak" value={new Set(items.map((i) => i.rack || '-')).size} icon={Grid3x3} tone="neutral" />
         </div>
       </section>
