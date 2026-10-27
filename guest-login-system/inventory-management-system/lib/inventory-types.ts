@@ -33,6 +33,11 @@ export type InventoryData = {
 
 export type MutationResult = { ok: true } | { ok: false; error: string }
 
+export const WAREHOUSES = ['Gudang 1', 'Gudang 2', 'Ruang Meet'] as const
+
 export function normalizeWarehouse(warehouse: string) {
-  return warehouse === 'Gudang 2' ? 'Gudang 2' : 'Gudang 1'
+  if (typeof warehouse !== 'string') return 'Gudang 1'
+
+  const normalized = warehouse.trim()
+  return WAREHOUSES.find((name) => name === normalized) ?? 'Gudang 1'
 }
