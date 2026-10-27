@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "c552f2d6-4b28-41e0-a286-882d870277c4",
+      "name": "modul soket/outlet (data LAN, telepon, atau RJ11/RJ45) dokgi",
+      "size": "-",
+      "category": "Listrik",
+      "warehouse": "Ruang Meet",
+      "rack": "-",
+      "stock": 4,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/c552f2d6-4b28-41e0-a286-882d870277c4-1793082173247.jpeg",
+      "created_at": "2026-10-27T06:22:54.196Z",
+      "updated_at": "2026-10-27T06:22:54.196Z"
+    },
+    {
       "id": "65ae3a95-85e2-4098-a1bb-cf3d5c4e9797",
       "name": "klem pipa plat besi (dokgi)",
       "size": "-",
@@ -4146,6 +4158,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "4e676b3c-8930-4328-bb42-24fbd0f3391e",
+      "item_id": "c552f2d6-4b28-41e0-a286-882d870277c4",
+      "item_name": "modul soket/outlet (data LAN, telepon, atau RJ11/RJ45) dokgi",
+      "action": "ADD_ITEM",
+      "quantity": 4,
+      "warehouse": "Ruang Meet",
+      "timestamp": "2026-10-27T06:22:54.196Z"
+    },
     {
       "id": "b0a38e42-4379-4f72-9487-b11706819a7d",
       "item_id": "65ae3a95-85e2-4098-a1bb-cf3d5c4e9797",
