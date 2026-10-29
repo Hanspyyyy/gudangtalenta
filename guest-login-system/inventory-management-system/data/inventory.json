@@ -1171,10 +1171,10 @@
       "category": "Pembersih",
       "warehouse": "Gudang 1",
       "rack": "1A | 1 | NO 4",
-      "stock": 15,
+      "stock": 13,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/14f85591-f81a-46bb-886f-ce1f4618c0dd-1792719549275.jpeg",
       "created_at": "2026-10-23T01:39:10.155Z",
-      "updated_at": "2026-10-23T01:39:10.155Z"
+      "updated_at": "2026-10-29T13:57:23.069Z"
     },
     {
       "id": "c99d4c1f-f746-4bc9-a617-56c13ed861a2",
@@ -4266,6 +4266,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "8560db69-52b0-4564-a166-008f9dedcb0f",
+      "item_id": "14f85591-f81a-46bb-886f-ce1f4618c0dd",
+      "item_name": "Cairan pembersih keramik",
+      "action": "STOCK_OUT",
+      "quantity": 2,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-29T13:57:23.070Z"
+    },
     {
       "id": "d545b325-6da7-47a1-bbed-71dbc45ebdc1",
       "item_id": "10d2abea-e4a3-4334-8162-dd0eaf9460d3",
