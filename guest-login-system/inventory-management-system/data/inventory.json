@@ -7,10 +7,10 @@
       "category": "Listrik",
       "warehouse": "Gudang 1",
       "rack": "1A",
-      "stock": 0,
+      "stock": 4,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/9d6ca4b3-fc46-49a7-81e9-0c740245ec8d-1793344735451.jpeg",
       "created_at": "2026-10-30T07:18:56.492Z",
-      "updated_at": "2026-10-30T07:18:56.492Z"
+      "updated_at": "2026-10-30T07:19:06.088Z"
     },
     {
       "id": "405a2e48-efdc-42a2-8edd-98852172024e",
@@ -4626,6 +4626,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "6ba02dfe-cdcc-4590-96ef-2c4088e13b96",
+      "item_id": "9d6ca4b3-fc46-49a7-81e9-0c740245ec8d",
+      "item_name": "kabel LAN / Ethernet UTP Cat 5e atau Cat 6 (Biru dan abu)",
+      "action": "STOCK_IN",
+      "quantity": 4,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-30T07:19:06.088Z"
+    },
     {
       "id": "1f37d0b0-d998-4955-8096-e30ba21143b1",
       "item_id": "9d6ca4b3-fc46-49a7-81e9-0c740245ec8d",
