@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "4eeb3ef9-0ab9-43b9-b157-7463de69541c",
+      "name": "Kran air model leher angsa",
+      "size": "-",
+      "category": "Plumbing Fitting",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 5 | NO 2",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/4eeb3ef9-0ab9-43b9-b157-7463de69541c-1793347364368.jpeg",
+      "created_at": "2026-10-30T08:02:45.361Z",
+      "updated_at": "2026-10-30T08:02:45.361Z"
+    },
+    {
       "id": "914c5748-da6a-4092-8e33-49c31a30f82a",
       "name": "tatakan alas kaki anti getar dan anti slip",
       "size": "-",
@@ -4710,6 +4722,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "e14a0994-df4e-47fc-8c44-a167abed6f2c",
+      "item_id": "4eeb3ef9-0ab9-43b9-b157-7463de69541c",
+      "item_name": "Kran air model leher angsa",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-30T08:02:45.361Z"
+    },
     {
       "id": "8d1b8a97-7599-47c3-9139-b656a151b3da",
       "item_id": "914c5748-da6a-4092-8e33-49c31a30f82a",
