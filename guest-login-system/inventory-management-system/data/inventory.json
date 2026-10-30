@@ -3355,10 +3355,10 @@
       "category": "Alat",
       "warehouse": "Gudang 1",
       "rack": "1A | 9 | NO 4",
-      "stock": 3,
+      "stock": 4,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/3bee26be-aeeb-464c-b651-c00dd2ecfe55-1792049881796.jpeg",
       "created_at": "2026-10-15T07:38:02.847Z",
-      "updated_at": "2026-10-15T07:38:02.847Z"
+      "updated_at": "2026-10-30T04:01:05.675Z"
     },
     {
       "id": "3151c9e8-d480-4ed4-a46d-b33a7a5a32bd",
@@ -4494,6 +4494,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "9a9afeec-211f-4db6-ba07-17a8151b58ef",
+      "item_id": "3bee26be-aeeb-464c-b651-c00dd2ecfe55",
+      "item_name": "Gergaji kayu",
+      "action": "STOCK_IN",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-30T04:01:05.675Z"
+    },
     {
       "id": "606f5620-86b5-41e5-8b4f-c662542c3ae3",
       "item_id": "ec9266c2-d270-4b81-a9c9-5b742116f95c",
