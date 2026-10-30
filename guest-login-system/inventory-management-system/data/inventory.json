@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "914c5748-da6a-4092-8e33-49c31a30f82a",
+      "name": "tatakan alas kaki anti getar dan anti slip",
+      "size": "-",
+      "category": "-",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 5 | NO 2",
+      "stock": 0,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/914c5748-da6a-4092-8e33-49c31a30f82a-1793347218840.jpeg",
+      "created_at": "2026-10-30T08:00:19.818Z",
+      "updated_at": "2026-10-30T08:00:19.818Z"
+    },
+    {
       "id": "ae819da0-9e15-4943-b6b9-a261e9ff55bc",
       "name": "Saringan afur bak cuci piring",
       "size": "∅11 atas x bawah ∅ 4,5",
@@ -4698,6 +4710,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "34422121-346d-49cc-8bee-b3bb2793e7a0",
+      "item_id": "914c5748-da6a-4092-8e33-49c31a30f82a",
+      "item_name": "tatakan alas kaki anti getar dan anti slip",
+      "action": "ADD_ITEM",
+      "quantity": 0,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-30T08:00:19.818Z"
+    },
     {
       "id": "deafaec9-79e5-49a0-8efd-d38dd0403034",
       "item_id": "ae819da0-9e15-4943-b6b9-a261e9ff55bc",
