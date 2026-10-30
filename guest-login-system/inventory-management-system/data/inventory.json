@@ -55,10 +55,10 @@
       "category": "Listrik",
       "warehouse": "Gudang 1",
       "rack": "1A",
-      "stock": 14,
+      "stock": 15,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/2a7604f1-22c4-4450-bbf1-c0176ea54475-1793330902179.jpeg",
       "created_at": "2026-10-30T03:28:23.265Z",
-      "updated_at": "2026-10-30T03:28:23.265Z"
+      "updated_at": "2026-10-30T03:43:32.671Z"
     },
     {
       "id": "72a55d88-4584-4331-8063-dd40758419a3",
@@ -4422,6 +4422,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "f11192ce-98e2-4049-8d2b-71e7bb928f4c",
+      "item_id": "2a7604f1-22c4-4450-bbf1-c0176ea54475",
+      "item_name": "frame 2 gang Schneider (Wijaya)",
+      "action": "STOCK_IN",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-30T03:43:32.671Z"
+    },
     {
       "id": "5fa16d62-7032-49b8-8f5c-fbd7d44c233f",
       "item_id": "9fe4523d-0cf3-4bca-ac93-b5985d2e6fa9",
