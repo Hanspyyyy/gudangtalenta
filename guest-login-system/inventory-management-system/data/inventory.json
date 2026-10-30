@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "f76ad65b-471c-40ea-97c0-c517e5827060",
+      "name": "floor drain | valpra",
+      "size": "10x10x1,5cm",
+      "category": "Plumbing Fitting",
+      "warehouse": "Gudang 1",
+      "rack": "1A",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/f76ad65b-471c-40ea-97c0-c517e5827060-1793346468007.jpeg",
+      "created_at": "2026-10-30T07:47:49.034Z",
+      "updated_at": "2026-10-30T07:47:49.035Z"
+    },
+    {
       "id": "a38d2745-1591-4c86-84b2-ed69b951c957",
       "name": "pipa leher angsa",
       "size": "-",
@@ -4674,6 +4686,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "1af3bcff-2eb6-4ff0-b352-e7264a73b3bb",
+      "item_id": "f76ad65b-471c-40ea-97c0-c517e5827060",
+      "item_name": "floor drain | valpra",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-30T07:47:49.035Z"
+    },
     {
       "id": "0e2065e6-8747-4e95-9f07-6c63fa678955",
       "item_id": "a38d2745-1591-4c86-84b2-ed69b951c957",
