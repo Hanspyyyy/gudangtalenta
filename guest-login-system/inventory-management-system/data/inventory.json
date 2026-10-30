@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "0da048c3-c0ab-47b8-a586-b6a080964d14",
+      "name": "lantai SPC | C :SSP5183-4 BEIGE OAK",
+      "size": "1120x125",
+      "category": "SPC",
+      "warehouse": "Gudang 1",
+      "rack": "1A",
+      "stock": 17,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/0da048c3-c0ab-47b8-a586-b6a080964d14-1793345325675.jpeg",
+      "created_at": "2026-10-30T07:28:46.615Z",
+      "updated_at": "2026-10-30T07:28:46.615Z"
+    },
+    {
       "id": "9d6ca4b3-fc46-49a7-81e9-0c740245ec8d",
       "name": "kabel LAN / Ethernet UTP Cat 5e atau Cat 6 (Biru dan abu) masih ada 4 roll sisaan, stok akan berkurang berdasarkan permeter",
       "size": "-",
@@ -4626,6 +4638,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "0701dcc1-fbbf-40d7-9ecb-32fd8ef2c09b",
+      "item_id": "0da048c3-c0ab-47b8-a586-b6a080964d14",
+      "item_name": "lantai SPC | C :SSP5183-4 BEIGE OAK",
+      "action": "ADD_ITEM",
+      "quantity": 17,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-30T07:28:46.615Z"
+    },
     {
       "id": "6ba02dfe-cdcc-4590-96ef-2c4088e13b96",
       "item_id": "9d6ca4b3-fc46-49a7-81e9-0c740245ec8d",
