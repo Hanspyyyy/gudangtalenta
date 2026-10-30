@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "18f6c5bd-37f2-4ef9-968c-6e1174a828ca",
+      "name": "Lampu downlight LED panel Model INBP-30120 | PUTIH | 220-240V",
+      "size": "1195mmx 295mm",
+      "category": "Listrik",
+      "warehouse": "Gudang 1",
+      "rack": "1A",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/18f6c5bd-37f2-4ef9-968c-6e1174a828ca-1793344006893.jpeg",
+      "created_at": "2026-10-30T07:06:47.844Z",
+      "updated_at": "2026-10-30T07:06:47.844Z"
+    },
+    {
       "id": "44be767e-a4fe-478d-8752-b372d691e9c1",
       "name": "Pipa listrik",
       "size": "200",
@@ -4578,6 +4590,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "681b204e-4de9-4d8a-82ed-2d0a6287a7cf",
+      "item_id": "18f6c5bd-37f2-4ef9-968c-6e1174a828ca",
+      "item_name": "Lampu downlight LED panel Model INBP-30120 | PUTIH | 220-240V",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-30T07:06:47.844Z"
+    },
     {
       "id": "7670bade-6741-422d-abc4-85dc555599af",
       "item_id": "44be767e-a4fe-478d-8752-b372d691e9c1",
