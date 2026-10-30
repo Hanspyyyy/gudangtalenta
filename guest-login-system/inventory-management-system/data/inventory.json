@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "d8192f58-5869-402a-af8b-41f1e70278c9",
+      "name": "Plamir tembok dan kayu nipom",
+      "size": "setengah lagi",
+      "category": "Cat",
+      "warehouse": "Gudang 1",
+      "rack": "1B",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/d8192f58-5869-402a-af8b-41f1e70278c9-1793329580041.jpeg",
+      "created_at": "2026-10-30T03:06:20.927Z",
+      "updated_at": "2026-10-30T03:06:20.927Z"
+    },
+    {
       "id": "ffeae3fd-d27d-4b7b-889c-e062b7db7a28",
       "name": "Dulux pentalite (anti base T922CV AB)",
       "size": "2.5 L",
@@ -4290,6 +4302,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "3b44a003-3d20-42b4-8f02-d8f838f6508a",
+      "item_id": "d8192f58-5869-402a-af8b-41f1e70278c9",
+      "item_name": "Plamir tembok dan kayu nipom",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-30T03:06:20.927Z"
+    },
     {
       "id": "f6f2d78d-2520-462a-a10e-0953ae185644",
       "item_id": "ab133ad1-eecd-4c3c-a793-f87e1386e7e8",
