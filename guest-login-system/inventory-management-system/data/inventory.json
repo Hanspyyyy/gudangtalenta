@@ -7,10 +7,10 @@
       "category": "Plumbing Fitting",
       "warehouse": "Gudang 1",
       "rack": "1A | 5 | NO 2",
-      "stock": 0,
+      "stock": 1,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/4c73e561-a36b-4bf9-aa0d-3acb4ca949e6-1793349135557.jpeg",
       "created_at": "2026-10-30T08:32:16.590Z",
-      "updated_at": "2026-10-30T08:32:16.590Z"
+      "updated_at": "2026-10-30T08:32:25.709Z"
     },
     {
       "id": "f0497f0d-1fe8-4410-96be-131366feb25f",
@@ -4818,6 +4818,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "ecc6f601-7355-4131-acbd-a73478924c17",
+      "item_id": "4c73e561-a36b-4bf9-aa0d-3acb4ca949e6",
+      "item_name": "sifon leher angsa wastafel (P-trap)",
+      "action": "STOCK_IN",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-30T08:32:25.709Z"
+    },
     {
       "id": "439d08f1-301b-4a12-a9c0-b196cb0dc69d",
       "item_id": "4c73e561-a36b-4bf9-aa0d-3acb4ca949e6",
