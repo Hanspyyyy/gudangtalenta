@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "e021201c-1ecb-46a9-9413-8eeca30d9947",
+      "name": "box MCB panel distribusi listrik ( Wijaya)",
+      "size": "-",
+      "category": "Listrik",
+      "warehouse": "Gudang 1",
+      "rack": "1A",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/e021201c-1ecb-46a9-9413-8eeca30d9947-1793331368884.jpeg",
+      "created_at": "2026-10-30T03:36:09.875Z",
+      "updated_at": "2026-10-30T03:36:09.875Z"
+    },
+    {
       "id": "cbf7b234-43db-489e-b92f-c94817c4b5ca",
       "name": "Aquaproof TRANS 001 (Wijaya)",
       "size": "Di pake sedikit doang",
@@ -4398,6 +4410,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "661f74f6-9613-47f9-8ec5-535d89f52f6d",
+      "item_id": "e021201c-1ecb-46a9-9413-8eeca30d9947",
+      "item_name": "box MCB panel distribusi listrik ( Wijaya)",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-30T03:36:09.875Z"
+    },
     {
       "id": "cec78bae-ba10-414e-a761-2322b98985ac",
       "item_id": "cbf7b234-43db-489e-b92f-c94817c4b5ca",
