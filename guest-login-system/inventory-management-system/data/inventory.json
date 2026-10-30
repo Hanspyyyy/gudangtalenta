@@ -3043,10 +3043,10 @@
       "category": "Plastik",
       "warehouse": "Gudang 1",
       "rack": "1A",
-      "stock": 9,
+      "stock": 10,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/d339e01a-4d6a-4b6f-ab8d-c6c88a7b47b3-1792051244615.jpeg",
       "created_at": "2026-10-15T08:00:45.661Z",
-      "updated_at": "2026-10-27T06:11:16.406Z"
+      "updated_at": "2026-10-30T00:52:12.880Z"
     },
     {
       "id": "e35aa173-a5fc-4b11-a20e-889f5c53388c",
@@ -4266,6 +4266,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "49d5610a-bae0-4717-a820-9ace8ee79bfc",
+      "item_id": "d339e01a-4d6a-4b6f-ab8d-c6c88a7b47b3",
+      "item_name": "Plastik cor",
+      "action": "STOCK_IN",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-30T00:52:12.880Z"
+    },
     {
       "id": "64dfd717-d3b9-4f31-83b2-7aaade91dc01",
       "item_id": "14f85591-f81a-46bb-886f-ce1f4618c0dd",
