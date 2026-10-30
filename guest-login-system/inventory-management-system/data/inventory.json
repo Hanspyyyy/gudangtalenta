@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "d5b3383f-9a4f-43f6-8fa0-eb5404019d29",
+      "name": "Klip pengunci (Wijaya)",
+      "size": "-",
+      "category": "WS",
+      "warehouse": "Gudang 1",
+      "rack": "1A",
+      "stock": 2,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/d5b3383f-9a4f-43f6-8fa0-eb5404019d29-1793333879172.jpeg",
+      "created_at": "2026-10-30T04:18:00.337Z",
+      "updated_at": "2026-10-30T04:18:00.337Z"
+    },
+    {
       "id": "418af2f5-dcdf-44b2-9b4e-012ada199e5f",
       "name": "Rel laci tandem sedeng kayanya 50 besar (Wijaya)",
       "size": "-",
@@ -4518,6 +4530,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "3e7fa9cb-2b4b-4b2a-8e7d-7e680ba87f6d",
+      "item_id": "d5b3383f-9a4f-43f6-8fa0-eb5404019d29",
+      "item_name": "Klip pengunci (Wijaya)",
+      "action": "ADD_ITEM",
+      "quantity": 2,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-30T04:18:00.337Z"
+    },
     {
       "id": "a6321649-8250-4502-9806-85bcaedc40bc",
       "item_id": "418af2f5-dcdf-44b2-9b4e-012ada199e5f",
