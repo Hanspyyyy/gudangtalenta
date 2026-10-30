@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "28b889ff-cb4c-47da-b5e9-8410906d2a60",
+      "name": "engsel kupu-kupu",
+      "size": "-",
+      "category": "Architectural Hardware",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 3 | NO 3",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/28b889ff-cb4c-47da-b5e9-8410906d2a60-1793349449420.jpeg",
+      "created_at": "2026-10-30T08:37:30.502Z",
+      "updated_at": "2026-10-30T08:37:30.502Z"
+    },
+    {
       "id": "4c73e561-a36b-4bf9-aa0d-3acb4ca949e6",
       "name": "sifon leher angsa wastafel (P-trap)",
       "size": "-",
@@ -4818,6 +4830,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "02febf17-0810-4dbb-ac01-66f0f905b6c4",
+      "item_id": "28b889ff-cb4c-47da-b5e9-8410906d2a60",
+      "item_name": "engsel kupu-kupu",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-30T08:37:30.502Z"
+    },
     {
       "id": "ecc6f601-7355-4131-acbd-a73478924c17",
       "item_id": "4c73e561-a36b-4bf9-aa0d-3acb4ca949e6",
