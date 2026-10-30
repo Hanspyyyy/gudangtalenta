@@ -7,10 +7,10 @@
       "category": "Pipa",
       "warehouse": "Gudang 1",
       "rack": "1A | 5 | NO 2",
-      "stock": 0,
+      "stock": 1,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/a38d2745-1591-4c86-84b2-ed69b951c957-1793346186934.jpeg",
       "created_at": "2026-10-30T07:43:07.882Z",
-      "updated_at": "2026-10-30T07:43:07.882Z"
+      "updated_at": "2026-10-30T07:43:14.360Z"
     },
     {
       "id": "524a5eb4-47b8-4736-b265-7bca4f1730b5",
@@ -4674,6 +4674,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "0e2065e6-8747-4e95-9f07-6c63fa678955",
+      "item_id": "a38d2745-1591-4c86-84b2-ed69b951c957",
+      "item_name": "pipa leher angsa",
+      "action": "STOCK_IN",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-30T07:43:14.360Z"
+    },
     {
       "id": "96aa4536-f177-4f99-a079-b907387ff696",
       "item_id": "a38d2745-1591-4c86-84b2-ed69b951c957",
