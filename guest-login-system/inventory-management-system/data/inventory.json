@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "1caf7f46-e6ca-48c5-b5bf-ff961253fb17",
+      "name": "housing / kap lampu (Wijaya)",
+      "size": "∅83xH.70mm",
+      "category": "Listrik",
+      "warehouse": "Gudang 1",
+      "rack": "1A",
+      "stock": 5,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/1caf7f46-e6ca-48c5-b5bf-ff961253fb17-1793331101895.jpeg",
+      "created_at": "2026-10-30T03:31:42.954Z",
+      "updated_at": "2026-10-30T03:31:42.954Z"
+    },
+    {
       "id": "2a7604f1-22c4-4450-bbf1-c0176ea54475",
       "name": "frame 2 gang Schneider (Wijaya)",
       "size": "171.9mmx85.6mm",
@@ -4374,6 +4386,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "21a63b09-74f0-470f-98ec-dd91380f516c",
+      "item_id": "1caf7f46-e6ca-48c5-b5bf-ff961253fb17",
+      "item_name": "housing / kap lampu (Wijaya)",
+      "action": "ADD_ITEM",
+      "quantity": 5,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-30T03:31:42.954Z"
+    },
     {
       "id": "e4a8fd1b-faab-43d0-959a-4d0cc7b40193",
       "item_id": "2a7604f1-22c4-4450-bbf1-c0176ea54475",
