@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "405a2e48-efdc-42a2-8edd-98852172024e",
+      "name": "profil U (U-channel) / list U alumunium",
+      "size": "5x5x5x100",
+      "category": "List",
+      "warehouse": "Gudang 1",
+      "rack": "1A",
+      "stock": 6,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/405a2e48-efdc-42a2-8edd-98852172024e-1793344617787.jpeg",
+      "created_at": "2026-10-30T07:16:58.769Z",
+      "updated_at": "2026-10-30T07:16:58.770Z"
+    },
+    {
       "id": "9ba07627-0e94-43b5-8950-5cfee5f2652d",
       "name": "rel lampu sorot",
       "size": "3,5x100cm",
@@ -4602,6 +4614,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "835c89c7-d6db-486d-a871-15a4ab8d7df7",
+      "item_id": "405a2e48-efdc-42a2-8edd-98852172024e",
+      "item_name": "profil U (U-channel) / list U alumunium",
+      "action": "ADD_ITEM",
+      "quantity": 6,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-30T07:16:58.770Z"
+    },
     {
       "id": "7362af5c-27d0-42fd-a0a9-55804f9545f5",
       "item_id": "9ba07627-0e94-43b5-8950-5cfee5f2652d",
