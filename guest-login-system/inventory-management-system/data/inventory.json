@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "9d6ca4b3-fc46-49a7-81e9-0c740245ec8d",
+      "name": "kabel LAN / Ethernet UTP Cat 5e atau Cat 6 (Biru dan abu)",
+      "size": "-",
+      "category": "Listrik",
+      "warehouse": "Gudang 1",
+      "rack": "1A",
+      "stock": 0,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/9d6ca4b3-fc46-49a7-81e9-0c740245ec8d-1793344735451.jpeg",
+      "created_at": "2026-10-30T07:18:56.492Z",
+      "updated_at": "2026-10-30T07:18:56.492Z"
+    },
+    {
       "id": "405a2e48-efdc-42a2-8edd-98852172024e",
       "name": "profil U (U-channel) / list U alumunium",
       "size": "5x5x5x100",
@@ -4614,6 +4626,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "1f37d0b0-d998-4955-8096-e30ba21143b1",
+      "item_id": "9d6ca4b3-fc46-49a7-81e9-0c740245ec8d",
+      "item_name": "kabel LAN / Ethernet UTP Cat 5e atau Cat 6 (Biru dan abu)",
+      "action": "ADD_ITEM",
+      "quantity": 0,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-30T07:18:56.492Z"
+    },
     {
       "id": "835c89c7-d6db-486d-a871-15a4ab8d7df7",
       "item_id": "405a2e48-efdc-42a2-8edd-98852172024e",
