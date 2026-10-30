@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "8995d17a-e7cf-4c8a-a1e7-bce5fb9f0f3a",
+      "name": "Stop kontak Simon( Wijaya )",
+      "size": "-",
+      "category": "Listrik",
+      "warehouse": "Gudang 1",
+      "rack": "1A",
+      "stock": 3,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/8995d17a-e7cf-4c8a-a1e7-bce5fb9f0f3a-1793329844897.jpeg",
+      "created_at": "2026-10-30T03:10:45.934Z",
+      "updated_at": "2026-10-30T03:10:45.934Z"
+    },
+    {
       "id": "d8192f58-5869-402a-af8b-41f1e70278c9",
       "name": "Plamir tembok dan kayu nipom (Wijaya)",
       "size": "setengah lagi",
@@ -4302,6 +4314,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "830909ff-0bb1-47ab-81fe-08e624eb34fa",
+      "item_id": "8995d17a-e7cf-4c8a-a1e7-bce5fb9f0f3a",
+      "item_name": "Stop kontak Simon( Wijaya )",
+      "action": "ADD_ITEM",
+      "quantity": 3,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-30T03:10:45.934Z"
+    },
     {
       "id": "4c5d66c9-6f68-4e72-8c88-566ce7353ae8",
       "item_id": "ab133ad1-eecd-4c3c-a793-f87e1386e7e8",
