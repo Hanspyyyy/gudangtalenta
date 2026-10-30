@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "51a8c136-3e8d-4fe8-b9d0-a2cc5e96b1ac",
+      "name": "Roof drain black | 3 inch",
+      "size": "3inch",
+      "category": "Plumbing Fitting",
+      "warehouse": "Gudang 1",
+      "rack": "1A",
+      "stock": 9,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/51a8c136-3e8d-4fe8-b9d0-a2cc5e96b1ac-1793345698654.jpeg",
+      "created_at": "2026-10-30T07:34:59.599Z",
+      "updated_at": "2026-10-30T07:34:59.599Z"
+    },
+    {
       "id": "0da048c3-c0ab-47b8-a586-b6a080964d14",
       "name": "lantai SPC | C :SSP5183-4 BEIGE OAK",
       "size": "1120x125",
@@ -4638,6 +4650,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "b050b8f9-2500-43d9-8800-14276945f09c",
+      "item_id": "51a8c136-3e8d-4fe8-b9d0-a2cc5e96b1ac",
+      "item_name": "Roof drain black | 3 inch",
+      "action": "ADD_ITEM",
+      "quantity": 9,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-30T07:34:59.599Z"
+    },
     {
       "id": "f0a0809d-6949-41f0-a3a7-6d183b9969a5",
       "item_id": "0da048c3-c0ab-47b8-a586-b6a080964d14",
