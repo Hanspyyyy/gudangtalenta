@@ -7,10 +7,10 @@
       "category": "Cat",
       "warehouse": "Gudang 1",
       "rack": "1B",
-      "stock": 1,
+      "stock": 2,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/ab133ad1-eecd-4c3c-a793-f87e1386e7e8-1793329393362.jpeg",
       "created_at": "2026-10-30T03:03:14.479Z",
-      "updated_at": "2026-10-30T03:03:14.479Z"
+      "updated_at": "2026-10-30T03:03:26.137Z"
     },
     {
       "id": "10d2abea-e4a3-4334-8162-dd0eaf9460d3",
@@ -4278,6 +4278,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "ea23bc5e-f903-453c-82c5-c19d401ade7c",
+      "item_id": "ab133ad1-eecd-4c3c-a793-f87e1386e7e8",
+      "item_name": "Weathershield (base T 918c ds)",
+      "action": "STOCK_IN",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-30T03:03:26.137Z"
+    },
     {
       "id": "1c269654-b716-402a-b20e-a47d51312f1a",
       "item_id": "ab133ad1-eecd-4c3c-a793-f87e1386e7e8",
