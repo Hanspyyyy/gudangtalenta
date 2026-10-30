@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "72a55d88-4584-4331-8063-dd40758419a3",
+      "name": "Saklar 1 gang Schneider (Wijaya)",
+      "size": "-",
+      "category": "Listrik",
+      "warehouse": "Gudang 1",
+      "rack": "1A",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/72a55d88-4584-4331-8063-dd40758419a3-1793330359330.jpeg",
+      "created_at": "2026-10-30T03:19:20.300Z",
+      "updated_at": "2026-10-30T03:19:20.300Z"
+    },
+    {
       "id": "b3625500-5b64-4bd2-ad2e-6f1e5488a62f",
       "name": "Saklar 2 gang Schneider (Wijaya)",
       "size": "-",
@@ -4350,6 +4362,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "75ace64d-8f08-44cb-a1b8-2f32b9c2baef",
+      "item_id": "72a55d88-4584-4331-8063-dd40758419a3",
+      "item_name": "Saklar 1 gang Schneider (Wijaya)",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-30T03:19:20.300Z"
+    },
     {
       "id": "4433d412-0bbb-4909-ac02-515be50c535c",
       "item_id": "b3625500-5b64-4bd2-ad2e-6f1e5488a62f",
