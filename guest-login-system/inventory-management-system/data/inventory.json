@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "4c73e561-a36b-4bf9-aa0d-3acb4ca949e6",
+      "name": "sifon leher angsa wastafel (P-trap)",
+      "size": "-",
+      "category": "Plumbing Fitting",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 5 | NO 2",
+      "stock": 0,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/4c73e561-a36b-4bf9-aa0d-3acb4ca949e6-1793349135557.jpeg",
+      "created_at": "2026-10-30T08:32:16.590Z",
+      "updated_at": "2026-10-30T08:32:16.590Z"
+    },
+    {
       "id": "f0497f0d-1fe8-4410-96be-131366feb25f",
       "name": "Kran wastafel berjenis tuas angkat (lever sink faucet)",
       "size": "-",
@@ -4806,6 +4818,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "439d08f1-301b-4a12-a9c0-b196cb0dc69d",
+      "item_id": "4c73e561-a36b-4bf9-aa0d-3acb4ca949e6",
+      "item_name": "sifon leher angsa wastafel (P-trap)",
+      "action": "ADD_ITEM",
+      "quantity": 0,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-30T08:32:16.590Z"
+    },
     {
       "id": "76d04db0-8ad7-491e-8902-5c7e22e2d64b",
       "item_id": "f0497f0d-1fe8-4410-96be-131366feb25f",
