@@ -7,10 +7,10 @@
       "category": "-",
       "warehouse": "Gudang 1",
       "rack": "1A | 5 | NO 2",
-      "stock": 0,
+      "stock": 5,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/914c5748-da6a-4092-8e33-49c31a30f82a-1793347218840.jpeg",
       "created_at": "2026-10-30T08:00:19.818Z",
-      "updated_at": "2026-10-30T08:00:19.818Z"
+      "updated_at": "2026-10-30T08:00:27.831Z"
     },
     {
       "id": "ae819da0-9e15-4943-b6b9-a261e9ff55bc",
@@ -4710,6 +4710,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "8d1b8a97-7599-47c3-9139-b656a151b3da",
+      "item_id": "914c5748-da6a-4092-8e33-49c31a30f82a",
+      "item_name": "tatakan alas kaki anti getar dan anti slip",
+      "action": "STOCK_IN",
+      "quantity": 5,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-30T08:00:27.831Z"
+    },
     {
       "id": "34422121-346d-49cc-8bee-b3bb2793e7a0",
       "item_id": "914c5748-da6a-4092-8e33-49c31a30f82a",
