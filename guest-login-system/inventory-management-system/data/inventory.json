@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "f0497f0d-1fe8-4410-96be-131366feb25f",
+      "name": "Kran wastafel berjenis tuas angkat (lever sink faucet)",
+      "size": "-",
+      "category": "Plumbing Fitting",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 5 | NO 2",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/f0497f0d-1fe8-4410-96be-131366feb25f-1793349061900.jpeg",
+      "created_at": "2026-10-30T08:31:02.972Z",
+      "updated_at": "2026-10-30T08:31:02.972Z"
+    },
+    {
       "id": "a527abb4-6ff2-4508-8d88-e4dd450bec08",
       "name": "stop kran sudut (angle stop valve)",
       "size": "-",
@@ -4794,6 +4806,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "76d04db0-8ad7-491e-8902-5c7e22e2d64b",
+      "item_id": "f0497f0d-1fe8-4410-96be-131366feb25f",
+      "item_name": "Kran wastafel berjenis tuas angkat (lever sink faucet)",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-30T08:31:02.972Z"
+    },
     {
       "id": "7a93604c-30bb-4d1c-9901-3393a9f6575e",
       "item_id": "a527abb4-6ff2-4508-8d88-e4dd450bec08",
