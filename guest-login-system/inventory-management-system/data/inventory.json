@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "9fe4523d-0cf3-4bca-ac93-b5985d2e6fa9",
+      "name": "Trafo power supply 120W (Wijaya)",
+      "size": "120w",
+      "category": "Listrik",
+      "warehouse": "Gudang 1",
+      "rack": "1A",
+      "stock": 3,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/9fe4523d-0cf3-4bca-ac93-b5985d2e6fa9-1793331567139.jpeg",
+      "created_at": "2026-10-30T03:39:28.175Z",
+      "updated_at": "2026-10-30T03:39:28.175Z"
+    },
+    {
       "id": "e021201c-1ecb-46a9-9413-8eeca30d9947",
       "name": "box MCB panel distribusi listrik ( Wijaya)",
       "size": "-",
@@ -4410,6 +4422,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "5fa16d62-7032-49b8-8f5c-fbd7d44c233f",
+      "item_id": "9fe4523d-0cf3-4bca-ac93-b5985d2e6fa9",
+      "item_name": "Trafo power supply 120W (Wijaya)",
+      "action": "ADD_ITEM",
+      "quantity": 3,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-30T03:39:28.175Z"
+    },
     {
       "id": "661f74f6-9613-47f9-8ec5-535d89f52f6d",
       "item_id": "e021201c-1ecb-46a9-9413-8eeca30d9947",
