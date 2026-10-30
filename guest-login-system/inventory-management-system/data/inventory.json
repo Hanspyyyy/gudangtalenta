@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "1227fa24-7f59-4a93-8aa1-fec05c6c62ed",
+      "name": "pegas gas hidrolik (Wijaya)",
+      "size": "-",
+      "category": "WS",
+      "warehouse": "Gudang 1",
+      "rack": "1A",
+      "stock": 2,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/1227fa24-7f59-4a93-8aa1-fec05c6c62ed-1793333964238.jpeg",
+      "created_at": "2026-10-30T04:19:25.147Z",
+      "updated_at": "2026-10-30T04:19:25.147Z"
+    },
+    {
       "id": "d5b3383f-9a4f-43f6-8fa0-eb5404019d29",
       "name": "Klip pengunci (Wijaya)",
       "size": "-",
@@ -4530,6 +4542,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "8f2123b2-724f-4f50-8615-7cfa94138e7f",
+      "item_id": "1227fa24-7f59-4a93-8aa1-fec05c6c62ed",
+      "item_name": "pegas gas hidrolik (Wijaya)",
+      "action": "ADD_ITEM",
+      "quantity": 2,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-30T04:19:25.147Z"
+    },
     {
       "id": "3e7fa9cb-2b4b-4b2a-8e7d-7e680ba87f6d",
       "item_id": "d5b3383f-9a4f-43f6-8fa0-eb5404019d29",
