@@ -43,10 +43,10 @@
       "category": "Listrik",
       "warehouse": "Gudang 1",
       "rack": "1A",
-      "stock": 5,
+      "stock": 6,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/1caf7f46-e6ca-48c5-b5bf-ff961253fb17-1793331101895.jpeg",
       "created_at": "2026-10-30T03:31:42.954Z",
-      "updated_at": "2026-10-30T03:31:42.954Z"
+      "updated_at": "2026-10-30T03:43:54.687Z"
     },
     {
       "id": "2a7604f1-22c4-4450-bbf1-c0176ea54475",
@@ -4422,6 +4422,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "18d19eef-d08a-4288-8065-ca4beda029ff",
+      "item_id": "1caf7f46-e6ca-48c5-b5bf-ff961253fb17",
+      "item_name": "housing / kap lampu (Wijaya)",
+      "action": "STOCK_IN",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-30T03:43:54.687Z"
+    },
     {
       "id": "f11192ce-98e2-4049-8d2b-71e7bb928f4c",
       "item_id": "2a7604f1-22c4-4450-bbf1-c0176ea54475",
