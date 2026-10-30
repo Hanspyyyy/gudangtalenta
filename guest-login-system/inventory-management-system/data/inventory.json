@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "ffeae3fd-d27d-4b7b-889c-e062b7db7a28",
+      "name": "Dulux pentalite (anti base T922CV AB)",
+      "size": "2.5 L",
+      "category": "Cat",
+      "warehouse": "Gudang 1",
+      "rack": "1B",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/ffeae3fd-d27d-4b7b-889c-e062b7db7a28-1793329475017.jpeg",
+      "created_at": "2026-10-30T03:04:36.063Z",
+      "updated_at": "2026-10-30T03:04:36.063Z"
+    },
+    {
       "id": "ab133ad1-eecd-4c3c-a793-f87e1386e7e8",
       "name": "Weathershield (base T 918c ds)",
       "size": "2.5 L",
@@ -4278,6 +4290,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "56a56b93-1511-47aa-9ccc-3f62bc23be7e",
+      "item_id": "ffeae3fd-d27d-4b7b-889c-e062b7db7a28",
+      "item_name": "Dulux pentalite (anti base T922CV AB)",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-30T03:04:36.063Z"
+    },
     {
       "id": "ea23bc5e-f903-453c-82c5-c19d401ade7c",
       "item_id": "ab133ad1-eecd-4c3c-a793-f87e1386e7e8",
