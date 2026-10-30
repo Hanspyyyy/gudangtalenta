@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "d666fc8d-9f37-4666-b57f-ec0ec6646124",
+      "name": "Stop kontak Simon 2 gang | saklar 1  ( Wijaya )",
+      "size": "-",
+      "category": "Listrik",
+      "warehouse": "Gudang 1",
+      "rack": "1A",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/d666fc8d-9f37-4666-b57f-ec0ec6646124-1793330127260.jpeg",
+      "created_at": "2026-10-30T03:15:28.168Z",
+      "updated_at": "2026-10-30T03:15:28.168Z"
+    },
+    {
       "id": "58bd7eea-ae18-40d4-a84f-baab45fb6b30",
       "name": "Stop kontak Simon 2 gang( Wijaya )",
       "size": "-",
@@ -4326,6 +4338,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "39002102-fd9f-4ffe-acea-1edd84b45c1d",
+      "item_id": "d666fc8d-9f37-4666-b57f-ec0ec6646124",
+      "item_name": "Stop kontak Simon 2 gang | saklar 1  ( Wijaya )",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-30T03:15:28.168Z"
+    },
     {
       "id": "43e7cae5-4122-4c0a-aa29-ae4a62f88164",
       "item_id": "58bd7eea-ae18-40d4-a84f-baab45fb6b30",
