@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "cbf7b234-43db-489e-b92f-c94817c4b5ca",
+      "name": "Aquaproof TRANS 001 (Wijaya)",
+      "size": "Di pake sedikit doang",
+      "category": "Cat",
+      "warehouse": "Gudang 1",
+      "rack": "1B",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/cbf7b234-43db-489e-b92f-c94817c4b5ca-1793331217566.jpeg",
+      "created_at": "2026-10-30T03:33:38.639Z",
+      "updated_at": "2026-10-30T03:33:38.639Z"
+    },
+    {
       "id": "1caf7f46-e6ca-48c5-b5bf-ff961253fb17",
       "name": "housing / kap lampu (Wijaya)",
       "size": "∅83xH.70mm",
@@ -4386,6 +4398,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "cec78bae-ba10-414e-a761-2322b98985ac",
+      "item_id": "cbf7b234-43db-489e-b92f-c94817c4b5ca",
+      "item_name": "Aquaproof TRANS 001 (Wijaya)",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-30T03:33:38.639Z"
+    },
     {
       "id": "21a63b09-74f0-470f-98ec-dd91380f516c",
       "item_id": "1caf7f46-e6ca-48c5-b5bf-ff961253fb17",
