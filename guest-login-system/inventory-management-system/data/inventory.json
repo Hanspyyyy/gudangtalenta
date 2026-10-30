@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "ab133ad1-eecd-4c3c-a793-f87e1386e7e8",
+      "name": "Weathershield (base T 918c ds)",
+      "size": "2.5 L",
+      "category": "Cat",
+      "warehouse": "Gudang 1",
+      "rack": "1B",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/ab133ad1-eecd-4c3c-a793-f87e1386e7e8-1793329393362.jpeg",
+      "created_at": "2026-10-30T03:03:14.479Z",
+      "updated_at": "2026-10-30T03:03:14.479Z"
+    },
+    {
       "id": "10d2abea-e4a3-4334-8162-dd0eaf9460d3",
       "name": "lantai SPC",
       "size": "1500x228x5.5mm",
@@ -4266,6 +4278,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "1c269654-b716-402a-b20e-a47d51312f1a",
+      "item_id": "ab133ad1-eecd-4c3c-a793-f87e1386e7e8",
+      "item_name": "Weathershield (base T 918c ds)",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-10-30T03:03:14.479Z"
+    },
     {
       "id": "5ac13b2d-7069-425d-9036-219260122f6d",
       "item_id": "33ac3474-b3f0-432a-abfc-ee228ce30f85",
