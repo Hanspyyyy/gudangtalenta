@@ -3439,10 +3439,10 @@
       "category": "Pembersih",
       "warehouse": "Gudang 1",
       "rack": "1A | 8 | NO 4",
-      "stock": 2,
+      "stock": 1,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/178f22e6-a572-4f06-bad3-2805a2428fb5-1792213307808.jpeg",
       "created_at": "2026-10-17T05:01:48.686Z",
-      "updated_at": "2026-10-17T05:01:48.686Z"
+      "updated_at": "2026-11-01T15:28:26.396Z"
     },
     {
       "id": "c94c22e6-3812-413b-a1e7-c51e2ca78add",
@@ -4830,6 +4830,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "270f6e7e-07aa-4131-92a6-5ad50829d960",
+      "item_id": "178f22e6-a572-4f06-bad3-2805a2428fb5",
+      "item_name": "Pengki sapu injuk",
+      "action": "STOCK_OUT",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-01T15:28:26.396Z"
+    },
     {
       "id": "f00d2ca2-a27e-4a0f-b63e-86d933730da5",
       "item_id": "3ab8aff7-4099-489b-8d9d-7e3f6e2a67e1",
