@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "9b919200-9335-4e80-a3fc-09d4390387aa",
+      "name": "Mocha brusell tipis",
+      "size": "1mmx300cm",
+      "category": "Veneer tipis",
+      "warehouse": "Gudang 1",
+      "rack": "1A",
+      "stock": 9,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/9b919200-9335-4e80-a3fc-09d4390387aa-1793623990542.jpeg",
+      "created_at": "2026-11-02T12:53:12.042Z",
+      "updated_at": "2026-11-02T12:53:12.042Z"
+    },
+    {
       "id": "28b889ff-cb4c-47da-b5e9-8410906d2a60",
       "name": "engsel kupu-kupu",
       "size": "-",
@@ -4830,6 +4842,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "cc141441-a093-48b6-aba2-92d25199f1a0",
+      "item_id": "9b919200-9335-4e80-a3fc-09d4390387aa",
+      "item_name": "Mocha brusell tipis",
+      "action": "ADD_ITEM",
+      "quantity": 9,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-02T12:53:12.042Z"
+    },
     {
       "id": "65f5cb98-6794-4f76-b833-a386af6839f6",
       "item_id": "422ff7af-1230-44ce-9312-dc862145ae6d",
