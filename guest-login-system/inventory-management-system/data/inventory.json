@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "ec503f2a-d559-42bb-a362-4fb1761132c1",
+      "name": "Blower",
+      "size": "-",
+      "category": "Mesin",
+      "warehouse": "Gudang 1",
+      "rack": "LT4",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/ec503f2a-d559-42bb-a362-4fb1761132c1-1793679950285.jpeg",
+      "created_at": "2026-11-03T04:25:51.175Z",
+      "updated_at": "2026-11-03T04:25:51.175Z"
+    },
+    {
       "id": "f8448292-8112-49fc-a9a1-ee73356bac60",
       "name": "WPC Wall Panel (dokgi)",
       "size": "-",
@@ -4866,6 +4878,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "4da3287e-4713-4183-abbd-ec3231836796",
+      "item_id": "ec503f2a-d559-42bb-a362-4fb1761132c1",
+      "item_name": "Blower",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-03T04:25:51.175Z"
+    },
     {
       "id": "86ff8bc9-bb3f-4903-9d53-5720f3436ec8",
       "item_id": "ec9266c2-d270-4b81-a9c9-5b742116f95c",
