@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "9f140cc7-49eb-4847-8cd8-6fc39360f8df",
+      "name": "Kawat nyamuk",
+      "size": "L : 1M",
+      "category": "Kawat",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 2 | NO 3",
+      "stock": 7,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/9f140cc7-49eb-4847-8cd8-6fc39360f8df-1793686320312.jpeg",
+      "created_at": "2026-11-03T06:12:01.316Z",
+      "updated_at": "2026-11-03T06:12:01.316Z"
+    },
+    {
       "id": "f7e680dc-4cf3-429b-b6e4-0ee354c81e70",
       "name": "Skop",
       "size": "-",
@@ -4953,6 +4965,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "ddc5e71d-409c-4b14-9660-d59d21bf0872",
+      "item_id": "9f140cc7-49eb-4847-8cd8-6fc39360f8df",
+      "item_name": "Kawat nyamuk",
+      "action": "ADD_ITEM",
+      "quantity": 7,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-03T06:12:01.316Z"
+    },
     {
       "id": "3f3b172d-4d77-4623-ad41-7641b5e4403c",
       "item_id": "f7e680dc-4cf3-429b-b6e4-0ee354c81e70",
