@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "f7e680dc-4cf3-429b-b6e4-0ee354c81e70",
+      "name": "Skop",
+      "size": "-",
+      "category": "alat",
+      "warehouse": "Gudang 1",
+      "rack": "1B",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/f7e680dc-4cf3-429b-b6e4-0ee354c81e70-1793685892973.jpeg",
+      "created_at": "2026-11-03T06:04:53.821Z",
+      "updated_at": "2026-11-03T06:04:53.821Z"
+    },
+    {
       "id": "b9480b87-8f66-45a5-87bd-95159ce8fcd8",
       "name": "Sikat kawat kasar sedikit rusak",
       "size": "-",
@@ -4941,6 +4953,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "3f3b172d-4d77-4623-ad41-7641b5e4403c",
+      "item_id": "f7e680dc-4cf3-429b-b6e4-0ee354c81e70",
+      "item_name": "Skop",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-03T06:04:53.821Z"
+    },
     {
       "id": "922b9ed7-9a65-465e-9017-b5cdd25caade",
       "item_id": "1d56c646-a35c-4de2-901f-56ac768508ea",
