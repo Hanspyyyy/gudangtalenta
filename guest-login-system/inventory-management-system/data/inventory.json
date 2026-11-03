@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "4e2d05a3-7e5a-43b9-bebf-5fac3d662cb3",
+      "name": "Segitiga / rak -a",
+      "size": "-",
+      "category": "Alat",
+      "warehouse": "Gudang 2",
+      "rack": "2D",
+      "stock": 2,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/4e2d05a3-7e5a-43b9-bebf-5fac3d662cb3-1793697117707.jpeg",
+      "created_at": "2026-11-03T09:11:58.725Z",
+      "updated_at": "2026-11-03T09:11:58.725Z"
+    },
+    {
       "id": "0dc13111-4605-4822-a6cb-4f14e9c5674f",
       "name": "Gerobak sorong atau angkong",
       "size": "-",
@@ -5013,6 +5025,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "0a0d90dd-4dde-4386-b8a9-4343999b4c3e",
+      "item_id": "4e2d05a3-7e5a-43b9-bebf-5fac3d662cb3",
+      "item_name": "Segitiga / rak -a",
+      "action": "ADD_ITEM",
+      "quantity": 2,
+      "warehouse": "Gudang 2",
+      "timestamp": "2026-11-03T09:11:58.726Z"
+    },
     {
       "id": "30c43e68-a3f1-40a5-b338-4879b6d94263",
       "item_id": "0dc13111-4605-4822-a6cb-4f14e9c5674f",
