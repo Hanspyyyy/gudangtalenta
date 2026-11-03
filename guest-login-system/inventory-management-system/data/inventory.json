@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "efa6ed2b-b071-4b68-bc21-62fb58fc5838",
+      "name": "Pemanas pipa PVC",
+      "size": "-",
+      "category": "Mesin",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 8 | No 2",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/efa6ed2b-b071-4b68-bc21-62fb58fc5838-1793680876363.jpeg",
+      "created_at": "2026-11-03T04:41:17.262Z",
+      "updated_at": "2026-11-03T04:41:17.262Z"
+    },
+    {
       "id": "98a71747-256d-47b6-a784-0c5eedb475ed",
       "name": "engsel piano (atau engsel panjang / engsel renteng / continuous hinge)",
       "size": "P:300",
@@ -4902,6 +4914,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "470a8886-8246-402d-9456-30be3cb722d1",
+      "item_id": "efa6ed2b-b071-4b68-bc21-62fb58fc5838",
+      "item_name": "Pemanas pipa PVC",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-03T04:41:17.262Z"
+    },
     {
       "id": "916d4cc7-16f9-4e62-aeb9-1e7e275f8702",
       "item_id": "98a71747-256d-47b6-a784-0c5eedb475ed",
