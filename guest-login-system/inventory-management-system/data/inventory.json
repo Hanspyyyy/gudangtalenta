@@ -4474,9 +4474,10 @@
       "category": "Sepatu",
       "warehouse": "Gudang 1",
       "rack": "-",
-      "stock": 10,
+      "stock": 11,
       "photo": "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/1d56c646-a35c-4de2-901f-56ac768508ea.jpeg",
-      "createdAt": "2026-09-13T09:37:08.553Z"
+      "createdAt": "2026-09-13T09:37:08.553Z",
+      "updated_at": "2026-11-03T04:48:08.426Z"
     },
     {
       "id": "150b9102-279a-4b14-a541-b8a9124ded3b",
@@ -4938,6 +4939,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "922b9ed7-9a65-465e-9017-b5cdd25caade",
+      "item_id": "1d56c646-a35c-4de2-901f-56ac768508ea",
+      "item_name": "Sepatu bot",
+      "action": "STOCK_IN",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-03T04:48:08.426Z"
+    },
     {
       "id": "1a4a2684-2ad5-408e-8dcc-ad20f4908e91",
       "item_id": "b9480b87-8f66-45a5-87bd-95159ce8fcd8",
