@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "da4f3764-5235-4346-8b8b-76ac85737e9f",
+      "name": "Kompon",
+      "size": "1 sak",
+      "category": "Kompon",
+      "warehouse": "Gudang 1",
+      "rack": "Garasi",
+      "stock": 3,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/da4f3764-5235-4346-8b8b-76ac85737e9f-1793667323235.jpeg",
+      "created_at": "2026-11-03T00:55:24.261Z",
+      "updated_at": "2026-11-03T00:55:24.261Z"
+    },
+    {
       "id": "9b919200-9335-4e80-a3fc-09d4390387aa",
       "name": "Mocha brusell tipis",
       "size": "1mmx300cm",
@@ -4842,6 +4854,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "0690c128-0caa-430b-8997-d6d4159e53a7",
+      "item_id": "da4f3764-5235-4346-8b8b-76ac85737e9f",
+      "item_name": "Kompon",
+      "action": "ADD_ITEM",
+      "quantity": 3,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-03T00:55:24.261Z"
+    },
     {
       "id": "504cf743-bb0e-4051-8621-b2e34576d654",
       "item_id": "9b919200-9335-4e80-a3fc-09d4390387aa",
