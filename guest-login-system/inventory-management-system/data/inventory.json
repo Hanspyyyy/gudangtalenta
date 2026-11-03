@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "0dc13111-4605-4822-a6cb-4f14e9c5674f",
+      "name": "Gerobak sorong atau angkong",
+      "size": "-",
+      "category": "Alat",
+      "warehouse": "Gudang 1",
+      "rack": "2B",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/0dc13111-4605-4822-a6cb-4f14e9c5674f-1793696984601.jpeg",
+      "created_at": "2026-11-03T09:09:45.631Z",
+      "updated_at": "2026-11-03T09:09:45.631Z"
+    },
+    {
       "id": "8afb7b3d-9d30-4543-b63f-db000bbdabfd",
       "name": "Pintu kamar mandi",
       "size": "-",
@@ -5001,6 +5013,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "30c43e68-a3f1-40a5-b338-4879b6d94263",
+      "item_id": "0dc13111-4605-4822-a6cb-4f14e9c5674f",
+      "item_name": "Gerobak sorong atau angkong",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-03T09:09:45.631Z"
+    },
     {
       "id": "ad8a1dcd-1e91-4dc6-8efc-9cde97aa3d49",
       "item_id": "8afb7b3d-9d30-4543-b63f-db000bbdabfd",
