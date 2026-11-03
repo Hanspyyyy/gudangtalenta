@@ -4287,14 +4287,15 @@
     },
     {
       "id": "aa4b8885-c4e9-48f3-8a6f-efc9582726da",
-      "name": "Pipa wespex (potongan pegangan bg hendi)",
+      "name": "Pipa WESTPEX(potongan pegangan bg hendi)",
       "size": "-",
       "category": "Pipa",
       "warehouse": "Gudang 1",
       "rack": "Lt4",
       "stock": 12,
       "photo": "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/aa4b8885-c4e9-48f3-8a6f-efc9582726da.jpeg",
-      "createdAt": "2026-09-14T02:13:22.628Z"
+      "createdAt": "2026-09-14T02:13:22.628Z",
+      "updated_at": "2026-11-03T05:46:11.863Z"
     },
     {
       "id": "64995198-2984-4e69-aa5e-db18cca231b5",
