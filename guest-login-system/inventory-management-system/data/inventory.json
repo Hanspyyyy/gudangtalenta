@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "b5a2a547-bbac-4a64-92d9-8c0ee50ae61d",
+      "name": "Sikat kawat kasar sedikit rusak",
+      "size": "-",
+      "category": "Pembersih",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 9 | NO 4",
+      "stock": 4,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/b5a2a547-bbac-4a64-92d9-8c0ee50ae61d-1793681135212.jpeg",
+      "created_at": "2026-11-03T04:45:36.137Z",
+      "updated_at": "2026-11-03T04:45:36.137Z"
+    },
+    {
       "id": "efa6ed2b-b071-4b68-bc21-62fb58fc5838",
       "name": "Pemanas pipa PVC",
       "size": "-",
@@ -4914,6 +4926,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "06b5e2cc-9ae3-4963-9c05-287083e2cb78",
+      "item_id": "b5a2a547-bbac-4a64-92d9-8c0ee50ae61d",
+      "item_name": "Sikat kawat kasar sedikit rusak",
+      "action": "ADD_ITEM",
+      "quantity": 4,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-03T04:45:36.137Z"
+    },
     {
       "id": "8ec08f5c-1bba-4b69-a296-6372ddb9add5",
       "item_id": "6f0c8595-0788-4a69-b6bd-89450f7c98e9",
