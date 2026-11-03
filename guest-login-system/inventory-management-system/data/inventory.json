@@ -7,10 +7,10 @@
       "category": "Cat",
       "warehouse": "Gudang 1",
       "rack": "1B",
-      "stock": 0,
+      "stock": 1,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/68207ba8-579b-4229-b16c-c0e1edb1a5ee-1793680069096.jpeg",
       "created_at": "2026-11-03T04:27:49.987Z",
-      "updated_at": "2026-11-03T04:27:49.987Z"
+      "updated_at": "2026-11-03T04:28:01.122Z"
     },
     {
       "id": "ec503f2a-d559-42bb-a362-4fb1761132c1",
@@ -4890,6 +4890,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "1c1b0f5e-7426-4d0d-b067-c3499b37564c",
+      "item_id": "68207ba8-579b-4229-b16c-c0e1edb1a5ee",
+      "item_name": "Antibac briliant white 2290",
+      "action": "STOCK_IN",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-03T04:28:01.122Z"
+    },
     {
       "id": "8727f56a-bccb-4efe-a789-333dfbdf1f39",
       "item_id": "68207ba8-579b-4229-b16c-c0e1edb1a5ee",
