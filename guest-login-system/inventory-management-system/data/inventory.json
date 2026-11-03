@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "8afb7b3d-9d30-4543-b63f-db000bbdabfd",
+      "name": "Pintu kamar mandi",
+      "size": "-",
+      "category": "Pintu",
+      "warehouse": "Gudang 2",
+      "rack": "2A",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/8afb7b3d-9d30-4543-b63f-db000bbdabfd-1793696925009.jpeg",
+      "created_at": "2026-11-03T09:08:45.986Z",
+      "updated_at": "2026-11-03T09:08:45.986Z"
+    },
+    {
       "id": "53dbb536-72f5-4733-afa6-2405d7ac4033",
       "name": "Pintu kaca",
       "size": "-",
@@ -4989,6 +5001,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "ad8a1dcd-1e91-4dc6-8efc-9cde97aa3d49",
+      "item_id": "8afb7b3d-9d30-4543-b63f-db000bbdabfd",
+      "item_name": "Pintu kamar mandi",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 2",
+      "timestamp": "2026-11-03T09:08:45.986Z"
+    },
     {
       "id": "eb64c683-83bc-4d3e-b8ff-7647e02ae18e",
       "item_id": "53dbb536-72f5-4733-afa6-2405d7ac4033",
