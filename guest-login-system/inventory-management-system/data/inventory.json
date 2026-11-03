@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "f8448292-8112-49fc-a9a1-ee73356bac60",
+      "name": "WPC Wall Panel (dokgi)",
+      "size": "-",
+      "category": "WPC",
+      "warehouse": "Gudang 1",
+      "rack": "1B",
+      "stock": 6,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/f8448292-8112-49fc-a9a1-ee73356bac60-1793679603915.jpeg",
+      "created_at": "2026-11-03T04:20:04.723Z",
+      "updated_at": "2026-11-03T04:20:04.723Z"
+    },
+    {
       "id": "da4f3764-5235-4346-8b8b-76ac85737e9f",
       "name": "Kompon",
       "size": "1 sak",
@@ -4854,6 +4866,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "2d62b83f-65ab-41d4-96a7-2a7a6745e662",
+      "item_id": "f8448292-8112-49fc-a9a1-ee73356bac60",
+      "item_name": "WPC Wall Panel (dokgi)",
+      "action": "ADD_ITEM",
+      "quantity": 6,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-03T04:20:04.723Z"
+    },
     {
       "id": "a4795a9d-7aa1-4c37-b399-83d3fc7b41cd",
       "item_id": "d339e01a-4d6a-4b6f-ab8d-c6c88a7b47b3",
