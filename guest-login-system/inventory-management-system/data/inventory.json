@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "68207ba8-579b-4229-b16c-c0e1edb1a5ee",
+      "name": "Antibac briliant white 2290",
+      "size": "¼ pail lagi",
+      "category": "Cat",
+      "warehouse": "Gudang 1",
+      "rack": "1B",
+      "stock": 0,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/68207ba8-579b-4229-b16c-c0e1edb1a5ee-1793680069096.jpeg",
+      "created_at": "2026-11-03T04:27:49.987Z",
+      "updated_at": "2026-11-03T04:27:49.987Z"
+    },
+    {
       "id": "ec503f2a-d559-42bb-a362-4fb1761132c1",
       "name": "Blower",
       "size": "-",
@@ -4878,6 +4890,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "8727f56a-bccb-4efe-a789-333dfbdf1f39",
+      "item_id": "68207ba8-579b-4229-b16c-c0e1edb1a5ee",
+      "item_name": "Antibac briliant white 2290",
+      "action": "ADD_ITEM",
+      "quantity": 0,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-03T04:27:49.987Z"
+    },
     {
       "id": "4da3287e-4713-4183-abbd-ec3231836796",
       "item_id": "ec503f2a-d559-42bb-a362-4fb1761132c1",
