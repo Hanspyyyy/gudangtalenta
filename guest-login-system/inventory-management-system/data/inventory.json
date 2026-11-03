@@ -3799,10 +3799,10 @@
       "category": "Pembersih",
       "warehouse": "Gudang 1",
       "rack": "1A | 9 | NO 4",
-      "stock": 1,
+      "stock": 2,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/6f0c8595-0788-4a69-b6bd-89450f7c98e9-1792049532396.jpeg",
       "created_at": "2026-10-15T07:32:13.613Z",
-      "updated_at": "2026-10-26T02:10:01.413Z"
+      "updated_at": "2026-11-03T04:44:29.304Z"
     },
     {
       "id": "064e3553-0cb0-4e89-b1a8-a419d05f25a8",
@@ -4914,6 +4914,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "8ec08f5c-1bba-4b69-a296-6372ddb9add5",
+      "item_id": "6f0c8595-0788-4a69-b6bd-89450f7c98e9",
+      "item_name": "Sikat kawat halus",
+      "action": "STOCK_IN",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-03T04:44:29.304Z"
+    },
     {
       "id": "470a8886-8246-402d-9456-30be3cb722d1",
       "item_id": "efa6ed2b-b071-4b68-bc21-62fb58fc5838",
