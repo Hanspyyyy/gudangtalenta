@@ -547,10 +547,10 @@
       "category": "Listrik",
       "warehouse": "Gudang 1",
       "rack": "1A",
-      "stock": 3,
+      "stock": 1,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/8995d17a-e7cf-4c8a-a1e7-bce5fb9f0f3a-1793329844897.jpeg",
       "created_at": "2026-10-30T03:10:45.934Z",
-      "updated_at": "2026-10-30T03:10:45.934Z"
+      "updated_at": "2026-11-03T01:17:02.923Z"
     },
     {
       "id": "d8192f58-5869-402a-af8b-41f1e70278c9",
@@ -4854,6 +4854,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "61b14885-1e86-4eb4-aebc-d572bcde1990",
+      "item_id": "8995d17a-e7cf-4c8a-a1e7-bce5fb9f0f3a",
+      "item_name": "Stop kontak Simon( Wijaya )",
+      "action": "STOCK_OUT",
+      "quantity": 2,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-03T01:17:02.923Z"
+    },
     {
       "id": "0690c128-0caa-430b-8997-d6d4159e53a7",
       "item_id": "da4f3764-5235-4346-8b8b-76ac85737e9f",
