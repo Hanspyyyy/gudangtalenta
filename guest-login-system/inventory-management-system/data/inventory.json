@@ -4321,14 +4321,15 @@
     },
     {
       "id": "c1e89226-3b96-4fa6-bf51-43dcc023cccd",
-      "name": "Pipa wespex (potongan/bekas)",
+      "name": "Pipa WESTPEX(potongan/bekas)",
       "size": "-",
       "category": "Pipa",
       "warehouse": "Gudang 1",
       "rack": "Lt4",
       "stock": 28,
       "photo": "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/c1e89226-3b96-4fa6-bf51-43dcc023cccd.jpeg",
-      "createdAt": "2026-09-14T02:09:13.948Z"
+      "createdAt": "2026-09-14T02:09:13.948Z",
+      "updated_at": "2026-11-03T05:46:00.012Z"
     },
     {
       "id": "5e2ea2f3-1056-4433-895c-6598032b911a",
