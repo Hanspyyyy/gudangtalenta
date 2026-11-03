@@ -379,10 +379,10 @@
       "category": "WPC",
       "warehouse": "Gudang 1",
       "rack": "1B",
-      "stock": 12,
+      "stock": 13,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/ec9266c2-d270-4b81-a9c9-5b742116f95c-1793332845590.jpeg",
       "created_at": "2026-10-30T04:00:46.646Z",
-      "updated_at": "2026-10-30T04:00:46.646Z"
+      "updated_at": "2026-11-03T04:20:31.972Z"
     },
     {
       "id": "c61aa5b0-3d0e-4e7c-b3c1-21f9ccdacf7f",
@@ -4866,6 +4866,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "86ff8bc9-bb3f-4903-9d53-5720f3436ec8",
+      "item_id": "ec9266c2-d270-4b81-a9c9-5b742116f95c",
+      "item_name": "WPC A-2512261844-LC (WIJAYA)",
+      "action": "STOCK_IN",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-03T04:20:31.972Z"
+    },
     {
       "id": "2d62b83f-65ab-41d4-96a7-2a7a6745e662",
       "item_id": "f8448292-8112-49fc-a9a1-ee73356bac60",
