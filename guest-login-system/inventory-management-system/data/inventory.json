@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "a45f8c62-421b-4fcc-8e4c-0369fc4349fb",
+      "name": "Scafolding",
+      "size": "-",
+      "category": "Alat",
+      "warehouse": "Gudang 2",
+      "rack": "2D",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/a45f8c62-421b-4fcc-8e4c-0369fc4349fb-1793697161262.jpeg",
+      "created_at": "2026-11-03T09:12:42.301Z",
+      "updated_at": "2026-11-03T09:12:42.301Z"
+    },
+    {
       "id": "4e2d05a3-7e5a-43b9-bebf-5fac3d662cb3",
       "name": "Segitiga / rak -a",
       "size": "-",
@@ -5025,6 +5037,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "907393e1-c719-436a-81e5-848b2fd8255a",
+      "item_id": "a45f8c62-421b-4fcc-8e4c-0369fc4349fb",
+      "item_name": "Scafolding",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 2",
+      "timestamp": "2026-11-03T09:12:42.301Z"
+    },
     {
       "id": "0a0d90dd-4dde-4386-b8a9-4343999b4c3e",
       "item_id": "4e2d05a3-7e5a-43b9-bebf-5fac3d662cb3",
