@@ -7,10 +7,10 @@
       "category": "Kompon",
       "warehouse": "Gudang 1",
       "rack": "Garasi",
-      "stock": 3,
+      "stock": 1,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/da4f3764-5235-4346-8b8b-76ac85737e9f-1793667323235.jpeg",
       "created_at": "2026-11-03T00:55:24.261Z",
-      "updated_at": "2026-11-03T00:55:24.261Z"
+      "updated_at": "2026-11-03T03:14:02.365Z"
     },
     {
       "id": "9b919200-9335-4e80-a3fc-09d4390387aa",
@@ -4854,6 +4854,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "3668eafb-71e3-48c3-876e-4aabb237ecba",
+      "item_id": "da4f3764-5235-4346-8b8b-76ac85737e9f",
+      "item_name": "Kompon",
+      "action": "STOCK_OUT",
+      "quantity": 2,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-03T03:14:02.365Z"
+    },
     {
       "id": "0c304a18-ec12-48ef-b976-ff5978ff980b",
       "item_id": "d339e01a-4d6a-4b6f-ab8d-c6c88a7b47b3",
