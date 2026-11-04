@@ -2287,10 +2287,10 @@
       "category": "Pipa",
       "warehouse": "Gudang 1",
       "rack": "1A | 5 | NO 3",
-      "stock": 8,
+      "stock": 7,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/bd001c06-ef00-49a9-bb95-16c01b204be0-1792479142509.jpeg",
       "created_at": "2026-10-20T06:52:23.472Z",
-      "updated_at": "2026-10-20T06:54:08.596Z"
+      "updated_at": "2026-11-04T06:29:43.423Z"
     },
     {
       "id": "56ed6c13-0bd9-41ad-872f-063426f78db0",
@@ -5049,6 +5049,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "ac782b8c-058b-4339-9ad6-61b1de7c5a3d",
+      "item_id": "bd001c06-ef00-49a9-bb95-16c01b204be0",
+      "item_name": "STOP KRAN WESTPEX (20) ½",
+      "action": "STOCK_OUT",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-04T06:29:43.423Z"
+    },
     {
       "id": "c7787cb0-2868-4db9-813c-0547aea0c047",
       "item_id": "1bcc19e2-f167-4c61-bc29-dc91a6f03e2b",
