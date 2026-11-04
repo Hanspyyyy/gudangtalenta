@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "035fae00-a222-46d6-87f1-553e0092807c",
+      "name": "Maximus Vacuum Cleaner Wet & Dry Buffalo (tidak lengkap)",
+      "size": "-",
+      "category": "Cleaning",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 5 | NO 2",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/035fae00-a222-46d6-87f1-553e0092807c-1793777525952.jpeg",
+      "created_at": "2026-11-04T07:32:07.082Z",
+      "updated_at": "2026-11-04T07:32:07.082Z"
+    },
+    {
       "id": "b895ee1d-708f-4c9a-bfb4-918706c40ffc",
       "name": "stop kran cabang / stop valve",
       "size": "-",
@@ -5291,6 +5303,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "328bddbe-9ef1-4813-922d-8684ba0f637b",
+      "item_id": "035fae00-a222-46d6-87f1-553e0092807c",
+      "item_name": "Maximus Vacuum Cleaner Wet & Dry Buffalo (tidak lengkap)",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-04T07:32:07.082Z"
+    },
     {
       "id": "162815af-8182-405c-a5c6-782891f62df0",
       "item_id": "9a923fd6-759f-47e2-8555-2a788e52dcc3",
