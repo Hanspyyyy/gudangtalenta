@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "3698ce9f-c152-49d4-ac71-2e620882c011",
+      "name": "Engsel kupu kupuk 1 kotak | isi 2 unit /pcs (dokgi)",
+      "size": "-",
+      "category": "Engsel",
+      "warehouse": "Gudang 1",
+      "rack": "1A",
+      "stock": 25,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/3698ce9f-c152-49d4-ac71-2e620882c011-1793757442103.jpeg",
+      "created_at": "2026-11-04T01:57:23.085Z",
+      "updated_at": "2026-11-04T01:57:23.085Z"
+    },
+    {
       "id": "a45f8c62-421b-4fcc-8e4c-0369fc4349fb",
       "name": "Scafolding",
       "size": "-",
@@ -5037,6 +5049,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "7bed30e1-b0c2-478f-b750-ea7f9c9d473e",
+      "item_id": "3698ce9f-c152-49d4-ac71-2e620882c011",
+      "item_name": "Engsel kupu kupuk 1 kotak | isi 2 unit /pcs (dokgi)",
+      "action": "ADD_ITEM",
+      "quantity": 25,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-04T01:57:23.085Z"
+    },
     {
       "id": "907393e1-c719-436a-81e5-848b2fd8255a",
       "item_id": "a45f8c62-421b-4fcc-8e4c-0369fc4349fb",
