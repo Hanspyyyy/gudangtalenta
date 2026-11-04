@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "ea61e418-0ba8-4fd3-981a-4ac2b85c233f",
+      "name": "GRC COMPOUND A B",
+      "size": "1KG",
+      "category": "Bahan Bangunan",
+      "warehouse": "Gudang 1",
+      "rack": "1B",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/ea61e418-0ba8-4fd3-981a-4ac2b85c233f-1793776166894.jpeg",
+      "created_at": "2026-11-04T07:09:27.956Z",
+      "updated_at": "2026-11-04T07:09:27.956Z"
+    },
+    {
       "id": "0776374d-1718-4ea4-ab26-53b9b3df408e",
       "name": "Cairan sika",
       "size": "Setengah lagi",
@@ -5195,6 +5207,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "3ae75e93-ca17-4b11-b7b7-5b3698011187",
+      "item_id": "ea61e418-0ba8-4fd3-981a-4ac2b85c233f",
+      "item_name": "GRC COMPOUND A B",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-04T07:09:27.956Z"
+    },
     {
       "id": "56cbdb28-acf8-4bbc-bd55-494bf4575ef2",
       "item_id": "0776374d-1718-4ea4-ab26-53b9b3df408e",
