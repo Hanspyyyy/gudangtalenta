@@ -4435,12 +4435,13 @@
       "id": "d666de89-2db3-4ca7-839c-51104b3f02aa",
       "name": "Cat Dulux weathershield (AR exterior 49100))",
       "size": "2,5 L",
-      "category": "Car",
+      "category": "Cat",
       "warehouse": "Gudang 1",
       "rack": "Gudang 1B",
       "stock": 1,
       "photo": "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/d666de89-2db3-4ca7-839c-51104b3f02aa.jpeg",
-      "createdAt": "2026-09-14T02:19:33.458Z"
+      "createdAt": "2026-09-14T02:19:33.458Z",
+      "updated_at": "2026-11-04T06:56:59.310Z"
     },
     {
       "id": "e6761c5c-7868-4176-b18d-46db9aa26cb7",
