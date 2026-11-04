@@ -259,10 +259,10 @@
       "category": "Veneer tipis",
       "warehouse": "Gudang 1",
       "rack": "Lorong",
-      "stock": 8,
+      "stock": 0,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/9b919200-9335-4e80-a3fc-09d4390387aa-1793623990542.jpeg",
       "created_at": "2026-11-02T12:53:12.042Z",
-      "updated_at": "2026-11-03T00:56:44.694Z"
+      "updated_at": "2026-11-04T06:42:23.425Z"
     },
     {
       "id": "28b889ff-cb4c-47da-b5e9-8410906d2a60",
@@ -5097,6 +5097,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "6f9b7f18-5178-4747-b22c-dbe2ed43f968",
+      "item_id": "9b919200-9335-4e80-a3fc-09d4390387aa",
+      "item_name": "Mocha brussel tipis",
+      "action": "STOCK_OUT",
+      "quantity": 8,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-04T06:42:23.425Z"
+    },
     {
       "id": "ba8a2586-4bc6-4176-a62f-9020fe152211",
       "item_id": "f360e2b0-3213-4f12-a151-c380e0380c03",
