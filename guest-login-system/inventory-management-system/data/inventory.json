@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "fc055936-7b82-4177-bb06-3b8db178f2d6",
+      "name": "roof drain",
+      "size": "-",
+      "category": "Roof Drainage System",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 5 | NO 2",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/fc055936-7b82-4177-bb06-3b8db178f2d6-1793777621237.jpeg",
+      "created_at": "2026-11-04T07:33:42.263Z",
+      "updated_at": "2026-11-04T07:33:42.263Z"
+    },
+    {
       "id": "035fae00-a222-46d6-87f1-553e0092807c",
       "name": "Maximus Vacuum Cleaner Wet & Dry Buffalo (tidak lengkap)",
       "size": "-",
@@ -5303,6 +5315,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "97b2cdec-02f7-4aae-8e61-af9dc81ae936",
+      "item_id": "fc055936-7b82-4177-bb06-3b8db178f2d6",
+      "item_name": "roof drain",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-04T07:33:42.264Z"
+    },
     {
       "id": "328bddbe-9ef1-4813-922d-8684ba0f637b",
       "item_id": "035fae00-a222-46d6-87f1-553e0092807c",
