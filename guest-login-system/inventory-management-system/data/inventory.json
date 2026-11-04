@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "b895ee1d-708f-4c9a-bfb4-918706c40ffc",
+      "name": "stop kran cabang / stop valve",
+      "size": "-",
+      "category": "Plumbing Fitting",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 5 | NO 2",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/b895ee1d-708f-4c9a-bfb4-918706c40ffc-1793777340147.jpeg",
+      "created_at": "2026-11-04T07:29:01.063Z",
+      "updated_at": "2026-11-04T07:29:01.063Z"
+    },
+    {
       "id": "9a923fd6-759f-47e2-8555-2a788e52dcc3",
       "name": "penahan jendela putar atau ramskar putar",
       "size": "-",
@@ -5279,6 +5291,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "5c947023-611f-4cb4-b864-fea1be40034a",
+      "item_id": "b895ee1d-708f-4c9a-bfb4-918706c40ffc",
+      "item_name": "stop kran cabang / stop valve",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-04T07:29:01.063Z"
+    },
     {
       "id": "974efc27-5637-4409-abb1-5259c476cc61",
       "item_id": "9a923fd6-759f-47e2-8555-2a788e52dcc3",
