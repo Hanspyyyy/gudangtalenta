@@ -4610,9 +4610,10 @@
       "category": "Pipa",
       "warehouse": "Gudang 1",
       "rack": "-",
-      "stock": 1,
+      "stock": 6,
       "photo": "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/db77ecf5-b866-412d-965d-7d13436fe924.jpeg",
-      "createdAt": "2026-09-13T09:40:33.464Z"
+      "createdAt": "2026-09-13T09:40:33.464Z",
+      "updated_at": "2026-11-04T06:52:28.069Z"
     },
     {
       "id": "f0dfc1c8-f8f8-4eba-b313-296487fac99f",
@@ -5097,6 +5098,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "cbc9b37b-0832-405d-999b-f3268f469be2",
+      "item_id": "db77ecf5-b866-412d-965d-7d13436fe924",
+      "item_name": "Pipa PPR (air dingin)",
+      "action": "STOCK_IN",
+      "quantity": 5,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-04T06:52:28.069Z"
+    },
     {
       "id": "befa96e8-9bca-4fd6-b057-91397fad140f",
       "item_id": "422ff7af-1230-44ce-9312-dc862145ae6d",
