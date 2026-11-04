@@ -3835,10 +3835,10 @@
       "category": "Veneer tebal",
       "warehouse": "Gudang 1",
       "rack": "1B | 1 | 2",
-      "stock": 19,
+      "stock": 0,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/422ff7af-1230-44ce-9312-dc862145ae6d-1792208553381.jpeg",
       "created_at": "2026-10-17T03:42:34.283Z",
-      "updated_at": "2026-11-02T12:46:20.615Z"
+      "updated_at": "2026-11-04T06:42:59.820Z"
     },
     {
       "id": "49ccddb3-3a57-4968-9435-260829dfad02",
@@ -5097,6 +5097,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "befa96e8-9bca-4fd6-b057-91397fad140f",
+      "item_id": "422ff7af-1230-44ce-9312-dc862145ae6d",
+      "item_name": "Veneer ( Mocha Brussel 3100 )",
+      "action": "STOCK_OUT",
+      "quantity": 19,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-04T06:42:59.820Z"
+    },
     {
       "id": "6f9b7f18-5178-4747-b22c-dbe2ed43f968",
       "item_id": "9b919200-9335-4e80-a3fc-09d4390387aa",
