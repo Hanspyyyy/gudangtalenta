@@ -7,10 +7,10 @@
       "category": "Plumbing Fitting",
       "warehouse": "Gudang 1",
       "rack": "1A | 5 | NO 2",
-      "stock": 1,
+      "stock": 2,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/c0035ac3-1ee9-43a8-b655-fa0ac4ff8473-1793776855181.jpeg",
       "created_at": "2026-11-04T07:20:56.221Z",
-      "updated_at": "2026-11-04T07:20:56.221Z"
+      "updated_at": "2026-11-04T07:22:01.750Z"
     },
     {
       "id": "1e22fe9d-7847-4f3e-9a12-ac782c8c8b1c",
@@ -5255,6 +5255,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "f9ab712b-7502-4fac-ae4a-21706330d92c",
+      "item_id": "c0035ac3-1ee9-43a8-b655-fa0ac4ff8473",
+      "item_name": "Stop Valve with Flexible Hose",
+      "action": "STOCK_IN",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-04T07:22:01.750Z"
+    },
     {
       "id": "655b9bcc-5e62-4de8-ac00-bd5571b23c72",
       "item_id": "c0035ac3-1ee9-43a8-b655-fa0ac4ff8473",
