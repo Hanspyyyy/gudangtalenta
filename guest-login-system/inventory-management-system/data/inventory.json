@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "f360e2b0-3213-4f12-a151-c380e0380c03",
+      "name": "Tangga",
+      "size": "200cm",
+      "category": "Access Equipment",
+      "warehouse": "Gudang 1",
+      "rack": "Garasi",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/f360e2b0-3213-4f12-a151-c380e0380c03-1793774365340.jpeg",
+      "created_at": "2026-11-04T06:39:26.255Z",
+      "updated_at": "2026-11-04T06:39:26.255Z"
+    },
+    {
       "id": "85446270-1f87-4b75-90a5-e28339856160",
       "name": "Scafolding 1 set",
       "size": "-",
@@ -5085,6 +5097,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "ba8a2586-4bc6-4176-a62f-9020fe152211",
+      "item_id": "f360e2b0-3213-4f12-a151-c380e0380c03",
+      "item_name": "Tangga",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-04T06:39:26.255Z"
+    },
     {
       "id": "452e2185-1fa1-4241-8e91-3e395e26c4aa",
       "item_id": "85446270-1f87-4b75-90a5-e28339856160",
