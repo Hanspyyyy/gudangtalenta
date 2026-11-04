@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "85446270-1f87-4b75-90a5-e28339856160",
+      "name": "Scafolding 1 set",
+      "size": "-",
+      "category": "Construction Equipment & Tools",
+      "warehouse": "Gudang 1",
+      "rack": "Garasi",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/85446270-1f87-4b75-90a5-e28339856160-1793774227367.jpeg",
+      "created_at": "2026-11-04T06:37:08.307Z",
+      "updated_at": "2026-11-04T06:37:08.307Z"
+    },
+    {
       "id": "82b90dc0-1c49-47b3-a779-c8ed68b8f3f8",
       "name": "seng plat, seng talang, atau plat galvalum/aluminium/galvanis",
       "size": "L:100cmx 700cm",
@@ -5073,6 +5085,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "452e2185-1fa1-4241-8e91-3e395e26c4aa",
+      "item_id": "85446270-1f87-4b75-90a5-e28339856160",
+      "item_name": "Scafolding 1 set",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-04T06:37:08.307Z"
+    },
     {
       "id": "66a2fd6a-bd59-4149-a143-8e3f0a4e3fb6",
       "item_id": "82b90dc0-1c49-47b3-a779-c8ed68b8f3f8",
