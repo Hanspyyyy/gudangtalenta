@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "0776374d-1718-4ea4-ab26-53b9b3df408e",
+      "name": "Cairan sika",
+      "size": "Setengah lagi",
+      "category": "Cairan",
+      "warehouse": "Gudang 1",
+      "rack": "1B",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/0776374d-1718-4ea4-ab26-53b9b3df408e-1793776010902.jpeg",
+      "created_at": "2026-11-04T07:06:51.817Z",
+      "updated_at": "2026-11-04T07:06:51.817Z"
+    },
+    {
       "id": "b85d6ab7-27c7-456a-9693-86b7656a4681",
       "name": "Thiner HG 1 drijen (Wijaya)",
       "size": "Sesuai foto",
@@ -5183,6 +5195,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "56cbdb28-acf8-4bbc-bd55-494bf4575ef2",
+      "item_id": "0776374d-1718-4ea4-ab26-53b9b3df408e",
+      "item_name": "Cairan sika",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-04T07:06:51.817Z"
+    },
     {
       "id": "16b9aaef-d8e0-4734-ba09-741a3c489d53",
       "item_id": "b85d6ab7-27c7-456a-9693-86b7656a4681",
