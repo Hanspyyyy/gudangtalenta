@@ -31,10 +31,10 @@
       "category": "Cat",
       "warehouse": "Gudang 1",
       "rack": "1B",
-      "stock": 2,
+      "stock": 3,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/80372c0a-1567-4570-a20f-fb1a2bab27db-1793775652553.jpeg",
       "created_at": "2026-11-04T07:00:53.626Z",
-      "updated_at": "2026-11-04T07:02:02.727Z"
+      "updated_at": "2026-11-04T07:03:33.229Z"
     },
     {
       "id": "ed383475-b008-4183-bf3e-dbc537cd8c82",
@@ -5171,6 +5171,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "1c3084a9-da88-4ddb-86aa-593cc915c30a",
+      "item_id": "80372c0a-1567-4570-a20f-fb1a2bab27db",
+      "item_name": "Silver metallic",
+      "action": "STOCK_IN",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-04T07:03:33.229Z"
+    },
     {
       "id": "5b28e709-f73d-40b3-8dc9-c4ee5520c26a",
       "item_id": "a2108ded-8547-41e9-adf3-8d775e423dec",
