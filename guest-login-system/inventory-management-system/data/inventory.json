@@ -3859,10 +3859,10 @@
       "category": "Scafolding",
       "warehouse": "Gudang 1",
       "rack": "1A",
-      "stock": 5,
+      "stock": 20,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/cc7650f2-55da-4d23-8cb1-0f259694b8b6-1792050477836.jpeg",
       "created_at": "2026-10-15T07:47:59.081Z",
-      "updated_at": "2026-10-15T07:47:59.081Z"
+      "updated_at": "2026-11-04T01:58:40.971Z"
     },
     {
       "id": "700297aa-a4cc-4f8f-ac41-e4d5d6cb9e27",
@@ -5049,6 +5049,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "204d571d-fa7a-43f3-8df7-5d96c66809a1",
+      "item_id": "cc7650f2-55da-4d23-8cb1-0f259694b8b6",
+      "item_name": "Shock scafolding",
+      "action": "STOCK_IN",
+      "quantity": 15,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-04T01:58:40.971Z"
+    },
     {
       "id": "7bed30e1-b0c2-478f-b750-ea7f9c9d473e",
       "item_id": "3698ce9f-c152-49d4-ac71-2e620882c011",
