@@ -4219,10 +4219,10 @@
       "category": "Mesin",
       "warehouse": "Gudang 1",
       "rack": "1A | 9 | NO 2",
-      "stock": 3,
+      "stock": 4,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/cf3dbebe-8000-4550-b357-a0994e8288f9-1792043950596.jpeg",
       "created_at": "2026-10-15T05:59:11.509Z",
-      "updated_at": "2026-11-04T01:59:39.144Z"
+      "updated_at": "2026-11-04T07:09:54.100Z"
     },
     {
       "id": "90e66283-2257-4931-a4aa-4536a77e8f2d",
@@ -5207,6 +5207,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "ba234542-9770-4ba9-8183-6f6b5fd7c8fd",
+      "item_id": "cf3dbebe-8000-4550-b357-a0994e8288f9",
+      "item_name": "Mesin amplas",
+      "action": "STOCK_IN",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-04T07:09:54.100Z"
+    },
     {
       "id": "3ae75e93-ca17-4b11-b7b7-5b3698011187",
       "item_id": "ea61e418-0ba8-4fd3-981a-4ac2b85c233f",
