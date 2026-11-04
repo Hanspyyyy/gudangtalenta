@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "80372c0a-1567-4570-a20f-fb1a2bab27db",
+      "name": "Silver metallic",
+      "size": "1L",
+      "category": "Cat",
+      "warehouse": "Gudang 1",
+      "rack": "1B",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/80372c0a-1567-4570-a20f-fb1a2bab27db-1793775652553.jpeg",
+      "created_at": "2026-11-04T07:00:53.626Z",
+      "updated_at": "2026-11-04T07:00:53.626Z"
+    },
+    {
       "id": "ed383475-b008-4183-bf3e-dbc537cd8c82",
       "name": "Tobacco brown",
       "size": "1L",
@@ -5135,6 +5147,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "6ebd9dfa-09f1-4515-8ed8-374bd12f6496",
+      "item_id": "80372c0a-1567-4570-a20f-fb1a2bab27db",
+      "item_name": "Silver metallic",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-04T07:00:53.626Z"
+    },
     {
       "id": "1df581a7-c89f-4b7c-bf4f-15ef1438a7be",
       "item_id": "ed383475-b008-4183-bf3e-dbc537cd8c82",
