@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "ffb5ba51-c510-4236-ad58-7c7e130e99e2",
+      "name": "Bak cat",
+      "size": "-",
+      "category": "Cat",
+      "warehouse": "Gudang 1",
+      "rack": "1A",
+      "stock": 7,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/ffb5ba51-c510-4236-ad58-7c7e130e99e2-1793775497371.jpeg",
+      "created_at": "2026-11-04T06:58:18.298Z",
+      "updated_at": "2026-11-04T06:58:18.298Z"
+    },
+    {
       "id": "2f8003f8-ca43-4aa5-8e6f-747a1bb8889b",
       "name": "Walnut urat kembang tipis",
       "size": "-",
@@ -5111,6 +5123,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "93130993-da7a-4175-8509-4e0d9dbfaee7",
+      "item_id": "ffb5ba51-c510-4236-ad58-7c7e130e99e2",
+      "item_name": "Bak cat",
+      "action": "ADD_ITEM",
+      "quantity": 7,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-04T06:58:18.298Z"
+    },
     {
       "id": "8f4f90f1-b82e-480e-834c-cda8d90d3585",
       "item_id": "2f8003f8-ca43-4aa5-8e6f-747a1bb8889b",
