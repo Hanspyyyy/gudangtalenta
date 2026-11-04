@@ -31,10 +31,10 @@
       "category": "Cat",
       "warehouse": "Gudang 1",
       "rack": "1B",
-      "stock": 1,
+      "stock": 2,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/ed383475-b008-4183-bf3e-dbc537cd8c82-1793775604238.jpeg",
       "created_at": "2026-11-04T07:00:05.368Z",
-      "updated_at": "2026-11-04T07:00:05.368Z"
+      "updated_at": "2026-11-04T07:01:54.148Z"
     },
     {
       "id": "ffb5ba51-c510-4236-ad58-7c7e130e99e2",
@@ -5159,6 +5159,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "542b953b-50f9-4a53-986f-e0010aa4f632",
+      "item_id": "ed383475-b008-4183-bf3e-dbc537cd8c82",
+      "item_name": "Tobacco brown",
+      "action": "STOCK_IN",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-04T07:01:54.148Z"
+    },
     {
       "id": "0e0abf0f-8645-48da-a459-8cb7c93f3c04",
       "item_id": "6d2d3209-9a59-492c-b398-ace4b1803bb1",
