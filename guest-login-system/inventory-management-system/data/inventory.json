@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "0139f0d3-4c86-4706-9ed2-51e434aa9457",
+      "name": "PIPA PVC AW 2\" (Wijaya)",
+      "size": "2x150",
+      "category": "Pipa",
+      "warehouse": "Gudang 1",
+      "rack": "LT4",
+      "stock": 2,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/0139f0d3-4c86-4706-9ed2-51e434aa9457-1793773918534.jpeg",
+      "created_at": "2026-11-04T06:31:59.359Z",
+      "updated_at": "2026-11-04T06:31:59.359Z"
+    },
+    {
       "id": "3698ce9f-c152-49d4-ac71-2e620882c011",
       "name": "Engsel kupu kupuk 1 kotak | isi 2 unit /pcs (dokgi)",
       "size": "-",
@@ -5049,6 +5061,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "f4e14ab9-37b7-4917-bc0d-f4f0508eb79d",
+      "item_id": "0139f0d3-4c86-4706-9ed2-51e434aa9457",
+      "item_name": "PIPA PVC AW 2\" (Wijaya)",
+      "action": "ADD_ITEM",
+      "quantity": 2,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-04T06:31:59.359Z"
+    },
     {
       "id": "ac782b8c-058b-4339-9ad6-61b1de7c5a3d",
       "item_id": "bd001c06-ef00-49a9-bb95-16c01b204be0",
