@@ -7,10 +7,10 @@
       "category": "Window Accessories",
       "warehouse": "Gudang 1",
       "rack": "1A | 3 | NO 3",
-      "stock": 1,
+      "stock": 2,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/9a923fd6-759f-47e2-8555-2a788e52dcc3-1793777209102.jpeg",
       "created_at": "2026-11-04T07:26:49.944Z",
-      "updated_at": "2026-11-04T07:26:49.944Z"
+      "updated_at": "2026-11-04T07:27:02.277Z"
     },
     {
       "id": "23835ded-3cff-4ed2-8caf-20684f4a65ee",
@@ -5279,6 +5279,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "974efc27-5637-4409-abb1-5259c476cc61",
+      "item_id": "9a923fd6-759f-47e2-8555-2a788e52dcc3",
+      "item_name": "penahan jendela putar atau ramskar putar",
+      "action": "STOCK_IN",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-04T07:27:02.277Z"
+    },
     {
       "id": "946c0b87-996c-4a29-85b0-2bae2a2f77d1",
       "item_id": "9a923fd6-759f-47e2-8555-2a788e52dcc3",
