@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "82b90dc0-1c49-47b3-a779-c8ed68b8f3f8",
+      "name": "seng plat, seng talang, atau plat galvalum/aluminium/galvanis",
+      "size": "L:100cmx 700cm",
+      "category": "Roofing & Guttering",
+      "warehouse": "Gudang 1",
+      "rack": "1A",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/82b90dc0-1c49-47b3-a779-c8ed68b8f3f8-1793774099700.jpeg",
+      "created_at": "2026-11-04T06:35:00.673Z",
+      "updated_at": "2026-11-04T06:35:00.673Z"
+    },
+    {
       "id": "0139f0d3-4c86-4706-9ed2-51e434aa9457",
       "name": "PIPA PVC AW 2\" (Wijaya)",
       "size": "2x150",
@@ -5061,6 +5073,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "66a2fd6a-bd59-4149-a143-8e3f0a4e3fb6",
+      "item_id": "82b90dc0-1c49-47b3-a779-c8ed68b8f3f8",
+      "item_name": "seng plat, seng talang, atau plat galvalum/aluminium/galvanis",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-04T06:35:00.673Z"
+    },
     {
       "id": "f4e14ab9-37b7-4917-bc0d-f4f0508eb79d",
       "item_id": "0139f0d3-4c86-4706-9ed2-51e434aa9457",
