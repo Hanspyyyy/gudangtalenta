@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "225d5dc7-4e20-4a0a-b8da-27c89d94bb6e",
+      "name": "Keramik",
+      "size": "120x240",
+      "category": "Keramik",
+      "warehouse": "Gudang 1",
+      "rack": "-",
+      "stock": 4,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/225d5dc7-4e20-4a0a-b8da-27c89d94bb6e-1793846051829.jpeg",
+      "created_at": "2026-11-05T02:34:12.879Z",
+      "updated_at": "2026-11-05T02:34:12.879Z"
+    },
+    {
       "id": "8e3bfada-5003-414b-a58e-8ed0325b63a5",
       "name": "Keramik",
       "size": "300x50",
@@ -5448,6 +5460,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "6aa8423f-4234-4c46-9829-d0e79f16ef2f",
+      "item_id": "225d5dc7-4e20-4a0a-b8da-27c89d94bb6e",
+      "item_name": "Keramik",
+      "action": "ADD_ITEM",
+      "quantity": 4,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-05T02:34:12.879Z"
+    },
     {
       "id": "a9ce6747-69e0-4964-bd42-bcbd322e395b",
       "item_id": "8e3bfada-5003-414b-a58e-8ed0325b63a5",
