@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "e847069a-490b-468f-ab64-9bd9a7c3dd2d",
+      "name": "Granir",
+      "size": "100x60",
+      "category": "Keramik",
+      "warehouse": "Gudang 2",
+      "rack": "1B",
+      "stock": 0,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/e847069a-490b-468f-ab64-9bd9a7c3dd2d-1793845458654.jpeg",
+      "created_at": "2026-11-05T02:24:19.611Z",
+      "updated_at": "2026-11-05T02:24:19.611Z"
+    },
+    {
       "id": "aa43c544-dab1-4dc3-ad14-28f4eab8ac59",
       "name": "Keramik abu",
       "size": "120x300",
@@ -5376,6 +5388,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "c9425b7e-1c6c-47ee-91a2-3480908c44cb",
+      "item_id": "e847069a-490b-468f-ab64-9bd9a7c3dd2d",
+      "item_name": "Granir",
+      "action": "ADD_ITEM",
+      "quantity": 0,
+      "warehouse": "Gudang 2",
+      "timestamp": "2026-11-05T02:24:19.611Z"
+    },
     {
       "id": "c9fe5e0e-84a5-47a9-85f5-c1d8a09231fd",
       "item_id": "aa43c544-dab1-4dc3-ad14-28f4eab8ac59",
