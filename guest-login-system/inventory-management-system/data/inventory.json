@@ -5,12 +5,12 @@
       "name": "MU 200",
       "size": "1 sak",
       "category": "Material Struktur",
-      "warehouse": "Gudang 1",
+      "warehouse": "Gudang 2",
       "rack": "2D",
       "stock": 2,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/c23d2d7e-eaab-4a78-8632-eabb40528b39-1793843489414.jpeg",
       "created_at": "2026-11-05T01:51:30.446Z",
-      "updated_at": "2026-11-05T01:51:30.446Z"
+      "updated_at": "2026-11-05T01:51:39.589Z"
     },
     {
       "id": "cd25c580-ced1-472a-bc97-85dc2df44000",
