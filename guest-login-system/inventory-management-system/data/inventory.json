@@ -5223,9 +5223,10 @@
       "category": "Pasir",
       "warehouse": "Gudang 2",
       "rack": "-",
-      "stock": 8,
+      "stock": 2,
       "photo": "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/63cb5318-94c4-432e-b2c9-d0cee2591e11.jpeg",
-      "createdAt": "2026-09-04T07:17:18.381Z"
+      "createdAt": "2026-09-04T07:17:18.381Z",
+      "updated_at": "2026-11-05T01:44:56.092Z"
     },
     {
       "id": "31887fc5-b224-4b9c-9611-a2b0a29e979d",
@@ -5339,6 +5340,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "05d8cea0-54f3-4356-a9ec-aed9a41e173a",
+      "item_id": "63cb5318-94c4-432e-b2c9-d0cee2591e11",
+      "item_name": "Pasir",
+      "action": "STOCK_OUT",
+      "quantity": 6,
+      "warehouse": "Gudang 2",
+      "timestamp": "2026-11-05T01:44:56.092Z"
+    },
     {
       "id": "57feaaf4-9767-41f8-bf0a-0f7056bd84d7",
       "item_id": "33ac3474-b3f0-432a-abfc-ee228ce30f85",
