@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "be017a4a-90c6-42a2-88d0-0d56bdd9db57",
+      "name": "Granit",
+      "size": "300x75",
+      "category": "Granit",
+      "warehouse": "Gudang 2",
+      "rack": "2A",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/be017a4a-90c6-42a2-88d0-0d56bdd9db57-1793845591070.jpeg",
+      "created_at": "2026-11-05T02:26:32.094Z",
+      "updated_at": "2026-11-05T02:26:32.094Z"
+    },
+    {
       "id": "e847069a-490b-468f-ab64-9bd9a7c3dd2d",
       "name": "Granir",
       "size": "100x60",
@@ -5388,6 +5400,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "74bd8166-f810-40db-8641-0de8c6f20468",
+      "item_id": "be017a4a-90c6-42a2-88d0-0d56bdd9db57",
+      "item_name": "Granit",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 2",
+      "timestamp": "2026-11-05T02:26:32.095Z"
+    },
     {
       "id": "ce493368-e824-4b9a-b8ca-e52eb8e87a48",
       "item_id": "e847069a-490b-468f-ab64-9bd9a7c3dd2d",
