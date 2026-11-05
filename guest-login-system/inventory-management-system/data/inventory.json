@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "55c701ba-0e61-433f-b913-1e94375f0ed1",
+      "name": "Grani",
+      "size": "120",
+      "category": "K",
+      "warehouse": "Gudang 1",
+      "rack": "-",
+      "stock": 0,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/55c701ba-0e61-433f-b913-1e94375f0ed1-1793845723056.jpeg",
+      "created_at": "2026-11-05T02:28:44.042Z",
+      "updated_at": "2026-11-05T02:28:44.042Z"
+    },
+    {
       "id": "be017a4a-90c6-42a2-88d0-0d56bdd9db57",
       "name": "Granit",
       "size": "300x75",
@@ -5400,6 +5412,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "e1245cb6-12fd-4825-8bf0-afe9d6a24a8d",
+      "item_id": "55c701ba-0e61-433f-b913-1e94375f0ed1",
+      "item_name": "Grani",
+      "action": "ADD_ITEM",
+      "quantity": 0,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-05T02:28:44.042Z"
+    },
     {
       "id": "39465321-c2ea-460b-8d35-1addfbc19ee9",
       "item_id": "be017a4a-90c6-42a2-88d0-0d56bdd9db57",
