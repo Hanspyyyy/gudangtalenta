@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "c23d2d7e-eaab-4a78-8632-eabb40528b39",
+      "name": "MU 200",
+      "size": "1 sak",
+      "category": "Material Struktur",
+      "warehouse": "Gudang 1",
+      "rack": "2D",
+      "stock": 2,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/c23d2d7e-eaab-4a78-8632-eabb40528b39-1793843489414.jpeg",
+      "created_at": "2026-11-05T01:51:30.446Z",
+      "updated_at": "2026-11-05T01:51:30.446Z"
+    },
+    {
       "id": "cd25c580-ced1-472a-bc97-85dc2df44000",
       "name": "Terpal",
       "size": "Jumbo",
@@ -5352,6 +5364,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "4ad638a1-b9a8-40e1-a09c-4e66e3c1bf67",
+      "item_id": "c23d2d7e-eaab-4a78-8632-eabb40528b39",
+      "item_name": "MU 200",
+      "action": "ADD_ITEM",
+      "quantity": 2,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-05T01:51:30.446Z"
+    },
     {
       "id": "cc77e10e-fb31-4fc0-bb67-520aeeed4de8",
       "item_id": "cd25c580-ced1-472a-bc97-85dc2df44000",
