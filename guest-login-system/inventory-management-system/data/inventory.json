@@ -5451,9 +5451,10 @@
       "category": "Cat",
       "warehouse": "Gudang 1",
       "rack": "-",
-      "stock": 2,
+      "stock": 0,
       "photo": "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/f0dfc1c8-f8f8-4eba-b313-296487fac99f.jpeg",
-      "createdAt": "2026-09-13T09:38:44.748Z"
+      "createdAt": "2026-09-13T09:38:44.748Z",
+      "updated_at": "2026-11-06T08:14:17.101Z"
     },
     {
       "id": "1d56c646-a35c-4de2-901f-56ac768508ea",
@@ -5929,6 +5930,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "d344a452-eca2-48e6-904c-b555242196cd",
+      "item_id": "f0dfc1c8-f8f8-4eba-b313-296487fac99f",
+      "item_name": "Kuas",
+      "action": "STOCK_OUT",
+      "quantity": 2,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-06T08:14:17.101Z"
+    },
     {
       "id": "fd712eb3-13f1-4feb-9279-15082053f21a",
       "item_id": "7811d7b7-9779-4851-b0d1-e49e55389c69",
