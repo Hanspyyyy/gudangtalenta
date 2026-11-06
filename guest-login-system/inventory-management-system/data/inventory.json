@@ -5540,9 +5540,10 @@
       "category": "Besi",
       "warehouse": "Gudang 1",
       "rack": "Garasi",
-      "stock": 7,
+      "stock": 0,
       "photo": "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/7811d7b7-9779-4851-b0d1-e49e55389c69.jpeg",
-      "createdAt": "2026-09-13T06:15:04.833Z"
+      "createdAt": "2026-09-13T06:15:04.833Z",
+      "updated_at": "2026-11-06T08:13:57.040Z"
     },
     {
       "id": "fe62d683-910c-43e1-9490-597a27b52ed5",
@@ -5928,6 +5929,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "fd712eb3-13f1-4feb-9279-15082053f21a",
+      "item_id": "7811d7b7-9779-4851-b0d1-e49e55389c69",
+      "item_name": "Besi hollo",
+      "action": "STOCK_OUT",
+      "quantity": 7,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-06T08:13:57.040Z"
+    },
     {
       "id": "480aec20-5e2f-455c-aa26-96502320fad1",
       "item_id": "96f56537-2bcd-44f9-8e4e-a1a3254ea497",
