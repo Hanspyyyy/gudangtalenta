@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "fc38c34c-d285-44d1-a1a2-e0fc2f8f97ba",
+      "name": "gas torch LPG set (entah idup atau engga)",
+      "size": "-",
+      "category": "Alat",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 8 | NO 2",
+      "stock": 2,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/fc38c34c-d285-44d1-a1a2-e0fc2f8f97ba-1793939914181.jpeg",
+      "created_at": "2026-11-06T04:38:35.106Z",
+      "updated_at": "2026-11-06T04:38:35.106Z"
+    },
+    {
       "id": "a94147ad-2d76-4c3e-8309-aa94974c41f0",
       "name": "Isolasi anti bocor No drope anti bocor",
       "size": "10cmx5m",
@@ -5760,6 +5772,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "cbfbc2bc-8af3-4b07-b051-b17036aca717",
+      "item_id": "fc38c34c-d285-44d1-a1a2-e0fc2f8f97ba",
+      "item_name": "gas torch LPG set (entah idup atau engga)",
+      "action": "ADD_ITEM",
+      "quantity": 2,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-06T04:38:35.106Z"
+    },
     {
       "id": "19082170-2eaa-4de4-86e4-79b537df438a",
       "item_id": "a94147ad-2d76-4c3e-8309-aa94974c41f0",
