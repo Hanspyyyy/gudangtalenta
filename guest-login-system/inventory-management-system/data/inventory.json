@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "95d8da1c-8800-4f38-b3fa-0fa1d632fb1d",
+      "name": "Klem pipa putih merek Boss ukuran 20 mm",
+      "size": "20mm",
+      "category": "Elektrikal",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 2 | NO 2",
+      "stock": 30,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/95d8da1c-8800-4f38-b3fa-0fa1d632fb1d-1793931604724.jpeg",
+      "created_at": "2026-11-06T02:20:05.731Z",
+      "updated_at": "2026-11-06T02:20:05.731Z"
+    },
+    {
       "id": "c65399d6-fd89-47b8-8f31-f554afae251f",
       "name": "Sock conduit putih ukuran 20 mm",
       "size": "20mm",
@@ -5556,6 +5568,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "8cd49b7a-e7ee-47b7-b655-7561048abd6f",
+      "item_id": "95d8da1c-8800-4f38-b3fa-0fa1d632fb1d",
+      "item_name": "Klem pipa putih merek Boss ukuran 20 mm",
+      "action": "ADD_ITEM",
+      "quantity": 30,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-06T02:20:05.731Z"
+    },
     {
       "id": "24cba494-7d07-4afc-b680-36dcadc4a969",
       "item_id": "c65399d6-fd89-47b8-8f31-f554afae251f",
