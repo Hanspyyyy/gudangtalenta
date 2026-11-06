@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "162981bc-18b4-4697-a8cc-ca11febf1ac0",
+      "name": "Ember cor",
+      "size": "Sedang",
+      "category": "Ember",
+      "warehouse": "Gudang 1",
+      "rack": "1B",
+      "stock": 2,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/162981bc-18b4-4697-a8cc-ca11febf1ac0-1793933950815.jpeg",
+      "created_at": "2026-11-06T02:59:11.938Z",
+      "updated_at": "2026-11-06T02:59:11.938Z"
+    },
+    {
       "id": "74b42d2c-d5f7-4030-bf8d-5c02ddcd9f60",
       "name": "Akrilik Biru",
       "size": "122x108",
@@ -5592,6 +5604,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "f5f5841a-9f32-4292-b463-366eee8a58d3",
+      "item_id": "162981bc-18b4-4697-a8cc-ca11febf1ac0",
+      "item_name": "Ember cor",
+      "action": "ADD_ITEM",
+      "quantity": 2,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-06T02:59:11.938Z"
+    },
     {
       "id": "f2ac7e18-22b3-435d-8d35-0e2fdb753ec3",
       "item_id": "74b42d2c-d5f7-4030-bf8d-5c02ddcd9f60",
