@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "090be148-93e8-42c9-9364-0284d1ed5e4a",
+      "name": "Bor dril DCA",
+      "size": "-",
+      "category": "Mesin",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 8 | NO 3",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/090be148-93e8-42c9-9364-0284d1ed5e4a-1793951181936.jpeg",
+      "created_at": "2026-11-06T07:46:23.053Z",
+      "updated_at": "2026-11-06T07:46:23.053Z"
+    },
+    {
       "id": "40eec809-2bb1-4faf-84ca-013807f906fd",
       "name": "Gypsum knauf ceiling",
       "size": "600mmx1200mmx16mm",
@@ -5784,6 +5796,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "383af303-7709-4c20-8eb9-1d38fff58328",
+      "item_id": "090be148-93e8-42c9-9364-0284d1ed5e4a",
+      "item_name": "Bor dril DCA",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-06T07:46:23.054Z"
+    },
     {
       "id": "175da826-ad6a-4c51-8f1a-72cb883455c3",
       "item_id": "0e5c9759-984d-4bf5-ac60-329c61037a4d",
