@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "f4a8d2d2-2e8b-477b-b6bb-59c7289ed848",
+      "name": "Kuas 2.5 inc",
+      "size": "2.5",
+      "category": "Finishing & Arsitektural",
+      "warehouse": "Gudang 1",
+      "rack": "1B",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/f4a8d2d2-2e8b-477b-b6bb-59c7289ed848-1793931259497.jpeg",
+      "created_at": "2026-11-06T02:14:20.593Z",
+      "updated_at": "2026-11-06T02:14:20.593Z"
+    },
+    {
       "id": "782fcd3c-6a95-4844-b8e4-68ab0dea4254",
       "name": "Alfaglos Polyester Putty",
       "size": "1kg",
@@ -5532,6 +5544,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "42c35e54-b728-4885-b516-59e77d197e27",
+      "item_id": "f4a8d2d2-2e8b-477b-b6bb-59c7289ed848",
+      "item_name": "Kuas 2.5 inc",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-06T02:14:20.593Z"
+    },
     {
       "id": "4d4536b2-885a-486d-b77a-3f4a4fd77c09",
       "item_id": "782fcd3c-6a95-4844-b8e4-68ab0dea4254",
