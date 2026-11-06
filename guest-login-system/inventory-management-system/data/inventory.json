@@ -5142,9 +5142,10 @@
       "category": "Sipil",
       "warehouse": "Gudang 1",
       "rack": "Gudang 1B",
-      "stock": 3,
+      "stock": 0,
       "photo": "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/b52d62ad-8df0-4ea4-aa39-c530ac40859a.jpeg",
-      "createdAt": "2026-09-14T03:33:20.092Z"
+      "createdAt": "2026-09-14T03:33:20.092Z",
+      "updated_at": "2026-11-06T08:14:43.563Z"
     },
     {
       "id": "348e5ac2-7fee-4c87-b385-2a961b88b6cc",
@@ -5930,6 +5931,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "423cc612-44b8-4a1f-a3df-d73a83001c2c",
+      "item_id": "b52d62ad-8df0-4ea4-aa39-c530ac40859a",
+      "item_name": "Sarung tangan set",
+      "action": "STOCK_OUT",
+      "quantity": 3,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-06T08:14:43.563Z"
+    },
     {
       "id": "d344a452-eca2-48e6-904c-b555242196cd",
       "item_id": "f0dfc1c8-f8f8-4eba-b313-296487fac99f",
