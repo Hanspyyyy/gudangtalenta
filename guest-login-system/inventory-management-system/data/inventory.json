@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "74b42d2c-d5f7-4030-bf8d-5c02ddcd9f60",
+      "name": "Akrilik Biru",
+      "size": "122x108",
+      "category": "Material Arsitektural",
+      "warehouse": "Gudang 1",
+      "rack": "Lt4",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/74b42d2c-d5f7-4030-bf8d-5c02ddcd9f60-1793931965454.jpeg",
+      "created_at": "2026-11-06T02:26:06.581Z",
+      "updated_at": "2026-11-06T02:26:06.582Z"
+    },
+    {
       "id": "ce0b7f09-f8ac-4174-8936-f58cc6aa3020",
       "name": "Pipa listrik(sisaan)",
       "size": "20mm",
@@ -5580,6 +5592,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "f2ac7e18-22b3-435d-8d35-0e2fdb753ec3",
+      "item_id": "74b42d2c-d5f7-4030-bf8d-5c02ddcd9f60",
+      "item_name": "Akrilik Biru",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-06T02:26:06.582Z"
+    },
     {
       "id": "b05a0cbe-c875-4907-8c01-98c86b57aca3",
       "item_id": "ce0b7f09-f8ac-4174-8936-f58cc6aa3020",
