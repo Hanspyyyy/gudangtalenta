@@ -53,12 +53,12 @@
       "name": "Keramik",
       "size": "120x",
       "category": "Listrik",
-      "warehouse": "Gudang 1",
+      "warehouse": "Gudang 2",
       "rack": "1B",
       "stock": 1,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/4d7678c4-9d9b-4fd0-a5d8-762184d4b7e7-1793845771973.jpeg",
       "created_at": "2026-11-05T02:29:32.926Z",
-      "updated_at": "2026-11-05T02:29:32.926Z"
+      "updated_at": "2026-11-06T01:51:19.680Z"
     },
     {
       "id": "55c701ba-0e61-433f-b913-1e94375f0ed1",
