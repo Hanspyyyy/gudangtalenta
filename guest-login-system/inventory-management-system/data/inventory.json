@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "3d31e937-1d23-4001-bfc6-dc8e7972449e",
+      "name": "siku rak dinding (atau shelf bracket / L-bracket)",
+      "size": "-",
+      "category": "Finishing & Arsitektural",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 3 | NO 5",
+      "stock": 6,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/3d31e937-1d23-4001-bfc6-dc8e7972449e-1793953650798.jpeg",
+      "created_at": "2026-11-06T08:27:31.762Z",
+      "updated_at": "2026-11-06T08:27:31.762Z"
+    },
+    {
       "id": "315857fe-128e-438d-934c-5778fe9cfe91",
       "name": "Kran air wastafel model bambu berbahan stainless steel SUS 304 yang dipasang di atas meja (basin faucet).",
       "size": "-",
@@ -5943,6 +5955,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "95f163b8-39a3-48df-8bb5-e81ce5370a58",
+      "item_id": "3d31e937-1d23-4001-bfc6-dc8e7972449e",
+      "item_name": "siku rak dinding (atau shelf bracket / L-bracket)",
+      "action": "ADD_ITEM",
+      "quantity": 6,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-06T08:27:31.762Z"
+    },
     {
       "id": "0d48b478-df43-4f3e-aaee-487a74dffb92",
       "item_id": "315857fe-128e-438d-934c-5778fe9cfe91",
