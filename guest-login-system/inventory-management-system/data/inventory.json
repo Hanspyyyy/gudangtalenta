@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "5c00b9d0-6acc-4a8b-9d34-dec586a8601f",
+      "name": "Peluru ramset besar",
+      "size": "-",
+      "category": "Ramset/peluru",
+      "warehouse": "Gudang 1",
+      "rack": "1B",
+      "stock": 23,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/5c00b9d0-6acc-4a8b-9d34-dec586a8601f-1793937563938.jpeg",
+      "created_at": "2026-11-06T03:59:24.802Z",
+      "updated_at": "2026-11-06T03:59:24.802Z"
+    },
+    {
       "id": "352de487-d605-4209-ba50-4d6eb610ef6b",
       "name": "Weathershield (Base T918B DS)",
       "size": "1 galon",
@@ -5652,6 +5664,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "d34b57d6-a44a-4f04-9756-8146b884f32f",
+      "item_id": "5c00b9d0-6acc-4a8b-9d34-dec586a8601f",
+      "item_name": "Peluru ramset besar",
+      "action": "ADD_ITEM",
+      "quantity": 23,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-06T03:59:24.802Z"
+    },
     {
       "id": "729f5155-fb71-4b6b-bb7c-0dbe9b4173b2",
       "item_id": "352de487-d605-4209-ba50-4d6eb610ef6b",
