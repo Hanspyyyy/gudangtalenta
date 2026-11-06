@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "5518696e-827c-4de0-bbd3-9f2a85e82b4b",
+      "name": "Knee PVC (3)",
+      "size": "3",
+      "category": "Plumbing Fitting",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 5 | NO 2",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/5518696e-827c-4de0-bbd3-9f2a85e82b4b-1793938839953.jpeg",
+      "created_at": "2026-11-06T04:20:41.008Z",
+      "updated_at": "2026-11-06T04:20:41.008Z"
+    },
+    {
       "id": "e9a26793-21c6-4283-aa77-82a58eeb4b21",
       "name": "3D Wall Panel Motif Kisi-Kisi Kayu (PVC / WPC)",
       "size": "Potongan random",
@@ -5712,6 +5724,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "c8989b6c-403a-40d8-851a-5373910d6249",
+      "item_id": "5518696e-827c-4de0-bbd3-9f2a85e82b4b",
+      "item_name": "Knee PVC (3)",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-06T04:20:41.008Z"
+    },
     {
       "id": "050ac3a4-d526-4be1-a9db-2ca14b2b95c9",
       "item_id": "16ad7ecd-a373-4f9b-bdbb-3a051600e650",
