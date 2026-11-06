@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "5372a77f-2f38-441f-bdc6-b3b13951ec26",
+      "name": "Pengisi nat 4 AS Smoked grey",
+      "size": "1kg",
+      "category": "Finishing & Arsitektural",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 4 | NO 3",
+      "stock": 2,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/5372a77f-2f38-441f-bdc6-b3b13951ec26-1793939367023.jpeg",
+      "created_at": "2026-11-06T04:29:28.043Z",
+      "updated_at": "2026-11-06T04:29:28.043Z"
+    },
+    {
       "id": "208ad730-3ae8-41ff-9b3e-d47804f58bfe",
       "name": "Pengisi nat 102 S Cream",
       "size": "1kg",
@@ -5736,6 +5748,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "26be00c5-e769-4048-b567-9505e154550d",
+      "item_id": "5372a77f-2f38-441f-bdc6-b3b13951ec26",
+      "item_name": "Pengisi nat 4 AS Smoked grey",
+      "action": "ADD_ITEM",
+      "quantity": 2,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-06T04:29:28.043Z"
+    },
     {
       "id": "d05ea0aa-4dc2-4b15-861d-bcddc676e4f9",
       "item_id": "208ad730-3ae8-41ff-9b3e-d47804f58bfe",
