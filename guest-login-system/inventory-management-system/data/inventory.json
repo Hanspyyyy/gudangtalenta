@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "03232559-81d3-4de1-833d-0cbbceb4a9f1",
+      "name": "Tutup tangki kloset duduk",
+      "size": "-",
+      "category": "Plumbing Fitting",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 4 | NO 2",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/03232559-81d3-4de1-833d-0cbbceb4a9f1-1793952451478.jpeg",
+      "created_at": "2026-11-06T08:07:32.691Z",
+      "updated_at": "2026-11-06T08:07:32.691Z"
+    },
+    {
       "id": "ff2b973c-3b29-491c-aa13-2d09a9174db3",
       "name": "sifon wastafel leher angsa (P-trap/S-trap)",
       "size": "-",
@@ -5880,6 +5892,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "09229a63-5464-419d-b60f-f269a9531785",
+      "item_id": "03232559-81d3-4de1-833d-0cbbceb4a9f1",
+      "item_name": "Tutup tangki kloset duduk",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-06T08:07:32.691Z"
+    },
     {
       "id": "12c57bee-f5f1-4601-bd9d-f9b38055de53",
       "item_id": "ff2b973c-3b29-491c-aa13-2d09a9174db3",
