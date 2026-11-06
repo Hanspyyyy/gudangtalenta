@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "d9baa7b0-f165-4ac2-8a55-57d5da526e7a",
+      "name": "Busa Foam",
+      "size": "100x⅓ roll",
+      "category": "Busa",
+      "warehouse": "Gudang 1",
+      "rack": "1A",
+      "stock": 0,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/d9baa7b0-f165-4ac2-8a55-57d5da526e7a-1793936255284.jpeg",
+      "created_at": "2026-11-06T03:37:36.274Z",
+      "updated_at": "2026-11-06T03:37:36.274Z"
+    },
+    {
       "id": "b233f7a0-a456-4a0f-934d-ccaa0ae33323",
       "name": "Kain kasa Aquaprof(dokgi)",
       "size": "150xsetengah roll",
@@ -5616,6 +5628,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "bbde93a9-a6ad-4929-a190-c63e9bf9f6fc",
+      "item_id": "d9baa7b0-f165-4ac2-8a55-57d5da526e7a",
+      "item_name": "Busa Foam",
+      "action": "ADD_ITEM",
+      "quantity": 0,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-06T03:37:36.274Z"
+    },
     {
       "id": "fbd3c909-e340-4c92-b4b6-a0e6cc937ae7",
       "item_id": "b233f7a0-a456-4a0f-934d-ccaa0ae33323",
