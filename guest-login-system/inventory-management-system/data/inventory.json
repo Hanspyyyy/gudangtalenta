@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "3667b237-12aa-4cb8-b273-caf1bedd815c",
+      "name": "Zinc chromate primer 108",
+      "size": "1L",
+      "category": "Finishing & Arsitektural",
+      "warehouse": "Gudang 1",
+      "rack": "1B",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/3667b237-12aa-4cb8-b273-caf1bedd815c-1793931119723.jpeg",
+      "created_at": "2026-11-06T02:12:00.648Z",
+      "updated_at": "2026-11-06T02:12:00.648Z"
+    },
+    {
       "id": "783ed8b7-ee2f-4aed-9de8-e8af43b3a100",
       "name": "Super black doff 880m",
       "size": "1L",
@@ -5508,6 +5520,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "e0642400-6556-4db4-853d-2d09ce1888c7",
+      "item_id": "3667b237-12aa-4cb8-b273-caf1bedd815c",
+      "item_name": "Zinc chromate primer 108",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-06T02:12:00.648Z"
+    },
     {
       "id": "585ab08b-867b-4a32-84ff-46895d5c0620",
       "item_id": "783ed8b7-ee2f-4aed-9de8-e8af43b3a100",
