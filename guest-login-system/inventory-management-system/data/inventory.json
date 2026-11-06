@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "a9f40ebc-164b-46b1-a656-cdbd742bde01",
+      "name": "Weathershield (base T 918c ds)",
+      "size": "1 pail",
+      "category": "Listrik",
+      "warehouse": "Gudang 1",
+      "rack": "1B",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/a9f40ebc-164b-46b1-a656-cdbd742bde01-1793930788572.jpeg",
+      "created_at": "2026-11-06T02:06:29.903Z",
+      "updated_at": "2026-11-06T02:06:29.903Z"
+    },
+    {
       "id": "422a874e-8090-4c29-8a1e-ea731e6dceef",
       "name": "Antibac briliant white",
       "size": "¼ pail",
@@ -5484,6 +5496,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "73ee1bed-8b61-450d-84ac-bf0869d5d85d",
+      "item_id": "a9f40ebc-164b-46b1-a656-cdbd742bde01",
+      "item_name": "Weathershield (base T 918c ds)",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-06T02:06:29.903Z"
+    },
     {
       "id": "00f82667-d86d-4ed0-94d3-77d03afddd7d",
       "item_id": "422a874e-8090-4c29-8a1e-ea731e6dceef",
