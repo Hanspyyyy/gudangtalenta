@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "315857fe-128e-438d-934c-5778fe9cfe91",
+      "name": "Kran air wastafel model bambu berbahan stainless steel SUS 304 yang dipasang di atas meja (basin faucet).",
+      "size": "-",
+      "category": "Plumbing Fitting",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 4 | NO 2",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/315857fe-128e-438d-934c-5778fe9cfe91-1793952969555.jpeg",
+      "created_at": "2026-11-06T08:16:10.733Z",
+      "updated_at": "2026-11-06T08:16:10.733Z"
+    },
+    {
       "id": "96f56537-2bcd-44f9-8e4e-a1a3254ea497",
       "name": "Tabung atau tangki kloset duduk (Toto sw 420)",
       "size": "-",
@@ -5931,6 +5943,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "0d48b478-df43-4f3e-aaee-487a74dffb92",
+      "item_id": "315857fe-128e-438d-934c-5778fe9cfe91",
+      "item_name": "Kran air wastafel model bambu berbahan stainless steel SUS 304 yang dipasang di atas meja (basin faucet).",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-06T08:16:10.733Z"
+    },
     {
       "id": "423cc612-44b8-4a1f-a3df-d73a83001c2c",
       "item_id": "b52d62ad-8df0-4ea4-aa39-c530ac40859a",
