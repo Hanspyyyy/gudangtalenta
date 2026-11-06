@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "40eec809-2bb1-4faf-84ca-013807f906fd",
+      "name": "Gypsum knauf ceiling",
+      "size": "600mmx1200mmx16mm",
+      "category": "Finishing & Arsitektural",
+      "warehouse": "Gudang 1",
+      "rack": "1B",
+      "stock": 130,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/40eec809-2bb1-4faf-84ca-013807f906fd-1793940806553.jpeg",
+      "created_at": "2026-11-06T04:53:27.413Z",
+      "updated_at": "2026-11-06T04:53:27.413Z"
+    },
+    {
       "id": "fc38c34c-d285-44d1-a1a2-e0fc2f8f97ba",
       "name": "gas torch LPG set (entah idup atau engga)",
       "size": "-",
@@ -5772,6 +5784,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "584c1468-4524-4bb1-ba62-722aa37db46d",
+      "item_id": "40eec809-2bb1-4faf-84ca-013807f906fd",
+      "item_name": "Gypsum knauf ceiling",
+      "action": "ADD_ITEM",
+      "quantity": 130,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-06T04:53:27.413Z"
+    },
     {
       "id": "cbfbc2bc-8af3-4b07-b051-b17036aca717",
       "item_id": "fc38c34c-d285-44d1-a1a2-e0fc2f8f97ba",
