@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "a94147ad-2d76-4c3e-8309-aa94974c41f0",
+      "name": "Isolasi anti bocor No drope anti bocor",
+      "size": "10cmx5m",
+      "category": "Plumbing Fitting",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 5 | NO 2",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/a94147ad-2d76-4c3e-8309-aa94974c41f0-1793939520574.jpeg",
+      "created_at": "2026-11-06T04:32:01.605Z",
+      "updated_at": "2026-11-06T04:32:01.605Z"
+    },
+    {
       "id": "5372a77f-2f38-441f-bdc6-b3b13951ec26",
       "name": "Pengisi nat 4 AS Smoked grey",
       "size": "1kg",
@@ -5748,6 +5760,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "19082170-2eaa-4de4-86e4-79b537df438a",
+      "item_id": "a94147ad-2d76-4c3e-8309-aa94974c41f0",
+      "item_name": "Isolasi anti bocor No drope anti bocor",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-06T04:32:01.605Z"
+    },
     {
       "id": "26be00c5-e769-4048-b567-9505e154550d",
       "item_id": "5372a77f-2f38-441f-bdc6-b3b13951ec26",
