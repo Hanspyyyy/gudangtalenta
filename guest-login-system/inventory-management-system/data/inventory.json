@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "e9a26793-21c6-4283-aa77-82a58eeb4b21",
+      "name": "3D Wall Panel Motif Kisi-Kisi Kayu (PVC / WPC)",
+      "size": "Potongan random",
+      "category": "Finishing & Arsitektural",
+      "warehouse": "Gudang 1",
+      "rack": "1A",
+      "stock": 10,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/e9a26793-21c6-4283-aa77-82a58eeb4b21-1793938255378.jpeg",
+      "created_at": "2026-11-06T04:10:56.465Z",
+      "updated_at": "2026-11-06T04:10:56.465Z"
+    },
+    {
       "id": "5c5ea006-403f-46a2-8586-f0ce66accc9a",
       "name": "Box MCB Inbow (Tanam Tembok)",
       "size": "-",
@@ -5700,6 +5712,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "90e50ded-a7a7-4415-a54f-c3f1975a179b",
+      "item_id": "e9a26793-21c6-4283-aa77-82a58eeb4b21",
+      "item_name": "3D Wall Panel Motif Kisi-Kisi Kayu (PVC / WPC)",
+      "action": "ADD_ITEM",
+      "quantity": 10,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-06T04:10:56.465Z"
+    },
     {
       "id": "732b3fbe-9925-4789-b4d3-9bc012836a68",
       "item_id": "5c5ea006-403f-46a2-8586-f0ce66accc9a",
