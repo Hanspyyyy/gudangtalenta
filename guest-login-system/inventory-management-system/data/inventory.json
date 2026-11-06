@@ -1615,10 +1615,10 @@
       "category": "Pipa",
       "warehouse": "Ruang Meet",
       "rack": "-",
-      "stock": 6,
+      "stock": 7,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/16720272-268c-454b-aac3-28f2b1dadf3b-1793081686114.jpeg",
       "created_at": "2026-10-27T06:14:47.232Z",
-      "updated_at": "2026-11-06T04:17:27.937Z"
+      "updated_at": "2026-11-06T04:17:44.208Z"
     },
     {
       "id": "ea0e9cf5-d0a4-4b09-a8b4-b59d6713d95c",
@@ -5712,6 +5712,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "af9b6a05-6545-454e-8f11-686ca6c7fb74",
+      "item_id": "16720272-268c-454b-aac3-28f2b1dadf3b",
+      "item_name": "Knee PVC (1¼) dokgi",
+      "action": "STOCK_IN",
+      "quantity": 1,
+      "warehouse": "Ruang Meet",
+      "timestamp": "2026-11-06T04:17:44.208Z"
+    },
     {
       "id": "8621802e-4494-4ec2-98d3-52ccabda5602",
       "item_id": "16720272-268c-454b-aac3-28f2b1dadf3b",
