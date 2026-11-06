@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "c65399d6-fd89-47b8-8f31-f554afae251f",
+      "name": "Sock conduit putih ukuran 20 mm",
+      "size": "20mm",
+      "category": "Elektrikal",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 2 | NO 2",
+      "stock": 40,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/c65399d6-fd89-47b8-8f31-f554afae251f-1793931501801.jpeg",
+      "created_at": "2026-11-06T02:18:22.747Z",
+      "updated_at": "2026-11-06T02:18:22.747Z"
+    },
+    {
       "id": "f4a8d2d2-2e8b-477b-b6bb-59c7289ed848",
       "name": "Kuas 2.5 inc",
       "size": "2.5",
@@ -5544,6 +5556,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "24cba494-7d07-4afc-b680-36dcadc4a969",
+      "item_id": "c65399d6-fd89-47b8-8f31-f554afae251f",
+      "item_name": "Sock conduit putih ukuran 20 mm",
+      "action": "ADD_ITEM",
+      "quantity": 40,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-06T02:18:22.747Z"
+    },
     {
       "id": "42c35e54-b728-4885-b516-59e77d197e27",
       "item_id": "f4a8d2d2-2e8b-477b-b6bb-59c7289ed848",
