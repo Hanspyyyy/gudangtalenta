@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "919c45a0-1dd7-4761-84ad-2ac0a40cae1d",
+      "name": "Afur Wastafel Pop-Up atau kepala saringan pembuangan wastafel otomatis",
+      "size": "-",
+      "category": "Plumbing Fitting",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 4 | NO 2",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/919c45a0-1dd7-4761-84ad-2ac0a40cae1d-1793952631237.jpeg",
+      "created_at": "2026-11-06T08:10:32.341Z",
+      "updated_at": "2026-11-06T08:10:32.341Z"
+    },
+    {
       "id": "03d6ba0a-6e0f-4bc7-849a-6f6820622ebf",
       "name": "Afur bak cuci piring stainless",
       "size": "-",
@@ -5904,6 +5916,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "84174c54-03b7-44a5-a0d1-eeb4ea98ca02",
+      "item_id": "919c45a0-1dd7-4761-84ad-2ac0a40cae1d",
+      "item_name": "Afur Wastafel Pop-Up atau kepala saringan pembuangan wastafel otomatis",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-06T08:10:32.341Z"
+    },
     {
       "id": "b5b48c0f-69a8-4607-ac3b-9e5fea499a0c",
       "item_id": "03d6ba0a-6e0f-4bc7-849a-6f6820622ebf",
