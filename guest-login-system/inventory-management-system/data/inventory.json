@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "5c5ea006-403f-46a2-8586-f0ce66accc9a",
+      "name": "Box MCB Inbow (Tanam Tembok)",
+      "size": "-",
+      "category": "Elektrikal",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 3 | NO 2",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/5c5ea006-403f-46a2-8586-f0ce66accc9a-1793938044253.jpeg",
+      "created_at": "2026-11-06T04:07:25.145Z",
+      "updated_at": "2026-11-06T04:07:25.145Z"
+    },
+    {
       "id": "26108242-48aa-4e4f-8562-e3125c3af64c",
       "name": "engsel pintu oven / kompor",
       "size": "-",
@@ -5688,6 +5700,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "732b3fbe-9925-4789-b4d3-9bc012836a68",
+      "item_id": "5c5ea006-403f-46a2-8586-f0ce66accc9a",
+      "item_name": "Box MCB Inbow (Tanam Tembok)",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-06T04:07:25.145Z"
+    },
     {
       "id": "b81c6865-c2b8-490c-8e51-1bff84983760",
       "item_id": "26108242-48aa-4e4f-8562-e3125c3af64c",
