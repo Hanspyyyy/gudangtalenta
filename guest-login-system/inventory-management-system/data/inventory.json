@@ -7,10 +7,10 @@
       "category": "Busa",
       "warehouse": "Gudang 1",
       "rack": "1A",
-      "stock": 0,
+      "stock": 1,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/d9baa7b0-f165-4ac2-8a55-57d5da526e7a-1793936255284.jpeg",
       "created_at": "2026-11-06T03:37:36.274Z",
-      "updated_at": "2026-11-06T03:37:36.274Z"
+      "updated_at": "2026-11-06T03:37:46.880Z"
     },
     {
       "id": "b233f7a0-a456-4a0f-934d-ccaa0ae33323",
@@ -5628,6 +5628,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "e7a37eee-e059-4e9e-85bc-183b08ae0a59",
+      "item_id": "d9baa7b0-f165-4ac2-8a55-57d5da526e7a",
+      "item_name": "Busa Foam",
+      "action": "STOCK_IN",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-06T03:37:46.880Z"
+    },
     {
       "id": "bbde93a9-a6ad-4929-a190-c63e9bf9f6fc",
       "item_id": "d9baa7b0-f165-4ac2-8a55-57d5da526e7a",
