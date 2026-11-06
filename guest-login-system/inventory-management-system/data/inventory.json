@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "352de487-d605-4209-ba50-4d6eb610ef6b",
+      "name": "Weathershield (Base T918B DS)",
+      "size": "1 galon",
+      "category": "Finishing & Arsitektural",
+      "warehouse": "Gudang 1",
+      "rack": "1B",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/352de487-d605-4209-ba50-4d6eb610ef6b-1793937290421.jpeg",
+      "created_at": "2026-11-06T03:54:51.340Z",
+      "updated_at": "2026-11-06T03:54:51.340Z"
+    },
+    {
       "id": "45380751-b893-484d-863c-cd2f56af8e0c",
       "name": "Base T922BY",
       "size": "1 galon",
@@ -5640,6 +5652,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "729f5155-fb71-4b6b-bb7c-0dbe9b4173b2",
+      "item_id": "352de487-d605-4209-ba50-4d6eb610ef6b",
+      "item_name": "Weathershield (Base T918B DS)",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-06T03:54:51.340Z"
+    },
     {
       "id": "2c94e494-7f24-4c43-92d9-0e631215e227",
       "item_id": "45380751-b893-484d-863c-cd2f56af8e0c",
