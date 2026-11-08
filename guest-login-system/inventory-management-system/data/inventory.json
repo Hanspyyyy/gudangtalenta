@@ -4543,10 +4543,10 @@
       "category": "WS",
       "warehouse": "Gudang 1",
       "rack": "1A",
-      "stock": 500,
+      "stock": 398,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/ec8c101b-fa5b-4847-a280-892c6b20399d-1792213459299.jpeg",
       "created_at": "2026-10-17T05:04:20.696Z",
-      "updated_at": "2026-10-17T05:04:20.696Z"
+      "updated_at": "2026-11-08T04:26:00.852Z"
     },
     {
       "id": "178f22e6-a572-4f06-bad3-2805a2428fb5",
@@ -5955,6 +5955,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "1ce6ba59-bcdc-40f0-af49-0b2b9e328851",
+      "item_id": "ec8c101b-fa5b-4847-a280-892c6b20399d",
+      "item_name": "Klip",
+      "action": "STOCK_OUT",
+      "quantity": 102,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-08T04:26:00.852Z"
+    },
     {
       "id": "aa293835-11b0-40f0-af2a-2b0acd0b3768",
       "item_id": "46333d5e-fbaf-46f8-8029-0da66654a05d",
