@@ -4519,10 +4519,10 @@
       "category": "WS",
       "warehouse": "Gudang 1",
       "rack": "1A",
-      "stock": 219,
+      "stock": 147,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/46333d5e-fbaf-46f8-8029-0da66654a05d-1792214180227.jpeg",
       "created_at": "2026-10-17T05:16:21.098Z",
-      "updated_at": "2026-11-08T04:24:46.038Z"
+      "updated_at": "2026-11-08T04:25:20.453Z"
     },
     {
       "id": "bac07809-e651-49e7-a8f7-f0dd0d08e5a0",
@@ -5955,6 +5955,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "aa293835-11b0-40f0-af2a-2b0acd0b3768",
+      "item_id": "46333d5e-fbaf-46f8-8029-0da66654a05d",
+      "item_name": "Engsel lurus blum",
+      "action": "STOCK_OUT",
+      "quantity": 72,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-08T04:25:20.453Z"
+    },
     {
       "id": "44c69b68-2917-4e42-81a4-a2c98f68732f",
       "item_id": "46333d5e-fbaf-46f8-8029-0da66654a05d",
