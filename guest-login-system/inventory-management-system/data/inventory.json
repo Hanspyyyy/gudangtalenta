@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "b7f1fdb7-9a01-463e-849f-e32b651e0a3b",
+      "name": "Skrup gypsum 2cm (tidak bisa per pcs ambil satu plastik kecil)",
+      "size": "2cm",
+      "category": "Finishing & Arsitektural",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 3 | NO 5",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/b7f1fdb7-9a01-463e-849f-e32b651e0a3b-1794215751458.jpeg",
+      "created_at": "2026-11-09T09:15:52.667Z",
+      "updated_at": "2026-11-09T09:15:52.667Z"
+    },
+    {
       "id": "a0922806-454c-49e8-b293-ff5997620c22",
       "name": "paku ramset kecil (tidak bisa per pcs, ambil semua jika di perlukan/karna ini sisaan)",
       "size": "Untuk tembakan sedang",
@@ -6003,6 +6015,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "c48ab0f0-0a81-4406-9bc6-268c4859d742",
+      "item_id": "b7f1fdb7-9a01-463e-849f-e32b651e0a3b",
+      "item_name": "Skrup gypsum 2cm (tidak bisa per pcs ambil satu plastik kecil)",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-09T09:15:52.667Z"
+    },
     {
       "id": "db756ff4-17f8-481b-9d31-c1a46724dcaf",
       "item_id": "a0922806-454c-49e8-b293-ff5997620c22",
