@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "60ad57ee-8cbf-4ffb-9ed0-ff66e0ee1101",
+      "name": "Hollo besi besar",
+      "size": "5x10x186",
+      "category": "Material Struktur",
+      "warehouse": "Gudang 2",
+      "rack": "2c",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/60ad57ee-8cbf-4ffb-9ed0-ff66e0ee1101-1794197498214.jpeg",
+      "created_at": "2026-11-09T04:11:39.145Z",
+      "updated_at": "2026-11-09T04:11:39.146Z"
+    },
+    {
       "id": "d2106b1e-6a37-4ba4-b2f6-02ba49930064",
       "name": "Hollo besi besar",
       "size": "10x10x201",
@@ -5979,6 +5991,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "497d8e55-51de-4256-9977-7d0f1d02109c",
+      "item_id": "60ad57ee-8cbf-4ffb-9ed0-ff66e0ee1101",
+      "item_name": "Hollo besi besar",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 2",
+      "timestamp": "2026-11-09T04:11:39.146Z"
+    },
     {
       "id": "ab6271b0-d4c7-45ff-9032-b6f4118cfa59",
       "item_id": "d2106b1e-6a37-4ba4-b2f6-02ba49930064",
