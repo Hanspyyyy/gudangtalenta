@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "de166e3f-6168-4355-b062-31eff2806779",
+      "name": "Hollo besi besar",
+      "size": "10x10x250",
+      "category": "Finishing & Arsitektural",
+      "warehouse": "Gudang 2",
+      "rack": "1C",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/de166e3f-6168-4355-b062-31eff2806779-1794197338643.jpeg",
+      "created_at": "2026-11-09T04:08:59.691Z",
+      "updated_at": "2026-11-09T04:08:59.691Z"
+    },
+    {
       "id": "3d31e937-1d23-4001-bfc6-dc8e7972449e",
       "name": "siku rak dinding (atau shelf bracket / L-bracket)",
       "size": "-",
@@ -5955,6 +5967,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "a5380d47-9e46-481f-84ed-6c86c921a72a",
+      "item_id": "de166e3f-6168-4355-b062-31eff2806779",
+      "item_name": "Hollo besi besar",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 2",
+      "timestamp": "2026-11-09T04:08:59.691Z"
+    },
     {
       "id": "3005429e-271d-4ee0-94d3-675335ff84ba",
       "item_id": "b233f7a0-a456-4a0f-934d-ccaa0ae33323",
