@@ -343,10 +343,10 @@
       "category": "Kain kasa",
       "warehouse": "Gudang 1",
       "rack": "1A",
-      "stock": 1,
+      "stock": 2,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/b233f7a0-a456-4a0f-934d-ccaa0ae33323-1793936182032.jpeg",
       "created_at": "2026-11-06T03:36:23.062Z",
-      "updated_at": "2026-11-06T03:36:23.062Z"
+      "updated_at": "2026-11-09T03:50:16.589Z"
     },
     {
       "id": "162981bc-18b4-4697-a8cc-ca11febf1ac0",
@@ -5955,6 +5955,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "02987361-2018-42f7-af72-b6cef568d26d",
+      "item_id": "b233f7a0-a456-4a0f-934d-ccaa0ae33323",
+      "item_name": "Kain kasa Aquaprof(dokgi)",
+      "action": "STOCK_IN",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-09T03:50:16.589Z"
+    },
     {
       "id": "fe366c4c-1ef4-43c6-a222-84793593352a",
       "item_id": "ec8c101b-fa5b-4847-a280-892c6b20399d",
