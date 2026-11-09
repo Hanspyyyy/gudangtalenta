@@ -2,7 +2,7 @@
   "items": [
     {
       "id": "a0922806-454c-49e8-b293-ff5997620c22",
-      "name": "paku ramset kecil (tidak bisa per pcs, ambil semua jika di perlukan)",
+      "name": "paku ramset kecil (tidak bisa per pcs, ambil semua jika di perlukan/karna ini sisaan)",
       "size": "Untuk tembakan sedang",
       "category": "Material Arsitektural",
       "warehouse": "Gudang 1",
@@ -10,7 +10,7 @@
       "stock": 1,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/a0922806-454c-49e8-b293-ff5997620c22-1794215108589.jpeg",
       "created_at": "2026-11-09T09:05:09.640Z",
-      "updated_at": "2026-11-09T09:05:09.640Z"
+      "updated_at": "2026-11-09T09:05:24.427Z"
     },
     {
       "id": "60ad57ee-8cbf-4ffb-9ed0-ff66e0ee1101",
