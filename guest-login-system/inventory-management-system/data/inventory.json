@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "ebaed5da-d4b4-4d9e-b629-e2ef8b4424cd",
+      "name": "PIPA PVC AW 4\"",
+      "size": "4x175",
+      "category": "Pipa",
+      "warehouse": "Gudang 1",
+      "rack": "Lt4",
+      "stock": 2,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/ebaed5da-d4b4-4d9e-b629-e2ef8b4424cd-1794300138669.jpeg",
+      "created_at": "2026-11-10T08:42:19.923Z",
+      "updated_at": "2026-11-10T08:42:19.923Z"
+    },
+    {
       "id": "50d66d9f-6e94-48f4-9757-80257ce5d55e",
       "name": "Saluran kotak galvanis atau square duct dari bahan seng galvanis BJLS",
       "size": "Tidak bawa meteran",
@@ -6051,6 +6063,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "7c5c54cd-16f0-4a52-aea6-224f64998fe3",
+      "item_id": "ebaed5da-d4b4-4d9e-b629-e2ef8b4424cd",
+      "item_name": "PIPA PVC AW 4\"",
+      "action": "ADD_ITEM",
+      "quantity": 2,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-10T08:42:19.923Z"
+    },
     {
       "id": "77750a8f-db7c-494b-9d8d-eab22e7c435b",
       "item_id": "50d66d9f-6e94-48f4-9757-80257ce5d55e",
