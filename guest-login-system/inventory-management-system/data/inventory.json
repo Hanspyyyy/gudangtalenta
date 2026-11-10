@@ -5480,10 +5480,10 @@
       "category": "Kaca",
       "warehouse": "Gudang 1",
       "rack": "Gudang 1A",
-      "stock": 8,
+      "stock": 6,
       "photo": "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/73dab585-bef7-4622-bab9-a9f77af0b6cc.jpeg",
       "createdAt": "2026-09-13T10:41:08.936Z",
-      "updated_at": "2026-10-27T05:34:39.392Z"
+      "updated_at": "2026-11-10T01:28:57.867Z"
     },
     {
       "id": "ed3ceca4-2986-4750-a978-d63b82a7fc1a",
@@ -6027,6 +6027,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "d80faa91-a4cf-4463-8886-3c79fca46214",
+      "item_id": "73dab585-bef7-4622-bab9-a9f77af0b6cc",
+      "item_name": "Kop kaca",
+      "action": "STOCK_OUT",
+      "quantity": 2,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-10T01:28:57.867Z"
+    },
     {
       "id": "53b9290b-7ea1-422b-80d3-6435ac1eea2e",
       "item_id": "c84d15f3-73d0-4c96-bdf5-549437ec8e39",
