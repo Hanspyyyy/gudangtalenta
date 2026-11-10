@@ -1087,10 +1087,10 @@
       "category": "Pembersih",
       "warehouse": "Gudang 1",
       "rack": "1A | 9 | NO 4",
-      "stock": 4,
+      "stock": 7,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/b9480b87-8f66-45a5-87bd-95159ce8fcd8-1793681208909.jpeg",
       "created_at": "2026-11-03T04:46:49.887Z",
-      "updated_at": "2026-11-03T04:46:49.887Z"
+      "updated_at": "2026-11-10T07:03:51.242Z"
     },
     {
       "id": "b5a2a547-bbac-4a64-92d9-8c0ee50ae61d",
@@ -6027,6 +6027,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "1b6fa3d2-5e22-4a04-933c-83b56c3f9f9f",
+      "item_id": "b9480b87-8f66-45a5-87bd-95159ce8fcd8",
+      "item_name": "Sikat kawat kasar sedikit rusak",
+      "action": "STOCK_IN",
+      "quantity": 3,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-10T07:03:51.242Z"
+    },
     {
       "id": "d80faa91-a4cf-4463-8886-3c79fca46214",
       "item_id": "73dab585-bef7-4622-bab9-a9f77af0b6cc",
