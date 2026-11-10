@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "2330ce4f-d9a4-454d-b7f5-ab1cc0808d56",
+      "name": "suntikan atau syringe) berukuran 50 cc / 50 ml",
+      "size": "50ml",
+      "category": "-",
+      "warehouse": "Gudang 1",
+      "rack": "1A",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/2330ce4f-d9a4-454d-b7f5-ab1cc0808d56-1794294493176.jpeg",
+      "created_at": "2026-11-10T07:08:14.112Z",
+      "updated_at": "2026-11-10T07:08:14.112Z"
+    },
+    {
       "id": "c84d15f3-73d0-4c96-bdf5-549437ec8e39",
       "name": "baut roofing atau skrup baja ringan (ukuran random | tidak bisa per pcs ambil satu plastik)",
       "size": "-",
@@ -6027,6 +6039,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "bd704d8d-a55b-4fc6-bbde-7b2c31698e48",
+      "item_id": "2330ce4f-d9a4-454d-b7f5-ab1cc0808d56",
+      "item_name": "suntikan atau syringe) berukuran 50 cc / 50 ml",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-10T07:08:14.112Z"
+    },
     {
       "id": "ec5a38ba-7f31-4c4d-9e4d-6b993b41417d",
       "item_id": "b5a2a547-bbac-4a64-92d9-8c0ee50ae61d",
