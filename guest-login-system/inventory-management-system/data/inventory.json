@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "50d66d9f-6e94-48f4-9757-80257ce5d55e",
+      "name": "Saluran kotak galvanis atau square duct dari bahan seng galvanis BJLS",
+      "size": "Tidak bawa meteran",
+      "category": "Galvanis",
+      "warehouse": "Gudang 1",
+      "rack": "Lt4",
+      "stock": 3,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/50d66d9f-6e94-48f4-9757-80257ce5d55e-1794299955071.jpeg",
+      "created_at": "2026-11-10T08:39:16.150Z",
+      "updated_at": "2026-11-10T08:39:16.150Z"
+    },
+    {
       "id": "2330ce4f-d9a4-454d-b7f5-ab1cc0808d56",
       "name": "suntikan atau syringe) berukuran 50 cc / 50 ml",
       "size": "50ml",
@@ -6039,6 +6051,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "77750a8f-db7c-494b-9d8d-eab22e7c435b",
+      "item_id": "50d66d9f-6e94-48f4-9757-80257ce5d55e",
+      "item_name": "Saluran kotak galvanis atau square duct dari bahan seng galvanis BJLS",
+      "action": "ADD_ITEM",
+      "quantity": 3,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-10T08:39:16.150Z"
+    },
     {
       "id": "e2af8457-2c0e-47f5-8d8e-98de4a0cdb81",
       "item_id": "b9480b87-8f66-45a5-87bd-95159ce8fcd8",
