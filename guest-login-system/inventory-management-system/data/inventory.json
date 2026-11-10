@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "31a94847-0a5f-44fe-8d22-2b2f30b2e63f",
+      "name": "Pengki puing",
+      "size": "Besar",
+      "category": "Pengki",
+      "warehouse": "Gudang 1",
+      "rack": "1B",
+      "stock": 2,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/31a94847-0a5f-44fe-8d22-2b2f30b2e63f-1794301758244.jpeg",
+      "created_at": "2026-11-10T09:09:19.557Z",
+      "updated_at": "2026-11-10T09:09:19.557Z"
+    },
+    {
       "id": "ebaed5da-d4b4-4d9e-b629-e2ef8b4424cd",
       "name": "PIPA PVC AW 4\"",
       "size": "4x175",
@@ -6063,6 +6075,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "088c536d-deb9-4e06-837a-67a64713dfa2",
+      "item_id": "31a94847-0a5f-44fe-8d22-2b2f30b2e63f",
+      "item_name": "Pengki puing",
+      "action": "ADD_ITEM",
+      "quantity": 2,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-10T09:09:19.557Z"
+    },
     {
       "id": "566cd3ad-7e7d-4d7f-a60b-baf81279f70d",
       "item_id": "d339e01a-4d6a-4b6f-ab8d-c6c88a7b47b3",
