@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "71f490af-40b1-49d9-a21b-f59034a4acae",
+      "name": "Tutup T-dus atau circular junction box lid (tutup kotak sambungan listrik bulat)",
+      "size": "20",
+      "category": "kelistrikan",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 2 | NO 2",
+      "stock": 35,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/71f490af-40b1-49d9-a21b-f59034a4acae-1794367888902.jpeg",
+      "created_at": "2026-11-11T03:31:30.003Z",
+      "updated_at": "2026-11-11T03:31:30.003Z"
+    },
+    {
       "id": "939e33c2-9094-4e9a-88d7-1d15095a7f1d",
       "name": "T-dus (Tee dus / T-dos) putih cabang 3",
       "size": "20",
@@ -6291,6 +6303,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "40927dfa-a3a6-4446-a949-4fb52d89622e",
+      "item_id": "71f490af-40b1-49d9-a21b-f59034a4acae",
+      "item_name": "Tutup T-dus atau circular junction box lid (tutup kotak sambungan listrik bulat)",
+      "action": "ADD_ITEM",
+      "quantity": 35,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-11T03:31:30.003Z"
+    },
     {
       "id": "ad271489-45e4-4e20-9066-844c369fd5d4",
       "item_id": "939e33c2-9094-4e9a-88d7-1d15095a7f1d",
