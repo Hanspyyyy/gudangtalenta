@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "8fdd51ae-99f8-4ee8-ad73-0ac2189c2e36",
+      "name": "power supply switching (atau adaptor jaring / trafo)",
+      "size": "i 100 249 o 24v 1.5A",
+      "category": "kelistrikan",
+      "warehouse": "Gudang 1",
+      "rack": "-",
+      "stock": 7,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/8fdd51ae-99f8-4ee8-ad73-0ac2189c2e36-1794364828172.jpeg",
+      "created_at": "2026-11-11T02:40:29.185Z",
+      "updated_at": "2026-11-11T02:40:29.185Z"
+    },
+    {
       "id": "23a9c661-b9ec-4c8a-bfcd-fbfaf6b8b185",
       "name": "power supply switching (atau adaptor jaring / trafo)",
       "size": "-",
@@ -6207,6 +6219,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "b86e7ae9-9a55-4cea-89f8-dcece7367f8a",
+      "item_id": "8fdd51ae-99f8-4ee8-ad73-0ac2189c2e36",
+      "item_name": "power supply switching (atau adaptor jaring / trafo)",
+      "action": "ADD_ITEM",
+      "quantity": 7,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-11T02:40:29.185Z"
+    },
     {
       "id": "b387b426-26e3-495a-9467-bc7aa2162529",
       "item_id": "23a9c661-b9ec-4c8a-bfcd-fbfaf6b8b185",
