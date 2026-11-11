@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "43d36600-b1ca-4af1-b18c-a22f6fc8a9f7",
+      "name": "T dus cabang 4 (tanpa merek)",
+      "size": "20",
+      "category": "Kelistrikan",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 2 | NO 2 karung",
+      "stock": 62,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/43d36600-b1ca-4af1-b18c-a22f6fc8a9f7-1794370196732.jpeg",
+      "created_at": "2026-11-11T04:09:57.619Z",
+      "updated_at": "2026-11-11T04:09:57.619Z"
+    },
+    {
       "id": "5f474a5a-f734-4651-ae8d-b9d78b811202",
       "name": "krim dempul penambal dinding instan (wall repair cream) berukuran 250 gram",
       "size": "250",
@@ -6327,6 +6339,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "e20b1353-bd23-4ff2-a279-55ba4c1566c8",
+      "item_id": "43d36600-b1ca-4af1-b18c-a22f6fc8a9f7",
+      "item_name": "T dus cabang 4 (tanpa merek)",
+      "action": "ADD_ITEM",
+      "quantity": 62,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-11T04:09:57.619Z"
+    },
     {
       "id": "13376863-3522-4189-8ed3-6e6bcfc34181",
       "item_id": "939e33c2-9094-4e9a-88d7-1d15095a7f1d",
