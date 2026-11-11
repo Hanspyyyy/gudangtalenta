@@ -7,10 +7,10 @@
       "category": "Engsel",
       "warehouse": "Gudang 1",
       "rack": "1A",
-      "stock": 0,
+      "stock": 9,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/c80cb6a6-124b-4862-8ef3-642584aee444-1794376511359.jpeg",
       "created_at": "2026-11-11T05:55:12.224Z",
-      "updated_at": "2026-11-11T05:55:12.224Z"
+      "updated_at": "2026-11-11T05:55:24.970Z"
     },
     {
       "id": "08a84baf-d7db-4859-8af2-1bedf589b802",
@@ -6471,6 +6471,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "83ba0e0b-4b3f-46fc-873c-38999af81413",
+      "item_id": "c80cb6a6-124b-4862-8ef3-642584aee444",
+      "item_name": "Engsel Sendok Slide On Mt Lurus Atau Full Bungkuk Huben Mto Atau Mt16",
+      "action": "STOCK_IN",
+      "quantity": 9,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-11T05:55:24.970Z"
+    },
     {
       "id": "e07db994-a7b7-43ea-813f-e1c44ef6687d",
       "item_id": "c80cb6a6-124b-4862-8ef3-642584aee444",
