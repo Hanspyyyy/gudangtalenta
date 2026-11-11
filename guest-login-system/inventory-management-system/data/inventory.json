@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "cda1f32f-381c-4e74-9984-3dce792926c3",
+      "name": "saklar panasonic 2",
+      "size": "-",
+      "category": "kelistrikan",
+      "warehouse": "Gudang 1",
+      "rack": "kontainer 1",
+      "stock": 3,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/cda1f32f-381c-4e74-9984-3dce792926c3-1794373984982.jpeg",
+      "created_at": "2026-11-11T05:13:05.984Z",
+      "updated_at": "2026-11-11T05:13:05.984Z"
+    },
+    {
       "id": "34b1446d-dc06-4635-b66d-066067ccbe3a",
       "name": "saklar 3",
       "size": "-",
@@ -6375,6 +6387,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "0a7298eb-53e7-405f-960f-79208c9565d5",
+      "item_id": "cda1f32f-381c-4e74-9984-3dce792926c3",
+      "item_name": "saklar panasonic 2",
+      "action": "ADD_ITEM",
+      "quantity": 3,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-11T05:13:05.984Z"
+    },
     {
       "id": "9e4aed02-ea9f-43e2-9968-01030ef002e8",
       "item_id": "34b1446d-dc06-4635-b66d-066067ccbe3a",
