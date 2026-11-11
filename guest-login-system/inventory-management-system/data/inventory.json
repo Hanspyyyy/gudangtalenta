@@ -7,10 +7,10 @@
       "category": "kelistrikan",
       "warehouse": "Gudang 1",
       "rack": "kontainer 1",
-      "stock": 3,
+      "stock": 5,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/49da53a1-3933-4b32-acb7-0301b4429c2d-1794374722510.jpeg",
       "created_at": "2026-11-11T05:25:23.458Z",
-      "updated_at": "2026-11-11T05:25:23.458Z"
+      "updated_at": "2026-11-11T05:25:54.323Z"
     },
     {
       "id": "ab85a6d3-2e1d-44f4-b712-6c0f69598ed4",
@@ -6435,6 +6435,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "8323b964-e67f-435d-b32d-5fe37a32356f",
+      "item_id": "49da53a1-3933-4b32-acb7-0301b4429c2d",
+      "item_name": "lampu downlight plafon MR16",
+      "action": "STOCK_IN",
+      "quantity": 2,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-11T05:25:54.323Z"
+    },
     {
       "id": "580e4d3a-c064-4ded-b4d2-4b2b9a8d7380",
       "item_id": "49da53a1-3933-4b32-acb7-0301b4429c2d",
