@@ -1399,10 +1399,10 @@
       "category": "Kawat",
       "warehouse": "Gudang 1",
       "rack": "1A | 2 | NO 3",
-      "stock": 7,
+      "stock": 3,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/9f140cc7-49eb-4847-8cd8-6fc39360f8df-1793686320312.jpeg",
       "created_at": "2026-11-03T06:12:01.316Z",
-      "updated_at": "2026-11-03T06:12:01.316Z"
+      "updated_at": "2026-11-11T04:21:47.887Z"
     },
     {
       "id": "f7e680dc-4cf3-429b-b6e4-0ee354c81e70",
@@ -6363,6 +6363,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "89377021-9fad-45e9-9e72-4a012ffb5dca",
+      "item_id": "9f140cc7-49eb-4847-8cd8-6fc39360f8df",
+      "item_name": "Kawat nyamuk",
+      "action": "STOCK_OUT",
+      "quantity": 4,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-11T04:21:47.887Z"
+    },
     {
       "id": "7fd0d405-1e9f-4623-bc4e-6fd667edc059",
       "item_id": "74459b49-7c52-497d-a476-456462189b51",
