@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "1c782442-763e-446a-a4b0-4ac7dc6b408b",
+      "name": "klem pipa konduit PVC bentuk omega (ukuran 20 mm)",
+      "size": "20mm",
+      "category": "kelistrikan",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 2 | NO 2",
+      "stock": 10098,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/1c782442-763e-446a-a4b0-4ac7dc6b408b-1794367086859.jpeg",
+      "created_at": "2026-11-11T03:18:07.873Z",
+      "updated_at": "2026-11-11T03:18:07.873Z"
+    },
+    {
       "id": "48254eff-8d4b-4462-b32d-8079bc35a931",
       "name": "sok pipa listrik",
       "size": "standar biasa (20)",
@@ -6255,6 +6267,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "bf6ca581-6c6d-4de9-80e1-454a79628f8f",
+      "item_id": "1c782442-763e-446a-a4b0-4ac7dc6b408b",
+      "item_name": "klem pipa konduit PVC bentuk omega (ukuran 20 mm)",
+      "action": "ADD_ITEM",
+      "quantity": 10098,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-11T03:18:07.873Z"
+    },
     {
       "id": "4c752e3e-61ed-4395-81e4-5e1d5b582940",
       "item_id": "48254eff-8d4b-4462-b32d-8079bc35a931",
