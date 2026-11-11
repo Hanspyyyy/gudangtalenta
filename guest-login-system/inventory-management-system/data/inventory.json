@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "6a7b7f36-81d7-4aa1-98dd-29c6ff95fabb",
+      "name": "Silinder kunci pintu (door lock cylinder)dekson no kunci",
+      "size": "-",
+      "category": "kunci",
+      "warehouse": "Gudang 1",
+      "rack": "3,3",
+      "stock": 5,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/6a7b7f36-81d7-4aa1-98dd-29c6ff95fabb-1794389438216.jpeg",
+      "created_at": "2026-11-11T09:30:39.281Z",
+      "updated_at": "2026-11-11T09:30:39.281Z"
+    },
+    {
       "id": "f6213ca3-136e-4919-ac59-a3c1504f4218",
       "name": "engsel koboi (atau double action spring hinge / engsel pintu bolak-balik dua arah)",
       "size": "-",
@@ -6603,6 +6615,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "2f784d6f-0cb2-4922-8f34-26a2f507d980",
+      "item_id": "6a7b7f36-81d7-4aa1-98dd-29c6ff95fabb",
+      "item_name": "Silinder kunci pintu (door lock cylinder)dekson no kunci",
+      "action": "ADD_ITEM",
+      "quantity": 5,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-11T09:30:39.281Z"
+    },
     {
       "id": "7ab4b584-290a-4d71-bd1e-5c088fd9de50",
       "item_id": "f6213ca3-136e-4919-ac59-a3c1504f4218",
