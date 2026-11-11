@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "f6213ca3-136e-4919-ac59-a3c1504f4218",
+      "name": "engsel koboi (atau double action spring hinge / engsel pintu bolak-balik dua arah)",
+      "size": "-",
+      "category": "engsel",
+      "warehouse": "Gudang 1",
+      "rack": "3,3",
+      "stock": 4,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/f6213ca3-136e-4919-ac59-a3c1504f4218-1794389259154.jpeg",
+      "created_at": "2026-11-11T09:27:40.204Z",
+      "updated_at": "2026-11-11T09:27:40.204Z"
+    },
+    {
       "id": "eb2a331a-c636-4ed0-9700-0b94de02b669",
       "name": "roda bawah atau penahan pintu geser (sliding door floor guide / stopper / door guide kuningan)",
       "size": "-",
@@ -6591,6 +6603,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "7ab4b584-290a-4d71-bd1e-5c088fd9de50",
+      "item_id": "f6213ca3-136e-4919-ac59-a3c1504f4218",
+      "item_name": "engsel koboi (atau double action spring hinge / engsel pintu bolak-balik dua arah)",
+      "action": "ADD_ITEM",
+      "quantity": 4,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-11T09:27:40.205Z"
+    },
     {
       "id": "320210f4-c0b6-44c1-90e6-2bf3dcd7e872",
       "item_id": "eb2a331a-c636-4ed0-9700-0b94de02b669",
