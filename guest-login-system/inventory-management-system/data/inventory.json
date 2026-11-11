@@ -6348,10 +6348,10 @@
       "category": "Lampu",
       "warehouse": "Gudang 1",
       "rack": "R2B2",
-      "stock": 0,
+      "stock": 14,
       "photo": "https://nq0tnf1lslykurje.public.blob.vercel-storage.com/inventory/photos/dbbe6bde-d238-4ac3-8bec-e4aea964536c.jpeg",
       "createdAt": "2026-09-04T11:01:35.109Z",
-      "updated_at": "2026-10-15T05:50:00.785Z"
+      "updated_at": "2026-11-11T06:28:29.008Z"
     },
     {
       "id": "42658c37-878a-4e58-bee7-85d734d2b6f7",
@@ -6567,6 +6567,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "8fb6a4f1-96ca-4253-a750-d9249bcbdb23",
+      "item_id": "dbbe6bde-d238-4ac3-8bec-e4aea964536c",
+      "item_name": "Lampu T5 (panjang kotak)",
+      "action": "STOCK_IN",
+      "quantity": 14,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-11T06:28:29.008Z"
+    },
     {
       "id": "49ff039c-837c-44ee-b049-7f25e1494df0",
       "item_id": "ee20bdf0-0cac-4fff-9dc7-44f7081b976f",
