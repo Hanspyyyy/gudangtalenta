@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "81f0099f-9a8c-4862-857c-7c94ed8d2e13",
+      "name": "Karung",
+      "size": "Sedang",
+      "category": "Karung",
+      "warehouse": "Gudang 1",
+      "rack": "1A",
+      "stock": 175,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/81f0099f-9a8c-4862-857c-7c94ed8d2e13-1794358859179.jpeg",
+      "created_at": "2026-11-11T01:01:00.331Z",
+      "updated_at": "2026-11-11T01:01:00.331Z"
+    },
+    {
       "id": "31a94847-0a5f-44fe-8d22-2b2f30b2e63f",
       "name": "Pengki puing",
       "size": "Besar",
@@ -6075,6 +6087,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "f832d76d-0140-48a0-b570-ead70c79ab94",
+      "item_id": "81f0099f-9a8c-4862-857c-7c94ed8d2e13",
+      "item_name": "Karung",
+      "action": "ADD_ITEM",
+      "quantity": 175,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-11T01:01:00.331Z"
+    },
     {
       "id": "088c536d-deb9-4e06-837a-67a64713dfa2",
       "item_id": "31a94847-0a5f-44fe-8d22-2b2f30b2e63f",
