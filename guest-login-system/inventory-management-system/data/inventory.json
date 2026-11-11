@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "afdcb4e1-277f-4438-8dd7-9169d049853d",
+      "name": "lampu downlight outbow silinder",
+      "size": "-",
+      "category": "kelistrikan",
+      "warehouse": "Gudang 1",
+      "rack": "-",
+      "stock": 2,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/afdcb4e1-277f-4438-8dd7-9169d049853d-1794361316500.jpeg",
+      "created_at": "2026-11-11T01:41:57.794Z",
+      "updated_at": "2026-11-11T01:41:57.794Z"
+    },
+    {
       "id": "01af247c-975e-48f5-ad09-de8a352e351f",
       "name": "Lampu sorot LED track light atau lampu sorot tempel rel",
       "size": "-",
@@ -6135,6 +6147,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "69672fe3-48f0-4eba-a0ec-9f0895fbe418",
+      "item_id": "afdcb4e1-277f-4438-8dd7-9169d049853d",
+      "item_name": "lampu downlight outbow silinder",
+      "action": "ADD_ITEM",
+      "quantity": 2,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-11T01:41:57.794Z"
+    },
     {
       "id": "4b82d14d-f6f2-435c-b5b4-45d661c0dcdb",
       "item_id": "01af247c-975e-48f5-ad09-de8a352e351f",
