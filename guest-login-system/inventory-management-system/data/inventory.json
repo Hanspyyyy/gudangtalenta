@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "f746a137-8683-4796-bd5c-174a4ff6d5ef",
+      "name": "Fire blanket",
+      "size": "1.8x1.8m",
+      "category": "Pull tapes",
+      "warehouse": "Gudang 1",
+      "rack": "1A",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/f746a137-8683-4796-bd5c-174a4ff6d5ef-1794359187098.jpeg",
+      "created_at": "2026-11-11T01:06:28.272Z",
+      "updated_at": "2026-11-11T01:06:28.272Z"
+    },
+    {
       "id": "81f0099f-9a8c-4862-857c-7c94ed8d2e13",
       "name": "Karung",
       "size": "Sedang",
@@ -6087,6 +6099,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "3dcd7b80-ecd3-455c-a362-6543dbd16353",
+      "item_id": "f746a137-8683-4796-bd5c-174a4ff6d5ef",
+      "item_name": "Fire blanket",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-11T01:06:28.272Z"
+    },
     {
       "id": "f832d76d-0140-48a0-b570-ead70c79ab94",
       "item_id": "81f0099f-9a8c-4862-857c-7c94ed8d2e13",
