@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "5f474a5a-f734-4651-ae8d-b9d78b811202",
+      "name": "krim dempul penambal dinding instan (wall repair cream) berukuran 250 gram",
+      "size": "250",
+      "category": "-",
+      "warehouse": "Gudang 1",
+      "rack": "-",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/5f474a5a-f734-4651-ae8d-b9d78b811202-1794368514957.jpeg",
+      "created_at": "2026-11-11T03:41:55.957Z",
+      "updated_at": "2026-11-11T03:41:55.957Z"
+    },
+    {
       "id": "25a75699-1647-47ac-ba23-59029376540b",
       "name": "sok pipa atau socket sambungan conduit berukuran 25 mm",
       "size": "25",
@@ -6315,6 +6327,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "72b9a68d-7e9d-420c-8a75-f39daff29d00",
+      "item_id": "5f474a5a-f734-4651-ae8d-b9d78b811202",
+      "item_name": "krim dempul penambal dinding instan (wall repair cream) berukuran 250 gram",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-11T03:41:55.957Z"
+    },
     {
       "id": "53e5f0cb-e601-443a-a4ae-3dd5d812e74e",
       "item_id": "25a75699-1647-47ac-ba23-59029376540b",
