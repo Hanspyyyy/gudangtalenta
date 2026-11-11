@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "d22b876b-0ff1-4250-b9bd-00190d3a3bc4",
+      "name": "X",
+      "size": "-",
+      "category": "-",
+      "warehouse": "Gudang 1",
+      "rack": "-",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/d22b876b-0ff1-4250-b9bd-00190d3a3bc4-1794378010834.jpeg",
+      "created_at": "2026-11-11T06:20:11.780Z",
+      "updated_at": "2026-11-11T06:20:11.781Z"
+    },
+    {
       "id": "605e2311-566c-4297-9e1e-75b86bba961c",
       "name": "Hafele Dish Rack (rak piring atau rak alat makan untuk kabinet dapur)",
       "size": "-",
@@ -6543,6 +6555,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "c7484348-0133-4870-95fc-ccb8320b7705",
+      "item_id": "d22b876b-0ff1-4250-b9bd-00190d3a3bc4",
+      "item_name": "X",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-11T06:20:11.781Z"
+    },
     {
       "id": "d680374d-ba36-400d-b948-a52f71af2873",
       "item_id": "605e2311-566c-4297-9e1e-75b86bba961c",
