@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "34b1446d-dc06-4635-b66d-066067ccbe3a",
+      "name": "saklar 3",
+      "size": "-",
+      "category": "kelistrikan",
+      "warehouse": "Gudang 1",
+      "rack": "kontainer 1",
+      "stock": 3,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/34b1446d-dc06-4635-b66d-066067ccbe3a-1794373903727.jpeg",
+      "created_at": "2026-11-11T05:11:44.775Z",
+      "updated_at": "2026-11-11T05:11:44.775Z"
+    },
+    {
       "id": "74459b49-7c52-497d-a476-456462189b51",
       "name": "Sok pipa listrik 20mm",
       "size": "20",
@@ -6363,6 +6375,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "9e4aed02-ea9f-43e2-9968-01030ef002e8",
+      "item_id": "34b1446d-dc06-4635-b66d-066067ccbe3a",
+      "item_name": "saklar 3",
+      "action": "ADD_ITEM",
+      "quantity": 3,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-11T05:11:44.775Z"
+    },
     {
       "id": "89377021-9fad-45e9-9e72-4a012ffb5dca",
       "item_id": "9f140cc7-49eb-4847-8cd8-6fc39360f8df",
