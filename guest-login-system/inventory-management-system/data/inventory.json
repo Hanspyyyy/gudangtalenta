@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "ee20bdf0-0cac-4fff-9dc7-44f7081b976f",
+      "name": "selang fleksibel atau pipa konduit bergelombang (flexible conduit) di hitung per meter",
+      "size": "20",
+      "category": "Kelistrikan",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 2 | NO 4",
+      "stock": 15,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/ee20bdf0-0cac-4fff-9dc7-44f7081b976f-1794378458762.jpeg",
+      "created_at": "2026-11-11T06:27:39.804Z",
+      "updated_at": "2026-11-11T06:27:39.804Z"
+    },
+    {
       "id": "d22b876b-0ff1-4250-b9bd-00190d3a3bc4",
       "name": "X",
       "size": "-",
@@ -6555,6 +6567,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "49ff039c-837c-44ee-b049-7f25e1494df0",
+      "item_id": "ee20bdf0-0cac-4fff-9dc7-44f7081b976f",
+      "item_name": "selang fleksibel atau pipa konduit bergelombang (flexible conduit) di hitung per meter",
+      "action": "ADD_ITEM",
+      "quantity": 15,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-11T06:27:39.804Z"
+    },
     {
       "id": "c7484348-0133-4870-95fc-ccb8320b7705",
       "item_id": "d22b876b-0ff1-4250-b9bd-00190d3a3bc4",
