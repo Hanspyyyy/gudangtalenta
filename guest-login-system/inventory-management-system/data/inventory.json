@@ -3811,10 +3811,10 @@
       "category": "Pipa",
       "warehouse": "Gudang 1",
       "rack": "1A | 5 | NO 3",
-      "stock": 1,
+      "stock": 2,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/ec273c91-822c-4dff-a5fa-7ce1af9ad1ff-1792478551838.jpeg",
       "created_at": "2026-10-20T06:42:32.747Z",
-      "updated_at": "2026-10-23T06:42:25.737Z"
+      "updated_at": "2026-11-11T06:09:19.821Z"
     },
     {
       "id": "953db668-2ed9-4298-b293-25f8c3e3946d",
@@ -6531,6 +6531,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "4e689c03-4cbc-4f56-a88c-4daee3db9db9",
+      "item_id": "ec273c91-822c-4dff-a5fa-7ce1af9ad1ff",
+      "item_name": "VLOO SOK PPR(25x20) ¾x½",
+      "action": "STOCK_IN",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-11T06:09:19.821Z"
+    },
     {
       "id": "2a2181aa-c585-4f22-bdd1-7ebc20bd93ff",
       "item_id": "4423dadd-e4fc-49ae-836d-6570822cf717",
