@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "07bd1759-4e43-4f6d-8e7a-86500a5e2391",
+      "name": "Tee Dos (X-dus/Cabang 4) berwarna hitam",
+      "size": "20",
+      "category": "kelistrikan",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 2 | NO 2",
+      "stock": 14,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/07bd1759-4e43-4f6d-8e7a-86500a5e2391-1794367255110.jpeg",
+      "created_at": "2026-11-11T03:20:56.140Z",
+      "updated_at": "2026-11-11T03:20:56.140Z"
+    },
+    {
       "id": "1c782442-763e-446a-a4b0-4ac7dc6b408b",
       "name": "klem pipa konduit PVC bentuk omega (ukuran 20 mm)",
       "size": "20mm",
@@ -6267,6 +6279,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "651fef2a-ef3a-473a-9295-f490d026b89a",
+      "item_id": "07bd1759-4e43-4f6d-8e7a-86500a5e2391",
+      "item_name": "Tee Dos (X-dus/Cabang 4) berwarna hitam",
+      "action": "ADD_ITEM",
+      "quantity": 14,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-11T03:20:56.140Z"
+    },
     {
       "id": "3ef8d08d-0099-4bb5-959a-8651abeb7b8a",
       "item_id": "1c782442-763e-446a-a4b0-4ac7dc6b408b",
