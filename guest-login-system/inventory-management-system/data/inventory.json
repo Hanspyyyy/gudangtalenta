@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "c6777074-3fb8-4857-84b6-b338f06c6d0d",
+      "name": "lampu plafon LED tempel (surface mounted square downlight / plafon baret kotak),",
+      "size": "-",
+      "category": "kelistrikan",
+      "warehouse": "Gudang 1",
+      "rack": "-",
+      "stock": 2,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/c6777074-3fb8-4857-84b6-b338f06c6d0d-1794363234055.jpeg",
+      "created_at": "2026-11-11T02:13:55.165Z",
+      "updated_at": "2026-11-11T02:13:55.165Z"
+    },
+    {
       "id": "0728c140-6459-467a-90d8-35f574f56820",
       "name": "rumah lampu downlight outbow (tipe tempel/plafon luar)",
       "size": "-",
@@ -6171,6 +6183,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "b6203994-4687-46e2-97c6-4c90a37b716c",
+      "item_id": "c6777074-3fb8-4857-84b6-b338f06c6d0d",
+      "item_name": "lampu plafon LED tempel (surface mounted square downlight / plafon baret kotak),",
+      "action": "ADD_ITEM",
+      "quantity": 2,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-11T02:13:55.165Z"
+    },
     {
       "id": "277f6ca7-7bf1-45d4-8282-acffccf03973",
       "item_id": "0728c140-6459-467a-90d8-35f574f56820",
