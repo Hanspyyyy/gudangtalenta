@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "74459b49-7c52-497d-a476-456462189b51",
+      "name": "Sok pipa listrik 20mm",
+      "size": "20",
+      "category": "Kelistrikan",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 2 | NO 2 karung",
+      "stock": 35,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/74459b49-7c52-497d-a476-456462189b51-1794370344586.jpeg",
+      "created_at": "2026-11-11T04:12:25.619Z",
+      "updated_at": "2026-11-11T04:12:25.619Z"
+    },
+    {
       "id": "0eb7258b-e075-45ef-a1b6-41e0ac93b4c9",
       "name": "T dus cabang 3 (tanpa merek)",
       "size": "20",
@@ -6351,6 +6363,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "7fd0d405-1e9f-4623-bc4e-6fd667edc059",
+      "item_id": "74459b49-7c52-497d-a476-456462189b51",
+      "item_name": "Sok pipa listrik 20mm",
+      "action": "ADD_ITEM",
+      "quantity": 35,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-11T04:12:25.619Z"
+    },
     {
       "id": "fa7496d2-f4ed-4ec9-a6af-31f7a0b19475",
       "item_id": "0eb7258b-e075-45ef-a1b6-41e0ac93b4c9",
