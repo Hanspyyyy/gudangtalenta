@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "7ed10cc6-8abf-42db-a509-beafd478b798",
+      "name": "lampu downlight outbow silinder LED COB",
+      "size": "-",
+      "category": "kelistrikan",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 3 | NO 1",
+      "stock": 4,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/7ed10cc6-8abf-42db-a509-beafd478b798-1794360930249.jpeg",
+      "created_at": "2026-11-11T01:35:31.247Z",
+      "updated_at": "2026-11-11T01:35:31.247Z"
+    },
+    {
       "id": "f746a137-8683-4796-bd5c-174a4ff6d5ef",
       "name": "Fire blanket",
       "size": "1.8x1.8m",
@@ -6099,6 +6111,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "7e3ba4cc-4128-49e5-a99a-23b0321412a2",
+      "item_id": "7ed10cc6-8abf-42db-a509-beafd478b798",
+      "item_name": "lampu downlight outbow silinder LED COB",
+      "action": "ADD_ITEM",
+      "quantity": 4,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-11T01:35:31.247Z"
+    },
     {
       "id": "3dcd7b80-ecd3-455c-a362-6543dbd16353",
       "item_id": "f746a137-8683-4796-bd5c-174a4ff6d5ef",
