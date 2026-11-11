@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "c80cb6a6-124b-4862-8ef3-642584aee444",
+      "name": "Engsel Sendok Slide On Mt Lurus Atau Full Bungkuk Huben Mto Atau Mt16",
+      "size": "-",
+      "category": "Engsel",
+      "warehouse": "Gudang 1",
+      "rack": "1A",
+      "stock": 0,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/c80cb6a6-124b-4862-8ef3-642584aee444-1794376511359.jpeg",
+      "created_at": "2026-11-11T05:55:12.224Z",
+      "updated_at": "2026-11-11T05:55:12.224Z"
+    },
+    {
       "id": "08a84baf-d7db-4859-8af2-1bedf589b802",
       "name": "cantolan ram (atau hook kawat ram / display hook)",
       "size": "-",
@@ -6459,6 +6471,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "e07db994-a7b7-43ea-813f-e1c44ef6687d",
+      "item_id": "c80cb6a6-124b-4862-8ef3-642584aee444",
+      "item_name": "Engsel Sendok Slide On Mt Lurus Atau Full Bungkuk Huben Mto Atau Mt16",
+      "action": "ADD_ITEM",
+      "quantity": 0,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-11T05:55:12.224Z"
+    },
     {
       "id": "5c5c1d0b-54ef-4389-ab36-caf258eb8632",
       "item_id": "08a84baf-d7db-4859-8af2-1bedf589b802",
