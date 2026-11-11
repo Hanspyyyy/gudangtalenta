@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "422c67c5-cc7e-4eb0-999a-4026abebeb4f",
+      "name": "junction box (atau sering disebut duradus / box sambung)",
+      "size": "-",
+      "category": "Kelistrikan",
+      "warehouse": "Gudang 1",
+      "rack": "Kontainer 1",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/422c67c5-cc7e-4eb0-999a-4026abebeb4f-1794377036476.jpeg",
+      "created_at": "2026-11-11T06:03:57.383Z",
+      "updated_at": "2026-11-11T06:03:57.383Z"
+    },
+    {
       "id": "17be9bd8-1df9-43fb-9de3-4d6b0163722f",
       "name": "gantungan kawat seling atas (ceiling bracket / wire rope gripper base)",
       "size": "-",
@@ -6483,6 +6495,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "4c2bfb4a-782b-482f-8665-11f447ccb45e",
+      "item_id": "422c67c5-cc7e-4eb0-999a-4026abebeb4f",
+      "item_name": "junction box (atau sering disebut duradus / box sambung)",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-11T06:03:57.383Z"
+    },
     {
       "id": "f63e4d48-e025-4d88-a87b-9f828a3dbb8f",
       "item_id": "17be9bd8-1df9-43fb-9de3-4d6b0163722f",
