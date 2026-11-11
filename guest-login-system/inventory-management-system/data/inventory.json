@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "82c6aa1c-67ee-421f-b3dc-5316bb4486f1",
+      "name": "Krisbow Lampu Downlight LED Outbow Slim",
+      "size": "-",
+      "category": "kelistrikan",
+      "warehouse": "Gudang 1",
+      "rack": "-",
+      "stock": 2,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/82c6aa1c-67ee-421f-b3dc-5316bb4486f1-1794361149678.jpeg",
+      "created_at": "2026-11-11T01:39:10.761Z",
+      "updated_at": "2026-11-11T01:39:10.761Z"
+    },
+    {
       "id": "7ed10cc6-8abf-42db-a509-beafd478b798",
       "name": "lampu downlight outbow silinder LED COB",
       "size": "-",
@@ -6111,6 +6123,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "56c920bf-6966-489c-a9e5-1bef1c01b805",
+      "item_id": "82c6aa1c-67ee-421f-b3dc-5316bb4486f1",
+      "item_name": "Krisbow Lampu Downlight LED Outbow Slim",
+      "action": "ADD_ITEM",
+      "quantity": 2,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-11T01:39:10.761Z"
+    },
     {
       "id": "7e3ba4cc-4128-49e5-a99a-23b0321412a2",
       "item_id": "7ed10cc6-8abf-42db-a509-beafd478b798",
