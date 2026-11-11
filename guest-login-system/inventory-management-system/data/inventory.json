@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "35f2c164-021c-4c43-bd04-0bd7f6dc1071",
+      "name": "stop kontak panasonic",
+      "size": "-",
+      "category": "kelistrikan",
+      "warehouse": "Gudang 1",
+      "rack": "kontainer 1",
+      "stock": 3,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/35f2c164-021c-4c43-bd04-0bd7f6dc1071-1794374054114.jpeg",
+      "created_at": "2026-11-11T05:14:15.143Z",
+      "updated_at": "2026-11-11T05:14:15.143Z"
+    },
+    {
       "id": "cda1f32f-381c-4e74-9984-3dce792926c3",
       "name": "saklar panasonic 2",
       "size": "-",
@@ -6387,6 +6399,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "71b05ed6-7c5c-448b-8bd3-43b0bfa0d4af",
+      "item_id": "35f2c164-021c-4c43-bd04-0bd7f6dc1071",
+      "item_name": "stop kontak panasonic",
+      "action": "ADD_ITEM",
+      "quantity": 3,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-11T05:14:15.143Z"
+    },
     {
       "id": "0a7298eb-53e7-405f-960f-79208c9565d5",
       "item_id": "cda1f32f-381c-4e74-9984-3dce792926c3",
