@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "b67bc023-a7d3-48e1-937f-ce19ad3b5315",
+      "name": "set handle pintu atau kunci pintu rumah lengkap dengan gagang (door lock set)",
+      "size": "sesuai gambar",
+      "category": "kunci",
+      "warehouse": "Gudang 1",
+      "rack": "3,3",
+      "stock": 3,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/b67bc023-a7d3-48e1-937f-ce19ad3b5315-1794387889037.jpeg",
+      "created_at": "2026-11-11T09:04:50.224Z",
+      "updated_at": "2026-11-11T09:04:50.224Z"
+    },
+    {
       "id": "ee20bdf0-0cac-4fff-9dc7-44f7081b976f",
       "name": "selang fleksibel atau pipa konduit bergelombang (flexible conduit) di hitung per meter",
       "size": "20",
@@ -6567,6 +6579,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "4222d80a-4ca6-4672-ad97-509a0410de2a",
+      "item_id": "b67bc023-a7d3-48e1-937f-ce19ad3b5315",
+      "item_name": "set handle pintu atau kunci pintu rumah lengkap dengan gagang (door lock set)",
+      "action": "ADD_ITEM",
+      "quantity": 3,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-11T09:04:50.224Z"
+    },
     {
       "id": "8fb6a4f1-96ca-4253-a750-d9249bcbdb23",
       "item_id": "dbbe6bde-d238-4ac3-8bec-e4aea964536c",
