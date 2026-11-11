@@ -7,10 +7,10 @@
       "category": "kelistrikan",
       "warehouse": "Gudang 1",
       "rack": "1A | 2 | NO 2",
-      "stock": 3,
+      "stock": 4,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/939e33c2-9094-4e9a-88d7-1d15095a7f1d-1794367413580.jpeg",
       "created_at": "2026-11-11T03:23:34.462Z",
-      "updated_at": "2026-11-11T03:23:34.462Z"
+      "updated_at": "2026-11-11T03:28:22.326Z"
     },
     {
       "id": "07bd1759-4e43-4f6d-8e7a-86500a5e2391",
@@ -6291,6 +6291,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "ad271489-45e4-4e20-9066-844c369fd5d4",
+      "item_id": "939e33c2-9094-4e9a-88d7-1d15095a7f1d",
+      "item_name": "T-dus (Tee dus / T-dos) putih cabang 3",
+      "action": "STOCK_IN",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-11T03:28:22.327Z"
+    },
     {
       "id": "18868b1b-6595-4416-9a76-6b6e20b1c6c8",
       "item_id": "07bd1759-4e43-4f6d-8e7a-86500a5e2391",
