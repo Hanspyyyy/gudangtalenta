@@ -55,10 +55,10 @@
       "category": "Finishing & Arsitektural",
       "warehouse": "Gudang 1",
       "rack": "1A | 3 | NO 3",
-      "stock": 9,
+      "stock": 13,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/eb2a331a-c636-4ed0-9700-0b94de02b669-1794388148402.jpeg",
       "created_at": "2026-11-11T09:09:09.329Z",
-      "updated_at": "2026-11-11T09:09:09.329Z"
+      "updated_at": "2026-11-11T09:34:26.589Z"
     },
     {
       "id": "b67bc023-a7d3-48e1-937f-ce19ad3b5315",
@@ -6639,6 +6639,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "02b7b8bd-4f30-4a8d-9672-02223ff7dd80",
+      "item_id": "eb2a331a-c636-4ed0-9700-0b94de02b669",
+      "item_name": "roda bawah atau penahan pintu geser (sliding door floor guide / stopper / door guide kuningan)",
+      "action": "STOCK_IN",
+      "quantity": 4,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-11T09:34:26.590Z"
+    },
     {
       "id": "28535c94-9b80-4592-a7bd-0082d4867b74",
       "item_id": "2784aaf8-45e2-4f0a-8856-8748d4411862",
