@@ -1322,7 +1322,7 @@
     },
     {
       "id": "efa6ed2b-b071-4b68-bc21-62fb58fc5838",
-      "name": "Pemanas pipa PVC",
+      "name": "Pemanas pipa PPR",
       "size": "-",
       "category": "Mesin",
       "warehouse": "Gudang 1",
@@ -1330,7 +1330,7 @@
       "stock": 1,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/efa6ed2b-b071-4b68-bc21-62fb58fc5838-1793680876363.jpeg",
       "created_at": "2026-11-03T04:41:17.262Z",
-      "updated_at": "2026-11-03T04:41:17.262Z"
+      "updated_at": "2026-11-11T03:02:19.585Z"
     },
     {
       "id": "98a71747-256d-47b6-a784-0c5eedb475ed",
