@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "17be9bd8-1df9-43fb-9de3-4d6b0163722f",
+      "name": "gantungan kawat seling atas (ceiling bracket / wire rope gripper base)",
+      "size": "-",
+      "category": "Finishing & Arsitektural",
+      "warehouse": "Gudang 1",
+      "rack": "-",
+      "stock": 15,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/17be9bd8-1df9-43fb-9de3-4d6b0163722f-1794376754454.jpeg",
+      "created_at": "2026-11-11T05:59:15.279Z",
+      "updated_at": "2026-11-11T05:59:15.279Z"
+    },
+    {
       "id": "c80cb6a6-124b-4862-8ef3-642584aee444",
       "name": "Engsel Sendok Slide On Mt Lurus Atau Full Bungkuk Huben Mto Atau Mt16",
       "size": "-",
@@ -6471,6 +6483,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "f63e4d48-e025-4d88-a87b-9f828a3dbb8f",
+      "item_id": "17be9bd8-1df9-43fb-9de3-4d6b0163722f",
+      "item_name": "gantungan kawat seling atas (ceiling bracket / wire rope gripper base)",
+      "action": "ADD_ITEM",
+      "quantity": 15,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-11T05:59:15.279Z"
+    },
     {
       "id": "83ba0e0b-4b3f-46fc-873c-38999af81413",
       "item_id": "c80cb6a6-124b-4862-8ef3-642584aee444",
