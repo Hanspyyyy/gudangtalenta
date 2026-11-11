@@ -19,10 +19,10 @@
       "category": "kelistrikan",
       "warehouse": "Gudang 1",
       "rack": "kontainer 1",
-      "stock": 3,
+      "stock": 4,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/35f2c164-021c-4c43-bd04-0bd7f6dc1071-1794374054114.jpeg",
       "created_at": "2026-11-11T05:14:15.143Z",
-      "updated_at": "2026-11-11T05:14:15.143Z"
+      "updated_at": "2026-11-11T05:19:07.412Z"
     },
     {
       "id": "cda1f32f-381c-4e74-9984-3dce792926c3",
@@ -6411,6 +6411,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "48d34bda-3529-4a98-9785-8a4823c24635",
+      "item_id": "35f2c164-021c-4c43-bd04-0bd7f6dc1071",
+      "item_name": "stop kontak panasonic",
+      "action": "STOCK_IN",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-11T05:19:07.412Z"
+    },
     {
       "id": "d1327c9b-ed49-48e6-bf95-6663823ff4eb",
       "item_id": "6443d592-4f69-4526-a751-a1d07fd1f94a",
