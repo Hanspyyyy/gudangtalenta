@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "ab85a6d3-2e1d-44f4-b712-6c0f69598ed4",
+      "name": "led palermo",
+      "size": "-",
+      "category": "kelistrikan",
+      "warehouse": "Gudang 1",
+      "rack": "kontainer 1",
+      "stock": 8,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/ab85a6d3-2e1d-44f4-b712-6c0f69598ed4-1794374501964.jpeg",
+      "created_at": "2026-11-11T05:21:42.984Z",
+      "updated_at": "2026-11-11T05:21:42.984Z"
+    },
+    {
       "id": "6443d592-4f69-4526-a751-a1d07fd1f94a",
       "name": "stop kontak",
       "size": "-",
@@ -6411,6 +6423,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "6b6aa6b0-0032-461d-ab4c-e535fa283ca6",
+      "item_id": "ab85a6d3-2e1d-44f4-b712-6c0f69598ed4",
+      "item_name": "led palermo",
+      "action": "ADD_ITEM",
+      "quantity": 8,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-11T05:21:42.984Z"
+    },
     {
       "id": "48d34bda-3529-4a98-9785-8a4823c24635",
       "item_id": "35f2c164-021c-4c43-bd04-0bd7f6dc1071",
