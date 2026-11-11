@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "7145a1b6-5272-4b05-b62c-96cf34041980",
+      "name": "tutup seal sekrup atap UPVC",
+      "size": "-",
+      "category": "Kelistrikan",
+      "warehouse": "Gudang 1",
+      "rack": "Kontainer 1",
+      "stock": 20,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/7145a1b6-5272-4b05-b62c-96cf34041980-1794377208834.jpeg",
+      "created_at": "2026-11-11T06:06:50.022Z",
+      "updated_at": "2026-11-11T06:06:50.022Z"
+    },
+    {
       "id": "377619b9-10aa-4199-b8e9-baaa4d90949c",
       "name": "sakelar pemisah tahan cuaca/weatherproof",
       "size": "-",
@@ -6507,6 +6519,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "609f6693-09d1-4f60-8b3e-c546da7ba6b9",
+      "item_id": "7145a1b6-5272-4b05-b62c-96cf34041980",
+      "item_name": "tutup seal sekrup atap UPVC",
+      "action": "ADD_ITEM",
+      "quantity": 20,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-11T06:06:50.022Z"
+    },
     {
       "id": "341ad5ed-eaa8-4947-b21a-be92cac1eeef",
       "item_id": "377619b9-10aa-4199-b8e9-baaa4d90949c",
