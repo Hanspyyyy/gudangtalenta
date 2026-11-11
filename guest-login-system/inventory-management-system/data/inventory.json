@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "eb2a331a-c636-4ed0-9700-0b94de02b669",
+      "name": "roda bawah atau penahan pintu geser (sliding door floor guide / stopper / door guide kuningan)",
+      "size": "-",
+      "category": "Finishing & Arsitektural",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 3 | NO 3",
+      "stock": 9,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/eb2a331a-c636-4ed0-9700-0b94de02b669-1794388148402.jpeg",
+      "created_at": "2026-11-11T09:09:09.329Z",
+      "updated_at": "2026-11-11T09:09:09.329Z"
+    },
+    {
       "id": "b67bc023-a7d3-48e1-937f-ce19ad3b5315",
       "name": "set handle pintu atau kunci pintu rumah lengkap dengan gagang (door lock set)",
       "size": "sesuai gambar",
@@ -6579,6 +6591,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "320210f4-c0b6-44c1-90e6-2bf3dcd7e872",
+      "item_id": "eb2a331a-c636-4ed0-9700-0b94de02b669",
+      "item_name": "roda bawah atau penahan pintu geser (sliding door floor guide / stopper / door guide kuningan)",
+      "action": "ADD_ITEM",
+      "quantity": 9,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-11T09:09:09.329Z"
+    },
     {
       "id": "4222d80a-4ca6-4672-ad97-509a0410de2a",
       "item_id": "b67bc023-a7d3-48e1-937f-ce19ad3b5315",
