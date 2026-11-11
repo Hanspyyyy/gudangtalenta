@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "605e2311-566c-4297-9e1e-75b86bba961c",
+      "name": "Hafele Dish Rack (rak piring atau rak alat makan untuk kabinet dapur)",
+      "size": "-",
+      "category": "rak",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 2 | NO 4",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/605e2311-566c-4297-9e1e-75b86bba961c-1794377740322.jpeg",
+      "created_at": "2026-11-11T06:15:41.398Z",
+      "updated_at": "2026-11-11T06:15:41.398Z"
+    },
+    {
       "id": "4423dadd-e4fc-49ae-836d-6570822cf717",
       "name": "Stop kontak clipsel",
       "size": "-",
@@ -6531,6 +6543,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "d680374d-ba36-400d-b948-a52f71af2873",
+      "item_id": "605e2311-566c-4297-9e1e-75b86bba961c",
+      "item_name": "Hafele Dish Rack (rak piring atau rak alat makan untuk kabinet dapur)",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-11T06:15:41.398Z"
+    },
     {
       "id": "4e689c03-4cbc-4f56-a88c-4daee3db9db9",
       "item_id": "ec273c91-822c-4dff-a5fa-7ce1af9ad1ff",
