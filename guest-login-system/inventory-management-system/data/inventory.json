@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "ced0d5dd-c748-4e9b-b0f3-f63d73c27f37",
+      "name": "penutup sekrup (seal set)",
+      "size": "-",
+      "category": "Finishing & Arsitektural",
+      "warehouse": "Gudang 1",
+      "rack": "-",
+      "stock": 10,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/ced0d5dd-c748-4e9b-b0f3-f63d73c27f37-1794377281355.jpeg",
+      "created_at": "2026-11-11T06:08:02.307Z",
+      "updated_at": "2026-11-11T06:08:02.307Z"
+    },
+    {
       "id": "377619b9-10aa-4199-b8e9-baaa4d90949c",
       "name": "sakelar pemisah tahan cuaca/weatherproof",
       "size": "-",
@@ -6507,6 +6519,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "2b8638e6-6675-43ad-bad3-d3e5ce93183b",
+      "item_id": "ced0d5dd-c748-4e9b-b0f3-f63d73c27f37",
+      "item_name": "penutup sekrup (seal set)",
+      "action": "ADD_ITEM",
+      "quantity": 10,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-11T06:08:02.307Z"
+    },
     {
       "id": "419f4596-27e7-48c9-a830-bfb56368f511",
       "item_id": "7145a1b6-5272-4b05-b62c-96cf34041980",
