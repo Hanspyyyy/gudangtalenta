@@ -3079,10 +3079,10 @@
       "category": "Pipa",
       "warehouse": "Gudang 1",
       "rack": "1C",
-      "stock": 5,
+      "stock": 15,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/4fbc5031-f168-40c6-a3fa-d5a817c4557a-1792742430640.jpeg",
       "created_at": "2026-10-23T08:00:31.571Z",
-      "updated_at": "2026-10-23T08:00:31.571Z"
+      "updated_at": "2026-11-12T10:03:56.425Z"
     },
     {
       "id": "9ae7bd31-1ab5-4ab4-b7bf-ec0c79f20dac",
@@ -6951,6 +6951,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "1654d2cd-0746-4b64-b7b0-5ca95e0a7662",
+      "item_id": "4fbc5031-f168-40c6-a3fa-d5a817c4557a",
+      "item_name": "VLOK SOK (2x1)",
+      "action": "STOCK_IN",
+      "quantity": 10,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-12T10:03:56.425Z"
+    },
     {
       "id": "5e695d9b-8f39-4e4c-ab5c-45c97df01e5f",
       "item_id": "8531e759-e663-4fb5-a6d7-5dd74073e576",
