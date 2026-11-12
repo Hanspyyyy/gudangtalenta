@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "1ca26634-de32-460b-82ff-2f5ec85ec5f1",
+      "name": "skrup tanda tanya (atau screw hook / kapstok gantung), di hitung per bungkus",
+      "size": "9cmx5mm",
+      "category": "Finishing & Arsitektural",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 3 | NO 3",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/1ca26634-de32-460b-82ff-2f5ec85ec5f1-1794474400112.jpeg",
+      "created_at": "2026-11-12T09:06:41.065Z",
+      "updated_at": "2026-11-12T09:06:41.065Z"
+    },
+    {
       "id": "5426a4c9-bb77-4290-a4ba-c2bcfd3fe40c",
       "name": "tiang pengunci (central locking bar) yang digunakan untuk sistem kunci laci sentral pada meja kantor atau filling cabinet. Batang aluminium panjang ini bekerja bersama silinder kunci untuk mengunci beberapa susun laci sekaligus dalam satu putaran kunci.",
       "size": "P: 60 pengait : 4",
@@ -6747,6 +6759,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "e344aa14-7764-4605-b081-0f11ca63f561",
+      "item_id": "1ca26634-de32-460b-82ff-2f5ec85ec5f1",
+      "item_name": "skrup tanda tanya (atau screw hook / kapstok gantung), di hitung per bungkus",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-12T09:06:41.065Z"
+    },
     {
       "id": "afcdf9e4-36d9-4019-a6d4-d9a57508cf48",
       "item_id": "5426a4c9-bb77-4290-a4ba-c2bcfd3fe40c",
