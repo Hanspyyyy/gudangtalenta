@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "d07c000f-5e1a-4623-a66b-c21ae0451452",
+      "name": "Piser s6 |  1 kotak (ambil semua tidak bisa per pcs)",
+      "size": "6",
+      "category": "Finishing & Arsitektural",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 3 | NO 3",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/d07c000f-5e1a-4623-a66b-c21ae0451452-1794480293146.jpeg",
+      "created_at": "2026-11-12T10:44:54.127Z",
+      "updated_at": "2026-11-12T10:44:54.127Z"
+    },
+    {
       "id": "a70b6eaa-4883-441a-a9ba-238cd3fd4707",
       "name": "Trafo power supply (LM200- 1H24V-A)",
       "size": "In : 220 -240 50/60hz | ou : 24v---- 8.3A | P 200W",
@@ -7083,6 +7095,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "48d38e81-08c1-40ec-a496-5bc639eae4bd",
+      "item_id": "d07c000f-5e1a-4623-a66b-c21ae0451452",
+      "item_name": "Piser s6 |  1 kotak (ambil semua tidak bisa per pcs)",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-12T10:44:54.127Z"
+    },
     {
       "id": "79984289-ef53-485d-bfff-998410606d22",
       "item_id": "3d11058e-e7d1-437e-b548-621775b6d41d",
