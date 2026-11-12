@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "1be3784e-193e-49a8-a63b-80229f79c218",
+      "name": "skrup tanda tanya (atau screw hook / kapstok gantung), per bungkus",
+      "size": "3,5cmx4mm",
+      "category": "Finishing & Arsitektural",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 3 | NO 3",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/1be3784e-193e-49a8-a63b-80229f79c218-1794474504153.jpeg",
+      "created_at": "2026-11-12T09:08:25.188Z",
+      "updated_at": "2026-11-12T09:08:25.188Z"
+    },
+    {
       "id": "1ca26634-de32-460b-82ff-2f5ec85ec5f1",
       "name": "skrup tanda tanya (atau screw hook / kapstok gantung), di hitung per bungkus",
       "size": "9cmx5mm",
@@ -6759,6 +6771,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "84f5f036-7e79-4ce5-bf64-3d7711dee5b0",
+      "item_id": "1be3784e-193e-49a8-a63b-80229f79c218",
+      "item_name": "skrup tanda tanya (atau screw hook / kapstok gantung), per bungkus",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-12T09:08:25.188Z"
+    },
     {
       "id": "e344aa14-7764-4605-b081-0f11ca63f561",
       "item_id": "1ca26634-de32-460b-82ff-2f5ec85ec5f1",
