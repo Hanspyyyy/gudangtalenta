@@ -967,10 +967,10 @@
       "category": "Plumbing Fitting",
       "warehouse": "Gudang 1",
       "rack": "1A | 5 | NO 2",
-      "stock": 1,
+      "stock": 0,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/5518696e-827c-4de0-bbd3-9f2a85e82b4b-1793938839953.jpeg",
       "created_at": "2026-11-06T04:20:41.008Z",
-      "updated_at": "2026-11-06T04:20:41.008Z"
+      "updated_at": "2026-11-12T04:50:06.028Z"
     },
     {
       "id": "e9a26793-21c6-4283-aa77-82a58eeb4b21",
@@ -6687,6 +6687,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "b4ca06c3-35aa-4149-b7d2-c1b1a516f584",
+      "item_id": "5518696e-827c-4de0-bbd3-9f2a85e82b4b",
+      "item_name": "Knee PVC (3)",
+      "action": "STOCK_OUT",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-12T04:50:06.028Z"
+    },
     {
       "id": "f2b8eb4f-d70b-4e3c-bc3d-f65050029dc6",
       "item_id": "f2ac5a43-018d-4820-acb9-cf66bf52fdda",
