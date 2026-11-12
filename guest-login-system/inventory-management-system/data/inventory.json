@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "a997a535-efc9-40fb-8c50-721fbc9e9f76",
+      "name": "Skrup ruping random 1,5 | 6,5 | 7,5 (TIDAK BOLEH PER PCS JIKA MAU AMBIL SATU BUNGKUS RANDOM)",
+      "size": "1,5 | 6,5 | 7,5",
+      "category": "Skrup",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 3 | NO 3",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/a997a535-efc9-40fb-8c50-721fbc9e9f76-1794476227110.jpeg",
+      "created_at": "2026-11-12T09:37:08.515Z",
+      "updated_at": "2026-11-12T09:37:08.515Z"
+    },
+    {
       "id": "c025050d-2281-43e0-8737-068f7aac8aad",
       "name": "Skrup gypsum 5cm (tidak bisa per pcs ambil satu plastik) lumayan banyak kira\" 2 du",
       "size": "5cm",
@@ -6867,6 +6879,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "6815d653-feaa-475a-baf8-52af9b088bbc",
+      "item_id": "a997a535-efc9-40fb-8c50-721fbc9e9f76",
+      "item_name": "Skrup ruping random 1,5 | 6,5 | 7,5 (TIDAK BOLEH PER PCS JIKA MAU AMBIL SATU BUNGKUS RANDOM)",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-12T09:37:08.515Z"
+    },
     {
       "id": "d46e6b62-e775-4808-980d-1945cf21442c",
       "item_id": "c025050d-2281-43e0-8737-068f7aac8aad",
