@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "a926c5cb-9e5b-4287-b39b-e695d626266b",
+      "name": "Skrup gypsum 2,5 cm (harus sepelasto tidak boleh per pcs)",
+      "size": "2,5cm",
+      "category": "Skrup",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 3 | NO 3",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/a926c5cb-9e5b-4287-b39b-e695d626266b-1794475889909.jpeg",
+      "created_at": "2026-11-12T09:31:30.935Z",
+      "updated_at": "2026-11-12T09:31:30.935Z"
+    },
+    {
       "id": "fae4a8ab-692c-495f-9564-89f9bf25fb88",
       "name": "Paku kayu 10cm ( harus se epelastin)",
       "size": "10cm",
@@ -6843,6 +6855,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "d8960b63-af10-4d88-a86a-8555f1abc16b",
+      "item_id": "a926c5cb-9e5b-4287-b39b-e695d626266b",
+      "item_name": "Skrup gypsum 2,5 cm (harus sepelasto tidak boleh per pcs)",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-12T09:31:30.935Z"
+    },
     {
       "id": "617f746e-5a22-4e53-945a-723d08a6806c",
       "item_id": "fae4a8ab-692c-495f-9564-89f9bf25fb88",
