@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "08fff8d6-9875-4886-9cc6-9ed5b99e28a0",
+      "name": "Lampu sorot LED tanam (recessed spotlight/downlight)",
+      "size": "-",
+      "category": "Kelistrikan",
+      "warehouse": "Gudang 1",
+      "rack": "Kontainer 1",
+      "stock": 15,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/08fff8d6-9875-4886-9cc6-9ed5b99e28a0-1794457020388.jpeg",
+      "created_at": "2026-11-12T04:17:01.185Z",
+      "updated_at": "2026-11-12T04:17:01.186Z"
+    },
+    {
       "id": "00ceab1e-38bb-479b-9f44-3660a065de5c",
       "name": "lampu downlight LED sorot / spotlight tertanam (recessed COB / LED ceiling spotlight)",
       "size": "-",
@@ -6651,6 +6663,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "5ab3fdda-b401-4832-aca6-86ea4b0c2184",
+      "item_id": "08fff8d6-9875-4886-9cc6-9ed5b99e28a0",
+      "item_name": "Lampu sorot LED tanam (recessed spotlight/downlight)",
+      "action": "ADD_ITEM",
+      "quantity": 15,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-12T04:17:01.186Z"
+    },
     {
       "id": "4ae7759e-a25f-4cc7-8349-e8a7eb996630",
       "item_id": "00ceab1e-38bb-479b-9f44-3660a065de5c",
