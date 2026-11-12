@@ -19,10 +19,10 @@
       "category": "Kelistrikan",
       "warehouse": "Gudang 1",
       "rack": "Kontainer 1",
-      "stock": 3,
+      "stock": 4,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/3d11058e-e7d1-437e-b548-621775b6d41d-1794479389450.jpeg",
       "created_at": "2026-11-12T10:29:50.303Z",
-      "updated_at": "2026-11-12T10:30:58.350Z"
+      "updated_at": "2026-11-12T10:35:17.396Z"
     },
     {
       "id": "cde273f0-1b60-418f-9b9a-03c3d31ec5b3",
@@ -7083,6 +7083,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "79984289-ef53-485d-bfff-998410606d22",
+      "item_id": "3d11058e-e7d1-437e-b548-621775b6d41d",
+      "item_name": "Power suplay trafo (LM100-1H24-A)",
+      "action": "STOCK_IN",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-12T10:35:17.396Z"
+    },
     {
       "id": "533c9f9e-0900-442e-ab11-64c01bc8a31c",
       "item_id": "a70b6eaa-4883-441a-a9ba-238cd3fd4707",
