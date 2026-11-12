@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "91f41123-7f93-4933-a9e5-c24ae4cb0d2d",
+      "name": "Lasdop sisaan sortir",
+      "size": "-",
+      "category": "Kelistrikan",
+      "warehouse": "Gudang 1",
+      "rack": "Kontainer 1",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/91f41123-7f93-4933-a9e5-c24ae4cb0d2d-1794474709122.jpeg",
+      "created_at": "2026-11-12T09:11:50.120Z",
+      "updated_at": "2026-11-12T09:11:50.120Z"
+    },
+    {
       "id": "1be3784e-193e-49a8-a63b-80229f79c218",
       "name": "skrup tanda tanya (atau screw hook / kapstok gantung), per bungkus",
       "size": "3,5cmx4mm",
@@ -6771,6 +6783,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "f0511692-534b-4b62-8fa9-51b29d15558d",
+      "item_id": "91f41123-7f93-4933-a9e5-c24ae4cb0d2d",
+      "item_name": "Lasdop sisaan sortir",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-12T09:11:50.120Z"
+    },
     {
       "id": "84f5f036-7e79-4ce5-bf64-3d7711dee5b0",
       "item_id": "1be3784e-193e-49a8-a63b-80229f79c218",
