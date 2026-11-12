@@ -859,10 +859,10 @@
       "category": "Karung",
       "warehouse": "Gudang 1",
       "rack": "1A",
-      "stock": 175,
+      "stock": 160,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/81f0099f-9a8c-4862-857c-7c94ed8d2e13-1794358859179.jpeg",
       "created_at": "2026-11-11T01:01:00.331Z",
-      "updated_at": "2026-11-11T01:01:00.331Z"
+      "updated_at": "2026-11-12T09:54:30.020Z"
     },
     {
       "id": "31a94847-0a5f-44fe-8d22-2b2f30b2e63f",
@@ -6939,6 +6939,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "2b3ea49c-da70-407a-88b2-f7f37e13d339",
+      "item_id": "81f0099f-9a8c-4862-857c-7c94ed8d2e13",
+      "item_name": "Karung",
+      "action": "STOCK_OUT",
+      "quantity": 15,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-12T09:54:30.020Z"
+    },
     {
       "id": "c35fe089-41a0-4420-a36b-840b719942c5",
       "item_id": "4b5091d0-2355-4905-b90b-1377f73161a9",
