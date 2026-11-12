@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "b85bf7e6-b2db-4a1d-8a58-9dccc0b0559d",
+      "name": "Paku beton 3cm (satu kotak)",
+      "size": "3",
+      "category": "Skrup",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 3 | NO 3",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/b85bf7e6-b2db-4a1d-8a58-9dccc0b0559d-1794478821346.jpeg",
+      "created_at": "2026-11-12T10:20:22.375Z",
+      "updated_at": "2026-11-12T10:20:22.375Z"
+    },
+    {
       "id": "9df1c8ef-750a-443b-b6b6-7bfdf28781a8",
       "name": "Paku beton 7cm ( 1 kotak)",
       "size": "7cm",
@@ -7011,6 +7023,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "0cc8594e-23a8-492c-b7ce-191d35003aa3",
+      "item_id": "b85bf7e6-b2db-4a1d-8a58-9dccc0b0559d",
+      "item_name": "Paku beton 3cm (satu kotak)",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-12T10:20:22.375Z"
+    },
     {
       "id": "ef3e070a-cb61-43ed-8eb8-017828bd98ca",
       "item_id": "9df1c8ef-750a-443b-b6b6-7bfdf28781a8",
