@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "02f3f317-de65-413a-bcd5-26279a9ed948",
+      "name": "rel tandem undermount (under-mount drawer slide) dengan sistem penutupan lembut (slow-motion / soft-close).",
+      "size": "WS",
+      "category": "Finishing & Arsitektural",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 3 | NO 3",
+      "stock": 4,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/02f3f317-de65-413a-bcd5-26279a9ed948-1794472691585.jpeg",
+      "created_at": "2026-11-12T08:38:12.636Z",
+      "updated_at": "2026-11-12T08:38:12.636Z"
+    },
+    {
       "id": "f2ac5a43-018d-4820-acb9-cf66bf52fdda",
       "name": "Lampu panel downlight LED tanam (inbow) merek Philips (model DN027B atau yang serupa seperti seri DN020B / Eridani dengan daya 14 Watt).",
       "size": "-",
@@ -6687,6 +6699,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "b47b2f58-3038-4061-bf6e-b606eae880e1",
+      "item_id": "02f3f317-de65-413a-bcd5-26279a9ed948",
+      "item_name": "rel tandem undermount (under-mount drawer slide) dengan sistem penutupan lembut (slow-motion / soft-close).",
+      "action": "ADD_ITEM",
+      "quantity": 4,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-12T08:38:12.636Z"
+    },
     {
       "id": "5e7bbb7f-a896-411d-8554-1dc004f40622",
       "item_id": "d339e01a-4d6a-4b6f-ab8d-c6c88a7b47b3",
