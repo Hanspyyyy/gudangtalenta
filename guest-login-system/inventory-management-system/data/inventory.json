@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "4b5091d0-2355-4905-b90b-1377f73161a9",
+      "name": "sekrup kait atau cantolan bentuk tanda tanya( ada satu kotak kecil, tidak boleh per pcs)",
+      "size": "4cm",
+      "category": "Skrup",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 3 | NO 3",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/4b5091d0-2355-4905-b90b-1377f73161a9-1794477162278.jpeg",
+      "created_at": "2026-11-12T09:52:43.330Z",
+      "updated_at": "2026-11-12T09:52:43.330Z"
+    },
+    {
       "id": "2f818141-0e8a-4848-be06-e3adc37c4c60",
       "name": "baut hexagonal (baut kepala segi enam) full drat berlapis seng (galvanis). | Harus sepelastik tidak boleh per pcs",
       "size": "P: 3cm diamter kepala :5mm",
@@ -6927,6 +6939,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "c35fe089-41a0-4420-a36b-840b719942c5",
+      "item_id": "4b5091d0-2355-4905-b90b-1377f73161a9",
+      "item_name": "sekrup kait atau cantolan bentuk tanda tanya( ada satu kotak kecil, tidak boleh per pcs)",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-12T09:52:43.330Z"
+    },
     {
       "id": "b807537d-0f6c-4779-b5b7-d823bfb03f7a",
       "item_id": "2f818141-0e8a-4848-be06-e3adc37c4c60",
