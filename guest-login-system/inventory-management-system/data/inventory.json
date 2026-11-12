@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "ca65bf84-1ce3-4e35-8790-a400820b6a9a",
+      "name": "Skrup gypsum 7,5 ( 1dus)",
+      "size": "7,5",
+      "category": "Skrup",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 3 | NO 3",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/ca65bf84-1ce3-4e35-8790-a400820b6a9a-1794476537032.jpeg",
+      "created_at": "2026-11-12T09:42:18.059Z",
+      "updated_at": "2026-11-12T09:42:18.059Z"
+    },
+    {
       "id": "ae5822dd-d66f-4217-bc73-4b9a8288b878",
       "name": "Skrup (jika mau ambil sepelastk kecil sisaan)",
       "size": "7,5",
@@ -6891,6 +6903,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "2a406216-d923-4deb-af83-8603b5be3229",
+      "item_id": "ca65bf84-1ce3-4e35-8790-a400820b6a9a",
+      "item_name": "Skrup gypsum 7,5 ( 1dus)",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-12T09:42:18.059Z"
+    },
     {
       "id": "1d6ca209-29d3-4614-9333-9910b743e957",
       "item_id": "ae5822dd-d66f-4217-bc73-4b9a8288b878",
