@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "5426a4c9-bb77-4290-a4ba-c2bcfd3fe40c",
+      "name": "tiang pengunci (central locking bar) yang digunakan untuk sistem kunci laci sentral pada meja kantor atau filling cabinet. Batang aluminium panjang ini bekerja bersama silinder kunci untuk mengunci beberapa susun laci sekaligus dalam satu putaran kunci.",
+      "size": "P: 60 pengait : 4",
+      "category": "Finishing & Arsitektural",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 2 | NO 4",
+      "stock": 11,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/5426a4c9-bb77-4290-a4ba-c2bcfd3fe40c-1794474019009.jpeg",
+      "created_at": "2026-11-12T09:00:20.441Z",
+      "updated_at": "2026-11-12T09:00:20.441Z"
+    },
+    {
       "id": "69e0438f-8de2-4f10-a1ea-ff93844472aa",
       "name": "Engsel sendok besar bengkok",
       "size": "Besar",
@@ -6735,6 +6747,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "afcdf9e4-36d9-4019-a6d4-d9a57508cf48",
+      "item_id": "5426a4c9-bb77-4290-a4ba-c2bcfd3fe40c",
+      "item_name": "tiang pengunci (central locking bar) yang digunakan untuk sistem kunci laci sentral pada meja kantor atau filling cabinet. Batang aluminium panjang ini bekerja bersama silinder kunci untuk mengunci beberapa susun laci sekaligus dalam satu putaran kunci.",
+      "action": "ADD_ITEM",
+      "quantity": 11,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-12T09:00:20.441Z"
+    },
     {
       "id": "2386a90c-1b65-4333-a7a7-cc4e4c10cfbf",
       "item_id": "69e0438f-8de2-4f10-a1ea-ff93844472aa",
