@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "00ceab1e-38bb-479b-9f44-3660a065de5c",
+      "name": "lampu downlight LED sorot / spotlight tertanam (recessed COB / LED ceiling spotlight)",
+      "size": "-",
+      "category": "Kelistrikan",
+      "warehouse": "Gudang 1",
+      "rack": "Kontainer 1",
+      "stock": 5,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/00ceab1e-38bb-479b-9f44-3660a065de5c-1794456862715.jpeg",
+      "created_at": "2026-11-12T04:14:23.599Z",
+      "updated_at": "2026-11-12T04:14:23.599Z"
+    },
+    {
       "id": "2784aaf8-45e2-4f0a-8856-8748d4411862",
       "name": "engsel pintu",
       "size": "4 lubang",
@@ -6639,6 +6651,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "4ae7759e-a25f-4cc7-8349-e8a7eb996630",
+      "item_id": "00ceab1e-38bb-479b-9f44-3660a065de5c",
+      "item_name": "lampu downlight LED sorot / spotlight tertanam (recessed COB / LED ceiling spotlight)",
+      "action": "ADD_ITEM",
+      "quantity": 5,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-12T04:14:23.600Z"
+    },
     {
       "id": "02b7b8bd-4f30-4a8d-9672-02223ff7dd80",
       "item_id": "eb2a331a-c636-4ed0-9700-0b94de02b669",
