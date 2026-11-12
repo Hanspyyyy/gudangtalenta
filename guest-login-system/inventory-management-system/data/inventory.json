@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "ae5822dd-d66f-4217-bc73-4b9a8288b878",
+      "name": "Skrup (jika mau ambil sepelastk kecil sisaan)",
+      "size": "7,5",
+      "category": "Skrup",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 3 | NO 3",
+      "stock": 0,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/ae5822dd-d66f-4217-bc73-4b9a8288b878-1794476322538.jpeg",
+      "created_at": "2026-11-12T09:38:43.497Z",
+      "updated_at": "2026-11-12T09:38:43.497Z"
+    },
+    {
       "id": "a997a535-efc9-40fb-8c50-721fbc9e9f76",
       "name": "Skrup ruping random 1,5 | 6,5 | 7,5 (TIDAK BOLEH PER PCS JIKA MAU AMBIL SATU BUNGKUS RANDOM)",
       "size": "1,5 | 6,5 | 7,5",
@@ -6879,6 +6891,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "b95d87c7-c9ed-4a54-8e43-170ba4c46bc4",
+      "item_id": "ae5822dd-d66f-4217-bc73-4b9a8288b878",
+      "item_name": "Skrup (jika mau ambil sepelastk kecil sisaan)",
+      "action": "ADD_ITEM",
+      "quantity": 0,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-12T09:38:43.497Z"
+    },
     {
       "id": "6815d653-feaa-475a-baf8-52af9b088bbc",
       "item_id": "a997a535-efc9-40fb-8c50-721fbc9e9f76",
