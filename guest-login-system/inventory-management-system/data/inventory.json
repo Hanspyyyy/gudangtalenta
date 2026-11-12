@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "df9180ed-e0ec-4714-a64e-523cf5776571",
+      "name": "Skrup SDS 3,5cm (HARUS PER BUNGKUS TIDAK BISA PER PCS)",
+      "size": "3,5cm",
+      "category": "Skrup",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 3 | NO 3",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/df9180ed-e0ec-4714-a64e-523cf5776571-1794475513783.jpeg",
+      "created_at": "2026-11-12T09:25:14.627Z",
+      "updated_at": "2026-11-12T09:25:14.627Z"
+    },
+    {
       "id": "95c9e880-7492-4e84-b578-699415b6c740",
       "name": "Skrup 3cm (harus perbungkus)",
       "size": "3cm",
@@ -6819,6 +6831,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "bf448c49-9dcd-4054-9f08-f398fdc256e7",
+      "item_id": "df9180ed-e0ec-4714-a64e-523cf5776571",
+      "item_name": "Skrup SDS 3,5cm (HARUS PER BUNGKUS TIDAK BISA PER PCS)",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-12T09:25:14.627Z"
+    },
     {
       "id": "32b90b11-45db-43a8-ada9-6d75fde480e4",
       "item_id": "95c9e880-7492-4e84-b578-699415b6c740",
