@@ -4015,10 +4015,10 @@
       "category": "Pipa",
       "warehouse": "Gudang 1",
       "rack": "1A | 5 | NO 3",
-      "stock": 7,
+      "stock": 3,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/4047f284-9449-4656-979a-65f63cfa089f-1792477876207.jpeg",
       "created_at": "2026-10-20T06:31:17.116Z",
-      "updated_at": "2026-10-20T06:37:56.627Z"
+      "updated_at": "2026-11-12T04:50:27.931Z"
     },
     {
       "id": "70b259f2-02fd-416f-96aa-a48163244c0c",
@@ -6687,6 +6687,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "e02b2978-c08f-4f44-9e62-ef94967efd64",
+      "item_id": "4047f284-9449-4656-979a-65f63cfa089f",
+      "item_name": "KNEE PPR (20) ½",
+      "action": "STOCK_OUT",
+      "quantity": 4,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-12T04:50:27.931Z"
+    },
     {
       "id": "b4ca06c3-35aa-4149-b7d2-c1b1a516f584",
       "item_id": "5518696e-827c-4de0-bbd3-9f2a85e82b4b",
