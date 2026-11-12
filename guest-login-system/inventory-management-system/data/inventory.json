@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "def4b6c7-8522-4442-8d17-a94f4c4346a8",
+      "name": "Paku kayu 5cm ( satu bungkus atau ½ kg jika ingin ambil semua tidak bisa per pcs)",
+      "size": "5cm",
+      "category": "Skrup",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 3 | NO 3",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/def4b6c7-8522-4442-8d17-a94f4c4346a8-1794478647336.jpeg",
+      "created_at": "2026-11-12T10:17:28.347Z",
+      "updated_at": "2026-11-12T10:17:28.347Z"
+    },
+    {
       "id": "1fb4dcad-3e6e-4e12-afc0-353d1cf43555",
       "name": "SOK PVC 3",
       "size": "3",
@@ -6987,6 +6999,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "33fe4da5-ad2b-4e22-8f7e-507e90846eea",
+      "item_id": "def4b6c7-8522-4442-8d17-a94f4c4346a8",
+      "item_name": "Paku kayu 5cm ( satu bungkus atau ½ kg jika ingin ambil semua tidak bisa per pcs)",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-12T10:17:28.347Z"
+    },
     {
       "id": "72b1c4dc-f6f9-42ba-80f4-a53901746482",
       "item_id": "e38077fe-adc1-4929-b1c5-65cc3d46aa1d",
