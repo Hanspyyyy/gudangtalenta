@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "3eab9e33-df76-4862-b6ca-1787511a657b",
+      "name": "Bor listrik  biru",
+      "size": "Sedang",
+      "category": "Mesin",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 8 | NO 3",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/3eab9e33-df76-4862-b6ca-1787511a657b-1794477545583.jpeg",
+      "created_at": "2026-11-12T09:59:06.512Z",
+      "updated_at": "2026-11-12T09:59:06.512Z"
+    },
+    {
       "id": "4b5091d0-2355-4905-b90b-1377f73161a9",
       "name": "sekrup kait atau cantolan bentuk tanda tanya( ada satu kotak kecil, tidak boleh per pcs)",
       "size": "4cm",
@@ -6939,6 +6951,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "f62f165c-104d-482a-86fe-d85d1c7741d5",
+      "item_id": "3eab9e33-df76-4862-b6ca-1787511a657b",
+      "item_name": "Bor listrik  biru",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-12T09:59:06.512Z"
+    },
     {
       "id": "2b3ea49c-da70-407a-88b2-f7f37e13d339",
       "item_id": "81f0099f-9a8c-4862-857c-7c94ed8d2e13",
