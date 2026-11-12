@@ -2203,10 +2203,10 @@
       "category": "Plumbing Fitting",
       "warehouse": "Gudang 1",
       "rack": "1A | 5 | NO 2",
-      "stock": 1,
+      "stock": 2,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/29894375-cc58-46c0-878a-0eb6895f88bb-1793348897338.jpeg",
       "created_at": "2026-10-30T08:28:18.358Z",
-      "updated_at": "2026-10-30T08:28:18.358Z"
+      "updated_at": "2026-11-12T10:14:47.285Z"
     },
     {
       "id": "71df5145-1534-41ea-a36a-7fb2ec2a1ede",
@@ -6987,6 +6987,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "f215f0d0-cefe-46e6-8447-9dde1b4e28ff",
+      "item_id": "29894375-cc58-46c0-878a-0eb6895f88bb",
+      "item_name": "selang fleksibel anyam stainless steel",
+      "action": "STOCK_IN",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-12T10:14:47.285Z"
+    },
     {
       "id": "b845b0f1-75d5-461c-9d37-ccb7051ae1c8",
       "item_id": "50c8fd46-0545-424d-a1e5-ff96d1f4e9b8",
