@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "cde273f0-1b60-418f-9b9a-03c3d31ec5b3",
+      "name": "steker listrik bentuk L (siku) dengan arde",
+      "size": "-",
+      "category": "Kelistrikan",
+      "warehouse": "Gudang 1",
+      "rack": "Kontainer 1",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/cde273f0-1b60-418f-9b9a-03c3d31ec5b3-1794479237059.jpeg",
+      "created_at": "2026-11-12T10:27:18.025Z",
+      "updated_at": "2026-11-12T10:27:18.025Z"
+    },
+    {
       "id": "413c2dec-e4e1-4f55-895a-9732c0541060",
       "name": "Hiled LED Strip COB (Chip on Board) 480 LED/m berukuran lebar 5 mm dengan daya 6 Watt/meter sepanjang 5 meter dan temperatur warna Warm White 3000K (tegangan 24 Volt DC). +",
       "size": "-",
@@ -7047,6 +7059,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "0d4bac04-6088-4f98-91de-88b2c54423e2",
+      "item_id": "cde273f0-1b60-418f-9b9a-03c3d31ec5b3",
+      "item_name": "steker listrik bentuk L (siku) dengan arde",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-12T10:27:18.025Z"
+    },
     {
       "id": "06eca6ed-af01-4e44-9af0-32c2f175eac9",
       "item_id": "413c2dec-e4e1-4f55-895a-9732c0541060",
