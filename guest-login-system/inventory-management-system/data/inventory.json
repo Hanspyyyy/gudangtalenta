@@ -2,7 +2,7 @@
   "items": [
     {
       "id": "df9180ed-e0ec-4714-a64e-523cf5776571",
-      "name": "Skrup SDS 3,5cm (HARUS PER BUNGKUS TIDAK BISA PER PCS)",
+      "name": "Skrup SDS 3,5cm (BERIRIS SATU DUS)",
       "size": "3,5cm",
       "category": "Skrup",
       "warehouse": "Gudang 1",
@@ -10,7 +10,7 @@
       "stock": 1,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/df9180ed-e0ec-4714-a64e-523cf5776571-1794475513783.jpeg",
       "created_at": "2026-11-12T09:25:14.627Z",
-      "updated_at": "2026-11-12T09:25:14.627Z"
+      "updated_at": "2026-11-12T09:28:19.171Z"
     },
     {
       "id": "95c9e880-7492-4e84-b578-699415b6c740",
