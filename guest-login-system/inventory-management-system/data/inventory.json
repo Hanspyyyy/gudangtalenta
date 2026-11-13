@@ -690,11 +690,11 @@
       "size": "-",
       "category": "Finishing & Arsitektural",
       "warehouse": "Gudang 1",
-      "rack": "-",
+      "rack": "1A",
       "stock": 15,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/17be9bd8-1df9-43fb-9de3-4d6b0163722f-1794376754454.jpeg",
       "created_at": "2026-11-11T05:59:15.279Z",
-      "updated_at": "2026-11-11T05:59:15.279Z"
+      "updated_at": "2026-11-13T02:47:21.302Z"
     },
     {
       "id": "c80cb6a6-124b-4862-8ef3-642584aee444",
