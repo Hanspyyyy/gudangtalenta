@@ -631,10 +631,10 @@
       "category": "Kelistrikan",
       "warehouse": "Gudang 1",
       "rack": "Kontainer 1",
-      "stock": 1,
+      "stock": 3,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/422c67c5-cc7e-4eb0-999a-4026abebeb4f-1794377036476.jpeg",
       "created_at": "2026-11-11T06:03:57.383Z",
-      "updated_at": "2026-11-11T06:03:57.383Z"
+      "updated_at": "2026-11-13T02:29:19.636Z"
     },
     {
       "id": "17be9bd8-1df9-43fb-9de3-4d6b0163722f",
@@ -7119,6 +7119,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "c6b68556-836f-47c0-a449-7d2aefec5a07",
+      "item_id": "422c67c5-cc7e-4eb0-999a-4026abebeb4f",
+      "item_name": "junction box (atau sering disebut duradus / box sambung)",
+      "action": "STOCK_IN",
+      "quantity": 2,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-13T02:29:19.636Z"
+    },
     {
       "id": "77b7dc0f-18b5-41ca-bda3-1e3a20b70f08",
       "item_id": "f46869b7-dabd-44fd-b51b-f624c451d180",
