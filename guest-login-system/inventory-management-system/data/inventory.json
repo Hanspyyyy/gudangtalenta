@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "4dc20996-2c6d-4bb6-9625-1cb3ab3bfc6c",
+      "name": "T-bolt (4set)",
+      "size": "-",
+      "category": "Material Struktur",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 2 | NO 2",
+      "stock": 4,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/4dc20996-2c6d-4bb6-9625-1cb3ab3bfc6c-1794544164499.jpeg",
+      "created_at": "2026-11-13T04:29:25.506Z",
+      "updated_at": "2026-11-13T04:29:25.506Z"
+    },
+    {
       "id": "53660caf-1ae6-4395-bd47-6af9ac1eb5a5",
       "name": "U Clamp Hollow 4x4 (atau sering disebut klem U, klip hollow, atau gantungan rangka plafon).",
       "size": "4x4",
@@ -7263,6 +7275,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "7752834a-8db1-4a82-af8c-60f4747770dc",
+      "item_id": "4dc20996-2c6d-4bb6-9625-1cb3ab3bfc6c",
+      "item_name": "T-bolt (4set)",
+      "action": "ADD_ITEM",
+      "quantity": 4,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-13T04:29:25.506Z"
+    },
     {
       "id": "04c6171e-97f5-4c4a-a6f3-26c553e1a59f",
       "item_id": "53660caf-1ae6-4395-bd47-6af9ac1eb5a5",
