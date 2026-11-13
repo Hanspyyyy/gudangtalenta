@@ -7,10 +7,10 @@
       "category": "Finishing & Arsitektural",
       "warehouse": "Gudang 1",
       "rack": "1A | 3 | NO 3,3",
-      "stock": 1,
+      "stock": 3,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/4f355bc7-0c52-4bcc-a0db-867c7c1d2b67-1794538551121.jpeg",
       "created_at": "2026-11-13T02:55:52.007Z",
-      "updated_at": "2026-11-13T02:55:52.007Z"
+      "updated_at": "2026-11-13T02:56:03.080Z"
     },
     {
       "id": "45d98ec6-3199-4dac-8088-7d9b87ff6f73",
@@ -7191,6 +7191,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "75fd2ecd-b953-4b3a-a9c9-f405d7a401b8",
+      "item_id": "4f355bc7-0c52-4bcc-a0db-867c7c1d2b67",
+      "item_name": "tarikan laci atau handle pintu lemari berbahan aluminium cor",
+      "action": "STOCK_IN",
+      "quantity": 2,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-13T02:56:03.080Z"
+    },
     {
       "id": "f147d023-2ea7-4e06-a06f-51181f4d7ad2",
       "item_id": "4f355bc7-0c52-4bcc-a0db-867c7c1d2b67",
