@@ -343,10 +343,10 @@
       "category": "Skrup",
       "warehouse": "Gudang 1",
       "rack": "1A | 3 | NO 3",
-      "stock": 1,
+      "stock": 2,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/ca65bf84-1ce3-4e35-8790-a400820b6a9a-1794476537032.jpeg",
       "created_at": "2026-11-12T09:42:18.059Z",
-      "updated_at": "2026-11-12T09:42:18.059Z"
+      "updated_at": "2026-11-13T03:15:39.461Z"
     },
     {
       "id": "ae5822dd-d66f-4217-bc73-4b9a8288b878",
@@ -7239,6 +7239,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "32b8d1f1-15ec-4e25-81da-8ff0c21c5a68",
+      "item_id": "ca65bf84-1ce3-4e35-8790-a400820b6a9a",
+      "item_name": "Skrup gypsum 7,5 ( 1dus)",
+      "action": "STOCK_IN",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-13T03:15:39.462Z"
+    },
     {
       "id": "23d0183a-6df7-4d31-9e80-f0f38be2cade",
       "item_id": "8d7ef8d1-befa-4ffe-bb13-a818a9d6cab0",
