@@ -7,10 +7,10 @@
       "category": "Material Struktur",
       "warehouse": "Gudang 1",
       "rack": "1A | 2 | NO 2",
-      "stock": 4,
+      "stock": 8,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/4dc20996-2c6d-4bb6-9625-1cb3ab3bfc6c-1794544164499.jpeg",
       "created_at": "2026-11-13T04:29:25.506Z",
-      "updated_at": "2026-11-13T04:29:25.506Z"
+      "updated_at": "2026-11-13T04:29:53.858Z"
     },
     {
       "id": "53660caf-1ae6-4395-bd47-6af9ac1eb5a5",
@@ -7275,6 +7275,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "9249e163-e5d5-4c96-bc29-b16f166303dc",
+      "item_id": "4dc20996-2c6d-4bb6-9625-1cb3ab3bfc6c",
+      "item_name": "T-bolt (4set)",
+      "action": "STOCK_IN",
+      "quantity": 4,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-13T04:29:53.858Z"
+    },
     {
       "id": "7752834a-8db1-4a82-af8c-60f4747770dc",
       "item_id": "4dc20996-2c6d-4bb6-9625-1cb3ab3bfc6c",
