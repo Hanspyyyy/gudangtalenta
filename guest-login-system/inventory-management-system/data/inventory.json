@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "24810524-124a-41ac-ac19-adf66655b2b6",
+      "name": "Hex Socket Grub Screw, yang juga dikenal sebagai baut tanam, set screw, atau baut tanpa kepala.",
+      "size": "8mmX∅8mm",
+      "category": "Socket",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 3 | NO 3,3",
+      "stock": 32,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/24810524-124a-41ac-ac19-adf66655b2b6-1794540084342.jpeg",
+      "created_at": "2026-11-13T03:21:25.380Z",
+      "updated_at": "2026-11-13T03:21:25.380Z"
+    },
+    {
       "id": "8d7ef8d1-befa-4ffe-bb13-a818a9d6cab0",
       "name": "tubular door latch (lidah kunci pintu tubular / spring latch),",
       "size": "-",
@@ -7239,6 +7251,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "56481459-7e26-4576-8232-dc7a10fdf675",
+      "item_id": "24810524-124a-41ac-ac19-adf66655b2b6",
+      "item_name": "Hex Socket Grub Screw, yang juga dikenal sebagai baut tanam, set screw, atau baut tanpa kepala.",
+      "action": "ADD_ITEM",
+      "quantity": 32,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-13T03:21:25.381Z"
+    },
     {
       "id": "32b8d1f1-15ec-4e25-81da-8ff0c21c5a68",
       "item_id": "ca65bf84-1ce3-4e35-8790-a400820b6a9a",
