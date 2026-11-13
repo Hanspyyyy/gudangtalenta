@@ -859,10 +859,10 @@
       "category": "kelistrikan",
       "warehouse": "Gudang 1",
       "rack": "1A | 2 | NO 2",
-      "stock": 100,
+      "stock": 150,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/1c782442-763e-446a-a4b0-4ac7dc6b408b-1794367086859.jpeg",
       "created_at": "2026-11-11T03:18:07.873Z",
-      "updated_at": "2026-11-13T02:30:47.369Z"
+      "updated_at": "2026-11-13T02:31:22.494Z"
     },
     {
       "id": "48254eff-8d4b-4462-b32d-8079bc35a931",
@@ -7119,6 +7119,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "251ee429-d542-467c-a3be-f1f85335ee90",
+      "item_id": "1c782442-763e-446a-a4b0-4ac7dc6b408b",
+      "item_name": "Klip/klem pipa konduit PVC bentuk omega (ukuran 20 mm)",
+      "action": "STOCK_IN",
+      "quantity": 50,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-13T02:31:22.494Z"
+    },
     {
       "id": "c6b68556-836f-47c0-a449-7d2aefec5a07",
       "item_id": "422c67c5-cc7e-4eb0-999a-4026abebeb4f",
