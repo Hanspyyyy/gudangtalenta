@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "53660caf-1ae6-4395-bd47-6af9ac1eb5a5",
+      "name": "U Clamp Hollow 4x4 (atau sering disebut klem U, klip hollow, atau gantungan rangka plafon).",
+      "size": "4x4",
+      "category": "Material Struktur",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 2 | NO 2",
+      "stock": 22,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/53660caf-1ae6-4395-bd47-6af9ac1eb5a5-1794544008440.jpeg",
+      "created_at": "2026-11-13T04:26:49.298Z",
+      "updated_at": "2026-11-13T04:26:49.298Z"
+    },
+    {
       "id": "24810524-124a-41ac-ac19-adf66655b2b6",
       "name": "Hex Socket Grub Screw, yang juga dikenal sebagai baut tanam, set screw, atau baut tanpa kepala.",
       "size": "8mmX∅8mm",
@@ -7251,6 +7263,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "04c6171e-97f5-4c4a-a6f3-26c553e1a59f",
+      "item_id": "53660caf-1ae6-4395-bd47-6af9ac1eb5a5",
+      "item_name": "U Clamp Hollow 4x4 (atau sering disebut klem U, klip hollow, atau gantungan rangka plafon).",
+      "action": "ADD_ITEM",
+      "quantity": 22,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-13T04:26:49.298Z"
+    },
     {
       "id": "56481459-7e26-4576-8232-dc7a10fdf675",
       "item_id": "24810524-124a-41ac-ac19-adf66655b2b6",
