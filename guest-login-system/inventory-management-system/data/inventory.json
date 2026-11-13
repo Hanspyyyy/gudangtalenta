@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "f46869b7-dabd-44fd-b51b-f624c451d180",
+      "name": "Silinder kunci pintu knob putar (euro profile cylinder with thumbturn)  tidak ada kunci",
+      "size": "-",
+      "category": "Finishing & Arsitektural",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 3 | NO 3,3",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/f46869b7-dabd-44fd-b51b-f624c451d180-1794536928773.jpeg",
+      "created_at": "2026-11-13T02:28:49.679Z",
+      "updated_at": "2026-11-13T02:28:49.679Z"
+    },
+    {
       "id": "fb08bb4c-f60d-4fb4-8cac-a2fc625a8775",
       "name": "X",
       "size": "-",
@@ -7107,6 +7119,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "77b7dc0f-18b5-41ca-bda3-1e3a20b70f08",
+      "item_id": "f46869b7-dabd-44fd-b51b-f624c451d180",
+      "item_name": "Silinder kunci pintu knob putar (euro profile cylinder with thumbturn)  tidak ada kunci",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-13T02:28:49.679Z"
+    },
     {
       "id": "9b598856-d7a0-4359-bccd-050b81332ede",
       "item_id": "fb08bb4c-f60d-4fb4-8cac-a2fc625a8775",
