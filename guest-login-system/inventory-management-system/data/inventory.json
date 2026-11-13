@@ -1315,10 +1315,10 @@
       "category": "Material Struktur",
       "warehouse": "Gudang 2",
       "rack": "2c",
-      "stock": 2,
+      "stock": 0,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/60ad57ee-8cbf-4ffb-9ed0-ff66e0ee1101-1794197498214.jpeg",
       "created_at": "2026-11-09T04:11:39.145Z",
-      "updated_at": "2026-11-13T07:47:16.241Z"
+      "updated_at": "2026-11-13T07:47:29.327Z"
     },
     {
       "id": "d2106b1e-6a37-4ba4-b2f6-02ba49930064",
@@ -7299,6 +7299,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "f0aa3842-b8b1-41a2-b161-827bbc9060f6",
+      "item_id": "60ad57ee-8cbf-4ffb-9ed0-ff66e0ee1101",
+      "item_name": "Hollo besi besar",
+      "action": "STOCK_OUT",
+      "quantity": 2,
+      "warehouse": "Gudang 2",
+      "timestamp": "2026-11-13T07:47:29.327Z"
+    },
     {
       "id": "35bf6db6-9946-4c9b-b147-262110ed68ee",
       "item_id": "60ad57ee-8cbf-4ffb-9ed0-ff66e0ee1101",
