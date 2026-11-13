@@ -1951,10 +1951,10 @@
       "category": "Kunci & Perkakas",
       "warehouse": "Gudang 1",
       "rack": "1A | 3 | NO 3",
-      "stock": 3,
+      "stock": 2,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/9a923fd6-759f-47e2-8555-2a788e52dcc3-1793777209102.jpeg",
       "created_at": "2026-11-04T07:26:49.944Z",
-      "updated_at": "2026-11-05T01:54:49.461Z"
+      "updated_at": "2026-11-13T03:11:47.410Z"
     },
     {
       "id": "23835ded-3cff-4ed2-8caf-20684f4a65ee",
@@ -7227,6 +7227,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "653ce1e9-2e49-49ab-8ff1-f5a85a8d73c0",
+      "item_id": "9a923fd6-759f-47e2-8555-2a788e52dcc3",
+      "item_name": "penahan jendela putar atau ramskar putar",
+      "action": "STOCK_OUT",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-13T03:11:47.410Z"
+    },
     {
       "id": "d8eaa1e7-9973-4196-907b-f838754541c1",
       "item_id": "45684ca4-c1ea-4516-ab55-dc97086afdea",
