@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "6be9ccbd-4fc5-4440-9973-d5d70fe06e31",
+      "name": "Grendel atau slot tanam pintu (flush bolt)",
+      "size": "15x4",
+      "category": "Finishing & Arsitektural",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 3 | NO 3,3",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/6be9ccbd-4fc5-4440-9973-d5d70fe06e31-1794537366083.jpeg",
+      "created_at": "2026-11-13T02:36:06.901Z",
+      "updated_at": "2026-11-13T02:36:06.901Z"
+    },
+    {
       "id": "f46869b7-dabd-44fd-b51b-f624c451d180",
       "name": "Silinder kunci pintu knob putar (euro profile cylinder with thumbturn)  tidak ada kunci",
       "size": "-",
@@ -7119,6 +7131,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "6759c850-14e5-4649-98a3-85de5f2af750",
+      "item_id": "6be9ccbd-4fc5-4440-9973-d5d70fe06e31",
+      "item_name": "Grendel atau slot tanam pintu (flush bolt)",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-13T02:36:06.901Z"
+    },
     {
       "id": "251ee429-d542-467c-a3be-f1f85335ee90",
       "item_id": "1c782442-763e-446a-a4b0-4ac7dc6b408b",
