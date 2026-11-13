@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "45684ca4-c1ea-4516-ab55-dc97086afdea",
+      "name": "double nepel (atau nipple kuningan)16mmx20mm",
+      "size": "20x16mm",
+      "category": "Plumbing Fitting",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 5 | NO 2",
+      "stock": 2,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/45684ca4-c1ea-4516-ab55-dc97086afdea-1794538961025.jpeg",
+      "created_at": "2026-11-13T03:02:42.383Z",
+      "updated_at": "2026-11-13T03:02:42.383Z"
+    },
+    {
       "id": "4852a6de-6053-41bb-92d2-9f573b5eff58",
       "name": "Dudukan shower",
       "size": "-",
@@ -7215,6 +7227,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "d8eaa1e7-9973-4196-907b-f838754541c1",
+      "item_id": "45684ca4-c1ea-4516-ab55-dc97086afdea",
+      "item_name": "double nepel (atau nipple kuningan)16mmx20mm",
+      "action": "ADD_ITEM",
+      "quantity": 2,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-13T03:02:42.383Z"
+    },
     {
       "id": "a97a24af-4672-4ee8-8dbd-73bf90ee3a76",
       "item_id": "4852a6de-6053-41bb-92d2-9f573b5eff58",
