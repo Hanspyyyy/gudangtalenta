@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "8d7ef8d1-befa-4ffe-bb13-a818a9d6cab0",
+      "name": "tubular door latch (lidah kunci pintu tubular / spring latch),",
+      "size": "-",
+      "category": "Finishing & Arsitektural",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 3 | NO 3,3",
+      "stock": 2,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/8d7ef8d1-befa-4ffe-bb13-a818a9d6cab0-1794539618597.jpeg",
+      "created_at": "2026-11-13T03:13:39.417Z",
+      "updated_at": "2026-11-13T03:13:39.417Z"
+    },
+    {
       "id": "45684ca4-c1ea-4516-ab55-dc97086afdea",
       "name": "double nepel (atau nipple kuningan)16mmx20mm",
       "size": "20x16mm",
@@ -7227,6 +7239,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "23d0183a-6df7-4d31-9e80-f0f38be2cade",
+      "item_id": "8d7ef8d1-befa-4ffe-bb13-a818a9d6cab0",
+      "item_name": "tubular door latch (lidah kunci pintu tubular / spring latch),",
+      "action": "ADD_ITEM",
+      "quantity": 2,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-13T03:13:39.417Z"
+    },
     {
       "id": "653ce1e9-2e49-49ab-8ff1-f5a85a8d73c0",
       "item_id": "9a923fd6-759f-47e2-8555-2a788e52dcc3",
