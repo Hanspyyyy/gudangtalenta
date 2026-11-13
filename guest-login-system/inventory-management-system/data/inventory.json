@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "105ae41a-a333-42aa-a496-84a8d0e95253",
+      "name": "Klem kuku macan (klem sisir grounding) adalah aksesoris kelistrikan yang digunakan untuk menyambungkan atau menjepit kabel Bare Copper (BC) / kabel grounding ke kabel lain atau ke ground rod (batang penangkal petir).",
+      "size": "Sesuai foto",
+      "category": "Kelistrikan",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 2 | NO 2",
+      "stock": 3,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/105ae41a-a333-42aa-a496-84a8d0e95253-1794544541471.jpeg",
+      "created_at": "2026-11-13T04:35:42.419Z",
+      "updated_at": "2026-11-13T04:35:42.419Z"
+    },
+    {
       "id": "008061cc-e90a-4bfb-9bac-30111e666e0f",
       "name": "klem penjepit grounding rod (klem kawat BC ke batang penangkal petir)",
       "size": "P4,5",
@@ -7287,6 +7299,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "8064e19e-9115-4477-b998-8bccc6220320",
+      "item_id": "105ae41a-a333-42aa-a496-84a8d0e95253",
+      "item_name": "Klem kuku macan (klem sisir grounding) adalah aksesoris kelistrikan yang digunakan untuk menyambungkan atau menjepit kabel Bare Copper (BC) / kabel grounding ke kabel lain atau ke ground rod (batang penangkal petir).",
+      "action": "ADD_ITEM",
+      "quantity": 3,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-13T04:35:42.419Z"
+    },
     {
       "id": "e654397a-f171-4901-bd8a-3046faa73c57",
       "item_id": "008061cc-e90a-4bfb-9bac-30111e666e0f",
