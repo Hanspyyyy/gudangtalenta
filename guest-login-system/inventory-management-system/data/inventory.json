@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "008061cc-e90a-4bfb-9bac-30111e666e0f",
+      "name": "klem penjepit grounding rod (klem kawat BC ke batang penangkal petir)",
+      "size": "P4,5",
+      "category": "Kelistrikan",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 3 | NO 3",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/008061cc-e90a-4bfb-9bac-30111e666e0f-1794544375490.jpeg",
+      "created_at": "2026-11-13T04:32:56.379Z",
+      "updated_at": "2026-11-13T04:32:56.379Z"
+    },
+    {
       "id": "4dc20996-2c6d-4bb6-9625-1cb3ab3bfc6c",
       "name": "T-bolt (4set)",
       "size": "-",
@@ -7275,6 +7287,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "e654397a-f171-4901-bd8a-3046faa73c57",
+      "item_id": "008061cc-e90a-4bfb-9bac-30111e666e0f",
+      "item_name": "klem penjepit grounding rod (klem kawat BC ke batang penangkal petir)",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-13T04:32:56.379Z"
+    },
     {
       "id": "9249e163-e5d5-4c96-bc29-b16f166303dc",
       "item_id": "4dc20996-2c6d-4bb6-9625-1cb3ab3bfc6c",
