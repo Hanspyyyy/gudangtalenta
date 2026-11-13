@@ -7,10 +7,10 @@
       "category": "Finishing & Arsitektural",
       "warehouse": "Gudang 1",
       "rack": "1A | 3 | NO 3,3",
-      "stock": 1,
+      "stock": 2,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/a7487951-c26f-4957-a02b-42331bf6754f-1794537676299.jpeg",
       "created_at": "2026-11-13T02:41:17.114Z",
-      "updated_at": "2026-11-13T02:41:17.114Z"
+      "updated_at": "2026-11-13T02:41:37.721Z"
     },
     {
       "id": "6be9ccbd-4fc5-4440-9973-d5d70fe06e31",
@@ -7143,6 +7143,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "3e9d3e52-a95c-48ce-877b-75c46dd183d3",
+      "item_id": "a7487951-c26f-4957-a02b-42331bf6754f",
+      "item_name": "engsel pivot atas (top pivot hinge)",
+      "action": "STOCK_IN",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-13T02:41:37.721Z"
+    },
     {
       "id": "66bb60b8-fdce-494e-8e50-ec517d98843b",
       "item_id": "a7487951-c26f-4957-a02b-42331bf6754f",
