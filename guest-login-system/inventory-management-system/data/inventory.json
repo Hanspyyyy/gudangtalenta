@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "da77e79e-98ae-4bcb-bcbd-0fde2372e786",
+      "name": "ventilasi kolong dapur (air vent grille) hitam",
+      "size": "Dalam 6,5x36,8 luar 40x8",
+      "category": "Finishing & Arsitektural",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 3 | NO 3",
+      "stock": 3,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/da77e79e-98ae-4bcb-bcbd-0fde2372e786-1794816638011.jpeg",
+      "created_at": "2026-11-16T08:10:39.782Z",
+      "updated_at": "2026-11-16T08:10:39.782Z"
+    },
+    {
       "id": "a030f64b-6942-44ae-963e-d1fd465b630c",
       "name": "ventilasi kolong dapur (air vent grille) hitam",
       "size": "Dalam 8x3,5 luar 40x5",
@@ -7383,6 +7395,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "d675f62f-6801-45c9-94e1-e71d7b241949",
+      "item_id": "da77e79e-98ae-4bcb-bcbd-0fde2372e786",
+      "item_name": "ventilasi kolong dapur (air vent grille) hitam",
+      "action": "ADD_ITEM",
+      "quantity": 3,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-16T08:10:39.782Z"
+    },
     {
       "id": "e4549a65-3880-4fb5-a14e-bd42f2703bd4",
       "item_id": "a030f64b-6942-44ae-963e-d1fd465b630c",
