@@ -7,10 +7,10 @@
       "category": "Architectural Hardware",
       "warehouse": "Gudang 1",
       "rack": "1A | 3 | NO 3",
-      "stock": 0,
+      "stock": 1,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/0effef4a-b07d-403e-ab64-5448bea4b868-1794815974901.jpeg",
       "created_at": "2026-11-16T07:59:35.924Z",
-      "updated_at": "2026-11-16T07:59:35.924Z"
+      "updated_at": "2026-11-16T07:59:43.880Z"
     },
     {
       "id": "fa404e00-678c-401c-9484-eb63f8b2221f",
@@ -7359,6 +7359,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "028ae451-5b87-43b9-aff4-d87ea887a488",
+      "item_id": "0effef4a-b07d-403e-ab64-5448bea4b868",
+      "item_name": "kunci pintu bulat (cylindrical knob lock), yang biasa digunakan untuk pintu kamar mandi, pintu kamar tidur, atau pintu kayu/PVC",
+      "action": "STOCK_IN",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-16T07:59:43.880Z"
+    },
     {
       "id": "4c882b7e-bdaa-4fa0-8971-1f87dd8ff479",
       "item_id": "0effef4a-b07d-403e-ab64-5448bea4b868",
