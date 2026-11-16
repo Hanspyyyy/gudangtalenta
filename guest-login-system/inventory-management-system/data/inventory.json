@@ -295,10 +295,10 @@
       "category": "Skrup",
       "warehouse": "Gudang 1",
       "rack": "1A | 3 | NO 3",
-      "stock": 1,
+      "stock": 0,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/9df1c8ef-750a-443b-b6b6-7bfdf28781a8-1794478734513.jpeg",
       "created_at": "2026-11-12T10:18:55.424Z",
-      "updated_at": "2026-11-12T10:18:55.424Z"
+      "updated_at": "2026-11-16T02:13:53.093Z"
     },
     {
       "id": "def4b6c7-8522-4442-8d17-a94f4c4346a8",
@@ -7299,6 +7299,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "a35118a1-92a0-424a-9722-d2774dd55e75",
+      "item_id": "9df1c8ef-750a-443b-b6b6-7bfdf28781a8",
+      "item_name": "Paku beton 7cm ( 1 kotak)",
+      "action": "STOCK_OUT",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-16T02:13:53.093Z"
+    },
     {
       "id": "4770b182-a59b-44f1-823c-a0d738a8d67c",
       "item_id": "de166e3f-6168-4355-b062-31eff2806779",
