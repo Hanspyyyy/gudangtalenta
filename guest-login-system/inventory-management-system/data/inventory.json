@@ -3175,10 +3175,10 @@
       "category": "Listrik",
       "warehouse": "Ruang Meet",
       "rack": "-",
-      "stock": 10,
+      "stock": 0,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/1b55d050-a785-4752-8c83-c132a8657a8b-1793081886251.jpeg",
       "created_at": "2026-10-27T06:18:07.247Z",
-      "updated_at": "2026-10-27T06:18:07.247Z"
+      "updated_at": "2026-11-16T02:18:11.628Z"
     },
     {
       "id": "e5e93c06-c347-45d8-9a24-d66a2705b27c",
@@ -7299,6 +7299,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "a27c8e01-d9d0-4468-9b3f-649dde5ec125",
+      "item_id": "1b55d050-a785-4752-8c83-c132a8657a8b",
+      "item_name": "Inbowdus nero (dokgi)",
+      "action": "STOCK_OUT",
+      "quantity": 10,
+      "warehouse": "Ruang Meet",
+      "timestamp": "2026-11-16T02:18:11.628Z"
+    },
     {
       "id": "a35118a1-92a0-424a-9722-d2774dd55e75",
       "item_id": "9df1c8ef-750a-443b-b6b6-7bfdf28781a8",
