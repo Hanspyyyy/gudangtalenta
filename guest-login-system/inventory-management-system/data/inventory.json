@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "236501f9-2788-4d8b-a24b-cd7f3c6a0d02",
+      "name": "Stop kontak schineider",
+      "size": "-",
+      "category": "Kelistrikan",
+      "warehouse": "Gudang 1",
+      "rack": "Kontainer 1",
+      "stock": 3,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/236501f9-2788-4d8b-a24b-cd7f3c6a0d02-1794819013855.jpeg",
+      "created_at": "2026-11-16T08:50:15.600Z",
+      "updated_at": "2026-11-16T08:50:15.600Z"
+    },
+    {
       "id": "6482448c-d50b-459c-abda-d6cb7fb5451a",
       "name": "Perangkat pada gambar adalah Schneider Electric (Clipsal) S-Classic Outlet TV (Coaxial Cable Outlet) tipe E31TV75_WE_G12.",
       "size": "-",
@@ -7467,6 +7479,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "37ca36f1-527a-4f9c-8ef1-82b4083038e7",
+      "item_id": "236501f9-2788-4d8b-a24b-cd7f3c6a0d02",
+      "item_name": "Stop kontak schineider",
+      "action": "ADD_ITEM",
+      "quantity": 3,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-16T08:50:15.600Z"
+    },
     {
       "id": "380be9cc-987c-4c63-8ef1-5b794d4e117b",
       "item_id": "6482448c-d50b-459c-abda-d6cb7fb5451a",
