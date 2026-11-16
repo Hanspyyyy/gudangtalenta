@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "c1d0767e-3a37-4aab-afac-dad31d03480d",
+      "name": "Inbow Dus (Inbowdoos) merek Simon tipe 60710-50",
+      "size": "7,5 cm x 7,5 cm x 5 cm",
+      "category": "Kelistrikan",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 2 | NO 5",
+      "stock": 4,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/c1d0767e-3a37-4aab-afac-dad31d03480d-1794818677093.jpeg",
+      "created_at": "2026-11-16T08:44:38.679Z",
+      "updated_at": "2026-11-16T08:44:38.679Z"
+    },
+    {
       "id": "d174e82e-e34f-4386-8775-ddccc31d21d4",
       "name": "Grendel tanam pintu (flush bolt)",
       "size": "61x2",
@@ -7443,6 +7455,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "a745b48f-2c02-4044-b978-ba97bf74fd57",
+      "item_id": "c1d0767e-3a37-4aab-afac-dad31d03480d",
+      "item_name": "Inbow Dus (Inbowdoos) merek Simon tipe 60710-50",
+      "action": "ADD_ITEM",
+      "quantity": 4,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-16T08:44:38.679Z"
+    },
     {
       "id": "bcb65c45-b1f9-4b47-a599-989e3d4a9821",
       "item_id": "d174e82e-e34f-4386-8775-ddccc31d21d4",
