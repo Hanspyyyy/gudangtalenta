@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "77266aea-5de9-4dbe-bd88-19816a6f1d3e",
+      "name": "ventilasi kolong dapur (air vent grille)",
+      "size": "Dalam 7,5x3,5 luar 30x5",
+      "category": "Finishing Arsitektural",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 3 | NO 3",
+      "stock": 3,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/77266aea-5de9-4dbe-bd88-19816a6f1d3e-1794816345221.jpeg",
+      "created_at": "2026-11-16T08:05:46.398Z",
+      "updated_at": "2026-11-16T08:05:46.398Z"
+    },
+    {
       "id": "0effef4a-b07d-403e-ab64-5448bea4b868",
       "name": "kunci pintu bulat (cylindrical knob lock), yang biasa digunakan untuk pintu kamar mandi, pintu kamar tidur, atau pintu kayu/PVC",
       "size": "7x∅7,5∅5",
@@ -7359,6 +7371,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "6414b253-b6a6-4a20-9a5d-d4a8e6a84406",
+      "item_id": "77266aea-5de9-4dbe-bd88-19816a6f1d3e",
+      "item_name": "ventilasi kolong dapur (air vent grille)",
+      "action": "ADD_ITEM",
+      "quantity": 3,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-16T08:05:46.398Z"
+    },
     {
       "id": "028ae451-5b87-43b9-aff4-d87ea887a488",
       "item_id": "0effef4a-b07d-403e-ab64-5448bea4b868",
