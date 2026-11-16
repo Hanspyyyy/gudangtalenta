@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "45630436-06b9-4271-9cac-a784eaa7bab0",
+      "name": "TOTO Kran Dapur TX607KESBR (Panas Dingin / Wall Sink Mixer).",
+      "size": "-",
+      "category": "Plumbing Fitting",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 5 | NO 2",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/45630436-06b9-4271-9cac-a784eaa7bab0-1794815163966.jpeg",
+      "created_at": "2026-11-16T07:46:04.938Z",
+      "updated_at": "2026-11-16T07:46:04.938Z"
+    },
+    {
       "id": "3d4d173f-ff40-445a-b9b9-2d51aa8bce3d",
       "name": "Handrail shower mik eetrom ( pulangan mana ini ga jls)",
       "size": "∅36 ↓812 ↑ 65↓ 60 500",
@@ -7311,6 +7323,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "e1b917ba-92d6-4952-ae81-0dcc8fdfffd2",
+      "item_id": "45630436-06b9-4271-9cac-a784eaa7bab0",
+      "item_name": "TOTO Kran Dapur TX607KESBR (Panas Dingin / Wall Sink Mixer).",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-16T07:46:04.938Z"
+    },
     {
       "id": "10abca19-7d24-4ad0-9edb-5d67031c9b1a",
       "item_id": "46333d5e-fbaf-46f8-8029-0da66654a05d",
