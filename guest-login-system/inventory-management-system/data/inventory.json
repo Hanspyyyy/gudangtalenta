@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "fa404e00-678c-401c-9484-eb63f8b2221f",
+      "name": "rak kawat besi/baja tahan karat (wire rack) yang umumnya digunakan sebagai rak oven (pemanggang) atau rak pendingin kue (cooling rack) di dapur",
+      "size": "7,3x4,5",
+      "category": "Finishing & Arsitektural",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 2 | NO 4",
+      "stock": 2,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/fa404e00-678c-401c-9484-eb63f8b2221f-1794815635839.jpeg",
+      "created_at": "2026-11-16T07:53:56.766Z",
+      "updated_at": "2026-11-16T07:53:56.766Z"
+    },
+    {
       "id": "3e1f9958-9c54-457e-96ec-39a3456feb4b",
       "name": "engsel pintu oven (oven door hinge),",
       "size": "-",
@@ -7335,6 +7347,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "4c7cb1fb-74a1-47ed-8291-7eed9b7f2e9b",
+      "item_id": "fa404e00-678c-401c-9484-eb63f8b2221f",
+      "item_name": "rak kawat besi/baja tahan karat (wire rack) yang umumnya digunakan sebagai rak oven (pemanggang) atau rak pendingin kue (cooling rack) di dapur",
+      "action": "ADD_ITEM",
+      "quantity": 2,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-16T07:53:56.766Z"
+    },
     {
       "id": "a1bdb743-c3a5-4ed9-82dc-29f7fb48380a",
       "item_id": "3e1f9958-9c54-457e-96ec-39a3456feb4b",
