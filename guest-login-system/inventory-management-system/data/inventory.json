@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "24c95c6d-4d2c-4a39-8281-98bcab4ff0a5",
+      "name": "Grendel tanam pintu (flush bolt)",
+      "size": "61x2",
+      "category": "Finishing & Arsitektural",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 3 | NO 3",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/24c95c6d-4d2c-4a39-8281-98bcab4ff0a5-1794818178355.jpeg",
+      "created_at": "2026-11-16T08:36:19.825Z",
+      "updated_at": "2026-11-16T08:36:19.825Z"
+    },
+    {
       "id": "ed65b92b-9903-435d-a222-6b55ff17f7cc",
       "name": "Door bottom seal (sisa Wijaya)",
       "size": "-",
@@ -7419,6 +7431,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "d8dbc2af-a46e-45fa-b2fa-bef864f54a60",
+      "item_id": "24c95c6d-4d2c-4a39-8281-98bcab4ff0a5",
+      "item_name": "Grendel tanam pintu (flush bolt)",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-16T08:36:19.825Z"
+    },
     {
       "id": "fc7e74ff-05e2-468d-8e30-62593371e923",
       "item_id": "14f85591-f81a-46bb-886f-ce1f4618c0dd",
