@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "ed65b92b-9903-435d-a222-6b55ff17f7cc",
+      "name": "Door bottom seal (sisa Wijaya)",
+      "size": "-",
+      "category": "Finishing & Arsitektural",
+      "warehouse": "Gudang 1",
+      "rack": "1A",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/ed65b92b-9903-435d-a222-6b55ff17f7cc-1794817218160.jpeg",
+      "created_at": "2026-11-16T08:20:19.340Z",
+      "updated_at": "2026-11-16T08:20:19.340Z"
+    },
+    {
       "id": "8da111ff-aedb-4816-909b-17b221910581",
       "name": "Skrup gypsum 5cm (tidak bisa per pcs ambil satu plastik kecil)",
       "size": "5",
@@ -7407,6 +7419,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "57098cfa-5337-47be-b6b9-ce3c3bdd932d",
+      "item_id": "ed65b92b-9903-435d-a222-6b55ff17f7cc",
+      "item_name": "Door bottom seal (sisa Wijaya)",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-16T08:20:19.340Z"
+    },
     {
       "id": "6db612bc-ef21-4aa5-accc-62cfe6ceddd4",
       "item_id": "8da111ff-aedb-4816-909b-17b221910581",
