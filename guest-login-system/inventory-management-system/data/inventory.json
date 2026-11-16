@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "3d4d173f-ff40-445a-b9b9-2d51aa8bce3d",
+      "name": "Handrail shower mik eetrom ( pulangan mana ini ga jls)",
+      "size": "∅36 ↓812 ↑ 65↓ 60 500",
+      "category": "Plumbing Fitting",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 3 | NO 3",
+      "stock": 4,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/3d4d173f-ff40-445a-b9b9-2d51aa8bce3d-1794814600733.jpeg",
+      "created_at": "2026-11-16T07:36:41.624Z",
+      "updated_at": "2026-11-16T07:36:41.624Z"
+    },
+    {
       "id": "105ae41a-a333-42aa-a496-84a8d0e95253",
       "name": "Klem kuku macan (klem sisir grounding) adalah aksesoris kelistrikan yang digunakan untuk menyambungkan atau menjepit kabel Bare Copper (BC) / kabel grounding ke kabel lain atau ke ground rod (batang penangkal petir).",
       "size": "Sesuai foto",
@@ -7299,6 +7311,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "6e0f0b9c-0b10-4433-ae77-38e823e5c97f",
+      "item_id": "3d4d173f-ff40-445a-b9b9-2d51aa8bce3d",
+      "item_name": "Handrail shower mik eetrom ( pulangan mana ini ga jls)",
+      "action": "ADD_ITEM",
+      "quantity": 4,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-16T07:36:41.624Z"
+    },
     {
       "id": "a27c8e01-d9d0-4468-9b3f-649dde5ec125",
       "item_id": "1b55d050-a785-4752-8c83-c132a8657a8b",
