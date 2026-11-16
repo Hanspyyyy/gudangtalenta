@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "6482448c-d50b-459c-abda-d6cb7fb5451a",
+      "name": "Perangkat pada gambar adalah Schneider Electric (Clipsal) S-Classic Outlet TV (Coaxial Cable Outlet) tipe E31TV75_WE_G12.",
+      "size": "-",
+      "category": "Kelistrikan",
+      "warehouse": "Gudang 1",
+      "rack": "Kontainer 1",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/6482448c-d50b-459c-abda-d6cb7fb5451a-1794818905790.jpeg",
+      "created_at": "2026-11-16T08:48:27.664Z",
+      "updated_at": "2026-11-16T08:48:27.664Z"
+    },
+    {
       "id": "c1d0767e-3a37-4aab-afac-dad31d03480d",
       "name": "Inbow Dus (Inbowdoos) merek Simon tipe 60710-50",
       "size": "7,5 cm x 7,5 cm x 5 cm",
@@ -7455,6 +7467,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "380be9cc-987c-4c63-8ef1-5b794d4e117b",
+      "item_id": "6482448c-d50b-459c-abda-d6cb7fb5451a",
+      "item_name": "Perangkat pada gambar adalah Schneider Electric (Clipsal) S-Classic Outlet TV (Coaxial Cable Outlet) tipe E31TV75_WE_G12.",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-16T08:48:27.664Z"
+    },
     {
       "id": "a745b48f-2c02-4044-b978-ba97bf74fd57",
       "item_id": "c1d0767e-3a37-4aab-afac-dad31d03480d",
