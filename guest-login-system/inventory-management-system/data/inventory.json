@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "e8d33f76-8252-4e30-8c5b-fd9487f4c6ed",
+      "name": "Stop kontak Simon grey (lecet)",
+      "size": "-",
+      "category": "Kelistrikan",
+      "warehouse": "Gudang 1",
+      "rack": "Kontainer 1",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/e8d33f76-8252-4e30-8c5b-fd9487f4c6ed-1794819125540.jpeg",
+      "created_at": "2026-11-16T08:52:06.789Z",
+      "updated_at": "2026-11-16T08:52:06.789Z"
+    },
+    {
       "id": "236501f9-2788-4d8b-a24b-cd7f3c6a0d02",
       "name": "Stop kontak schineider",
       "size": "-",
@@ -7479,6 +7491,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "8e73fbe2-9e9d-472f-bc26-6d4f7d61042f",
+      "item_id": "e8d33f76-8252-4e30-8c5b-fd9487f4c6ed",
+      "item_name": "Stop kontak Simon grey (lecet)",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-16T08:52:06.789Z"
+    },
     {
       "id": "4f399083-8991-439c-bd31-eeab7ab0ff8e",
       "item_id": "236501f9-2788-4d8b-a24b-cd7f3c6a0d02",
