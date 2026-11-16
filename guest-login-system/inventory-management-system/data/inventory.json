@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "d174e82e-e34f-4386-8775-ddccc31d21d4",
+      "name": "Grendel tanam pintu (flush bolt)",
+      "size": "61x2",
+      "category": "Finishing & Arsitektural",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 3 | NO 3",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/d174e82e-e34f-4386-8775-ddccc31d21d4-1794818234689.jpeg",
+      "created_at": "2026-11-16T08:37:16.501Z",
+      "updated_at": "2026-11-16T08:37:16.501Z"
+    },
+    {
       "id": "24c95c6d-4d2c-4a39-8281-98bcab4ff0a5",
       "name": "Grendel tanam pintu (flush bolt)",
       "size": "61x2",
@@ -7431,6 +7443,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "bcb65c45-b1f9-4b47-a599-989e3d4a9821",
+      "item_id": "d174e82e-e34f-4386-8775-ddccc31d21d4",
+      "item_name": "Grendel tanam pintu (flush bolt)",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-16T08:37:16.502Z"
+    },
     {
       "id": "d8dbc2af-a46e-45fa-b2fa-bef864f54a60",
       "item_id": "24c95c6d-4d2c-4a39-8281-98bcab4ff0a5",
