@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "2177a6fe-9c2d-4091-8cc5-8fd0c79e2dfd",
+      "name": "Mur hollow (perbungkus )",
+      "size": "-",
+      "category": "Finishing & Arsitektural",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 3 | NO 5",
+      "stock": 2,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/2177a6fe-9c2d-4091-8cc5-8fd0c79e2dfd-1794987041606.jpeg",
+      "created_at": "2026-11-18T07:30:42.510Z",
+      "updated_at": "2026-11-18T07:30:42.510Z"
+    },
+    {
       "id": "018778ed-e7ed-4852-a044-cf19cf8a5756",
       "name": "plat hollow atau ring hollow (klem hollow) (satu pelastik )",
       "size": "-",
@@ -7959,6 +7971,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "4c3852e7-8b1c-4682-8cff-2fec05e2a298",
+      "item_id": "2177a6fe-9c2d-4091-8cc5-8fd0c79e2dfd",
+      "item_name": "Mur hollow (perbungkus )",
+      "action": "ADD_ITEM",
+      "quantity": 2,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-18T07:30:42.510Z"
+    },
     {
       "id": "c6b6e7bf-bdf4-4394-b5f7-38422e84d386",
       "item_id": "018778ed-e7ed-4852-a044-cf19cf8a5756",
