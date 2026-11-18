@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "5d72f1f4-2797-4e27-ae89-886656bc6688",
+      "name": "gagang pintu model tuas (lever door handle) (Wijaya)",
+      "size": "-",
+      "category": "Architectural Hardware",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 3 | NO 3",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/5d72f1f4-2797-4e27-ae89-886656bc6688-1794985309562.jpeg",
+      "created_at": "2026-11-18T07:01:50.421Z",
+      "updated_at": "2026-11-18T07:01:50.421Z"
+    },
+    {
       "id": "3f40b67e-5b17-42ec-ab03-28bc24c52f90",
       "name": "silinder kunci pintu",
       "size": "-",
@@ -7875,6 +7887,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "3f92e1c5-b9ab-4e10-98e7-cc00994070f7",
+      "item_id": "5d72f1f4-2797-4e27-ae89-886656bc6688",
+      "item_name": "gagang pintu model tuas (lever door handle) (Wijaya)",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-18T07:01:50.421Z"
+    },
     {
       "id": "a8d217fb-c8d6-47da-b9ba-5a73290bd9a9",
       "item_id": "3f40b67e-5b17-42ec-ab03-28bc24c52f90",
