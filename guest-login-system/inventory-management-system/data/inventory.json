@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "86a20461-f39b-4a91-8421-6fe49ade302a",
+      "name": "door closer pegas/otomatis (penutup pintu otomatis) berwarna hitam dengan lengan ayun logam (Wijaya)",
+      "size": "-",
+      "category": "Architectural Hardware",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 3 | NO 3",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/86a20461-f39b-4a91-8421-6fe49ade302a-1794983690292.jpeg",
+      "created_at": "2026-11-18T06:34:51.168Z",
+      "updated_at": "2026-11-18T06:34:51.168Z"
+    },
+    {
       "id": "9e9916e4-240e-4c87-a600-9367a8c4b71d",
       "name": "baut kait/hak seperti roofing hook bolt atau bracket lavatory TOTO (Wijaya)",
       "size": "-",
@@ -7671,6 +7683,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "6c8312cf-93e3-49d9-9836-ce51d5b24456",
+      "item_id": "86a20461-f39b-4a91-8421-6fe49ade302a",
+      "item_name": "door closer pegas/otomatis (penutup pintu otomatis) berwarna hitam dengan lengan ayun logam (Wijaya)",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-18T06:34:51.168Z"
+    },
     {
       "id": "3e257499-c253-4de2-816e-6686bcc58c09",
       "item_id": "9e9916e4-240e-4c87-a600-9367a8c4b71d",
