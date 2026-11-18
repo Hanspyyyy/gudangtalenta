@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "628ef2b2-521f-4665-8325-c8fa697b1c0f",
+      "name": "gagang jendela aluminium (rambuncis / casement handle) (Wijaya)",
+      "size": "-",
+      "category": "Architectural Hardware",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 3 | NO 3",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/628ef2b2-521f-4665-8325-c8fa697b1c0f-1794984019901.jpeg",
+      "created_at": "2026-11-18T06:40:20.914Z",
+      "updated_at": "2026-11-18T06:40:20.914Z"
+    },
+    {
       "id": "e6fbd1e2-5bad-48d9-a4b6-2341ac0fb654",
       "name": "Steel dor (Wijaya)",
       "size": "-",
@@ -7719,6 +7731,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "8b3b0eaa-f52a-4bcb-bca4-9bbc2b7653d7",
+      "item_id": "628ef2b2-521f-4665-8325-c8fa697b1c0f",
+      "item_name": "gagang jendela aluminium (rambuncis / casement handle) (Wijaya)",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-18T06:40:20.914Z"
+    },
     {
       "id": "5120e1b3-e3fa-49d8-9245-66ce7a92a32b",
       "item_id": "e6fbd1e2-5bad-48d9-a4b6-2341ac0fb654",
