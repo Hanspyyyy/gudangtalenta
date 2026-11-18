@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "e2a41b66-fd4c-4f8e-bd14-3bd8ac2cb923",
+      "name": "braket atau engsel pivot berbentuk L",
+      "size": "-",
+      "category": "Finishing & Arsitektural",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 3 | NO 3",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/e2a41b66-fd4c-4f8e-bd14-3bd8ac2cb923-1794984925787.jpeg",
+      "created_at": "2026-11-18T06:55:26.656Z",
+      "updated_at": "2026-11-18T06:55:26.656Z"
+    },
+    {
       "id": "40e55a4e-e528-40e3-815b-cf50ce40d4a1",
       "name": "overpal atau cantolan gembok (padlock hasp)",
       "size": "-",
@@ -7839,6 +7851,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "c0d0a6e1-2f58-48a5-9c8b-fc7022b03d13",
+      "item_id": "e2a41b66-fd4c-4f8e-bd14-3bd8ac2cb923",
+      "item_name": "braket atau engsel pivot berbentuk L",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-18T06:55:26.656Z"
+    },
     {
       "id": "22a4a358-8011-4a15-8344-51e0b5f905ed",
       "item_id": "40e55a4e-e528-40e3-815b-cf50ce40d4a1",
