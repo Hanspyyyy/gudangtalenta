@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "e8e33f91-7b89-4b9a-8b9b-4bbfedda1980",
+      "name": "plat pemanis kunci bodi (strike plate atau mortise plate) (Wijaya)",
+      "size": "-",
+      "category": "Architectural Hardware",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 3 | NO 3",
+      "stock": 6,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/e8e33f91-7b89-4b9a-8b9b-4bbfedda1980-1794983826235.jpeg",
+      "created_at": "2026-11-18T06:37:07.130Z",
+      "updated_at": "2026-11-18T06:37:07.130Z"
+    },
+    {
       "id": "e92b0068-03c7-4158-b931-7be2f5759c50",
       "name": "flush bolt atau grendel tanam pintu(Wijaya)",
       "size": "-",
@@ -7695,6 +7707,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "5f1d494c-2ec4-43d3-8f7f-cb3e7789f303",
+      "item_id": "e8e33f91-7b89-4b9a-8b9b-4bbfedda1980",
+      "item_name": "plat pemanis kunci bodi (strike plate atau mortise plate) (Wijaya)",
+      "action": "ADD_ITEM",
+      "quantity": 6,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-18T06:37:07.130Z"
+    },
     {
       "id": "d674833a-793b-4ec3-b323-b70e2130c6ed",
       "item_id": "e92b0068-03c7-4158-b931-7be2f5759c50",
