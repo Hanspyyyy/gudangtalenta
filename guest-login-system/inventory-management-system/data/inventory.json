@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "f87777f6-4815-42b8-8ac3-b9285b1a62f2",
+      "name": "braket siku L (L-bracket / siku rak dinding)",
+      "size": "-",
+      "category": "Finishing & Arsitektural",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 3 | NO 4",
+      "stock": 6,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/f87777f6-4815-42b8-8ac3-b9285b1a62f2-1794987110284.jpeg",
+      "created_at": "2026-11-18T07:31:51.256Z",
+      "updated_at": "2026-11-18T07:31:51.256Z"
+    },
+    {
       "id": "2177a6fe-9c2d-4091-8cc5-8fd0c79e2dfd",
       "name": "Mur hollow (perbungkus )",
       "size": "-",
@@ -7971,6 +7983,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "b0bddedd-61b0-4e1a-a149-7259ec57f894",
+      "item_id": "f87777f6-4815-42b8-8ac3-b9285b1a62f2",
+      "item_name": "braket siku L (L-bracket / siku rak dinding)",
+      "action": "ADD_ITEM",
+      "quantity": 6,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-18T07:31:51.256Z"
+    },
     {
       "id": "4c3852e7-8b1c-4682-8cff-2fec05e2a298",
       "item_id": "2177a6fe-9c2d-4091-8cc5-8fd0c79e2dfd",
