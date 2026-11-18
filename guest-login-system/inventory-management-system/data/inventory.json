@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "40e55a4e-e528-40e3-815b-cf50ce40d4a1",
+      "name": "overpal atau cantolan gembok (padlock hasp)",
+      "size": "-",
+      "category": "Architectural Hardware",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 3 | NO 3",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/40e55a4e-e528-40e3-815b-cf50ce40d4a1-1794984879140.jpeg",
+      "created_at": "2026-11-18T06:54:40.063Z",
+      "updated_at": "2026-11-18T06:54:40.063Z"
+    },
+    {
       "id": "92eaf16e-394f-4324-98cf-641306ca642f",
       "name": "jepit udang",
       "size": "-",
@@ -7827,6 +7839,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "22a4a358-8011-4a15-8344-51e0b5f905ed",
+      "item_id": "40e55a4e-e528-40e3-815b-cf50ce40d4a1",
+      "item_name": "overpal atau cantolan gembok (padlock hasp)",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-18T06:54:40.063Z"
+    },
     {
       "id": "0b577bc3-e24e-490f-9f63-515279cb0938",
       "item_id": "92eaf16e-394f-4324-98cf-641306ca642f",
