@@ -91,10 +91,10 @@
       "category": "Kelistrikan",
       "warehouse": "Gudang 1",
       "rack": "Kontainer 1",
-      "stock": 4,
+      "stock": 6,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/236501f9-2788-4d8b-a24b-cd7f3c6a0d02-1794819013855.jpeg",
       "created_at": "2026-11-16T08:50:15.600Z",
-      "updated_at": "2026-11-16T08:50:38.730Z"
+      "updated_at": "2026-11-18T03:27:22.637Z"
     },
     {
       "id": "6482448c-d50b-459c-abda-d6cb7fb5451a",
@@ -7563,6 +7563,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "7e092884-323e-447b-ac78-f3528dc4d89f",
+      "item_id": "236501f9-2788-4d8b-a24b-cd7f3c6a0d02",
+      "item_name": "Stop kontak schineider",
+      "action": "STOCK_IN",
+      "quantity": 2,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-18T03:27:22.637Z"
+    },
     {
       "id": "aa5fca69-75fb-4d6a-b3e0-ca43d55286d5",
       "item_id": "e8d33f76-8252-4e30-8c5b-fd9487f4c6ed",
