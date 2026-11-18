@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "3fc500e0-4b7a-4391-ba0d-e2cbc92063f8",
+      "name": "Silent Black",
+      "size": "300ml",
+      "category": "Finishing & Arsitektural",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 9 | NO 2",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/3fc500e0-4b7a-4391-ba0d-e2cbc92063f8-1794972962173.jpeg",
+      "created_at": "2026-11-18T03:36:03.075Z",
+      "updated_at": "2026-11-18T03:36:03.075Z"
+    },
+    {
       "id": "3514f489-27bd-4206-8ef5-44ea9eb362ea",
       "name": "Silent white (yhxbj08061822)",
       "size": "300ml",
@@ -7599,6 +7611,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "0a525c2a-a723-4ffe-b87f-3cc2daad898b",
+      "item_id": "3fc500e0-4b7a-4391-ba0d-e2cbc92063f8",
+      "item_name": "Silent Black",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-18T03:36:03.075Z"
+    },
     {
       "id": "e3dc49db-de86-4cdc-b542-2dab46ccc945",
       "item_id": "3514f489-27bd-4206-8ef5-44ea9eb362ea",
