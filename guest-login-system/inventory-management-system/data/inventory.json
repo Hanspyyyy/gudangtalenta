@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "e656955d-e4ae-465c-ae8e-2037654c0e2e",
+      "name": "Stop kontak(broco)",
+      "size": "-",
+      "category": "Kelistrikan",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 2 | NO 5",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/e656955d-e4ae-465c-ae8e-2037654c0e2e-1794972545060.jpeg",
+      "created_at": "2026-11-18T03:29:05.856Z",
+      "updated_at": "2026-11-18T03:29:05.856Z"
+    },
+    {
       "id": "7752ee22-d741-4a6a-b0de-0e04f922d3a2",
       "name": "Segitiga pengaman mobil",
       "size": "Umum",
@@ -7563,6 +7575,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "c39d5afe-ac7d-4ce1-939d-31294e6c9850",
+      "item_id": "e656955d-e4ae-465c-ae8e-2037654c0e2e",
+      "item_name": "Stop kontak(broco)",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-18T03:29:05.857Z"
+    },
     {
       "id": "7e092884-323e-447b-ac78-f3528dc4d89f",
       "item_id": "236501f9-2788-4d8b-a24b-cd7f3c6a0d02",
