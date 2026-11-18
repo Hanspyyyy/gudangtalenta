@@ -55,10 +55,10 @@
       "category": "Finishing & Arsitektural",
       "warehouse": "Gudang 1",
       "rack": "1A | 9 | NO 2",
-      "stock": 1,
+      "stock": 0,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/3514f489-27bd-4206-8ef5-44ea9eb362ea-1794972898382.jpeg",
       "created_at": "2026-11-18T03:34:59.446Z",
-      "updated_at": "2026-11-18T03:36:42.385Z"
+      "updated_at": "2026-11-18T04:18:02.360Z"
     },
     {
       "id": "c6883e07-13ab-44fc-b5a2-ff76418ad5c2",
@@ -7647,6 +7647,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "fe88acaa-4f3e-4385-afcb-46448e2925b1",
+      "item_id": "3514f489-27bd-4206-8ef5-44ea9eb362ea",
+      "item_name": "Silent white (yhxbj08061822)",
+      "action": "STOCK_OUT",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-18T04:18:02.360Z"
+    },
     {
       "id": "fa968b6c-4814-43f0-871e-90b132cd205b",
       "item_id": "636c601b-6eb2-4a72-ad97-8f727099d48b",
