@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "6b91fea8-730b-4496-8f52-cbeb97289278",
+      "name": "engsel kupu-kupu (Wijaya)",
+      "size": "-",
+      "category": "Architectural Hardware",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 3 | NO 3",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/6b91fea8-730b-4496-8f52-cbeb97289278-1794983548436.jpeg",
+      "created_at": "2026-11-18T06:32:29.356Z",
+      "updated_at": "2026-11-18T06:32:29.356Z"
+    },
+    {
       "id": "636c601b-6eb2-4a72-ad97-8f727099d48b",
       "name": "handle tepi (edge pull handle atau concealed furniture handle) berwarna hitam doff untuk pintu lemari, kabinet, atau laci. Desainnya menyatu di bagian atas atau tepi daun pintu/laci dengan lubang sekrup di bagian belakang untuk pemasangan tersembunyi.",
       "size": "Pulangan Wijaya ga bawa meteran",
@@ -7647,6 +7659,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "9a02360d-b401-4226-85cc-4543ded6be33",
+      "item_id": "6b91fea8-730b-4496-8f52-cbeb97289278",
+      "item_name": "engsel kupu-kupu (Wijaya)",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-18T06:32:29.356Z"
+    },
     {
       "id": "fe88acaa-4f3e-4385-afcb-46448e2925b1",
       "item_id": "3514f489-27bd-4206-8ef5-44ea9eb362ea",
