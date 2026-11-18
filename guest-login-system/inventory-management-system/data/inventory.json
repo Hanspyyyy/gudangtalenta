@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "52d23011-1daa-418e-813d-6ad3896830be",
+      "name": "grendel kait atau pengunci pintu/lemari berbahan logam (Wijaya)",
+      "size": "-",
+      "category": "Architectural Hardware",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 3 | NO 3",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/52d23011-1daa-418e-813d-6ad3896830be-1794984499867.jpeg",
+      "created_at": "2026-11-18T06:48:20.973Z",
+      "updated_at": "2026-11-18T06:48:20.973Z"
+    },
+    {
       "id": "877510f8-fe6c-4227-9341-81acc136dea0",
       "name": "Lampu dinding silinder berbahan logam berwarna perak/stainless steel ini memiliki rumah lampu berbentuk tabung dengan lensa bulat di bagian ujungnya serta pelat dudukan bundar yang terhubung ke kabel dan konektor putih.",
       "size": "-",
@@ -7767,6 +7779,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "f9cd80fc-d447-4e3b-9456-0ff998ff893a",
+      "item_id": "52d23011-1daa-418e-813d-6ad3896830be",
+      "item_name": "grendel kait atau pengunci pintu/lemari berbahan logam (Wijaya)",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-18T06:48:20.973Z"
+    },
     {
       "id": "620d1305-cb40-4f65-9c50-1c652f593000",
       "item_id": "877510f8-fe6c-4227-9341-81acc136dea0",
