@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "636c601b-6eb2-4a72-ad97-8f727099d48b",
+      "name": "handle tepi (edge pull handle atau concealed furniture handle) berwarna hitam doff untuk pintu lemari, kabinet, atau laci. Desainnya menyatu di bagian atas atau tepi daun pintu/laci dengan lubang sekrup di bagian belakang untuk pemasangan tersembunyi.",
+      "size": "Pulangan Wijaya ga bawa meteran",
+      "category": "Finishing & Arsitektural",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 3 | NO 3",
+      "stock": 3,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/636c601b-6eb2-4a72-ad97-8f727099d48b-1794973412253.jpeg",
+      "created_at": "2026-11-18T03:43:33.246Z",
+      "updated_at": "2026-11-18T03:43:33.246Z"
+    },
+    {
       "id": "88181d21-c98f-4a0c-8409-365dd30442b3",
       "name": "Stop kontak data grey",
       "size": "-",
@@ -7635,6 +7647,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "9cddaa8d-9325-4002-8a04-ebbcefa4e8d2",
+      "item_id": "636c601b-6eb2-4a72-ad97-8f727099d48b",
+      "item_name": "handle tepi (edge pull handle atau concealed furniture handle) berwarna hitam doff untuk pintu lemari, kabinet, atau laci. Desainnya menyatu di bagian atas atau tepi daun pintu/laci dengan lubang sekrup di bagian belakang untuk pemasangan tersembunyi.",
+      "action": "ADD_ITEM",
+      "quantity": 3,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-18T03:43:33.246Z"
+    },
     {
       "id": "cd983130-edc9-4b8f-8848-23d6bf1a77c6",
       "item_id": "88181d21-c98f-4a0c-8409-365dd30442b3",
