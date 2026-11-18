@@ -7,10 +7,10 @@
       "category": "Kelistrikan",
       "warehouse": "Gudang 1",
       "rack": "1A | 2 | NO 5",
-      "stock": 2,
+      "stock": 3,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/9a14cd64-c0cb-4845-8bd3-36e97c5390c6-1794970967079.jpeg",
       "created_at": "2026-11-18T03:02:47.982Z",
-      "updated_at": "2026-11-18T03:02:47.982Z"
+      "updated_at": "2026-11-18T03:03:09.906Z"
     },
     {
       "id": "c1fe0d68-4819-467b-913d-49325e7e28f2",
@@ -7539,6 +7539,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "6cab3983-06de-4ae0-b312-0ab2f0d67c52",
+      "item_id": "9a14cd64-c0cb-4845-8bd3-36e97c5390c6",
+      "item_name": "fitting lampu plafon E27 berbentuk persegi/lonjong berwarna putih krem dengan soket ulir logam di bagian tengah untuk dudukan bohlam standar.",
+      "action": "STOCK_IN",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-18T03:03:09.906Z"
+    },
     {
       "id": "3dd825e7-8b2d-4e11-ac47-267f7246e7fa",
       "item_id": "9a14cd64-c0cb-4845-8bd3-36e97c5390c6",
