@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "1deef2e9-c791-4048-8729-fec5b8a8cbad",
+      "name": "soket outlet antena TV koaksial (75 ohm)",
+      "size": "-",
+      "category": "Kelistrikan",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 2 | NO 5",
+      "stock": 3,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/1deef2e9-c791-4048-8729-fec5b8a8cbad-1794986172373.jpeg",
+      "created_at": "2026-11-18T07:16:13.193Z",
+      "updated_at": "2026-11-18T07:16:13.193Z"
+    },
+    {
       "id": "d592bd95-9d5f-4b65-b2c8-4816e8c57b68",
       "name": "3M Scotch Strong Clear Double-Sided Mounting Tape (kode 410-S19)",
       "size": "-",
@@ -7899,6 +7911,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "0a896115-9e3b-4c41-b372-a3dea6488cfc",
+      "item_id": "1deef2e9-c791-4048-8729-fec5b8a8cbad",
+      "item_name": "soket outlet antena TV koaksial (75 ohm)",
+      "action": "ADD_ITEM",
+      "quantity": 3,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-18T07:16:13.193Z"
+    },
     {
       "id": "19b7ca30-ad80-4866-aecd-a635bd142525",
       "item_id": "d592bd95-9d5f-4b65-b2c8-4816e8c57b68",
