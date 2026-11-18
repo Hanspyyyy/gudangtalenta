@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "e9ec0d58-eb6d-4770-8637-612af9063c9a",
+      "name": "U clam hollow 4x4 (¼ karung)",
+      "size": "4x4",
+      "category": "Building Materials",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 3 | NO 5",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/e9ec0d58-eb6d-4770-8637-612af9063c9a-1794986754863.jpeg",
+      "created_at": "2026-11-18T07:25:55.866Z",
+      "updated_at": "2026-11-18T07:25:55.866Z"
+    },
+    {
       "id": "db6a4145-ce35-473f-8052-2b77f05993d8",
       "name": "outlet telepon 1 gang dengan penutup (shutter)",
       "size": "-",
@@ -7923,6 +7935,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "48c5d49d-831a-4e75-bbc0-4261b0e586fc",
+      "item_id": "e9ec0d58-eb6d-4770-8637-612af9063c9a",
+      "item_name": "U clam hollow 4x4 (¼ karung)",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-18T07:25:55.866Z"
+    },
     {
       "id": "67f52520-cf16-4174-a2e5-a31280319f73",
       "item_id": "49eeca98-1ec1-42f6-a6fc-19a549bbc14c",
