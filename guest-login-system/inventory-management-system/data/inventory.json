@@ -79,10 +79,10 @@
       "category": "Kelistrikan",
       "warehouse": "Gudang 1",
       "rack": "1A | 2 | NO 5",
-      "stock": 1,
+      "stock": 2,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/e8d33f76-8252-4e30-8c5b-fd9487f4c6ed-1794819125540.jpeg",
       "created_at": "2026-11-16T08:52:06.789Z",
-      "updated_at": "2026-11-16T08:52:52.893Z"
+      "updated_at": "2026-11-18T03:27:04.842Z"
     },
     {
       "id": "236501f9-2788-4d8b-a24b-cd7f3c6a0d02",
@@ -7563,6 +7563,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "aa5fca69-75fb-4d6a-b3e0-ca43d55286d5",
+      "item_id": "e8d33f76-8252-4e30-8c5b-fd9487f4c6ed",
+      "item_name": "Stop kontak Simon grey (lecet)",
+      "action": "STOCK_IN",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-18T03:27:04.842Z"
+    },
     {
       "id": "b64820a5-7846-4e3a-9c97-be235bc34d59",
       "item_id": "7752ee22-d741-4a6a-b0de-0e04f922d3a2",
