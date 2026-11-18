@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "e6fbd1e2-5bad-48d9-a4b6-2341ac0fb654",
+      "name": "Steel dor (Wijaya)",
+      "size": "-",
+      "category": "Architectural Hardware",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 3 | NO 3",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/e6fbd1e2-5bad-48d9-a4b6-2341ac0fb654-1794983927723.jpeg",
+      "created_at": "2026-11-18T06:38:48.945Z",
+      "updated_at": "2026-11-18T06:38:48.945Z"
+    },
+    {
       "id": "e8e33f91-7b89-4b9a-8b9b-4bbfedda1980",
       "name": "plat pemanis kunci bodi (strike plate atau mortise plate) (Wijaya)",
       "size": "-",
@@ -7707,6 +7719,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "5120e1b3-e3fa-49d8-9245-66ce7a92a32b",
+      "item_id": "e6fbd1e2-5bad-48d9-a4b6-2341ac0fb654",
+      "item_name": "Steel dor (Wijaya)",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-18T06:38:48.945Z"
+    },
     {
       "id": "5f1d494c-2ec4-43d3-8f7f-cb3e7789f303",
       "item_id": "e8e33f91-7b89-4b9a-8b9b-4bbfedda1980",
