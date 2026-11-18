@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "c6883e07-13ab-44fc-b5a2-ff76418ad5c2",
+      "name": "Stop kontak(broco)",
+      "size": "-",
+      "category": "Kelistrikan",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 2 | NO 2)5",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/c6883e07-13ab-44fc-b5a2-ff76418ad5c2-1794972593563.jpeg",
+      "created_at": "2026-11-18T03:29:54.404Z",
+      "updated_at": "2026-11-18T03:29:54.404Z"
+    },
+    {
       "id": "e656955d-e4ae-465c-ae8e-2037654c0e2e",
       "name": "Stop kontak(broco)",
       "size": "-",
@@ -7575,6 +7587,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "f1d7e394-61f4-4442-a1c0-be73b79796ce",
+      "item_id": "c6883e07-13ab-44fc-b5a2-ff76418ad5c2",
+      "item_name": "Stop kontak(broco)",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-18T03:29:54.404Z"
+    },
     {
       "id": "c39d5afe-ac7d-4ce1-939d-31294e6c9850",
       "item_id": "e656955d-e4ae-465c-ae8e-2037654c0e2e",
