@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "7752ee22-d741-4a6a-b0de-0e04f922d3a2",
+      "name": "Segitiga pengaman mobil",
+      "size": "Umum",
+      "category": "Safty",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 2 | NO 4",
+      "stock": 2,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/7752ee22-d741-4a6a-b0de-0e04f922d3a2-1794972225106.jpeg",
+      "created_at": "2026-11-18T03:23:46.044Z",
+      "updated_at": "2026-11-18T03:23:46.044Z"
+    },
+    {
       "id": "b6cd539a-ef07-4049-8c8c-69ab73120dc5",
       "name": "Kotak tanam listrik (inbow dus / flush mounting box)",
       "size": "8,6 cm x 8,6 cm x 5 cm",
@@ -7551,6 +7563,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "b64820a5-7846-4e3a-9c97-be235bc34d59",
+      "item_id": "7752ee22-d741-4a6a-b0de-0e04f922d3a2",
+      "item_name": "Segitiga pengaman mobil",
+      "action": "ADD_ITEM",
+      "quantity": 2,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-18T03:23:46.044Z"
+    },
     {
       "id": "53e8416f-2da1-4edc-a67f-eea182a93dc7",
       "item_id": "bac07809-e651-49e7-a8f7-f0dd0d08e5a0",
