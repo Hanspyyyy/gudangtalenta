@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "b6cd539a-ef07-4049-8c8c-69ab73120dc5",
+      "name": "Kotak tanam listrik (inbow dus / flush mounting box)",
+      "size": "8,6 cm x 8,6 cm x 5 cm",
+      "category": "Kelistrikan",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 2 | NO 5",
+      "stock": 2,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/b6cd539a-ef07-4049-8c8c-69ab73120dc5-1794971106217.jpeg",
+      "created_at": "2026-11-18T03:05:07.228Z",
+      "updated_at": "2026-11-18T03:05:07.228Z"
+    },
+    {
       "id": "9a14cd64-c0cb-4845-8bd3-36e97c5390c6",
       "name": "fitting lampu plafon E27 berbentuk persegi/lonjong berwarna putih krem dengan soket ulir logam di bagian tengah untuk dudukan bohlam standar.",
       "size": "-",
@@ -7539,6 +7551,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "4eba6cd9-f596-44d3-b644-395c8f427688",
+      "item_id": "b6cd539a-ef07-4049-8c8c-69ab73120dc5",
+      "item_name": "Kotak tanam listrik (inbow dus / flush mounting box)",
+      "action": "ADD_ITEM",
+      "quantity": 2,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-18T03:05:07.228Z"
+    },
     {
       "id": "6cab3983-06de-4ae0-b312-0ab2f0d67c52",
       "item_id": "9a14cd64-c0cb-4845-8bd3-36e97c5390c6",
