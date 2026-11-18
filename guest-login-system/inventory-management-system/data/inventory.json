@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "b2a9704e-c344-494e-8541-907ecb82232c",
+      "name": "gagang tarikan (pull handle) berbahan logam hitam dengan pelat pemasangan berlubang di kedua ujungnya yang umum digunakan untuk laci, lemari, atau jendela.(Wijaya)",
+      "size": "-",
+      "category": "Architectural Hardware",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 3 | NO 3",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/b2a9704e-c344-494e-8541-907ecb82232c-1794984610222.jpeg",
+      "created_at": "2026-11-18T06:50:11.491Z",
+      "updated_at": "2026-11-18T06:50:11.491Z"
+    },
+    {
       "id": "52eb3475-e21e-49a2-9137-3f0ca9ac6776",
       "name": "Gagang pintu bergaya oval berbahan logam berwarna perak/stainless steel ini memiliki pelat dasar berbentuk lonjong dengan dua lubang sekrup dan pegangan melengkung cuma satu doanh",
       "size": "-",
@@ -7791,6 +7803,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "0e581d3c-1f26-4c13-be7a-5a81ba6e333c",
+      "item_id": "b2a9704e-c344-494e-8541-907ecb82232c",
+      "item_name": "gagang tarikan (pull handle) berbahan logam hitam dengan pelat pemasangan berlubang di kedua ujungnya yang umum digunakan untuk laci, lemari, atau jendela.(Wijaya)",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-18T06:50:11.491Z"
+    },
     {
       "id": "b707e1cb-d6ba-4141-afa9-cdf5cca1ee5c",
       "item_id": "52eb3475-e21e-49a2-9137-3f0ca9ac6776",
