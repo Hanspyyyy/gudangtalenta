@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "d592bd95-9d5f-4b65-b2c8-4816e8c57b68",
+      "name": "3M Scotch Strong Clear Double-Sided Mounting Tape (kode 410-S19)",
+      "size": "-",
+      "category": "Finishing & Arsitektural",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 9 | NO 2",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/d592bd95-9d5f-4b65-b2c8-4816e8c57b68-1794985781802.jpeg",
+      "created_at": "2026-11-18T07:09:42.857Z",
+      "updated_at": "2026-11-18T07:09:42.857Z"
+    },
+    {
       "id": "5d72f1f4-2797-4e27-ae89-886656bc6688",
       "name": "gagang pintu model tuas (lever door handle) (Wijaya)",
       "size": "-",
@@ -7887,6 +7899,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "19b7ca30-ad80-4866-aecd-a635bd142525",
+      "item_id": "d592bd95-9d5f-4b65-b2c8-4816e8c57b68",
+      "item_name": "3M Scotch Strong Clear Double-Sided Mounting Tape (kode 410-S19)",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-18T07:09:42.857Z"
+    },
     {
       "id": "3f92e1c5-b9ab-4e10-98e7-cc00994070f7",
       "item_id": "5d72f1f4-2797-4e27-ae89-886656bc6688",
