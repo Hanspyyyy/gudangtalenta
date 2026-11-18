@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "88181d21-c98f-4a0c-8409-365dd30442b3",
+      "name": "Stop kontak data grey",
+      "size": "-",
+      "category": "Kelistrikan",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 2 | NO 5",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/88181d21-c98f-4a0c-8409-365dd30442b3-1794973179797.jpeg",
+      "created_at": "2026-11-18T03:39:40.700Z",
+      "updated_at": "2026-11-18T03:39:40.700Z"
+    },
+    {
       "id": "7dd4ea67-9c86-4ab4-82e1-048834f8701e",
       "name": "Adaptor multi-soket (multiplug) putih ini tampaknya adalah model PowerPac PP788N dengan lima lubang colokan dua pin dan lampu indikator",
       "size": "-",
@@ -7623,6 +7635,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "cd983130-edc9-4b8f-8848-23d6bf1a77c6",
+      "item_id": "88181d21-c98f-4a0c-8409-365dd30442b3",
+      "item_name": "Stop kontak data grey",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-18T03:39:40.700Z"
+    },
     {
       "id": "8b942b07-7860-4096-95d6-3f4a3cd26a1e",
       "item_id": "7dd4ea67-9c86-4ab4-82e1-048834f8701e",
