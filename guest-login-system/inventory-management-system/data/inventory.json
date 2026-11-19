@@ -7,10 +7,10 @@
       "category": "Kelistrikan",
       "warehouse": "Gudang 1",
       "rack": "Kontainer 1",
-      "stock": 1,
+      "stock": 3,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/18a2000d-4ecc-45fb-92bc-765722e52adf-1795053229931.jpeg",
       "created_at": "2026-11-19T01:53:50.992Z",
-      "updated_at": "2026-11-19T01:53:50.992Z"
+      "updated_at": "2026-11-19T01:55:33.092Z"
     },
     {
       "id": "9e1ade7d-a54b-48e2-af96-ffa8d2c77ade",
@@ -8091,6 +8091,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "283d55a6-8802-4932-a844-36761311ae1d",
+      "item_id": "18a2000d-4ecc-45fb-92bc-765722e52adf",
+      "item_name": "Led cob strip COB -320P-4000K-IP20",
+      "action": "STOCK_IN",
+      "quantity": 2,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-19T01:55:33.092Z"
+    },
     {
       "id": "de693f91-4e26-4f9a-a23f-a76754739b64",
       "item_id": "18a2000d-4ecc-45fb-92bc-765722e52adf",
