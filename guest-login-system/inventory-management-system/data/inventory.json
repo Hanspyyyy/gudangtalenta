@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "aff7bb21-6475-449c-b7ae-81af331e7a52",
+      "name": "turnbuckle atau span skrup (sering juga disebut jarum keras) tipe hook & eye",
+      "size": "M16",
+      "category": "Finishing & Arsitektural",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 3 | NO 3",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/aff7bb21-6475-449c-b7ae-81af331e7a52-1795057113838.jpeg",
+      "created_at": "2026-11-19T02:58:34.643Z",
+      "updated_at": "2026-11-19T02:58:34.643Z"
+    },
+    {
       "id": "4be95326-bd0d-4e36-8b32-a671b3f950f9",
       "name": "Weather seal ardeon",
       "size": "-",
@@ -8115,6 +8127,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "64d81d3e-52db-4098-96af-cc17a13b4308",
+      "item_id": "aff7bb21-6475-449c-b7ae-81af331e7a52",
+      "item_name": "turnbuckle atau span skrup (sering juga disebut jarum keras) tipe hook & eye",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-19T02:58:34.643Z"
+    },
     {
       "id": "2c884657-85aa-47a7-a1a7-21607560d0fc",
       "item_id": "4be95326-bd0d-4e36-8b32-a671b3f950f9",
