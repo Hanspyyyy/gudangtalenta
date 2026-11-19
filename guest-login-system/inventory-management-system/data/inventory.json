@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "595a63af-a764-49b7-8406-733069016a95",
+      "name": "Philips Essential LED Bulb 5W (Cool Daylight) dokgi",
+      "size": "-",
+      "category": "Kelistrikan",
+      "warehouse": "Gudang 1",
+      "rack": "Kontainer 1",
+      "stock": 4,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/595a63af-a764-49b7-8406-733069016a95-1795052810842.jpeg",
+      "created_at": "2026-11-19T01:46:51.800Z",
+      "updated_at": "2026-11-19T01:46:51.800Z"
+    },
+    {
       "id": "cb0f643b-0db1-4801-90e5-6ec16b30bf33",
       "name": "Stop kontak Nero (dokgi)",
       "size": "-",
@@ -8043,6 +8055,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "09e694ee-40c8-42ba-8a75-ce5e3158dc28",
+      "item_id": "595a63af-a764-49b7-8406-733069016a95",
+      "item_name": "Philips Essential LED Bulb 5W (Cool Daylight) dokgi",
+      "action": "ADD_ITEM",
+      "quantity": 4,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-19T01:46:51.800Z"
+    },
     {
       "id": "066f8135-715e-481f-ada6-b6395b749691",
       "item_id": "cb0f643b-0db1-4801-90e5-6ec16b30bf33",
