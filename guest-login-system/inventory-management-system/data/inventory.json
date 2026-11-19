@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "d07a1a79-823f-4be3-8dba-fffc76c5b47e",
+      "name": "lampu bohlam LED Philips MyCare UltraBright 12W Semi Putih (dokgi)",
+      "size": "-",
+      "category": "Kelistrikan",
+      "warehouse": "Gudang 1",
+      "rack": "Kontainer 1",
+      "stock": 5,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/d07a1a79-823f-4be3-8dba-fffc76c5b47e-1795052514494.jpeg",
+      "created_at": "2026-11-19T01:41:55.377Z",
+      "updated_at": "2026-11-19T01:41:55.377Z"
+    },
+    {
       "id": "e28c929a-5820-4b4e-b442-02d89713654d",
       "name": "Nero LED spot light (dokgi)",
       "size": "-",
@@ -8007,6 +8019,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "3ecfd04f-fbed-4f21-9bb1-a83ad7cab73a",
+      "item_id": "d07a1a79-823f-4be3-8dba-fffc76c5b47e",
+      "item_name": "lampu bohlam LED Philips MyCare UltraBright 12W Semi Putih (dokgi)",
+      "action": "ADD_ITEM",
+      "quantity": 5,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-19T01:41:55.377Z"
+    },
     {
       "id": "f6e778d4-40be-41bc-9bfe-c674a3c20867",
       "item_id": "e28c929a-5820-4b4e-b442-02d89713654d",
