@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "17b90b59-dad7-4a1c-ae0b-6f211ccdf586",
+      "name": "lampu sorot LOVOV LED Lamp Cup 5 Watt MR16(dokgi)",
+      "size": "-",
+      "category": "Kelistrikan",
+      "warehouse": "Gudang 1",
+      "rack": "Kontainer 1",
+      "stock": 14,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/17b90b59-dad7-4a1c-ae0b-6f211ccdf586-1795052661383.jpeg",
+      "created_at": "2026-11-19T01:44:22.548Z",
+      "updated_at": "2026-11-19T01:44:22.548Z"
+    },
+    {
       "id": "d07a1a79-823f-4be3-8dba-fffc76c5b47e",
       "name": "lampu bohlam LED Philips MyCare UltraBright 12W Semi Putih (dokgi)",
       "size": "-",
@@ -8019,6 +8031,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "021a16be-ccaa-430a-bc5e-604953c838c5",
+      "item_id": "17b90b59-dad7-4a1c-ae0b-6f211ccdf586",
+      "item_name": "lampu sorot LOVOV LED Lamp Cup 5 Watt MR16(dokgi)",
+      "action": "ADD_ITEM",
+      "quantity": 14,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-19T01:44:22.548Z"
+    },
     {
       "id": "057ef21e-34d0-42bf-bd92-a440f4285ad1",
       "item_id": "d07a1a79-823f-4be3-8dba-fffc76c5b47e",
