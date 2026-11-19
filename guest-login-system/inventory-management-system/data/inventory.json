@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "fd9425fe-35c4-448c-b60d-26fe4679e0ed",
+      "name": "housing tanam",
+      "size": "-",
+      "category": "Finishing & Arsitektural",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 3 | NO 5",
+      "stock": 9,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/fd9425fe-35c4-448c-b60d-26fe4679e0ed-1795057236048.jpeg",
+      "created_at": "2026-11-19T03:00:37.048Z",
+      "updated_at": "2026-11-19T03:00:37.048Z"
+    },
+    {
       "id": "aff7bb21-6475-449c-b7ae-81af331e7a52",
       "name": "turnbuckle atau span skrup (sering juga disebut jarum keras) tipe hook & eye",
       "size": "M16",
@@ -8127,6 +8139,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "dcd071e0-7318-4dd9-a00f-8762942586e6",
+      "item_id": "fd9425fe-35c4-448c-b60d-26fe4679e0ed",
+      "item_name": "housing tanam",
+      "action": "ADD_ITEM",
+      "quantity": 9,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-19T03:00:37.048Z"
+    },
     {
       "id": "64d81d3e-52db-4098-96af-cc17a13b4308",
       "item_id": "aff7bb21-6475-449c-b7ae-81af331e7a52",
