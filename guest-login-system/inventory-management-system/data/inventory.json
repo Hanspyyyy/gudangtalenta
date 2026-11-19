@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "cc76a565-9680-40b9-a564-24070159b39b",
+      "name": "Led tqck Ligh Nero (dokgi)",
+      "size": "-",
+      "category": "Kelistrikan",
+      "warehouse": "Gudang 1",
+      "rack": "Kontainer 1",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/cc76a565-9680-40b9-a564-24070159b39b-1795052377715.jpeg",
+      "created_at": "2026-11-19T01:39:38.793Z",
+      "updated_at": "2026-11-19T01:39:38.793Z"
+    },
+    {
       "id": "f87777f6-4815-42b8-8ac3-b9285b1a62f2",
       "name": "braket siku L (L-bracket / siku rak dinding)",
       "size": "-",
@@ -7983,6 +7995,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "03de9a58-31d0-40a4-8eaf-14932c95e92d",
+      "item_id": "cc76a565-9680-40b9-a564-24070159b39b",
+      "item_name": "Led tqck Ligh Nero (dokgi)",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-19T01:39:38.794Z"
+    },
     {
       "id": "4101eed2-ee52-49fb-8743-16527f63c50c",
       "item_id": "628ef2b2-521f-4665-8325-c8fa697b1c0f",
