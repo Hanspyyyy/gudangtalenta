@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "18a2000d-4ecc-45fb-92bc-765722e52adf",
+      "name": "Led cob strip COB -320P-4000K-IP20",
+      "size": "8w, 24v, 300-370mA/m, 5M",
+      "category": "Kelistrikan",
+      "warehouse": "Gudang 1",
+      "rack": "Kontainer 1",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/18a2000d-4ecc-45fb-92bc-765722e52adf-1795053229931.jpeg",
+      "created_at": "2026-11-19T01:53:50.992Z",
+      "updated_at": "2026-11-19T01:53:50.992Z"
+    },
+    {
       "id": "9e1ade7d-a54b-48e2-af96-ffa8d2c77ade",
       "name": "kunci laci atau kunci lemari (umumnya tipe seri 138 seperti Huben HL-138)",
       "size": "-",
@@ -8079,6 +8091,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "de693f91-4e26-4f9a-a23f-a76754739b64",
+      "item_id": "18a2000d-4ecc-45fb-92bc-765722e52adf",
+      "item_name": "Led cob strip COB -320P-4000K-IP20",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-19T01:53:50.992Z"
+    },
     {
       "id": "bd2624b5-ac5a-4b6d-b16d-80bb0c9da905",
       "item_id": "9e1ade7d-a54b-48e2-af96-ffa8d2c77ade",
