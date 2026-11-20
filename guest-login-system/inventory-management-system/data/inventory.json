@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "1be66861-f434-4211-adbc-900a0bcf4767",
+      "name": "Skrup SDS / Skrup ruping /Skrup baja ringan (ambil per dus)",
+      "size": "5",
+      "category": "Building Materials",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 3 | NO 3",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/1be66861-f434-4211-adbc-900a0bcf4767-1795144360621.jpeg",
+      "created_at": "2026-11-20T03:12:41.669Z",
+      "updated_at": "2026-11-20T03:12:41.669Z"
+    },
+    {
       "id": "36a6959c-b469-435f-b048-df218595a420",
       "name": "Skrup SDS / Skrup ruping /Skrup baja ringan (ambil per dus)",
       "size": "2,5",
@@ -8223,6 +8235,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "cd579ebe-6750-491f-a7d5-78e764e94c7a",
+      "item_id": "1be66861-f434-4211-adbc-900a0bcf4767",
+      "item_name": "Skrup SDS / Skrup ruping /Skrup baja ringan (ambil per dus)",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-20T03:12:41.669Z"
+    },
     {
       "id": "0f32195c-f655-4369-9cac-169b251c3ee2",
       "item_id": "36a6959c-b469-435f-b048-df218595a420",
