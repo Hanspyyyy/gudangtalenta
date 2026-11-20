@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "fc32051d-b159-433c-95dc-d1b76fc98991",
+      "name": "Staples no 3",
+      "size": "Steples",
+      "category": "Rumah",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 3 | NO 3",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/fc32051d-b159-433c-95dc-d1b76fc98991-1795146313569.jpeg",
+      "created_at": "2026-11-20T03:45:14.460Z",
+      "updated_at": "2026-11-20T03:45:14.460Z"
+    },
+    {
       "id": "9055e471-13d5-444f-be66-5dc59a194035",
       "name": "soket data dinding 1-gang (RJ45) berwarna putih,",
       "size": "-",
@@ -8283,6 +8295,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "3fd65000-02ee-4cde-8189-785c443e7937",
+      "item_id": "fc32051d-b159-433c-95dc-d1b76fc98991",
+      "item_name": "Staples no 3",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-20T03:45:14.460Z"
+    },
     {
       "id": "c7fc39ea-6ccd-4257-92f7-a9ad22c2a602",
       "item_id": "9055e471-13d5-444f-be66-5dc59a194035",
