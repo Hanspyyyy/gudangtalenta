@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "a639cee8-88cf-4db2-9f3b-fc3539bae791",
+      "name": "Neo LED panasonic (dokgi)",
+      "size": "-",
+      "category": "Kelistrikan",
+      "warehouse": "Gudang 1",
+      "rack": "Kontainer 1",
+      "stock": 0,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/a639cee8-88cf-4db2-9f3b-fc3539bae791-1795143179454.jpeg",
+      "created_at": "2026-11-20T02:53:00.401Z",
+      "updated_at": "2026-11-20T02:53:00.401Z"
+    },
+    {
       "id": "fd9425fe-35c4-448c-b60d-26fe4679e0ed",
       "name": "housing tanam",
       "size": "-",
@@ -8139,6 +8151,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "ae8a8068-43d7-4390-8cfe-7866167d3877",
+      "item_id": "a639cee8-88cf-4db2-9f3b-fc3539bae791",
+      "item_name": "Neo LED panasonic (dokgi)",
+      "action": "ADD_ITEM",
+      "quantity": 0,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-20T02:53:00.401Z"
+    },
     {
       "id": "dcd071e0-7318-4dd9-a00f-8762942586e6",
       "item_id": "fd9425fe-35c4-448c-b60d-26fe4679e0ed",
