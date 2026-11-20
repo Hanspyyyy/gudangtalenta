@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "54597296-86fd-4e6c-ba41-d94c875cb8cb",
+      "name": "braket (dudukan/penyangga) berbentuk siku berwarna putih,",
+      "size": "-",
+      "category": "Finishing & Arsitektural",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 3 | NO 4",
+      "stock": 3,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/54597296-86fd-4e6c-ba41-d94c875cb8cb-1795143525662.jpeg",
+      "created_at": "2026-11-20T02:58:46.586Z",
+      "updated_at": "2026-11-20T02:58:46.586Z"
+    },
+    {
       "id": "8d69302e-cd39-4c13-a646-4461e6a53d04",
       "name": "Kain kasa gypsum",
       "size": "-",
@@ -8175,6 +8187,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "4c9dc3ea-f6d2-4a50-8bba-13e5fc9d970c",
+      "item_id": "54597296-86fd-4e6c-ba41-d94c875cb8cb",
+      "item_name": "braket (dudukan/penyangga) berbentuk siku berwarna putih,",
+      "action": "ADD_ITEM",
+      "quantity": 3,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-20T02:58:46.586Z"
+    },
     {
       "id": "9f17a0f9-2d35-4630-a276-8e496b626454",
       "item_id": "8d69302e-cd39-4c13-a646-4461e6a53d04",
