@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "36a6959c-b469-435f-b048-df218595a420",
+      "name": "Skrup SDS / Skrup ruping /Skrup baja ringan (ambil per dus)",
+      "size": "2,5",
+      "category": "Finishing & Arsitektural",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 3 | NO 3",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/36a6959c-b469-435f-b048-df218595a420-1795144289542.jpeg",
+      "created_at": "2026-11-20T03:11:30.478Z",
+      "updated_at": "2026-11-20T03:11:30.478Z"
+    },
+    {
       "id": "475defa9-ed5a-4b17-829e-1b67f8a33cb0",
       "name": "driver/trafo peredup LED tegangan konstan 24V DC berdaya 150W dengan kontrol DALI",
       "size": "• Model: LCP150D-1H24V • Input: 220–240V~, 50/60Hz, maks. 0,8A @ 230V~ • Output: 24V DC (tegangan terukur), maks. 25V DC, arus maks. 6,25A, daya 150W • Faktor Daya (PF): 0,95 • Suhu Operasi: ta -20°C hingga +50°C; tc maks. 85°C",
@@ -8211,6 +8223,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "0f32195c-f655-4369-9cac-169b251c3ee2",
+      "item_id": "36a6959c-b469-435f-b048-df218595a420",
+      "item_name": "Skrup SDS / Skrup ruping /Skrup baja ringan (ambil per dus)",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-20T03:11:30.479Z"
+    },
     {
       "id": "b5d8238d-de7b-45a3-9a78-60af21373a65",
       "item_id": "475defa9-ed5a-4b17-829e-1b67f8a33cb0",
