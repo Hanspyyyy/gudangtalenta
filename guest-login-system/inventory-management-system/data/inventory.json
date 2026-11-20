@@ -3187,10 +3187,10 @@
       "category": "Veneer tipis",
       "warehouse": "Gudang 1",
       "rack": "1A",
-      "stock": 7,
+      "stock": 0,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/2f8003f8-ca43-4aa5-8e6f-747a1bb8889b-1793775308528.jpeg",
       "created_at": "2026-11-04T06:55:09.486Z",
-      "updated_at": "2026-11-04T06:55:09.486Z"
+      "updated_at": "2026-11-20T03:46:00.816Z"
     },
     {
       "id": "f360e2b0-3213-4f12-a151-c380e0380c03",
@@ -8295,6 +8295,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "8d1e612c-6a8f-4375-924e-bf9b970618c4",
+      "item_id": "2f8003f8-ca43-4aa5-8e6f-747a1bb8889b",
+      "item_name": "Walnut urat kembang tipis",
+      "action": "STOCK_OUT",
+      "quantity": 7,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-20T03:46:00.816Z"
+    },
     {
       "id": "3fd65000-02ee-4cde-8189-785c443e7937",
       "item_id": "fc32051d-b159-433c-95dc-d1b76fc98991",
