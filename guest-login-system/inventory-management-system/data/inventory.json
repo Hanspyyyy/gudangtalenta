@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "8d69302e-cd39-4c13-a646-4461e6a53d04",
+      "name": "Kain kasa gypsum",
+      "size": "-",
+      "category": "Finishing & Arsitektural",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 9 | NO 2",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/8d69302e-cd39-4c13-a646-4461e6a53d04-1795143354552.jpeg",
+      "created_at": "2026-11-20T02:55:55.410Z",
+      "updated_at": "2026-11-20T02:55:55.410Z"
+    },
+    {
       "id": "cb8b4a65-35a3-4594-98d9-1f0648335e1a",
       "name": "Flexible barrier mohair door (dokgi)",
       "size": "-",
@@ -8163,6 +8175,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "9f17a0f9-2d35-4630-a276-8e496b626454",
+      "item_id": "8d69302e-cd39-4c13-a646-4461e6a53d04",
+      "item_name": "Kain kasa gypsum",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-20T02:55:55.410Z"
+    },
     {
       "id": "5303e71e-e537-4135-a691-db1a698e8410",
       "item_id": "cb8b4a65-35a3-4594-98d9-1f0648335e1a",
