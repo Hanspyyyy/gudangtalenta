@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "cb8b4a65-35a3-4594-98d9-1f0648335e1a",
+      "name": "Flexible barrier mohair door (dokgi)",
+      "size": "-",
+      "category": "Finishing & Arsitektural",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 3 | NO 3",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/cb8b4a65-35a3-4594-98d9-1f0648335e1a-1795143303902.jpeg",
+      "created_at": "2026-11-20T02:55:04.842Z",
+      "updated_at": "2026-11-20T02:55:04.842Z"
+    },
+    {
       "id": "a639cee8-88cf-4db2-9f3b-fc3539bae791",
       "name": "Neo LED panasonic (dokgi)",
       "size": "-",
@@ -8151,6 +8163,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "5303e71e-e537-4135-a691-db1a698e8410",
+      "item_id": "cb8b4a65-35a3-4594-98d9-1f0648335e1a",
+      "item_name": "Flexible barrier mohair door (dokgi)",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-20T02:55:04.842Z"
+    },
     {
       "id": "9c99d157-e985-416b-b1c0-40bb4382cb3a",
       "item_id": "a639cee8-88cf-4db2-9f3b-fc3539bae791",
