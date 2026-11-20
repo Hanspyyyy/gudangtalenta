@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "f664386b-b0f9-4bcc-b4e5-9b3122dd1b1e",
+      "name": "kaki tancap (ground spike) berwarna hitam yang berfungsi sebagai dudukan untuk menancapkan lampu sorot taman atau lampu outdoor ke tanah",
+      "size": "-",
+      "category": "Finishing & Arsitektural",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 2 | NO 4",
+      "stock": 3,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/f664386b-b0f9-4bcc-b4e5-9b3122dd1b1e-1795145388524.jpeg",
+      "created_at": "2026-11-20T03:29:49.344Z",
+      "updated_at": "2026-11-20T03:29:49.344Z"
+    },
+    {
       "id": "f2452864-ddcf-4700-984e-f2af4dba4d7d",
       "name": "kunci laci atau kunci lemari (dokgi)",
       "size": "-",
@@ -8247,6 +8259,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "a40d3063-5e84-46c9-afdd-b408bcb9b7e5",
+      "item_id": "f664386b-b0f9-4bcc-b4e5-9b3122dd1b1e",
+      "item_name": "kaki tancap (ground spike) berwarna hitam yang berfungsi sebagai dudukan untuk menancapkan lampu sorot taman atau lampu outdoor ke tanah",
+      "action": "ADD_ITEM",
+      "quantity": 3,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-20T03:29:49.344Z"
+    },
     {
       "id": "0c3c5d0f-841b-4cea-b98f-755372f594ba",
       "item_id": "f2452864-ddcf-4700-984e-f2af4dba4d7d",
