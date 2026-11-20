@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "50dad88b-c055-4e08-a414-765c657f72ce",
+      "name": "MU 400",
+      "size": "1 sak",
+      "category": "Bu",
+      "warehouse": "Gudang 1",
+      "rack": "Garasi",
+      "stock": 3,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/50dad88b-c055-4e08-a414-765c657f72ce-1795146588478.jpeg",
+      "created_at": "2026-11-20T03:49:49.418Z",
+      "updated_at": "2026-11-20T03:49:49.418Z"
+    },
+    {
       "id": "fc32051d-b159-433c-95dc-d1b76fc98991",
       "name": "Staples no 3",
       "size": "Steples",
@@ -8295,6 +8307,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "ea4f63fc-f5a6-4ad7-939c-68b1c9e891db",
+      "item_id": "50dad88b-c055-4e08-a414-765c657f72ce",
+      "item_name": "MU 400",
+      "action": "ADD_ITEM",
+      "quantity": 3,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-20T03:49:49.418Z"
+    },
     {
       "id": "8d1e612c-6a8f-4375-924e-bf9b970618c4",
       "item_id": "2f8003f8-ca43-4aa5-8e6f-747a1bb8889b",
