@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "ee2c8a2f-88a0-45ec-a211-8c4eade7e23d",
+      "name": "lampu TL LED T5 (lampu tabung LED ramping)",
+      "size": "-",
+      "category": "Kelistrikan",
+      "warehouse": "Gudang 1",
+      "rack": "1A | 3 | NO 5",
+      "stock": 3,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/ee2c8a2f-88a0-45ec-a211-8c4eade7e23d-1795163863880.jpeg",
+      "created_at": "2026-11-20T08:37:44.825Z",
+      "updated_at": "2026-11-20T08:37:44.825Z"
+    },
+    {
       "id": "95127345-617d-42fd-b556-d058a49596df",
       "name": "Weathershield (base T 918c ds)",
       "size": "1 pail",
@@ -8319,6 +8331,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "5a018391-31f5-4f81-b0a6-b77400a6e157",
+      "item_id": "ee2c8a2f-88a0-45ec-a211-8c4eade7e23d",
+      "item_name": "lampu TL LED T5 (lampu tabung LED ramping)",
+      "action": "ADD_ITEM",
+      "quantity": 3,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-20T08:37:44.826Z"
+    },
     {
       "id": "4990c839-473c-4751-9499-6079f4300a06",
       "item_id": "95127345-617d-42fd-b556-d058a49596df",
