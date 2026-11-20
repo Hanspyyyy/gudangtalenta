@@ -7,10 +7,10 @@
       "category": "Kelistrikan",
       "warehouse": "Gudang 1",
       "rack": "Kontainer 1",
-      "stock": 0,
+      "stock": 3,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/a639cee8-88cf-4db2-9f3b-fc3539bae791-1795143179454.jpeg",
       "created_at": "2026-11-20T02:53:00.401Z",
-      "updated_at": "2026-11-20T02:53:00.401Z"
+      "updated_at": "2026-11-20T02:53:08.881Z"
     },
     {
       "id": "fd9425fe-35c4-448c-b60d-26fe4679e0ed",
@@ -8151,6 +8151,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "9c99d157-e985-416b-b1c0-40bb4382cb3a",
+      "item_id": "a639cee8-88cf-4db2-9f3b-fc3539bae791",
+      "item_name": "Neo LED panasonic (dokgi)",
+      "action": "STOCK_IN",
+      "quantity": 3,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-20T02:53:08.881Z"
+    },
     {
       "id": "ae8a8068-43d7-4390-8cfe-7866167d3877",
       "item_id": "a639cee8-88cf-4db2-9f3b-fc3539bae791",
