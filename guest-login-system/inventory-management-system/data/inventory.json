@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "91154b10-3c4c-43d6-8a25-867400e6e19b",
+      "name": "Steker listrik 3 kaki (Tipe G / BS 1363) ini tampak menyerupai steker AC 3 pin berkapasitas 13A dengan bodi putih dan bagian depan transparan, seperti seri Schneider Electric S-Classic EP13 atau BOSS BP13",
+      "size": "-",
+      "category": "Kelistrikan",
+      "warehouse": "Gudang 1",
+      "rack": "Kontainer 1",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/91154b10-3c4c-43d6-8a25-867400e6e19b-1795164596703.jpeg",
+      "created_at": "2026-11-20T08:49:57.666Z",
+      "updated_at": "2026-11-20T08:49:57.666Z"
+    },
+    {
       "id": "a9175937-6205-449e-89ba-7409c6ec3242",
       "name": "fitting atau soket lampu MR16 (model tusuk GU5.3) per box kecil",
       "size": "-",
@@ -8355,6 +8367,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "01881d92-1948-482a-99d7-2f5247ef2c02",
+      "item_id": "91154b10-3c4c-43d6-8a25-867400e6e19b",
+      "item_name": "Steker listrik 3 kaki (Tipe G / BS 1363) ini tampak menyerupai steker AC 3 pin berkapasitas 13A dengan bodi putih dan bagian depan transparan, seperti seri Schneider Electric S-Classic EP13 atau BOSS BP13",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-20T08:49:57.666Z"
+    },
     {
       "id": "faa80527-6435-4be3-86be-17f50283285f",
       "item_id": "a9175937-6205-449e-89ba-7409c6ec3242",
