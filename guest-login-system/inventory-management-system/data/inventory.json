@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "c6a64a20-f193-4a8b-88e8-21e22758b77b",
+      "name": "kabel USB printer (USB Type-A ke USB Type-B)",
+      "size": "-",
+      "category": "Kelistrikan",
+      "warehouse": "Gudang 1",
+      "rack": "Kontainer 1",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/c6a64a20-f193-4a8b-88e8-21e22758b77b-1795164707226.jpeg",
+      "created_at": "2026-11-20T08:51:48.131Z",
+      "updated_at": "2026-11-20T08:51:48.131Z"
+    },
+    {
       "id": "91154b10-3c4c-43d6-8a25-867400e6e19b",
       "name": "Steker listrik 3 kaki (Tipe G / BS 1363) ini tampak menyerupai steker AC 3 pin berkapasitas 13A dengan bodi putih dan bagian depan transparan, seperti seri Schneider Electric S-Classic EP13 atau BOSS BP13",
       "size": "-",
@@ -8367,6 +8379,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "ca3c9480-fe07-4fa8-af23-ea80a694da52",
+      "item_id": "c6a64a20-f193-4a8b-88e8-21e22758b77b",
+      "item_name": "kabel USB printer (USB Type-A ke USB Type-B)",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-20T08:51:48.131Z"
+    },
     {
       "id": "01881d92-1948-482a-99d7-2f5247ef2c02",
       "item_id": "91154b10-3c4c-43d6-8a25-867400e6e19b",
