@@ -4627,10 +4627,10 @@
       "category": "Pipa",
       "warehouse": "Gudang 1",
       "rack": "1C",
-      "stock": 2,
+      "stock": 1,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/ea347757-0cf3-4fe2-88e5-178552406a95-1792741524047.jpeg",
       "created_at": "2026-10-23T07:45:25.076Z",
-      "updated_at": "2026-10-23T07:45:25.076Z"
+      "updated_at": "2026-11-24T12:50:19.901Z"
     },
     {
       "id": "ec0cd26b-b5d5-45db-9de1-4474fe8051a0",
@@ -8403,6 +8403,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "79443a85-ad01-4f2e-9a21-3a0feb636862",
+      "item_id": "ea347757-0cf3-4fe2-88e5-178552406a95",
+      "item_name": "KNEE PVC (1½)",
+      "action": "STOCK_OUT",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-24T12:50:19.901Z"
+    },
     {
       "id": "89e36e65-2874-4693-b6cf-78ec2352aa0e",
       "item_id": "2c982416-c3c8-4699-b258-edc37df319a7",
