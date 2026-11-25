@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "fd82c3b9-1484-4b30-9f87-315c12f88fbc",
+      "name": "saluran udara (mv)",
+      "size": "-",
+      "category": "Finising",
+      "warehouse": "Gudang 2",
+      "rack": "Kamar 2",
+      "stock": 3,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/fd82c3b9-1484-4b30-9f87-315c12f88fbc-1795595937257.jpeg",
+      "created_at": "2026-11-25T08:38:58.281Z",
+      "updated_at": "2026-11-25T08:38:58.281Z"
+    },
+    {
       "id": "888f587e-a653-4c81-a1d9-df78b398d183",
       "name": "sebuah lampu peringatan rotary (rotary signal lamp)  dokgi",
       "size": "-",
@@ -8439,6 +8451,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "578b5314-56fd-4066-aef3-47fcde178a77",
+      "item_id": "fd82c3b9-1484-4b30-9f87-315c12f88fbc",
+      "item_name": "saluran udara (mv)",
+      "action": "ADD_ITEM",
+      "quantity": 3,
+      "warehouse": "Gudang 2",
+      "timestamp": "2026-11-25T08:38:58.281Z"
+    },
     {
       "id": "52206104-7ffa-4ed6-957b-59ad957bedf6",
       "item_id": "888f587e-a653-4c81-a1d9-df78b398d183",
