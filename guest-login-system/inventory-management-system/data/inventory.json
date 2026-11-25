@@ -3271,10 +3271,10 @@
       "category": "Material Struktur",
       "warehouse": "Gudang 1",
       "rack": "1B",
-      "stock": 1,
+      "stock": 0,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/0776374d-1718-4ea4-ab26-53b9b3df408e-1793776010902.jpeg",
       "created_at": "2026-11-04T07:06:51.817Z",
-      "updated_at": "2026-11-05T01:57:47.224Z"
+      "updated_at": "2026-11-25T13:08:33.532Z"
     },
     {
       "id": "b85d6ab7-27c7-456a-9693-86b7656a4681",
@@ -8463,6 +8463,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "3293a8dc-5a6d-4ed8-adc6-fd8e9ccfd855",
+      "item_id": "0776374d-1718-4ea4-ab26-53b9b3df408e",
+      "item_name": "Cairan sika",
+      "action": "STOCK_OUT",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-25T13:08:33.532Z"
+    },
     {
       "id": "a3f54655-ba86-4217-91b7-05ffa2aa1085",
       "item_id": "bd82bd4a-55a3-43c2-833f-6df4a903e587",
