@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "bd82bd4a-55a3-43c2-833f-6df4a903e587",
+      "name": "Lantai (mv) hanya di simpan bagian terpanjang/ utuh",
+      "size": "-",
+      "category": "-",
+      "warehouse": "Gudang 2",
+      "rack": "Kamar 2",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/bd82bd4a-55a3-43c2-833f-6df4a903e587-1795597141708.jpeg",
+      "created_at": "2026-11-25T08:59:02.730Z",
+      "updated_at": "2026-11-25T08:59:02.730Z"
+    },
+    {
       "id": "fd82c3b9-1484-4b30-9f87-315c12f88fbc",
       "name": "saluran udara (mv)",
       "size": "-",
@@ -8451,6 +8463,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "daabd73a-d166-4382-881e-bcd703d59316",
+      "item_id": "bd82bd4a-55a3-43c2-833f-6df4a903e587",
+      "item_name": "Lantai (mv) hanya di simpan bagian terpanjang/ utuh",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 2",
+      "timestamp": "2026-11-25T08:59:02.730Z"
+    },
     {
       "id": "578b5314-56fd-4066-aef3-47fcde178a77",
       "item_id": "fd82c3b9-1484-4b30-9f87-315c12f88fbc",
