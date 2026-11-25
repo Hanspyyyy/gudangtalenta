@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "888f587e-a653-4c81-a1d9-df78b398d183",
+      "name": "sebuah lampu peringatan rotary (rotary signal lamp)  dokgi",
+      "size": "-",
+      "category": "Kelistrikan",
+      "warehouse": "Gudang 1",
+      "rack": "Konttainer 1",
+      "stock": 1,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/888f587e-a653-4c81-a1d9-df78b398d183-1795594750017.jpeg",
+      "created_at": "2026-11-25T08:19:11.015Z",
+      "updated_at": "2026-11-25T08:19:11.015Z"
+    },
+    {
       "id": "e71761a3-e4c7-44cc-9a1a-1ea6f1534592",
       "name": "Veneer tipis white oak",
       "size": "-",
@@ -8427,6 +8439,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "52206104-7ffa-4ed6-957b-59ad957bedf6",
+      "item_id": "888f587e-a653-4c81-a1d9-df78b398d183",
+      "item_name": "sebuah lampu peringatan rotary (rotary signal lamp)  dokgi",
+      "action": "ADD_ITEM",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-25T08:19:11.015Z"
+    },
     {
       "id": "5ea67af4-ca88-4ed6-adad-6d7997502533",
       "item_id": "e71761a3-e4c7-44cc-9a1a-1ea6f1534592",
