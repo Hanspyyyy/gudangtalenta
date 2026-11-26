@@ -7,10 +7,10 @@
       "category": "Pelbersiih",
       "warehouse": "Gudang 1",
       "rack": "1A",
-      "stock": 0,
+      "stock": 1,
       "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/1e2041ad-0b3a-443a-aaf3-5e715252c860-1795685942251.jpeg",
       "created_at": "2026-11-26T09:39:03.456Z",
-      "updated_at": "2026-11-26T09:39:03.456Z"
+      "updated_at": "2026-11-26T09:39:16.408Z"
     },
     {
       "id": "feb4bfd4-c25c-4aa8-b51f-5c3e3532f86b",
@@ -8499,6 +8499,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "a600e20a-0595-45d2-8cde-237dd2a4d65d",
+      "item_id": "1e2041ad-0b3a-443a-aaf3-5e715252c860",
+      "item_name": "Vakum",
+      "action": "STOCK_IN",
+      "quantity": 1,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-26T09:39:16.408Z"
+    },
     {
       "id": "4a0cbd03-5a48-4bec-9239-5efaac7f8a41",
       "item_id": "1e2041ad-0b3a-443a-aaf3-5e715252c860",
