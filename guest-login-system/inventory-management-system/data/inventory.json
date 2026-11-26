@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "56340e0f-d489-464e-9941-63279f5a8f79",
+      "name": "Veneer White oak yang di bawa bg abudin",
+      "size": "120x240",
+      "category": "Veneer tebal",
+      "warehouse": "Gudang 1",
+      "rack": "1A",
+      "stock": 4,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/56340e0f-d489-464e-9941-63279f5a8f79-1795685663488.jpeg",
+      "created_at": "2026-11-26T09:34:24.444Z",
+      "updated_at": "2026-11-26T09:34:24.444Z"
+    },
+    {
       "id": "bd82bd4a-55a3-43c2-833f-6df4a903e587",
       "name": "Lantai (mv) hanya di simpan bagian terpanjang/ utuh",
       "size": "-",
@@ -8463,6 +8475,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "55893e45-9a8f-4824-b6df-e438903d4aec",
+      "item_id": "56340e0f-d489-464e-9941-63279f5a8f79",
+      "item_name": "Veneer White oak yang di bawa bg abudin",
+      "action": "ADD_ITEM",
+      "quantity": 4,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-26T09:34:24.444Z"
+    },
     {
       "id": "c8a01c06-92a7-4728-9e2f-4619f87cb644",
       "item_id": "33ac3474-b3f0-432a-abfc-ee228ce30f85",
