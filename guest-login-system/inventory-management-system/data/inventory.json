@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "1e2041ad-0b3a-443a-aaf3-5e715252c860",
+      "name": "Vakum",
+      "size": "-",
+      "category": "Pelbersiih",
+      "warehouse": "Gudang 1",
+      "rack": "1A",
+      "stock": 0,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/1e2041ad-0b3a-443a-aaf3-5e715252c860-1795685942251.jpeg",
+      "created_at": "2026-11-26T09:39:03.456Z",
+      "updated_at": "2026-11-26T09:39:03.456Z"
+    },
+    {
       "id": "feb4bfd4-c25c-4aa8-b51f-5c3e3532f86b",
       "name": "Walnut kembang yg di bawa bg abudin",
       "size": "120x240",
@@ -8487,6 +8499,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "4a0cbd03-5a48-4bec-9239-5efaac7f8a41",
+      "item_id": "1e2041ad-0b3a-443a-aaf3-5e715252c860",
+      "item_name": "Vakum",
+      "action": "ADD_ITEM",
+      "quantity": 0,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-26T09:39:03.456Z"
+    },
     {
       "id": "e51107e2-09b1-442c-bcf5-cb716e869372",
       "item_id": "feb4bfd4-c25c-4aa8-b51f-5c3e3532f86b",
