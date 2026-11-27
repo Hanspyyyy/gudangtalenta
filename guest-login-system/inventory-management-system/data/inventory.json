@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "28f10f63-41cf-4d40-8c9f-12735a283a2d",
+      "name": "Helm (MV)",
+      "size": "-",
+      "category": "Proteksi",
+      "warehouse": "Gudang 2",
+      "rack": "1A",
+      "stock": 2,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/28f10f63-41cf-4d40-8c9f-12735a283a2d-1795774307421.jpeg",
+      "created_at": "2026-11-27T10:11:48.387Z",
+      "updated_at": "2026-11-27T10:11:48.387Z"
+    },
+    {
       "id": "195fa6e2-7e8a-4fb6-9942-4dfcb2889313",
       "name": "Drat MV",
       "size": "-",
@@ -8523,6 +8535,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "50f31f9f-d97f-4f6f-8f94-5150a5b4b73b",
+      "item_id": "28f10f63-41cf-4d40-8c9f-12735a283a2d",
+      "item_name": "Helm (MV)",
+      "action": "ADD_ITEM",
+      "quantity": 2,
+      "warehouse": "Gudang 2",
+      "timestamp": "2026-11-27T10:11:48.387Z"
+    },
     {
       "id": "43e7cd54-65b2-4122-a7cb-b8b3ff61ebb7",
       "item_id": "0b75bfea-6eb3-4892-8d15-4b63b4f7ee8a",
