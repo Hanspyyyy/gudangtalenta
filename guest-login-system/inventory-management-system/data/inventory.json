@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "116277ba-925d-4ab1-8976-113aaf5fb260",
+      "name": "Semen dll (MV)",
+      "size": "-",
+      "category": "Material struktur",
+      "warehouse": "Gudang 1",
+      "rack": "38",
+      "stock": 0,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/116277ba-925d-4ab1-8976-113aaf5fb260-1795774509295.jpeg",
+      "created_at": "2026-11-27T10:15:10.301Z",
+      "updated_at": "2026-11-27T10:15:10.301Z"
+    },
+    {
       "id": "b20ab022-9f5b-4095-855a-7ece511b95a6",
       "name": "- Mv",
       "size": "-",
@@ -8547,6 +8559,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "955bb172-d6f0-454a-affd-cc9ae4d03815",
+      "item_id": "116277ba-925d-4ab1-8976-113aaf5fb260",
+      "item_name": "Semen dll (MV)",
+      "action": "ADD_ITEM",
+      "quantity": 0,
+      "warehouse": "Gudang 1",
+      "timestamp": "2026-11-27T10:15:10.301Z"
+    },
     {
       "id": "be3a99d1-16b1-41d4-bc9f-9c3d860d402d",
       "item_id": "b20ab022-9f5b-4095-855a-7ece511b95a6",
