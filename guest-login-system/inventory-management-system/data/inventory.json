@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "id": "195fa6e2-7e8a-4fb6-9942-4dfcb2889313",
+      "name": "Drat MV",
+      "size": "-",
+      "category": "Material struk",
+      "warehouse": "Gudang 2",
+      "rack": "1A",
+      "stock": 21,
+      "photo_url": "https://cdn.jsdelivr.net/gh/Hanspyyyy/gudangtalenta@main/guest-login-system/inventory-management-system/public/inventory-photos/195fa6e2-7e8a-4fb6-9942-4dfcb2889313-1795774158389.jpeg",
+      "created_at": "2026-11-27T10:09:19.400Z",
+      "updated_at": "2026-11-27T10:09:19.400Z"
+    },
+    {
       "id": "0b75bfea-6eb3-4892-8d15-4b63b4f7ee8a",
       "name": "Gril angin (MV)",
       "size": "-",
@@ -8511,6 +8523,15 @@
     }
   ],
   "activity": [
+    {
+      "id": "dbcc7ddf-f957-4aa5-a814-5effb15905aa",
+      "item_id": "195fa6e2-7e8a-4fb6-9942-4dfcb2889313",
+      "item_name": "Drat MV",
+      "action": "ADD_ITEM",
+      "quantity": 21,
+      "warehouse": "Gudang 2",
+      "timestamp": "2026-11-27T10:09:19.400Z"
+    },
     {
       "id": "179702e4-a828-4bf4-bc04-c074b4986238",
       "item_id": "0b75bfea-6eb3-4892-8d15-4b63b4f7ee8a",
